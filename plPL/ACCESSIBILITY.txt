@@ -53,8 +53,8 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	Dziesiąty
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	A	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	I	Optional. Overrides the I key to be read as eye by TTS
 
 ACCESSIBILITY_READ_CARD_COST	{0} many	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -175,8 +175,8 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Nie zostanie zamieniona
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Użyj klawiszy strzałek aby przemieszczać się po aktualnie posiadanych kartach. Wciśnij {0} aby oznaczyć kartę w celu jej późniejszej zamiany. Wciśnij {1} aby kontynuować	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	Gra za chwilę się rozpocznie. Proszę czekać	
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	Został zniszczony	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	zostali zniszczeni	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	Zginął	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	Zginęli	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	została zniszczona	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	Został zmieniony w 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	Zostali zmienieni w 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
@@ -234,8 +234,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_OTHER_MINIONS	Wszyscy pozostali stronnicy	
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_BOTH_HEROES	Obydwaj bohaterowie	e.g. {Both Heroes} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	Wrogowie	e.g. {Your enemies} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	Pozostali wrogowie	e.g. {Your other enemies} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Przyjazne postacie	e.g. {Your friendly characters} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Pozostałe przyjazne postacie	e.g. {Your other friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Przyjazne jednostki	e.g. {Your friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Pozostałe przyjazne jednostki	e.g. {Your other friendly characters} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Stronnicy przeciwnika	e.g. {Your opponent's minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Pozostali stronnicy przeciwnika	e.g. {Your other opponent's minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	 Twoistronnicy	e.g. {Your minions} took 2 damage
@@ -391,7 +391,7 @@ ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} tajemnych kul	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} tajemnego pyłu	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(pakiet,pakiety,pakietów) kart	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} złota	0=amount
-ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4sztukę,sztuki,sztuk) karty {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
+ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(sztukę,sztuki,sztuk) karty należącej do klasy {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
 ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(sztukę,sztuki,sztuk} bazowej karty {1}	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Złoty portret {0}	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	Bohater {0}	0=class e.g. Mage Hero
@@ -487,7 +487,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Najpierw przywołaj otrzymaneg
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Najpierw przeczytaj stronników przeciwnika. W tym celu naciśnij {0} a następnie użyj klawiszy strzałek	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Na początku każdej tury wyciągasz jedną kartę ze swojej talii. Zobaczmy dopiero co wyciągniętą kartę	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Naciśnij {0} aby zobaczyć karty znajdujące się w twojej ręce	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Jak widzisz, ta karta to stronnik o nazwie Murlok Zwiadowca	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Jak widzisz, ta karta to stronnik o nazwie Murlok Grabierzca	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Stronnicy to postacie, które po przywołaniu na pole bitwy będą walczyć dla twojego bohatera	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Przywołanie tego stronnika kosztuje 1 many. Ma on 2 punkty ataku oraz 1 punkt zdrowia	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Zacznijmy od przywołania tego stronnika	
@@ -515,12 +515,12 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Zobaczmy teraz na stronników przeciwnika. Wci
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Czy możesz przeczytać tego stronnika sam?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Użyj klawiszy strzałek w górę i w dół aby przeczytać stronników przeciwnika	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Teraz spróbujmy zaatakować tego stronnika	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Wybierz Murloka Zwiadowcę, którego przywołałeś w poprzedniej turze	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Wybierz Murloka Grabierzcę, którego przywołałeś w poprzedniej turze	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Wciśnij {0} aby wybrać swojego stronnika. Następnie naciśnij {1} aby przypuścić atak	0=b key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Wciśnij {0} aby zaatakować przy pomocy tego stronnika	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Czy możesz zaatakować stronnika przeciwnika?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Wciśnij {0} a następnie {1} aby zaatakować stronnika przeciwnika	0=g key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Obydwaj stronnicy mięli po 2 punkty ataku i jednym punkcie zdrowia, wić pozabijali się nawzajem	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Obydwaj stronnicy mięli po 2 punkty ataku i jednym punkcie zdrowia, więc pozabijali się nawzajem	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Twój pozostały przy życiu stronnik wciąż nie może atakować więc znowu nie mamy już nic do zrobienia. Czy pamiętasz, w jaki sposób zakończyć turę?	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Wygląda na to, że masz kolejnego stronnika	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Oznacza to, że teraz masz dwie możliwości ruchu	
