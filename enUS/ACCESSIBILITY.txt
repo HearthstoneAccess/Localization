@@ -9,6 +9,8 @@ ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Press {0} once you're done	0=key e.g. Press En
 
 ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Use the up and down arrow keys to navigate the menu. Press {0} to select an option	0=Enter key
 ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Use the up and down arrow keys to navigate the menu. Press {0} to select an option. Press {1} to go back	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. Press {0} to select an option	0=Enter key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. Press {0} to select an option. Press {1} to go back	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} of {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Options Menu	
@@ -436,7 +438,7 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXP
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	You must beat all normal opponents to unlock expert	
 
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_TITLE	Choose your opponent	
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Undefeated {0}	0=class name e.g. Undefeated {Demon Hunter}
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Undefeated	
 
 ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Choose your deck	
 
