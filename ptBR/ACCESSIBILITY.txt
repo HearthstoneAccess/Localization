@@ -219,8 +219,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	perderam {0}	0=stats e.
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Seu lacaio {0}	0=entity name e.g. Your {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	O lacaio {0} de seu oponente	0=entity name e.g. Your opponent's {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Seu {0}	0=entity name e.g. Your {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	{0} de seu oponente	0=entity name e.g. Your opponent's {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Seu lacaio {1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	O lacaio {1} {0} de seu oponente	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0} {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
