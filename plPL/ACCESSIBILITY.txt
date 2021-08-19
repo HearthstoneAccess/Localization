@@ -99,7 +99,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Przeciwnik wyciągnął 1 {
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} zaatakował {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} spróbował zaatakować {1} ale {2} został zaatakowany zamiast niego	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 
-ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	{0} many do wykorzystania w tej turze	0=mana
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	{0} many	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Zaczynasz jako pierwszy	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Twój przeciwnik zaczyna jako pierwszy	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Zaczynasz z {0} |4(kartą,kartami)	0=number of cards
