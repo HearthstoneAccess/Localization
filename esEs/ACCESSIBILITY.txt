@@ -144,8 +144,8 @@ ACCESSIBILITY_GAMEPLAY_GAME_OVER_GENERIC	Fin del juego
 
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO	Tu héroe	Read when you press v
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO	Herue de tu oponente	Read when you press f
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Tu poder de hérue	Read when you press r
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	Poder de hérue de tu oponente	Read when you press Shift+r
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Tu poder de héroe	Read when you press r
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	Poder de héroe de tu oponente	Read when you press Shift+r
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_WEAPON	Tu arma	Read when you press w
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_WEAPON	Arma de tu oponente	Read when you press Shift+w
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	Tu mano	Read when you press c
