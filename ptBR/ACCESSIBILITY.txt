@@ -66,10 +66,10 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - edição diamante	0=card n
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno do oponente	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	turno finalizado	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} ativou	0=full card name in zone e.g. {Your second Murloc Raider} triggered
-ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Seu {0} ativou	0=card name e.g. Your {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	{0} de seu oponente ativou	0=card name e.g. Your opponent's {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	{0} de seu oponente ativou; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	O efeito de {0} foi ativado	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	O efeito de seu {0} foi ativado	0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	O efeito de {0} do seu oponente foi ativado	0=card name e.g. Your opponent's {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	O efeito de {0} do seu oponente ativou; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Você usou {0}	0=card name e.g. You played {Fireball}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	Você usou {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Seu oponente usou {0}	0=card name e.g. Your opponent played {Fireball}
