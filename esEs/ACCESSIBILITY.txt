@@ -368,98 +368,98 @@ ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pulsa {0} para abrir tu cofre de reco
 
 ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Obtuviste una recompensa de ranking, pero el modo de ranking no es accesible aún	
 
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Obtuviste {0} |4(Paquete de recompensa,Paquete de recompensas!	
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Obtuviste {0} |4(Paquete de recompensa,Paquetes de recompensa!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use las  flechas direccionales y {0} para abrir tus recompensas	0=Enter key
 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP quest	0=xp rewarded by quest. Note: these quests don't have a name
-ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Rewards {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
-ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Rewards 1 of {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
+ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
-ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Reward package	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 card pack	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 card	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 card back	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 mount	
+ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paquete de recompensa	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 paquete de cartas	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 carta	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 dorso de carta	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 montura	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini set	
-ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 unknown reward	
+ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 recompensa desconocida	
 ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ticket,tickets)	0=number of tickets
-ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini set with {0} cards	0=number of cards
-ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} arcane orbs	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} arcane dust	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(card pack,card packs)	0=amount
-ACCESSIBILITY_UI_REWARD_N_GOLD	{0} gold	0=amount
-ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copy,copies) of 1 {1} card	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copy,copies) of 1 core {1} card	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
-ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Golden {0}	0=Hero name e.g. Golden Jaina Proudmoore
-ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Hero	0=class e.g. Mage Hero
-ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} out of {1} Heroes unlocked	0=number of unlocked Heroes 1=total number of Heroes
-ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copies of 1) card	0=number of copies
-ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Hero skin,Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Card back,Card backs)	0=amount
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini set con {0} cartas	0=number of cards
+ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} orbes arcanos	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvo arcano	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(paquete de cartas,paquetes de cartas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
+ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 {1} carta	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 núcleo {1} carta	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Oro {0}	0=Hero name e.g. Golden Jaina Proudmoore
+ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Héroe	0=class e.g. Mage Hero
+ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} héroes desbloqueados	0=number of unlocked Heroes 1=total number of Heroes
+ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) carta	0=number of copies
+ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Hero skin ,Hero skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena ticket,Arena tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Runestone,Runestones)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Adventure,Adventures)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket,Tavern Brawl tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins)	0=amount
-ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
+ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras Rúnicas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket ,Tavern Brawl tickets)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins )	0=amount
+ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% Bono de experiencia	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
 
-ACCESSIBILITY_SCREEN_GO_BACK	Go back	
+ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
-ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Fatal error screen	
+ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Pantalla de error grabe	
 
-ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Your Hero reached level {0}	0=level
+ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Tu héroe alcanzó el nivel {0}	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Press {0} to start or {1} to go back to the main menu	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen 	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Pulsa {0} para iniciar o {1} para volver al menú principal	0=Enter key 1=Backspace key
 
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Adventure screen	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Choose an adventurer	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Adventure menu	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Play	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Read Deck	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Retire	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Waiting for voice-over to end	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Use the arrow keys to read your cards	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	You can't read your deck in this adventure	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Adventure complete	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	You're on opponent number {0} out of {1}	0=current opponent number 1=number of opponents
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Pantalla de aventuras	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Elige un aventurero	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Menú de aventuras	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Jugar	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Mirar el mazo	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Retirarse	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Waiting for voice-over to end 	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Usa las flechas para leer tus cartas	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	You can't read your deck in this adventure 	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Aventura completa	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Estás en el  oponente {0} de {1}	0=current opponent number 1=number of opponents
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Choose an adventure	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Book of Heroes	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Choose your opponent's difficulty	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Elige una aventura	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Libro de héroes	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Elige la dificultad de tu oponente	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Normal	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Expert	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	You must beat all normal opponents to unlock expert	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Experto	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Debes derrotar a todos los oponentes en modo normal para desbloquear el modo experto.	
 
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_TITLE	Choose your opponent	
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Undefeated {0}	0=class name e.g. Undefeated {Demon Hunter}
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_TITLE	Elige tu oponente	
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	no derrotado {0}	0=class name e.g. Undefeated {Demon Hunter}
 
-ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Choose your deck	
+ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Elige tu mazo	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest progress toast	
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Current progress is {0} out of {1}	0=current progress 1=total
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	El progreso actual es {0} de {1}	0=current progress 1=total
 
-ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	You finished a quest	
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Has completado una misión	
 
-ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Loading tutorial	
-ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Welcome back to the tutorial	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	You've defeated Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	You've defeated Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	You've defeated Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	You've defeated King Mukla	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	You've defeated Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	You've defeated Illidan Stormrage	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Your next opponent is Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Your next opponent is Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Your next opponent is Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Your next opponent is King Mukla	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Your next opponent is Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Your next and final opponent is Illidan Stormrage	
+ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Cargando tutorial	
+ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bienvenido de nuevo al tutorial	
+ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Has derrotado a Hogger	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Has derrotado a Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Has derrotado a Lorewalker Cho	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Has derrotado a King Mukla	
+ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Has derrotado a Hemet Nesingwary	
+ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Has derrotado a Illidan Stormrage	
+ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Tu próximo oponente es Hogger	
+ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Tu próximo oponente es Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_NEXT_CHO	Tu próximo oponente es Lorewalker Cho	
+ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Tu próximo oponente es King Mukla	
+ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Tu próximo oponente es Hemet Nesingwary	
+ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Tu próximo y último oponente es Illidan Stormrage	
 
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games	
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games 	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	If you ever feel lost, press {0}. Even after the tutorial or when navigating menus, you can always use {0} whenever you need help	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Alright, let's get on with it	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Here's a basic Mage pack of cards to get you started. Press {0} to open it	0=Enter key
