@@ -1,8 +1,8 @@
 TAG	TEXT	COMMENT
 ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Bem-vindo a Hearthstone	
 
-ACCESSIBILITY_PRESS_KEY_TO_START	Press {0} to start	0=key e.g. Press Enter to start
-ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Press {0} to continue	0=key e.g. Press Enter to continue
+ACCESSIBILITY_PRESS_KEY_TO_START	Pressione {0} Para Começar	0=key e.g. Press Enter to start
+ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Pressione {0} Para Continuar	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Press {0} to finish	0=key e.g. Press Enter to finish
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Press {0} to exit	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Press {0} once you're done	0=key e.g. Press Enter once you're done
