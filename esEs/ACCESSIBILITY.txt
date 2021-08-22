@@ -18,7 +18,7 @@ ACCESSIBILITY_OPTIONS_MENU_ADJUST_MASTER_VOLUME	Utilice las flechas izquierda y 
 ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_ON	Pantalla completa activada	
 ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OFF	Pantalla completa desactivada	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si necesitas ayuda. Si quieres desactivar la accesibilidad para jugar con una persona vidente y usar el mouse, puedes pulsar {1}. Recuerda pulsar {1} una vez que hayas terminado para reactivar la accesibilidad	0=Esc key 1=F8 key 
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key 
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando juego	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Cerrando el juego	
@@ -371,7 +371,7 @@ ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Obtuviste una recompensa de ranking, pero
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Obtuviste {0} |4(Paquete de recompensa,Paquetes de recompensa!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use las  flechas direccionales y {0} para abrir tus recompensas	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP quest	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP de misión	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
@@ -394,17 +394,17 @@ ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Oro {0}	0=Hero name e.g. Golden Jaina Proudm
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Héroe	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} héroes desbloqueados	0=number of unlocked Heroes 1=total number of Heroes
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) carta	0=number of copies
-ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Hero skin ,Hero skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Skin de héroe,Skins de héroe)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena ticket,Arena tickets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras Rúnicas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket ,Tavern Brawl tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins )	0=amount
+ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(Moneda personalizada,monedas personalizadas)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% Bono de experiencia	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para el héroe del campo de batalla,skins para el héroe del campo de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para el guía del campo de batalla,skins para el guía del campo de batalla)	0=amount
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
@@ -412,23 +412,23 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Pantalla de error grabe
 
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Tu héroe alcanzó el nivel {0}	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen 	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Pantalla de elección de aventurero	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Pulsa {0} para iniciar o {1} para volver al menú principal	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Pantalla de aventuras	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Elige un aventurero	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Menú de aventuras	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Jugar	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Mirar el mazo	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Ver tu mazo	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Retirarse	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Waiting for voice-over to end 	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Esperando a que termine la narración 	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Usa las flechas para leer tus cartas	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	You can't read your deck in this adventure 	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	No puedes ver tu mazo en esta aventura 	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Aventura completa	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Estás en el  oponente {0} de {1}	0=current opponent number 1=number of opponents
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Elige una aventura	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Libro de héroes	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Libro de los héroes	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Elige la dificultad de tu oponente	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Normal	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Experto	
@@ -439,7 +439,7 @@ ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	no derrotado
 
 ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Elige tu mazo	
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest progress toast	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso de la misión	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	El progreso actual es {0} de {1}	0=current progress 1=total
 
 ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Has completado una misión	
@@ -448,121 +448,121 @@ ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Cargando tutorial
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bienvenido de nuevo al tutorial	
 ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Has derrotado a Hogger	
 ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Has derrotado a Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Has derrotado a Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Has derrotado a King Mukla	
+ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Has derrotado al Eremita Cho	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Has derrotado al Rei Mukla	
 ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Has derrotado a Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Has derrotado a Illidan Stormrage	
+ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Has derrotado a Illidan Tempestira	
 ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Tu próximo oponente es Hogger	
 ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Tu próximo oponente es Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Tu próximo oponente es Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Tu próximo oponente es King Mukla	
+ACCESSIBILITY_TUTORIAL_NEXT_CHO	Tu próximo oponente es Eremita Cho	
+ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Tu próximo oponente es el Rei Mukla	
 ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Tu próximo oponente es Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Tu próximo y último oponente es Illidan Stormrage	
+ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Tu próximo y último oponente es Illidan Tempestira	
 
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games 	
-ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	If you ever feel lost, press {0}. Even after the tutorial or when navigating menus, you can always use {0} whenever you need help	0=F1 key
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Alright, let's get on with it	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Here's a basic Mage pack of cards to get you started. Press {0} to open it	0=Enter key
-ACCESSIBILITY_TUTORIAL_NICE_WORK	Nice work	
-ACCESSIBILITY_TUTORIAL_NICE_JOB	Nice job	
-ACCESSIBILITY_TUTORIAL_NICE_ONE	Nice one	
-ACCESSIBILITY_TUTORIAL_GOOD_JOB	Good job	
-ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	You got it!	
-ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Remember how to do it?	
-ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Remember how to do that?	
-ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	Try it out!	
-ACCESSIBILITY_TUTORIAL_ALL_RIGHT	All right!	
-ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Let's learn how	
-ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	Can you do it?	
-ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	Think you can do it?	
-ACCESSIBILITY_TUTORIAL_GOT_IT	Got it	
-ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	Not yet! Use your Hero Power. Press {0} to select it	0=r key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar a través de un conjunto de seis tutoriales.	
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si alguna vez te sientes perdido, pulsa {0}. Incluso después del tutorial o cuando navegues por los menús, siempre puedes pulsar {0} cuando necesites ayuda.	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Muy bien, vamos allá	
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí tienes un paquete básico de cartas de mago para que comiences. Presiona {0} para abrirlo.	0=Enter key
+ACCESSIBILITY_TUTORIAL_NICE_WORK	Buen trabajo	
+ACCESSIBILITY_TUTORIAL_NICE_JOB	Buen trabajo	
+ACCESSIBILITY_TUTORIAL_NICE_ONE	Muy bien	
+ACCESSIBILITY_TUTORIAL_GOOD_JOB	Buen trabajo	
+ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	Lo entendiste!	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	¿Recuerdas como se hace?	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	¿Recuerdas cómo hacer eso?	
+ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	¡Inténtalo!	
+ACCESSIBILITY_TUTORIAL_ALL_RIGHT	¡Eso es!	
+ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Vamos a ver como hacerlo	
+ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	¿Puedes hacerlo?	
+ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	¿Crees que puedes hacerlo?	
+ACCESSIBILITY_TUTORIAL_GOT_IT	Lo entendiste	
+ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Todavía no! Usa tu poder de héroe. Presiona {0} para seleccionarlo	0=r key
 
-ACCESSIBILITY_TUTORIAL_HOGGER_START	Your first opponent is a gnoll named Hogger. You will be playing as the powerful mage Jaina Proudmoore	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Use the up and down arrow keys to read this card first	
-ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Summon the minion you just got first	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Use {0} and the arrow keys to read your opponent's minions first	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_0	When a turn starts, you always begin by drawing a card from your deck. Let's see the one we just drew	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Press {0} to look at the cards in your hand	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, so... This card is a minion named Murloc Raider	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Minions are creatures that you can summon onto the battlefield to fight for your Hero	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	This one costs 1 mana to summon and has 2 attack and 1 health	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Let's start by summoning this minion	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Press {0} to do so	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Press {0} to confirm or {1} to cancel	0=Enter key 1=Backspace key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Minions must wait a turn to attack once they're summoned, so we have nothing left to do	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Your opponent's minion attacked your Hero so you took some damage	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Let's see how much health we have left	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Use the up and down arrow keys to read your hero card	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Use {0} and the arrow keys to find out how much health your Hero has	0=v key
-ACCESSIBILITY_TUTORIAL_HOGGER_3_3	If your Hero runs out of health, you lose. 28 health is still plenty though	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Let's look at your opponent's hero now. Press {0}	0=f key
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Can you find how much health he has?	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Use the up and down arrow keys to read your opponent's hero card	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Once your opponent's Hero runs out of health, you win	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Let's carry on	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Looks like you got another minion. Can you summon this one yourself?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Use {0} and {1} to summon your minion	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	When you already have minions on the battlefield, you can use the left and right arrow keys to select where the new minion will be placed	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_4	You now have two minions on the battlefield. This one was just summoned so it must wait a turn to attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Let's learn how to navigate the battlefield	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Use the left and right arrow keys to navigate your minions	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Use {0} and the arrow keys to navigate your summoned minions	0=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Let's look at your opponent's minions now. Press {0} to do so	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Can you read this minion by yourself?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Use the up and down arrow keys to read your opponent's minions	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Let's try to attack this minion now	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Select the Murloc Raider you summoned last turn	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Use {0} to get to your minion and {1} to launch an attack	0=b key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Press {0} to attack with this minion	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Can you attack your opponent's minion?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Use {0} and {1} to attack your opponent's minion	0=g key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Both minions had 2 attack and 1 health so they killed each other	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Your other minion is still exhausted so there's nothing left to do. Remember how to end your turn?	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Looks like you got another minion	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_2	This means you have two possible options right now	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_3	You can either summon the minion you just got, or use the one you summoned last turn to launch an attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_4	One way to do this would be using keys such as {0} to look at your hand or {1} to look at your summoned minions	0=c key 1=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_5	However, there's an easier way to do it	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Press {0}	0=Tab key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_7	You're now looking at your first option, which would be to summon the minion you just got	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Try pressing {0} again	0=Tab key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_9	You're now looking at your second option, which would be to attack with the minion you summoned last turn	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_10	You can always use {0} to go through your valid options, so make sure to remember this key!	0=key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Alright. Let's begin by summoning the minion we just got	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Use {0} or {1} and {2} to summon your minion	0=Tab key 1=c key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Let's try to attack with our other minion now	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Use {0} or {1} to find your minion and {2} to launch an attack	0=Tab key 1=b key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_14	You now have another choice to make. You can either attack one of your opponent's minions, or your opponent's hero himself	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_15	You can either use {0} to go through your valid targets or select your target directly using {1} or {2}	0=Tab key 1=g key 2=f key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Go ahead and choose a target to attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Use {0} and {1} to launch an attack	0=Tab key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_21	We're ready to end our turn!	
-ACCESSIBILITY_TUTORIAL_HOGGER_8_1	I'll let you continue playing by yourself. Just let me know if you need anything	
+ACCESSIBILITY_TUTORIAL_HOGGER_START	Tu primer oponente es un gnoll llamado Hogger. Jugarás como la poderosa maga Jaina Valiente.	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Usa las flechas hacia arriba y hacia abajo para leer esta carta	
+ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Invoca al esbirro que acabas de conseguir	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Pulsa {0} y luego utiliza las flechas para ver los esbirros de tu oponente	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Cuando comienza un turno, siempre comienzas robando una carta de tu mazo. Veamos que  carta acabas de robar	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Pulsa {0} para ver las cartas en tu mano	0=c key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Bien, entonces... Esta carta es un esbirro llamado Asaltante Múrloc	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Los esbirros son criaturas que puedes invocar al campo de batalla para luchar por tu héroe.	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Este cuesta 1 maná para invocarse y tiene 2 puntos de ataque y 1 de salud.	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Empecemos por invocar a este esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Pulsa {0} para hacerlo	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Pulsa {0} para confirmar o {1} para cancelar	0=Enter key 1=Backspace key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Los esbirros deben esperar un turno para atacar una vez que son invocados, por lo que no nos queda nada por hacer.	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_0	El esbirro de tu oponente atacó a tu héroe, por lo que recibiste algo de daño.	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Vamos a ver cuanta salud nos queda	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa las flechas arriba y abajo para ver las estadísticas de tu héroe	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Pulsa {0} y luego usa las flechas direccionales para averiguar cuánta salud tiene tu héroe.	0=v key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Si tu héroe se queda sin salud, pierdes. Pero tranquilo! Con 28 de salud aún tienes para rato	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Veamos ahora al héroe de tu oponente. Pulsa {0}	0=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5	¿Puedes ver cuánta salud tiene?	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Utiliza las flechas arriba y abajo para ver las estadísticas del héroe de tu oponente	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Una vez que el héroe de tu oponente se quede sin salud, ganas	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Sigamos adelante	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Parece que tienes otro esbirro. ¿Puedes invocar a este tú mismo?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Pulsa {0} y luego {1} para convocar a tu esbirro.	0=c key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Cuando ya tienes esbirros en el campo de batalla, puedes usar las flechas izquierda y derecha para seleccionar dónde posicionar el nuevo esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Ahora tienes dos esbirros en el campo de batalla. Este último acaba de ser invocado, por lo que debe esperar un turno para atacar.	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Vamos a aprender como navegar por el campo de batalla.	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Usa las flechas izquierda y derecha para navegar por tus esbirros	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Pulsa {0} y luego utiliza las flechas para navegar por tus esbirros invocados.	0=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Veamos ahora a los esbirros de tu oponente. Pulsa {0} para hacerlo	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9	¿Puedes ver este minion por ti mismo?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Utiliza las flechas arriba y abajo para ver las estadísticas de los esbirros de tu oponente	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Ahora intentemos atacar a este esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Selecciona el asaltante múrloc que invocaste en el último turno.	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Pulsa {0} para seleccionar a tu esbirro y luego {1} para lanzar un ataque.	0=b key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Pulsa {0} para atacar con este esbirro.	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13	¿Puedes atacar al esbirro de tu oponente?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Pulsa {0} y luego {1} para atacar al esbirro de tu oponente.	0=g key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Ambos esbirros tenían 2 puntos de ataque y 1 de salud, por lo que se destruyeron entre sí.	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Tu otro esbirro todavía está en letargo, así que no queda nada por hacer. ¿Recuerdas cómo terminar tu turno?	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Parece que conseguiste otro esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Esto significa que tienes dos opciones posibles en este momento	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Puedes invocar al esbirro que acabas de recibir o usar el que invocaste en el último turno para atacar	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	Una forma de hacerlo sería pulsar  las teclas como {0} para mirar tu mano o {1} para mirar a tus esbirros invocados.	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_5	Sin embargo, hay una forma más sencilla de hacerlo.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Pulsa {0}	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Ahora estás viendo tu primera opción, que sería invocar al esbirro que acabas de robar.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Prueba pulsar {0} nuevamente	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Ahora estás viendo tu segunda opción, que sería atacar con el esbirro que invocaste en el último turno.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Siempre puedes pulsar {0} para revisar tus opciones válidas, ¡así que asegúrate de recordar esta tecla!	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Bien. Comencemos por invocar al esbirro que acabamos de robar	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Pulsa {0} o {1} y luego {2} para convocar a tu esbirro.	0=Tab key 1=c key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Ahora intentemos atacar con nuestro otro esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Pulsa {0} o {1} para seleccionar a tu esbirro y {2} para lanzar un ataque.	0=Tab key 1=b key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ahora tienes otra elección que hacer. Puedes atacar a uno de los esbirros de tu oponente o al propio héroe de tu oponente.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puedes pulsar {0} para revisar tus objetivos válidos o seleccionar tu objetivo directamente con {1} o {2}	0=Tab key 1=g key 2=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Adelante, elige un objetivo para atacar.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Pulsa {0} y luego {1} para lanzar un ataque.	0=Tab key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_21	¡Estamos listos para terminar nuestro turno!	
+ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Dejaré que sigas jugando solo. Solo avísame si necesitas algo	
 
-ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Press {0} at any time to see how much mana you have	0=a key
+ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Pulsa {0} en cualquier momento para ver cuánto maná tienes	0=a key
 
-ACCESSIBILITY_TUTORIAL_CHO_1	This Voodoo Doctor healed your opponent's Hero	
-ACCESSIBILITY_TUTORIAL06_HELP_02	When minions fight each other, they both take damage	
+ACCESSIBILITY_TUTORIAL_CHO_1	Este doctor vudú curó al héroe de tu oponente	
+ACCESSIBILITY_TUTORIAL06_HELP_02	Cuando los esbirros se atacan entre sí, ambos reciben daño.	
 
-ACCESSIBILITY_TUTORIAL_MUKLA_START	In this game, you'll see some cards with abilities you haven't seen before	
-ACCESSIBILITY_TUTORIAL_MUKLA_START_B	If you run into something you don't understand when reading a card such as Charge or Taunt, press {0} to get more information	0=i key
-ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Press {0} whenever you're ready to start	0=Enter key
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	This gorilla your opponent just summoned has an ability named Taunt	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Minions with Taunt must always be killed before you can attack anyone else	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Taunt is an important ability as it can be used to protect your Hero	
+ACCESSIBILITY_TUTORIAL_MUKLA_START	En esta pelea, verás algunas cartas con habilidades que no habías visto antes.	
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Si te encuentras con algo que no entiendes al ver las estadísticas de una carta, como Cargar o provocar, pulsa {0} para obtener más información.	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Presiona {0} cuando estés listo para comenzar.	0=Enter key
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Este gorila que acaba de invocar tu oponente tiene una habilidad llamada Provocar	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Los esbirros con Provocar siempre deben ser destruídos antes de que puedas atacar a alguien más.	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Provocar es una habilidad importante, ya que puede usarse para proteger a tu héroe.	
 
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	A partir de este momento, tu héroe y el héroe de tu oponente normalmente tendrán un poder de héroe.	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Cada héroe tiene su propio poder de héroe, que puede ser  usado una vez por turno.	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Siempre puedes pulsar {0} para ver tu poder de héroe y {1} para ver el poder de héroe del rival	0=hero power key 1=opponent hero power key
 
-ACCESSIBILITY_TUTORIAL05_HELP_03	Esta pelea es totalmente injusta. Culpa a los terribles diseñadores del juego	
+	ACCESSIBILITY_TUTORIAL05_HELP_03	Esta pelea es totalmente injusta. Culpa a los terribles diseñadores del juego	
 ACCESSIBILITY_TUTORIAL05_HELP_04	¡Tus esbirros con el estado provocar pueden protegerte de los ataques!	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Parece que tu oponente estaba equipado con un arma.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Las armas son cartas especiales que pueden ser equipadas por los héroes.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Cada arma tiene un valor de ataque y otro de durabilidad.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Una vez equipados, los héroes pueden atacar a otros personajes durante su turno.	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Tu oponente equipó Warglaive of Azzinoth: un arma con 2 de ataque y 2 de durabilidad	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Tu oponente equipó Gujas de guerra de Azzinoth:: un arma con 2 de ataque y 2 de durabilidad	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Esto significa que el héroe de tu oponente tendrá 2 ataques durante su turno y podrá atacar a cualquiera de tus personajes.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	Los magos no suelen utilizar armas, pero podrás usar algunas más adelante una vez que hayas desbloqueado otras clases	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Puedes pulsar {0} en cualquier momento para ver tu arma o {1} para ver la de tu oponente	0=weapon key 1=opponent weapon key
@@ -571,7 +571,7 @@ ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Una vez que alcanzan 0 d
 
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Todo juego normal comienza con la fase de mulligan	
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	En esta fase, ambos jugadores pueden reemplazar cartas de su mano inicial con otras cartas aleatorias de su mazo	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utilice las teclas de flecha o {0} para explorar tu mano inicial	0=Tab key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una tarjeta que no te gusta o interesa, pulsa {0} para marcarla y que sea  reemplazada	0=Spacebar key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utiliza las flechas direccionales o {0} para ver tu mano inicial	0=Tab key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una carta que no te gusta o interesa, pulsa {0} para marcarla y que sea  reemplazada	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una vez que hayas marcado todas las cartas que deseas reemplazar, pulsa {0} para robar nuevas cartas e iniciar el juego	0=Enter key
 
