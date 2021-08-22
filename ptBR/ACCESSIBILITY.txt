@@ -324,7 +324,7 @@ ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Use as setas para cima e para baixo par
 ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Pressione {0} para finalizar seu turno	0=e key
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	não foi feita nem uma jogada ainda	
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{0} de {1} {2}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} {0} de {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	leitura de histórico cancelada	
 
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Seu campo de batalha começa com {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
