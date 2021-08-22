@@ -87,7 +87,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Tu oponente usó {0}	0=hero powe
 ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Tu oponente usó {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Lanzas {0}	0=secret name e.g. You cast {Counterspell}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Lanzas {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Tu oponente lanza 1 {0} secreto	0=secret class e.g. Your opponent cast 1 {mage} secret
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Tu oponente lanza 1 secreto de {0}	0=secret class e.g. Your opponent cast 1 {mage} secret
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Tu oponente lanza {0} secretos	0=number of secrets e.g. Your opponent cast {2} secrets
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Intentaste robar una carta de un mazo vacío	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Tu oponente intentó robar una carta de un mazo vacío	
