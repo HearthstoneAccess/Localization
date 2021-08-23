@@ -371,12 +371,12 @@ ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Obtuviste una recompensa de ranking, pero
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Obtuviste {0} |4(Paquete de recompensa,Paquetes de recompensa!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use las  flechas direccionales y {0} para abrir tus recompensas	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP de misión	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Misión de {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
-ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paquete de recompensa	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 paquete de cartas	
+ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Sobre de recompensa	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 sobre de cartas	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 carta	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 dorso de carta	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 montura	
@@ -386,7 +386,7 @@ ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ticket,tickets)	0=number of tickets
 ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini set con {0} cartas	0=number of cards
 ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} orbes arcanos	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvo arcano	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(paquete de cartas,paquetes de cartas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(sobre de cartas,sobress de cartas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 {1} carta	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
 ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 núcleo {1} carta	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
@@ -447,13 +447,13 @@ ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Has completado una misión
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Cargando tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bienvenido de nuevo al tutorial	
 ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Has derrotado a Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Has derrotado a Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Has derrotado a Molino Tormenta de Maná	
 ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Has derrotado al Eremita Cho	
 ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Has derrotado al Rei Mukla	
 ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Has derrotado a Hemet Nesingwary	
 ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Has derrotado a Illidan Tempestira	
 ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Tu próximo oponente es Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Tu próximo oponente es Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Tu próximo oponente es Molino Tormenta de Maná	
 ACCESSIBILITY_TUTORIAL_NEXT_CHO	Tu próximo oponente es Eremita Cho	
 ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Tu próximo oponente es el Rei Mukla	
 ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Tu próximo oponente es Hemet Nesingwary	
@@ -462,7 +462,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Tu próximo y último oponente es Illidan Te
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar a través de un conjunto de seis tutoriales.	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si alguna vez te sientes perdido, pulsa {0}. Incluso después del tutorial o cuando navegues por los menús, siempre puedes pulsar {0} cuando necesites ayuda.	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Muy bien, vamos allá	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí tienes un paquete básico de cartas de mago para que comiences. Presiona {0} para abrirlo.	0=Enter key
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí tienes un sobre básico de cartas de mago para que comiences. Presiona {0} para abrirlo.	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	Buen trabajo	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	Buen trabajo	
 ACCESSIBILITY_TUTORIAL_NICE_ONE	Muy bien	
@@ -509,7 +509,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Vamos a aprender como navegar por el campo de 
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Usa las flechas izquierda y derecha para navegar por tus esbirros	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Pulsa {0} y luego utiliza las flechas para navegar por tus esbirros invocados.	0=b key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Veamos ahora a los esbirros de tu oponente. Pulsa {0} para hacerlo	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9	¿Puedes ver este minion por ti mismo?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9	¿Puedes ver este esbirro por ti mismo?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Utiliza las flechas arriba y abajo para ver las estadísticas de los esbirros de tu oponente	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Ahora intentemos atacar a este esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Selecciona el asaltante múrloc que invocaste en el último turno.	
