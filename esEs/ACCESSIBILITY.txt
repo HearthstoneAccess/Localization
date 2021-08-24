@@ -53,7 +53,7 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	a	Optional. Overrides the A key to be read as eh by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	i	Optional. Overrides the I key to be read as eye by TTS
 
-ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
+ACCESSIBILITY_READ_CARD_COST	{0} maná	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} de ataque	0=attack
@@ -128,9 +128,9 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	No tienes poder de héro
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	Tu oponente no tiene poder de héroe	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	No tienes un arma equipada	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Tu oponente no tiene un arma equipada	
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Tienes {0} de {1} mana	0=current mana 1=total mana
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Tienes {0} mana	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Tu oponente tiene {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Tienes {0} de {1} maná	0=current mana 1=total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Tienes {0} maná	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Tu oponente tiene {0} maná	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mano del oponente. {0} |4(carta,cartas)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Mazo. {0} |4(carta,cartas)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Mazo del oponente. {0} |4(carta,cartas)	0=number of cards
