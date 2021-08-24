@@ -173,8 +173,8 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	No será remplazada
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Utiliza las flechas para moverte por tus cartas iniciales. Usa {0} para marcar las cartas que te gustaría reemplazar y presiona {1} cuando hayas terminado	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	El juego está a punto de comenzar. Por favor, espera	
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	Fue derrotado	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	Fueron derrotados	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	Fue destruido	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	Fueron destruidos	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	se rompió	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	se transformó en 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	se transformaron en 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
@@ -390,7 +390,7 @@ ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvo arcano	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(sobre de cartas,sobres de cartas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 carta de {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 carta de {1} del conjunto esencial	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 carta de clase {1} del conjunto esencial	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} versión dorada	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	Héroe {0}	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} héroes desbloqueados	0=number of unlocked Heroes 1=total number of Heroes
