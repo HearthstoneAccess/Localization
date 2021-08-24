@@ -446,13 +446,13 @@ ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Escolha seu baralho
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Explorar sua coleção	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Editar baralho	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Apagar baralho	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	{0} de {1} cartas possuidas	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pressione {0} para criar um baralho usando  este ja existente ou {1} para escolher outro	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Você tem {0} de {1} cartas	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pressione {0} para criar um baralho com base neste pre construido ou {1} para escolher outro	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Pressione {0} para criar um baralho personalizado ou {1} para escolher um ja existente	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Adicionar cartas	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver o baralho	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Seu baralho está vazio	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} de {1} cartas no baralho	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Seu baralho contém {0} de {1} cartas	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use as setas para ler suas cartas. Use {0} para pular entre as cartas de cada classe	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pressione {0} para adicionar cartas ao seu baralho	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pressione {0} para remover cartas de seu baralho	0=Enter key
