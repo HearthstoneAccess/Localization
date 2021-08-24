@@ -67,9 +67,9 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - edição diamante	0=card n
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno do oponente	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	turno finalizado	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	O efeito de {0} foi ativado	0=full card name in zone e.g. {Your second Murloc Raider} triggered
-ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	O efeito de seu {0} foi ativado	0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	O efeito de {0} foi ativado	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	O efeito de {0} do seu oponente foi ativado	0=card name e.g. Your opponent's {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	O efeito de {0} do seu oponente ativou; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	O efeito de {0} do seu oponente foi ativado; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Você usou {0}	0=card name e.g. You played {Fireball}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	Você usou {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Seu oponente usou {0}	0=card name e.g. Your opponent played {Fireball}
@@ -158,8 +158,8 @@ ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Segredos do oponente	Read when you 
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	sua mão	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	a mão do seu oponente	e.g. Your Murloc Raider moved to {you opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	seu campo de batalha	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	o campo de batalha do seu oponente	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	seu campo	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	o campo do seu oponente	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	seus segredos	e.g. Your Ice Block moved from your deck to {your secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	os segredos do seu oponente	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	seu baralho	e.g. Your Fireball moved from {your deck} to your opponent's deck
@@ -188,30 +188,30 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	recuperou {0} de vida	0=re
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	recuperaram {0} de vida	0=recovered health
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	tornou-se invulnerável	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	tornaram-se invulneráveis	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	foi silenciado	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	foram silenciados	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	silenciou-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	silenciaram-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	tornou-se dormente	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_DORMANT	tornaram-se dormentes	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_DORMANT	não está mais dormente	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_DORMANT	não estão mais dormentes	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	ficou congelado	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	ficaram congelados	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	não está mais congelado	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	não estão mais congelados	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	congelou-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	congelaram-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	descongelou-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	descongelaram-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_IMMUNE	tornou-se imune	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_IMMUNE	tornaram-se imunes	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_IMMUNE	não está mais imune	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_IMMUNE	não estão mais imunes	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	tornou-se magnético	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	tornaram-se magnéticos	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	não é mais magnético	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	não são mais magnéticos	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	tornou-se venenoso	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	tornaram-se venenosos	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	não é mais venenoso	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	não são mais venenosos	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	tornou-se furtivo	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	tornaram-se furtivos	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	magnetizou-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	magnetizaram-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	desmagnetizou-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	desmagnetizaram-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	Adquiriu veneno	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	adquiram veneno	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	perdeu veneno	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	perderam venenos	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	Adquiriu furtivo	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	adquiriram furtivo	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ganhou {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	ganharam {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	perdeu {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
@@ -219,10 +219,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	perderam {0}	0=stats e.
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Seu {0}	0=entity name e.g. Your {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	{0}	0=entity name e.g. Your {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	{0} de seu oponente	0=entity name e.g. Your opponent's {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Seu lacaio {1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	O lacaio {1} {0} de seu oponente	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	{1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	{1} {0} de seu oponente	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0} {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	Todos	e.g. {everyone} took 2 damage
@@ -238,8 +238,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Os lacaios do seu oponente	e.
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Os outros lacaios do seu oponente	e.g. {Your other opponent's minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	Seus lacaios	e.g. {Your minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Seus outros lacaios	e.g. {Your other minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	Seus {0} {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Os {0} lacaios {1} do seu oponente	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	{0} {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	{0} {1} do seu oponente	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	seu herói equipou 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	o herói do seu oponente equipou 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
@@ -264,10 +264,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} foi adicion
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} foram adicionadas em seu baralho	0=card names e.g. {2 Fireball} were shuffled into your deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} foi adicionada no baralho de seu oponente	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} foram adicionadas no baralho de seu oponente	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} foi invocado para o seu campo de batalha	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} foram invocados para o seu campo de batalha	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} foi invocado para o campo de batalha do seu oponente	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} foram invocados para o campo de batalha do seu oponente	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} foi invocado para o seu campo	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} foram invocados para o seu campo	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} foi invocado para o campo do seu oponente	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} foram invocados para o campo do seu oponente	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	você assumiu o controle de {0}	0=card names
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	seu oponente assumiu o controle de {0}	0=card names
 
@@ -327,8 +327,8 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	não foi feita nem uma jogada ainda
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} {0} de {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	leitura de histórico cancelada	
 
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Seu campo de batalha começa com {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	O campo de batalha do seu oponente começa com {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Seu campo começa com {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	O campo do seu oponente começa com {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
 ACCESSIBILITY_UI_POPUP	Pop-up	
 ACCESSIBILITY_UI_REWARDS_TITLE	Recompensas	
@@ -486,7 +486,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Use a tecla {
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Quando um turno começa, você sempre começa comprando uma carta de seu baralho. Vamos ver o que Você comprou	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Pressione {0} para ver as cartas em sua mão	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, então ... Esta carta é um lacaio chamado Murloc Saqueador	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Lacaios são criaturas que você pode invocar no campo de batalha para lutar pelo seu Herói	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Lacaios são criaturas que você pode invocar no campo para lutar pelo seu Herói	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Este custa 1 mana para invocar e tem 2 pontos de ataque e 1 de vida	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Vamos começar convocando este lacaio	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Pressione {0} para fazer isso	0=Enter key
@@ -504,10 +504,10 @@ ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Assim que o herói do seu oponente ficar sem v
 ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Vamos continuar	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Parece que você comprou outro lacaio. Consegue invocar ele sozinho?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Pressione {0} e depois {1} para invocar seu lacaio	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Quando você já tem lacaios no campo de batalha, você pode usar as setas esquerda e direita para selecionar onde o novo lacaio será colocado	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Agora você tem dois lacaios no campo de batalha. Este foi recêm foi invocado, então deve esperar um turno para atacar	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Vamos aprender a navegar pelo campo de batalha	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Use the left and right arrow keys to navigate your minions	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Quando você já tem lacaios no campo, você pode usar as setas esquerda e direita para selecionar onde o novo lacaio será colocado	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Agora você tem dois lacaios no campo. Este recêm foi invocado, então deve esperar um turno para atacar	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Vamos aprender a navegar pelo campo	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Use as setas esquerda e direita para navegar pelos seus lacaios	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Pressione {0} e depois as setas direcionais para navegar pelos seus lacaios invocados	0=b key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Vamos dar uma olhada nos lacaios do seu oponente agora. Pressione {0} para fazer isso	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Consegue ver este lacaio sozinho?	

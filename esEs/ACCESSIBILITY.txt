@@ -8,13 +8,13 @@ ACCESSIBILITY_PRESS_KEY_TO_EXIT	Pulsa {0} para cerrar	0=key e.g. Press Enter to 
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	pulsa {0} una vez que hayas terminado	0=key e.g. Press Enter once you're done
 
 ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Utiliza las flechas arriba y abajo para navegar por el menú. Pulsa {0} para seleccionar una opción	0=Enter key
-ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Utilice las flechas arriba y abajo para navegar por el menú. Pulsa {0} para seleccionar una opción. Pulsa {1} para retroceder	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Utiliza las flechas arriba y abajo para navegar por el menú. Pulsa {0} para seleccionar una opción. Pulsa {1} para regresar	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} de {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menú de opciones	
 ACCESSIBILITY_OPTIONS_MENU_MASTER_VOLUME_OPTION	Ajustar el volumen general	
 ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OPTION	Activar pantalla completa	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_MASTER_VOLUME	Utilice las flechas izquierda y derecha para ajustar el volumen	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_MASTER_VOLUME	Utiliza las flechas izquierda y derecha para ajustar el volumen	
 ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_ON	Pantalla completa activada	
 ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OFF	Pantalla completa desactivada	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
@@ -50,8 +50,8 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	número 10
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	a	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	i	Optional. Overrides the I key to be read as eye by TTS
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -77,7 +77,7 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	Invocaste {0}	0=minion name e.g. Y
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	Invocaste {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Tu oponente invocó {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Tu oponente invocó {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Te has equipado {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Te equipaste {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	Te has equipado {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Tu oponente se equipó {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	Tu oponente se equipó {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
@@ -91,12 +91,12 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Tu oponente colocó un secreto de {0
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Tu oponente colocó {0} secretos	0=number of secrets e.g. Your opponent cast {2} secrets
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	¡Intentaste robar una carta de un mazo vacío!	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	¡Tu oponente intentó robar una carta de un mazo vacío!	
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	¡Has tomado 1 {0} pero se quemó!	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	¡Tu oponente tomó 1 {0} pero se quemó!	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	¡robaste 1 {0} pero se quemó!	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	¡Tu oponente robó 1 {0} pero se quemó!	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacó a {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} intentó atacar a {1} pero atacó a {2} en su lugar!	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 
-ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Tienes{0} mana	0=mana
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Tienes{0} maná	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Vas primero	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Tu oponente va primero	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Comienzas con {0} |4(carta,cartas)	0=number of cards
@@ -105,7 +105,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Tu oponente robó {0}	0=card names e.
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Descartaste {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Tu oponente descartó {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	Tomas la moneda	
-ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Esperando a un oponente	
+ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Esperando a tu oponente	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	¿Invocar?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	¿Invocar a la derecha?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	¿Invocar a la izquierda?	
@@ -211,8 +211,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	perdió su veneno
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	perdieron su veneno	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	adquirió sigilo	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	adquirieron sigilo	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ha ganado {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	han ganado {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ganó {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	ganaron {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	perdió {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	perdieron {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 
@@ -255,8 +255,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	han sido mo
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	moved zones	e.g. Your Bloodfen Raptor {moved zones}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	moved zones	e.g. Your 2 Bloodfen Raptor {moved zones}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	se añadió 1 {0} a tu mano	0=card name e.g. 1 {Murloc Raider} was added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	se añadieron {0} a tu mano	0=card names e.g. {2 Murloc Raider} were added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} se añadió a tu mano	0=card name e.g. 1 {Murloc Raider} was added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} se añadieron a tu mano	0=card names e.g. {2 Murloc Raider} were added to your hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} se añadió a la mano de tu oponente	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} se añadieron a la mano de tu oponente	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} se barajó en tu mazo	0=card name e.g. 1 {Fireball} was shuffled into your deck
@@ -284,7 +284,7 @@ ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	Tu oponente gan�
 
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	pulsa {0} para examinar a tu héroe	0=v key
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	pulsa {0} para examinar al héroe de tu oponente	0=f key
-ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	usa las flechas arriba y abajo para leer las cartas	
+ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Utiliza las flechas arriba y abajo para leer las cartas	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	pulsa {0} para atacar a este objetivo	0=Enter key
 ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	pulsa {0} para invocar a este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	tu oponente está jugando	
@@ -300,15 +300,15 @@ ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	pulsa{0} para ver tu arma	0=w key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	pulsa {0} para ver el arma de tu oponente	0=Shift+w keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	pulsa {0} para ver tu poder de héroe	0=r key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	pulsa {0} para ver el poder de héroe de tu oponente	0=Shift+r keys
-ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	pulsa {0} para conocer las cartas restantes de tu mazo	0=d key
+ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	pulsa {0} para ver cuantas cartas quedan en tu mazo	0=d key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	pulsa {0} para conocer el número de cartas en el mazo de tu oponente	0=Shift+d keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	pulsa {0} para ver tu cantidad de maná	0=a key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	pulsa {0} para ver la cantidad de maná de tu oponente	0=Shift+a key
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	pulsa {0} para ver tu maná	0=a key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	pulsa {0} para ver el maná de tu oponente	0=Shift+a key
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	utiliza las flechas arriba y abajo para leer esta carta	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	pulsa {0} para obtener una descripción de las habilidades de esta carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	pulsa {0} para jugar esta carta	0=Enter key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	pulsa {0} para invocar este esbirro	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	usa las flechas para revisar tus opciones. pulsa {0} para escoger una	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Utiliza las flechas para revisar tus opciones. Pulsa {0} para escoger una	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondientes a cada zona para desplazarte por tus posibles objetivos y presiona {1} para seleccionar uno o {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Pulsa {0} para atacar con este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Pulsa {0} para atacar con tu héroe	0=Enter key
@@ -317,9 +317,9 @@ ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Usa {0} para ver tus objetivos
 ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Pulsa {0} para atacar a este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Pulsa {0} para cancelar el ataque	0=Backspace key
 ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Pulsa {0} para cancelar	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Usa las flechas izquierda y derecha para elegir la posición de este esbirro	
+ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Utiliza las flechas izquierda y derecha para elegir la posición de este esbirro	
 ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	Pulsa {0} para abrir el historial	0=y key
-ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Pulsa las flechas arriba y abajo para leer el historial y pulsa {0} para cerrarlo	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Utiliza las flechas arriba y abajo para leer el historial y pulsa {0} para cerrarlo	0=Backspace key
 ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	pulsa {0} para terminar tu turno	0=e key
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	aún nos e ha jugado nada	
@@ -342,10 +342,10 @@ ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Utiliza las flechas para revisar tus recompe
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Tienes {0} |4(misión,misiones)	0=number of quests
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Usa las flechas para leer tus misiones.	
 
-ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Utiliza las flechas direccionales para leer tus |4(misión,misiones)	
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Utiliza las flechas para leer tus |4(misión,misiones)	
 
 ACCESSIBILITY_UI_REWARD_TITLE	¡Tienes una recompensa!	
-ACCESSIBILITY_UI_REWARD_HELP	Usa las flechas para leer la recompensa	
+ACCESSIBILITY_UI_REWARD_HELP	Utiliza las flechas para leer la recompensa	
 
 ACCESSIBILITY_UI_RANKED_INTRO_POPUP	¡El nuevo sistema de ranking ya está aquí! Puedes encontrar más información sobre esto en línea.	
 
@@ -361,15 +361,15 @@ ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	¡una nueva temporada ha come
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Gana {0} juegos esta temporada para recibir un cofre	0=number of games
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Gana {0} juegos esta temporada para ganar tu dorso de carta de temporada	0=number of games
 
-ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Usa las flechas para leer las cartas.	
+ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Utiliza las flechas para leer las cartas.	
 
-ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Ventana emergente de cofre de recompensas	
-ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pulsa {0} para abrir tu cofre de recompensas	0=Enter key
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	cofre de recompensa	
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pulsa {0} para abrir tu cofre de recompensa	0=Enter key
 
 ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Obtuviste una recompensa de ranking, pero el modo de ranking no es accesible aún	
 
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Obtuviste {0} |4(Paquete de recompensa,Paquetes de recompensa!	
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use las  flechas direccionales y {0} para abrir tus recompensas	0=Enter key
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Utiliza las  flechas y {0} para abrir tus recompensas	0=Enter key
 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Misión de {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
@@ -386,22 +386,22 @@ ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ticket,tickets)	0=number of tickets
 ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini set con {0} cartas	0=number of cards
 ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} orbes arcanos	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvo arcano	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(sobre de cartas,sobress de cartas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(sobre de cartas,sobres de cartas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 {1} carta	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 núcleo {1} carta	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
-ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Oro {0}	0=Hero name e.g. Golden Jaina Proudmoore
-ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Héroe	0=class e.g. Mage Hero
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 carta de {1} del conjunto esencial	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} edición oro	0=Hero name e.g. Golden Jaina Proudmoore
+ACCESSIBILITY_UI_REWARD_CLASS_HERO	Héroe {0}	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} héroes desbloqueados	0=number of unlocked Heroes 1=total number of Heroes
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) carta	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Skin de héroe,Skins de héroe)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena ticket,Arena tickets)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Billete para la arena,Billetes para la arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras Rúnicas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket ,Tavern Brawl tickets)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Billete para duelo de taberna,Billetes para duelo de taberna)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(Moneda personalizada,monedas personalizadas)	0=amount
-ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% Bono de experiencia	0=amount
+ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para el héroe del campo de batalla,skins para el héroe del campo de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para el guía del campo de batalla,skins para el guía del campo de batalla)	0=amount
@@ -412,19 +412,19 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Pantalla de error grabe
 
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Tu héroe alcanzó el nivel {0}	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Pantalla de elección de aventurero	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Pantalla de elección de héroe	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Pulsa {0} para iniciar o {1} para volver al menú principal	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Pantalla de aventuras	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Elige un aventurero	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Elige un héroe	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Menú de aventuras	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Jugar	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Ver tu mazo	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Retirarse	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Esperando a que termine la narración 	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Usa las flechas para leer tus cartas	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Utiliza las flechas para leer tus cartas	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	No puedes ver tu mazo en esta aventura 	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Aventura completa	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Aventura completada	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Estás en el  oponente {0} de {1}	0=current opponent number 1=number of opponents
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Elige una aventura	
@@ -435,7 +435,7 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXP
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Debes derrotar a todos los oponentes en modo normal para desbloquear el modo experto.	
 
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_TITLE	Elige tu oponente	
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	no derrotado {0}	0=class name e.g. Undefeated {Demon Hunter}
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	{0} (no derrotado)	0=class name e.g. Undefeated {Demon Hunter}
 
 ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Elige tu mazo	
 
@@ -445,7 +445,7 @@ ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	El progreso actual es {0} de {
 ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Has completado una misión	
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Cargando tutorial	
-ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bienvenido de nuevo al tutorial	
+ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Te doy la bienvenida al tutorial!	
 ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Has derrotado a Hogger	
 ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Has derrotado a Molino Tormenta de Maná	
 ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Has derrotado al Eremita Cho	
@@ -463,10 +463,10 @@ ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar a través de un conj
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si alguna vez te sientes perdido, pulsa {0}. Incluso después del tutorial o cuando navegues por los menús, siempre puedes pulsar {0} cuando necesites ayuda.	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Muy bien, vamos allá	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí tienes un sobre básico de cartas de mago para que comiences. Presiona {0} para abrirlo.	0=Enter key
-ACCESSIBILITY_TUTORIAL_NICE_WORK	Buen trabajo	
-ACCESSIBILITY_TUTORIAL_NICE_JOB	Buen trabajo	
-ACCESSIBILITY_TUTORIAL_NICE_ONE	Muy bien	
-ACCESSIBILITY_TUTORIAL_GOOD_JOB	Buen trabajo	
+ACCESSIBILITY_TUTORIAL_NICE_WORK	Buen trabajo!	
+ACCESSIBILITY_TUTORIAL_NICE_JOB	Eso es!	
+ACCESSIBILITY_TUTORIAL_NICE_ONE	Muy bien!	
+ACCESSIBILITY_TUTORIAL_GOOD_JOB	Bien hecho!	
 ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	Lo entendiste!	
 ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	¿Recuerdas como se hace?	
 ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	¿Recuerdas cómo hacer eso?	
@@ -479,10 +479,10 @@ ACCESSIBILITY_TUTORIAL_GOT_IT	Lo entendiste
 ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Todavía no! Usa tu poder de héroe. Presiona {0} para seleccionarlo	0=r key
 
 ACCESSIBILITY_TUTORIAL_HOGGER_START	Tu primer oponente es un gnoll llamado Hogger. Jugarás como la poderosa maga Jaina Valiente.	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Usa las flechas hacia arriba y hacia abajo para leer esta carta	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Utiliza las flechas arriba y abajo para leer esta carta	
 ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Invoca al esbirro que acabas de conseguir	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Pulsa {0} y luego utiliza las flechas para ver los esbirros de tu oponente	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Cuando comienza un turno, siempre comienzas robando una carta de tu mazo. Veamos que  carta acabas de robar	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Cuando comienza un turno, siempre empiezas robando una carta de tu mazo. Veamos que  carta acabas de robar	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Pulsa {0} para ver las cartas en tu mano	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Bien, entonces... Esta carta es un esbirro llamado Asaltante Múrloc	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Los esbirros son criaturas que puedes invocar al campo de batalla para luchar por tu héroe.	
@@ -494,7 +494,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Los esbirros deben esperar un turno para ataca
 ACCESSIBILITY_TUTORIAL_HOGGER_3_0	El esbirro de tu oponente atacó a tu héroe, por lo que recibiste algo de daño.	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Vamos a ver cuanta salud nos queda	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa las flechas arriba y abajo para ver las estadísticas de tu héroe	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Pulsa {0} y luego usa las flechas direccionales para averiguar cuánta salud tiene tu héroe.	0=v key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Pulsa {0} y luego usa las flechas para averiguar cuánta salud tiene tu héroe.	0=v key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Si tu héroe se queda sin salud, pierdes. Pero tranquilo! Con 28 de salud aún tienes para rato	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Veamos ahora al héroe de tu oponente. Pulsa {0}	0=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_5	¿Puedes ver cuánta salud tiene?	
@@ -505,8 +505,8 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Parece que tienes otro esbirro. ¿Puedes invoc
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Pulsa {0} y luego {1} para convocar a tu esbirro.	0=c key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Cuando ya tienes esbirros en el campo de batalla, puedes usar las flechas izquierda y derecha para seleccionar dónde posicionar el nuevo esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Ahora tienes dos esbirros en el campo de batalla. Este último acaba de ser invocado, por lo que debe esperar un turno para atacar.	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Vamos a aprender como navegar por el campo de batalla.	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Usa las flechas izquierda y derecha para navegar por tus esbirros	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Vamos a aprender como navegar por el campo	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Utiliza las flechas izquierda y derecha para navegar por tus esbirros	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Pulsa {0} y luego utiliza las flechas para navegar por tus esbirros invocados.	0=b key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Veamos ahora a los esbirros de tu oponente. Pulsa {0} para hacerlo	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9	¿Puedes ver este esbirro por ti mismo?	
@@ -518,11 +518,11 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Pulsa {0} para atacar con este esbirro.	0=Ent
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13	¿Puedes atacar al esbirro de tu oponente?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Pulsa {0} y luego {1} para atacar al esbirro de tu oponente.	0=g key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Ambos esbirros tenían 2 puntos de ataque y 1 de salud, por lo que se destruyeron entre sí.	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Tu otro esbirro todavía está en letargo, así que no queda nada por hacer. ¿Recuerdas cómo terminar tu turno?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Tu otro esbirro todavía se encuentra agotado así que no queda nada por hacer. ¿Recuerdas cómo terminar tu turno?	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Parece que conseguiste otro esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Esto significa que tienes dos opciones posibles en este momento	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Puedes invocar al esbirro que acabas de recibir o usar el que invocaste en el último turno para atacar	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_4	Una forma de hacerlo sería pulsar  las teclas como {0} para mirar tu mano o {1} para mirar a tus esbirros invocados.	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	Una forma de hacerlo sería pulsar teclas como {0} para mirar tu mano o {1} para mirar a tus esbirros invocados.	0=c key 1=b key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_5	Sin embargo, hay una forma más sencilla de hacerlo.	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Pulsa {0}	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Ahora estás viendo tu primera opción, que sería invocar al esbirro que acabas de robar.	
@@ -530,40 +530,40 @@ ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Prueba pulsar {0} nuevamente	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Ahora estás viendo tu segunda opción, que sería atacar con el esbirro que invocaste en el último turno.	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Siempre puedes pulsar {0} para revisar tus opciones válidas, ¡así que asegúrate de recordar esta tecla!	0=key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Bien. Comencemos por invocar al esbirro que acabamos de robar	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Pulsa {0} o {1} y luego {2} para convocar a tu esbirro.	0=Tab key 1=c key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Pulsa {0} o {1} y luego {2} para invocar a tu esbirro.	0=Tab key 1=c key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Ahora intentemos atacar con nuestro otro esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Pulsa {0} o {1} para seleccionar a tu esbirro y {2} para lanzar un ataque.	0=Tab key 1=b key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ahora tienes otra elección que hacer. Puedes atacar a uno de los esbirros de tu oponente o al propio héroe de tu oponente.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ahora tienes otra elección que hacer. Puedes atacar a uno de los esbirros de tu oponente o a su propio héroe	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puedes pulsar {0} para revisar tus objetivos válidos o seleccionar tu objetivo directamente con {1} o {2}	0=Tab key 1=g key 2=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Adelante, elige un objetivo para atacar.	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Pulsa {0} y luego {1} para lanzar un ataque.	0=Tab key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_21	¡Estamos listos para terminar nuestro turno!	
-ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Dejaré que sigas jugando solo. Solo avísame si necesitas algo	
+ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Dejaré que sigas jugando solo. Cualquier cosa avísame si necesitas algo	
 
 ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Pulsa {0} en cualquier momento para ver cuánto maná tienes	0=a key
 
-ACCESSIBILITY_TUTORIAL_CHO_1	Este doctor vudú curó al héroe de tu oponente	
+ACCESSIBILITY_TUTORIAL_CHO_1	Este médico vudú curó al héroe de tu oponente	
 ACCESSIBILITY_TUTORIAL06_HELP_02	Cuando los esbirros se atacan entre sí, ambos reciben daño.	
 
 ACCESSIBILITY_TUTORIAL_MUKLA_START	En esta pelea, verás algunas cartas con habilidades que no habías visto antes.	
 ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Si te encuentras con algo que no entiendes al ver las estadísticas de una carta, como Cargar o provocar, pulsa {0} para obtener más información.	0=i key
-ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Presiona {0} cuando estés listo para comenzar.	0=Enter key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Pulsa {0}  para comenzar.	0=Enter key
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Este gorila que acaba de invocar tu oponente tiene una habilidad llamada Provocar	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Los esbirros con Provocar siempre deben ser destruídos antes de que puedas atacar a alguien más.	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Provocar es una habilidad importante, ya que puede usarse para proteger a tu héroe.	
 
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	A partir de este momento, tu héroe y el héroe de tu oponente normalmente tendrán un poder de héroe.	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	A partir de este momento, tu héroe y el de tu oponente normalmente tendrán un poder de héroe.	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Cada héroe tiene su propio poder de héroe, que puede ser  usado una vez por turno.	
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Siempre puedes pulsar {0} para ver tu poder de héroe y {1} para ver el poder de héroe del rival	0=hero power key 1=opponent hero power key
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Siempre puedes pulsar {0} para ver tu poder de héroe y {1} para ver el de tu oponente	0=hero power key 1=opponent hero power key
 
 	ACCESSIBILITY_TUTORIAL05_HELP_03	Esta pelea es totalmente injusta. Culpa a los terribles diseñadores del juego	
-ACCESSIBILITY_TUTORIAL05_HELP_04	¡Tus esbirros con el estado provocar pueden protegerte de los ataques!	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Parece que tu oponente estaba equipado con un arma.	
+ACCESSIBILITY_TUTORIAL05_HELP_04	¡Tus esbirros con la habilidad provocar pueden protegerte de los ataques!	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Parece que tu oponente equipó un arma.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Las armas son cartas especiales que pueden ser equipadas por los héroes.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Cada arma tiene un valor de ataque y otro de durabilidad.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Una vez equipados, los héroes pueden atacar a otros personajes durante su turno.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Tu oponente equipó Gujas de guerra de Azzinoth:: un arma con 2 de ataque y 2 de durabilidad	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Esto significa que el héroe de tu oponente tendrá 2 ataques durante su turno y podrá atacar a cualquiera de tus personajes.	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Esto significa que el héroe de tu oponente tendrá un arma con 2 de ataque durante su turno y podrá atacar a cualquiera de tus personajes.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	Los magos no suelen utilizar armas, pero podrás usar algunas más adelante una vez que hayas desbloqueado otras clases	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Puedes pulsar {0} en cualquier momento para ver tu arma o {1} para ver la de tu oponente	0=weapon key 1=opponent weapon key
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	¿Escuchas ese sonido? Las armas pierden durabilidad cada vez que son utilizadas	
