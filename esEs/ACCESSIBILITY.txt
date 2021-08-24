@@ -157,8 +157,8 @@ ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Secretos de tu oponente	Read when y
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	Tu Mano	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	la mano de tu oponente	e.g. Your Murloc Raider moved to {you opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	tu campo de batalla	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	el campo de batalla de tu oponente	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	tu campo	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	el campo de tu oponente	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	tus secretos	e.g. Your Ice Block moved from your deck to {your secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	los secretos de tu oponente	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	tu mazo	e.g. Your Fireball moved from {your deck} to your opponent's deck
@@ -263,10 +263,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} se barajó 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} se barajaron en tu mazo	0=card names e.g. {2 Fireball} were shuffled into your deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} se barajó en el mazo de tu oponente	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} se barajaron en el mazo de tu oponente	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} se invocó en tu campo de batalla	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} se invocaron en tu campo de batalla	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} se invocó en el campo de batalla de tu oponente	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} se invocaron en el campo de batalla de tu oponente	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} se invocó en tu campo	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} se invocaron en tu campo	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} se invocó en el campo de tu oponente	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} se invocaron en el campo de tu oponente	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	tomaste el control de {0}	0=card names
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	tu oponente tomó el control de {0}	0=card names
 
@@ -326,8 +326,8 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	aún nos e ha jugado nada
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} {0} de {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Se detuvo la lectura del historial	
 
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Tu campo de batalla comienza con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	El campo de batalla de tu oponente comienza con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Tu campo comienza con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	El campo de tu oponente comienza con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
 ACCESSIBILITY_UI_POPUP	Ventana emergente	
 ACCESSIBILITY_UI_REWARDS_TITLE	Recompensas	
