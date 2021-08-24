@@ -577,3 +577,25 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	Podczas tej fazy możesz wy
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Użyj klawiszy strzałek lub klawisza {0} aby przemieszczać się po kartach znajdujących się w twojej ręce	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Jeżeli odnajdziesz nie potrzebną ci kartę, wciśnij {0} aby oznaczyć ją do zamiany. Jeżeli jednak zmienisz zdanie, ponowne wciśnięcie {0} odznaczy kartę	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Gdy już oznaczysz wszystkie karty do zamiany, wciśnij {0} aby jej dokonać i rozpocząć grę	0=Enter key
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Wciśnij {0} aby powrócić	0=key e.g. Press backspace to go back
+ACCESSIBILITY_LIST_NO_ITEMS	Brak elementów	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Jakość obrazu	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Rozdzielczość obrazu	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Użyj klawiszy strzałek w lewo i w prawo aby dostosować głośność	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} pole wyboru	0=checkbox name e.g. {Fullscreen} checkbox
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Zaznaczone	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Nie zaznaczone	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Przeglądaj kolekcję	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edytuj talię	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	usuń talię	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Posiadasz {0} z {1} kart	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Wciśnij {0} aby utworzyć talię przy użyciu tego szablonu. Wciśnij {1} aby wybrać inny szablon	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Wciśnij {0} aby utworzyć własną talię lub {1} aby użyć gotowego szablonu	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Dodaj karty	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Przejrzyj talię	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Twoja talia jest pusta	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Talia zawiera {0} z {1} kart	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Użyj klawiszy strzałek aby przeczytać swoją kolekcję. Wciśnij {0} aby przeskakiwać pomiędzy klasami	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Wciśnij {0} aby dodawać karty do swojej talii	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Wciśnij {0} aby usuwać karty ze swojej talii	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Wprowadź nową nazwę dla swojej talii	
