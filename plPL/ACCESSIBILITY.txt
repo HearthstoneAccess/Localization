@@ -342,7 +342,7 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Informacja
 ACCESSIBILITY_UI_REWARD_SCROLL_TITLE	Wykonałeś zadanie	
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Użyj klawiszy strzałek aby nawigować po otrzymanych nagrodach	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	masz {0}|4(zadanie,zadania,zadań} do wykonania	0=number of quests
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	masz {0}|4(zadanie,zadania,zadań) do wykonania	0=number of quests
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Użyj klawiszy strzałek aby nawigować po aktualnych zadaniach	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Użyj klawiszy strzałek aby przeczytać swoje |4(zadanie,zadania)	
@@ -392,7 +392,7 @@ ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} tajemnego pyłu	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(pakiet,pakiety,pakietów) kart	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} złota	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(sztukę,sztuki,sztuk) karty należącej do klasy {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(sztukę,sztuki,sztuk} bazowej karty {1}	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(sztukę,sztuki,sztuk) bazowej karty {1}	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Złoty portret {0}	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	Bohater {0}	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	Odblokowano {0} z {1} bohaterów	0=number of unlocked Heroes 1=total number of Heroes
@@ -403,7 +403,7 @@ ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Bilet,bilety,biletów) wstępu na
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(kamień runiczny,kamienie runiczne,kamieni runicznych)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(przygoda,przygody,przygód)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(bilet,bilety,biletów) wstępu na karczemną bójkę	0=amount
-ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(skórka,skórki,skórek} dla monety	0=amount
+ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(skórka,skórki,skórek) dla monety	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% bonusu do zdobywanego doświadczenia	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(pomniejszy pakiet,pomniejsze pakiety,pomniejszych pakietów)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(portret bohatera,portrety bohaterów,portretów bohaterów) dla trybu ustawki	0=amount
