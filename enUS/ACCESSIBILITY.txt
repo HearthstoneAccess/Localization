@@ -4,6 +4,7 @@ ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Welcome to Hearthstone
 ACCESSIBILITY_PRESS_KEY_TO_START	Press {0} to start	0=key e.g. Press Enter to start
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Press {0} to continue	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Press {0} to finish	0=key e.g. Press Enter to finish
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Press {0} to go back	0=key e.g. Press backspace to go back
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Press {0} to exit	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Press {0} once you're done	0=key e.g. Press Enter once you're done
 
@@ -12,13 +13,15 @@ ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Use the up and down arrow keys to navig
 ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. Press {0} to select an option	0=Enter key
 ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. Press {0} to select an option. Press {1} to go back	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} of {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
+ACCESSIBILITY_LIST_NO_ITEMS	No items	
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Options Menu	
-ACCESSIBILITY_OPTIONS_MENU_MASTER_VOLUME_OPTION	Adjust Master Volume	
-ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OPTION	Toggle Fullscreen	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_MASTER_VOLUME	Use the left and right arrow keys to adjust the volume	
-ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_ON	Fullscreen on	
-ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OFF	Fullscreen off	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Graphics quality	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Graphics resolution	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use the left and right arrow keys to adjust the volume	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} checkbox	0=checkbox name e.g. {Fullscreen} checkbox
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Checked	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Not checked	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Main Menu	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Press {0} at any time to open the game menu. Try it now!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Press {0} at any time if you're feeling lost. If you need help from a sighted person, you can always press {1} to disable accessibility and allow them to control the game using the mouse as normal. Just remember to press {1} once they're done to reactivate accessibility	0=Esc key 1=F8 key
@@ -326,7 +329,7 @@ ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Use the up and down arrow keys to read 
 ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Press {0} to end your turn	0=e key
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Nothing has been played yet	
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{0} of {1} {2}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2}; {0} of {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Stopped reading history	
 
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Your battlefield starts with {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
@@ -419,7 +422,6 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Press {0} to start or {1} to go back to the main menu	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Adventure screen	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Choose an adventurer	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Adventure menu	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Play	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Read Deck	
@@ -437,10 +439,24 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NOR
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Expert	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	You must beat all normal opponents to unlock expert	
 
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_TITLE	Choose your opponent	
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Undefeated	
 
 ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Choose your deck	
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Browse collection	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edit deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Delete deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	{0} of {1} cards owned	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Press {0} to create a deck using this recipe or {1} to choose a different one	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Press {0} to create a custom deck or {1} to choose a recipe	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Add cards	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	See deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Your deck is empty	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} of {1} cards in deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use the arrow keys to read your cards. Use {0} to jump between classes.	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Use {0} to add cards to your deck	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Use {0} to remove cards from your deck	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Type in a new name for your deck	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest progress toast	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Current progress is {0} out of {1}	0=current progress 1=total
