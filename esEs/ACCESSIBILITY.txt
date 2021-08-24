@@ -568,7 +568,7 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utiliza las flechas direcci
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una carta que no te gusta o interesa, pulsa {0} para marcarla y que sea  reemplazada	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una vez que hayas marcado todas las cartas que deseas reemplazar, pulsa {0} para robar nuevas cartas e iniciar el juego	0=Enter key
 
-ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Presiona {0} para volver atrás	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Pulsa {0} para volver atrás	0=key e.g. Press backspace to go back
 ACCESSIBILITY_LIST_NO_ITEMS	No hay elementos	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Calidad de los gráficos	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Resolución	
@@ -580,13 +580,13 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Ver colección
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Editar mazo	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Eliminar mazo	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Posees {0} de {1} cartas	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Presiona {0} para crear un mazo basándote en este prediseñado o {1} para elegir uno diferente	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Presiona {0} para crear un mazo personalizado o {1} para elegir uno prediseñado	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pulsa {0} para crear un mazo basándote en este prediseñado o {1} para elegir uno diferente	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Pulsa {0} para crear un mazo personalizado o {1} para elegir uno prediseñado	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Agregar cartas	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver mazo	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	El mazo está vacío	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	El mazo contiene {0} de {1} cartas	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utiliza las flechas para ver tus cartas y {0} para saltar entre clases.	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utiliza las flechas para leer tus cartas y {0} para saltar entre clases.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Utiliza {0} para agregar cartas al mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Utiliza {0} para eliminar cartas del mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Escribe un nuevo nombre para el mazo	
