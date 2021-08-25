@@ -55,9 +55,6 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	número 9
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	número 10	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -374,7 +371,7 @@ ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pressione {0} para abrir seu baú de 
 
 ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Você recebeu uma recompensa por classificação, mas o modo por classificação ainda não está acessível	
 
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Você ganhou {0} |4(pacote de recompensa,pacotes de recompensa!	
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Você ganhou {0} |4(pacote de recompensa,pacotes de recompensa)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use as setas direcionais e {0} para abrir suas recompensas	0=Enter key
 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP missão	0=xp rewarded by quest. Note: these quests don't have a name
@@ -593,3 +590,5 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	Nesta fase, ambos os jogado
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Use as setas direcionais ou {0} para passar pela mão inicial	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Se você vir uma carta que não goste, pressione {0} para marcá-lo para substituição	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Depois de ter marcado todas as cartas que deseja substituir, pressione {0} para comprar novas e iniciar o jogo	0=Enter key
+
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

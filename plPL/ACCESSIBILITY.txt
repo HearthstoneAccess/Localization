@@ -4,6 +4,7 @@ ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Witaj w Hearthstone
 ACCESSIBILITY_PRESS_KEY_TO_START	Naciśnij {0} aby rozpocząć	0=key e.g. Press Enter to start
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Naciśnij {0} aby kontynuować	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Naciśnij {0} aby zakończyć	0=key e.g. Press Enter to finish
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Wciśnij {0} aby powrócić	0=key e.g. Press backspace to go back
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Naciśnij {0} aby wyjść	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Naciśnij {0} gdy skończysz	0=key e.g. Press Enter once you're done
 
@@ -12,13 +13,15 @@ ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Użyj klawiszy strzałek w górę i w d
 ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Użyj klawiszy strzałek w lewo i w prawo aby nawigować w menu. Użyj klawiszy strzałek w górę i w dół aby przeczytać wybrany element. Naciśnij {0} aby aktywować opcję	0=Enter key
 ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Użyj klawiszy strzałek w lewo i w prawo aby nawigować w menu. Użyj klawiszy strzałek w górę i w dół aby przeczytać wybrany element. Naciśnij {0} aby aktywować opcję. Naciśnij {1} aby powrócić	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} z {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
+ACCESSIBILITY_LIST_NO_ITEMS	Brak elementów	
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Opcje	
-ACCESSIBILITY_OPTIONS_MENU_MASTER_VOLUME_OPTION	Dostosuj głośność ogólną	
-ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OPTION	Przełącz tryb pełnoekranowy	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_MASTER_VOLUME	Użyj klawiszy strzałek w lewo i w prawo aby dostosować głośność ogólną	
-ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_ON	Włączono tryb pełnoekranowy	
-ACCESSIBILITY_OPTIONS_MENU_FULLSCREEN_OFF	Wyłączono tryb pełnoekranowy	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Jakość obrazu	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Rozdzielczość obrazu	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Użyj klawiszy strzałek w lewo i w prawo aby dostosować głośność	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} pole wyboru	0=checkbox name e.g. {Fullscreen} checkbox
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Zaznaczone	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Nie zaznaczone	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menu główne	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Naciśnij {0} w dowolnym momencie aby otworzyć menu gry.	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Naciśnij {0} w dowolnym momencie jeżeli potrzebujesz informacji. Jeżeli potrzebujesz pomocy osoby widzącej, możesz zawsze nacisnąć {1} w celu wyłączenia trybu dostępności. Pamiętaj jednak żeby ponownie nacisnąć {1} aby odzyskać kontrolę nad grą	0=Esc key 1=F8 key
@@ -52,9 +55,6 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	Dziewiąty
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	Dziesiąty	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	A	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	I	Optional. Overrides the I key to be read as eye by TTS
 
 ACCESSIBILITY_READ_CARD_COST	{0} many	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -419,7 +419,6 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Wybierz bohatera
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Wciśnij {0} aby rozpocząć lub {1} aby powrócić do menu głównego	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Przygoda	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CHOOSE_ADVENTURER_TITLE	Wybierz bohatera	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Przygoda	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Graj	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Zapoznaj się z talią	
@@ -437,10 +436,24 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NOR
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Ekspercki	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Zanim będziesz mógł zmierzyć się z eksperckimi przeciwnikami, musisz najpierw pokonać wszystkich normalnych przeciwników	
 
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_TITLE	Wybierz swojego przeciwnika	
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Nie pokonany	0=class name e.g. Undefeated {Demon Hunter}
 
 ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Wybierz talię	
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Przeglądaj kolekcję	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edytuj talię	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	usuń talię	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Posiadasz {0} z {1} kart	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Wciśnij {0} aby utworzyć talię przy użyciu tego szablonu. Wciśnij {1} aby wybrać inny szablon	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Wciśnij {0} aby utworzyć własną talię lub {1} aby użyć gotowego szablonu	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Dodaj karty	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Przejrzyj talię	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Twoja talia jest pusta	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Talia zawiera {0} z {1} kart	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Użyj klawiszy strzałek aby przeczytać swoją kolekcję. Wciśnij {0} aby przeskakiwać pomiędzy klasami	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Wciśnij {0} aby dodawać karty do swojej talii	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Wciśnij {0} aby usuwać karty ze swojej talii	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Wprowadź nową nazwę dla swojej talii	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Postęp zadania	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Aktualny postęp to {0} z {1}	0=current progress 1=total
@@ -577,25 +590,5 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	Podczas tej fazy możesz wy
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Użyj klawiszy strzałek lub klawisza {0} aby przemieszczać się po kartach znajdujących się w twojej ręce	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Jeżeli odnajdziesz nie potrzebną ci kartę, wciśnij {0} aby oznaczyć ją do zamiany. Jeżeli jednak zmienisz zdanie, ponowne wciśnięcie {0} odznaczy kartę	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Gdy już oznaczysz wszystkie karty do zamiany, wciśnij {0} aby jej dokonać i rozpocząć grę	0=Enter key
-ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Wciśnij {0} aby powrócić	0=key e.g. Press backspace to go back
-ACCESSIBILITY_LIST_NO_ITEMS	Brak elementów	
-ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Jakość obrazu	
-ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Rozdzielczość obrazu	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Użyj klawiszy strzałek w lewo i w prawo aby dostosować głośność	
-ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} pole wyboru	0=checkbox name e.g. {Fullscreen} checkbox
-ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Zaznaczone	
-ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Nie zaznaczone	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Przeglądaj kolekcję	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edytuj talię	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	usuń talię	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Posiadasz {0} z {1} kart	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Wciśnij {0} aby utworzyć talię przy użyciu tego szablonu. Wciśnij {1} aby wybrać inny szablon	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Wciśnij {0} aby utworzyć własną talię lub {1} aby użyć gotowego szablonu	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Dodaj karty	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Przejrzyj talię	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Twoja talia jest pusta	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Talia zawiera {0} z {1} kart	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Użyj klawiszy strzałek aby przeczytać swoją kolekcję. Wciśnij {0} aby przeskakiwać pomiędzy klasami	0=Tab key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Wciśnij {0} aby dodawać karty do swojej talii	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Wciśnij {0} aby usuwać karty ze swojej talii	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Wprowadź nową nazwę dla swojej talii	
+
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
