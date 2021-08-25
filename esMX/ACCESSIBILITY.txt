@@ -9,6 +9,8 @@ ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Presiona {0} cuando hayas terminado	0=key e.g.
 
 ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Utiliza las flechas arriba y abajo para desplazarte por el menú. Presiona {0} para seleccionar una opción	0=Enter key
 ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Utiliza las flechas arriba y abajo para desplazarte por el menú. Presiona {0} para seleccionar una opción o {1} para volver atrás	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Utiliza las flechas izquierda y derecha para desplazarte por el menú. Utiliza las flechas arriba y abajo para leer las opciones. Presiona {0} para seleccionar una opción	0=Enter key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Utiliza las flechas izquierda y derecha para desplazarte por el menú. Utiliza las flechas arriba y abajo para leer las opciones. Presiona {0} para seleccionar una opción o {1} para volver atrás	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} de {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menú de opciones	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
@@ -419,7 +421,7 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Esperando que termine 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Utiliza las flechas para ver tus cartas	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	No puedes ver tu mazo en esta aventura	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	¡Aventura completada!	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGEEstás en el oponente {0} de {1}	0=current opponent number 1=number of opponents
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Estás en el oponente {0} de {1}	0=current opponent number 1=number of opponents
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Elige una aventura	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Libro de los héroes	

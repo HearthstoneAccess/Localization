@@ -1,6 +1,6 @@
 TAG	TEXT	COMMENT
 ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Bienvenido a Hearthstone	
-	
+
 ACCESSIBILITY_PRESS_KEY_TO_START	Pulsa {0} para iniciar	0=key e.g. Press Enter to start
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Pulsa {0} para continuar	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Pulsa {0} para finalizar	0=key e.g. Press Enter to finish
@@ -9,10 +9,13 @@ ACCESSIBILITY_PRESS_KEY_ONCE_DONE	pulsa {0} una vez que hayas terminado	0=key e.
 
 ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Utiliza las flechas arriba y abajo para navegar por el menú. Pulsa {0} para seleccionar una opción	0=Enter key
 ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Utiliza las flechas arriba y abajo para navegar por el menú. Pulsa {0} para seleccionar una opción. Pulsa {1} para regresar	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Utiliza las flechas izquierda y derecha para navegar por el menú. Utiliza las flechas arriba y abajo para leer las opciones. Pulsa {0} para seleccionar una opción	0=Enter key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Utiliza las flechas izquierda y derecha para navegar por el menú. Utiliza las flechas arriba y abajo para leer las opciones. Pulsa {0} para seleccionar una opción o {1} para regresar	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} de {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menú de opciones	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú de opciones. Inténtalo ahora!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key 
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando juego	
@@ -549,7 +552,7 @@ ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	A partir de este momento, tu héroe
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Cada héroe tiene su propio poder de héroe, que puede ser  usado una vez por turno.	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Siempre puedes pulsar {0} para ver tu poder de héroe y {1} para ver el de tu oponente	0=hero power key 1=opponent hero power key
 
-	ACCESSIBILITY_TUTORIAL05_HELP_03	Esta pelea es totalmente injusta. Culpa a los terribles diseñadores del juego	
+ACCESSIBILITY_TUTORIAL05_HELP_03	Esta pelea es totalmente injusta. Culpa a los terribles diseñadores del juego	
 ACCESSIBILITY_TUTORIAL05_HELP_04	¡Tus esbirros con la habilidad provocar pueden protegerte de los ataques!	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Parece que tu oponente equipó un arma.	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Las armas son cartas especiales que pueden ser equipadas por los héroes.	
