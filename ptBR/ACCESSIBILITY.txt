@@ -480,7 +480,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Seu próximo e último oponente é Illidan T
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Eu vou te ensinar como jogar através de um conjunto de seis tutoriais	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Se você se sentir desorientado, pressione {0}. Mesmo depois do tutorial ou ao navegar pelos menus, você sempre pode pressionar {0} quando precisar de ajuda	0=F1 key
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END Isso aí, vamos em frente	
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Isso aí, vamos em frente	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aqui está um pacote básico de cartas de Mago para você começar. Pressione {0} para abri-lo	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	Bom trabalho	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	Belo trabalho	
