@@ -339,7 +339,6 @@ ACCESSIBILITY_UI_UNKNOWN_DIALOG	Esta caixa de diálogo ainda não está acessív
 
 ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Pop-up de alerta	
 
-ACCESSIBILITY_UI_REWARD_SCROLL_TITLE	Você terminou uma missão	
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use as setas direcionais para ver suas recompensas	
 
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Você tem {0} |4(missão,missões)	0=number of quests

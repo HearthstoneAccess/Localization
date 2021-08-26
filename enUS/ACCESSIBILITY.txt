@@ -339,7 +339,6 @@ ACCESSIBILITY_UI_UNKNOWN_DIALOG	This dialog hasn't been made accessible yet. Ple
 
 ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Alert Popup	
 
-ACCESSIBILITY_UI_REWARD_SCROLL_TITLE	You finished a quest	
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use the arrow keys to go through your rewards	
 
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	You have {0} |4(quest,quests)	0=number of quests

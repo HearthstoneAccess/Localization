@@ -339,7 +339,6 @@ ACCESSIBILITY_UI_UNKNOWN_DIALOG	Este diálogo aún no es accesible. Por favor, s
 
 ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Alerta	
 
-ACCESSIBILITY_UI_REWARD_SCROLL_TITLE	¡Has completado una misión!	
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Utiliza las flechas para ver tus recompensas	
 
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Tienes {0} |4(misión,misiones)	0=number of quests

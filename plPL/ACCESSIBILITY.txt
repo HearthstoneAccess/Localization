@@ -339,7 +339,6 @@ ACCESSIBILITY_UI_UNKNOWN_DIALOG	To okno dialogowe nie posiada jeszcze modułu do
 
 ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Informacja	
 
-ACCESSIBILITY_UI_REWARD_SCROLL_TITLE	Wykonałeś zadanie	
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Użyj klawiszy strzałek aby nawigować po otrzymanych nagrodach	
 
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	masz {0}|4(zadanie,zadania,zadań) do wykonania	0=number of quests
