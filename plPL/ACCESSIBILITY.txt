@@ -106,7 +106,7 @@ ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Zaczynasz z {0} |4(kartą,kartami)
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Wyciągnąłeś {0} z talii	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Przeciwnik wyciągnął {0} ze swojej talii	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Odrzuciłeś {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Przeciwnik odrzucił{0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Przeciwnik odrzucił {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	Otrzymałeś monetę	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Oczekiwanie na przeciwnika	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Przywołaj??	
@@ -245,6 +245,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	{0} {1} twojego pr
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	Dobyłeś 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	Przeciwnik dobył 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	Twój bohater zmienił się w {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	Bohater przeciwnika zmienił się w {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	{0} to nowa moc specjalna twojego bohatera	0=hero power name e.g. your Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	{0} to nowa moc specjalna bohatera przeciwnika	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	Wrócił do twojej ręki	e.g. Your Bloodfen Raptor {returned to your hand}
@@ -263,7 +265,7 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	Karty {0} zosta�
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	Karta {0} została dodana do ręki przeciwnika	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	Karty {0} zostały dodane do ręki przeciwnika	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	Karta {0} została wtasowana do twojej talii	0=card name e.g. 1 {Fireball} was shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	Karty {0}zostały wtasowane do twojej talii	0=card names e.g. {2 Fireball} were shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	Karty {0} zostały wtasowane do twojej talii	0=card names e.g. {2 Fireball} were shuffled into your deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	Karta {0} została wtasowana do talii przeciwnika	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	Karty {0} zostały wtasowane do talii przeciwnika	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	{0} został przywołany na twoją część pola bitwy	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield

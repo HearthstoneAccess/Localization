@@ -99,7 +99,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	¡Tu oponente robó 1 {0} p
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacó a {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} intentó atacar a {1} pero atacó a {2} en su lugar!	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 
-ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Tienes{0} maná	0=mana
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Tienes {0} maná	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Vas primero	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Tu oponente va primero	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Comienzas con {0} |4(carta,cartas)	0=number of cards
@@ -245,8 +245,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	{0} {1} de tu opon
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	tu héroe equipó 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	el héroe de tu oponente equipó 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	tu héroe cambió a {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	el héroe de tu oponente cambió a {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	tu poder de héroe cambió a {0}	0=hero power name e.g. your Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	el poder de héroe de tu oponente cambió a{0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	el poder de héroe de tu oponente cambió a {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	volvió a tu mano	e.g. Your Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	volvieron a tu mano	e.g. Your 2 Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	volvió a la mano de tu oponente	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
@@ -299,7 +301,7 @@ ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Pulsa {0} para ver los esbirros q
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	pulsa {0} para ver los esbirros de tu oponente	0=g key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	pulsa {0} para ver tus secretos	0=s key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	pulsa {0} para ver los secretos colocados de tu oponente	0=Shift+s keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	pulsa{0} para ver tu arma	0=w key
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	pulsa {0} para ver tu arma	0=w key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	pulsa {0} para ver el arma de tu oponente	0=Shift+w keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	pulsa {0} para ver tu poder de héroe	0=r key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	pulsa {0} para ver el poder de héroe de tu oponente	0=Shift+r keys

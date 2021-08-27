@@ -245,6 +245,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Your opponent's {0
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	your Hero equipped 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	your opponent's Hero equipped 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	your Hero became {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	your opponent's Hero became {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	your Hero Power became {0}	0=hero power name e.g. your Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	your opponent's Hero Power became {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	returned to your hand	e.g. Your Bloodfen Raptor {returned to your hand}
