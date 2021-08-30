@@ -15,7 +15,7 @@ ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} de {2}	0=option name 1=option number 2=
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menú de opciones	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú de opciones. Inténtalo ahora!	0=Esc key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú del juego. Inténtalo ahora!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key 
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando juego	
