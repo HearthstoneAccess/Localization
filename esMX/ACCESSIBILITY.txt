@@ -380,7 +380,7 @@ ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas: 1 {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paquete de recompensa	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 sobre de cartas	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 paquete de cartas	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 carta	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 dorso de carta	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 montura	
@@ -390,7 +390,7 @@ ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(boleto,boletos)	0=number of tickets
 ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Miniset con {0} cartas	0=number of cards
 ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} orbes arcanos	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvo arcano	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(sobre de cartas,sobres de cartas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(paquete de cartas,paquetes de cartas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 carta de {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
 ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) de 1 carta de clase {1} del conjunto esencial	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
@@ -403,7 +403,7 @@ ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=am
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Boleto para la arena,Boletos para la arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras rúnicas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Boleto para la pelea de taberna,Boletos para la pelea de taberna)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Boleto para la gresca,Boletos para la gresca)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(moneda personalizada,monedas personalizadas)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Miniset,Minisets)	0=amount
@@ -479,7 +479,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	¡Tu último oponente es Illidan Tempestira!
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar de manera práctica, a través de seis partidas que funcionarán como un tutorial	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si en algún momento no sabes cómo proceder, presiona {0}. Siempre puedes usar {0} cuando necesites ayuda, incluso luego de haber temrinado el tutorial.	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Comencemos	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí hay un sobre de cartas básicas de mago con las que podrás comenzar a jugar. Presiona {0} para abrirlo	0=Enter key
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí hay un paquete de cartas básicas de mago con las que podrás comenzar a jugar. Presiona {0} para abrirlo	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	¡Muy bien!	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	¡Perfecto!	
 ACCESSIBILITY_TUTORIAL_NICE_ONE	¡Bien hecho!	
