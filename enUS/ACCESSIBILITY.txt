@@ -35,6 +35,7 @@ ACCESSIBILITY_GLOBAL_CARD	card
 ACCESSIBILITY_GLOBAL_CARD_PLURAL	cards	
 ACCESSIBILITY_GLOBAL_HERO	Hero	
 ACCESSIBILITY_GLOBAL_HERO_POWER	Hero Power	
+ACCESSIBILITY_GLOBAL_SECRET	{0} secret	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Game speed {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	A new version of Hearthstone Access is available. Please run the patcher again whenever possible as it may contain bug fixes	
 
@@ -115,6 +116,8 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Summon at the left?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Summon between {0} and {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Play card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	You still have valid plays. Are you sure?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	You can still attack. Are you sure?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	You can still use your Hero Power. Are you sure?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	You don't have any summoned minions	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Your opponent's Hero can't be attacked	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Your opponent's Hero can't be targeted	

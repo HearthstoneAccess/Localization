@@ -35,6 +35,7 @@ ACCESSIBILITY_GLOBAL_CARD	Carta
 ACCESSIBILITY_GLOBAL_CARD_PLURAL	Cartas	
 ACCESSIBILITY_GLOBAL_HERO	Héroe	
 ACCESSIBILITY_GLOBAL_HERO_POWER	Poder de héroe	
+ACCESSIBILITY_GLOBAL_SECRET	secreto de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidad del juego {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Hay una nueva versión disponible de Hearthstone Access. Ejecuta el parche de nuevo siempre que sea posible, ya que puede contener correcciones de errores u otras novedades.	
 
@@ -115,6 +116,8 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	¿Invocar a la izquierda?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	¿Invocar entre {0} y {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	¿Jugar carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Aún tienes jugadas válidas. ¿Estás seguro?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Aún puedes atacar. ¿Estás seguro?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Aún puedes usar tu poder de héroe. ¿Estás seguro?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	No tienes esbirros invocados	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	El héroe de tu oponente no puede ser atacado	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	El héroe de tu oponente no puede ser el objetivo	
