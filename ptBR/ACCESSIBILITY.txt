@@ -39,6 +39,9 @@ ACCESSIBILITY_GLOBAL_SECRET	segredo de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidade do jogo {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Uma nova versão do Hearthstone Access está disponível. Execute o patcher novamente sempre que possível, pois pode conter correções de bugs	
 
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Acessibilidade ativada	Read when F8 is pressed and accessibility is turned on
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Acessibilidade desativada	Read when F8 is pressed and accessibility is turned off
+
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
 ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
@@ -81,6 +84,8 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	Você invocou {0}	0=minion name e.
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	Você invocou {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Seu oponente invocou {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Seu oponente invocou {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	Você trocou {0}	0=card name e.g. You traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Seu oponente trocou {0}	0=card name e.g. Your opponent traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Você equippou {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	Você equippou {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Seu oponente equippou {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
@@ -99,6 +104,10 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Você comprou 1 {0} porém a 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Seu oponente comprou 1 {0} porém a carta queimou	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacou {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} tentou atacar {1} mas em vez disso atacou {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Você revelou {1} de custo {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Seu oponente revelou {1} de custo {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Você não tinha nem uma carta para revelar	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Seu oponente não tinha nem uma carta para revelar	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Você tem {0} mana	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	você joga primeiro	
@@ -114,7 +123,8 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Invocar?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Invocar à direita?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Invocar à esquerda?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Innvocar entre {0} e {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
-ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jogar esta carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jogar carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trocar carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Vocè ainda possui jogadas válidas. tem certeza?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Você ainda pode atacar. tem certeza?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Você ainda pode usar seu poder heroico. tem certeza?	
@@ -143,8 +153,8 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Baralho de seu oponente. {0} |4(carta,
 ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Não há mais opções válidas	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Você não tem jogadas válidas	
 
-ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Você venceu	
-ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Você perdeu	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Você venceu!	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Você perdeu...	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	Você empatou	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_GENERIC	Fim de jogo	
 
@@ -224,7 +234,7 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	perderam {0}	0=stats e.
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	{0}	0=entity name e.g. Your {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	seu {0}	0=entity name e.g. Your {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	{0} de seu oponente	0=entity name e.g. Your opponent's {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	{1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	{1} {0} de seu oponente	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
@@ -315,6 +325,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Pressione {0} para ver o mana do 
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use as setas para cima e para baixo para ler esta carta	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Pressione {0} para obter uma descrição da habilidade desta carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Pressione {0} para jogar esta carta	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pressione {0} para trocar esta carta	0=Enter key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Pressione {0} para invocar este lacaio	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use as setas direcionais para percorrer pelas opções. Pressione {0} para escolher	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} ou as teclas dedicadas para navegar pelo seu alvo Pressione {1} para escolher um alvo ou {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key
@@ -457,7 +468,10 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Seu baralho cont
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use as setas para ler suas cartas. Use {0} para pular entre as cartas de cada classe	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pressione {0} para adicionar cartas ao seu baralho	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pressione {0} para remover cartas de seu baralho	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu baralho	
+
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use as setas direcionais e {0} para revelar suas cartas	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Você não possui nem um pacote de cartas	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso da missão	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	O progresso atual é {0} de {1}	0=current progress 1=total
