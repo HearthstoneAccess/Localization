@@ -253,10 +253,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	volvió a tu
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	volvieron a tu mano	e.g. Your 2 Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	volvió a la mano de tu oponente	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	volvieron a la mano de tu oponente	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	ha sido movido desde {0} a {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	han sido movidos desde {0} a {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	ha sido movido a {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	han sido movidos a {0}	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	se movió desde {0} a {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	se movieron desde {0} a {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	se movió a {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	se movieron a {0}	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	moved zones	e.g. Your Bloodfen Raptor {moved zones}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	moved zones	e.g. Your 2 Bloodfen Raptor {moved zones}
 
