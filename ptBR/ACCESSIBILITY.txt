@@ -104,6 +104,10 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Você comprou 1 {0} porém a 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Seu oponente comprou 1 {0} porém a carta queimou	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacou {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} tentou atacar {1} mas em vez disso atacou {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Você revelou {1} de custo {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Seu oponente revelou {1} de custo {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Você não tinha nem uma carta para revelar	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Seu oponente não tinha nem uma carta para revelar	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Você tem {0} mana	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	você joga primeiro	
@@ -464,7 +468,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Seu baralho cont
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use as setas para ler suas cartas. Use {0} para pular entre as cartas de cada classe	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pressione {0} para adicionar cartas ao seu baralho	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pressione {0} para remover cartas de seu baralho	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu baralho	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use as setas direcionais e {0} para revelar suas cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Você não possui nem um pacote de cartas	
