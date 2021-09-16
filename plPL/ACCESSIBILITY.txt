@@ -35,6 +35,7 @@ ACCESSIBILITY_GLOBAL_CARD	Karta
 ACCESSIBILITY_GLOBAL_CARD_PLURAL	Karty	
 ACCESSIBILITY_GLOBAL_HERO	Bohater	
 ACCESSIBILITY_GLOBAL_HERO_POWER	Moc specjalna	
+ACCESSIBILITY_GLOBAL_SECRET	sekret {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	{0} stopień szybkości gry	0=current game speed
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Dostępna jest nowa wersja Hearthstone Access. Proszę uruchomić Patchera w celu dokonania aktualizacji. Krok ten jest szczególnie zalecany gdyż nowa wersja może zawierać ważne poprawki błędów	
 
@@ -115,6 +116,8 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Z lewej strony??
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Pomiędzy {0} a {1}	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Zagraj kartę?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Wciąż masz możliwe zagrania. Czy jesteś pewien??	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Wciąż możesz atakować. Czy jesteś pewien?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Wciąż możesz używać mocy specjalnej swojego bohatera. Czy jesteś pewien?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	Nie ma żadnych stronników	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Bohater przeciwnika nie może zostać zaatakowany	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Bohater przeciwnika nie może zostać wybrany jako cel	
