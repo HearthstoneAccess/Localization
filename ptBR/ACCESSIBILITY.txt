@@ -325,7 +325,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Pressione {0} para ver o mana do 
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use as setas para cima e para baixo para ler esta carta	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Pressione {0} para obter uma descrição da habilidade desta carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Pressione {0} para jogar esta carta	0=Enter key
-ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pressione {0} para trocar esta carta	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pressione {0} para trocar esta carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Pressione {0} para invocar este lacaio	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use as setas direcionais para percorrer pelas opções. Pressione {0} para escolher	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} ou as teclas dedicadas para navegar pelo seu alvo Pressione {1} para escolher um alvo ou {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key

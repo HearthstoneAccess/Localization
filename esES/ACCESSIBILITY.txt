@@ -325,7 +325,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	pulsa {0} para ver el maná de tu
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	utiliza las flechas arriba y abajo para leer esta carta	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	pulsa {0} para obtener una descripción de las habilidades de esta carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	pulsa {0} para jugar esta carta	0=Enter key
-ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pulsa {0} para comerciar esta carta	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pulsa {0} para comerciar esta carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	pulsa {0} para invocar este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Utiliza las flechas para revisar tus opciones. Pulsa {0} para escoger una	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondientes a cada zona para desplazarte por tus posibles objetivos y presiona {1} para seleccionar uno o {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key

@@ -124,7 +124,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	¿Invocar a la derecha?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	¿Invocar a la izquierda?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	¿Invocar entre {0} y {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	¿Jugar carta?	
-ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	¿Intercambiar carta?
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	¿Intercambiar carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Aún tienes jugadas válidas. ¿Seguro quieres finalizar el turno?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Aún puedes atacar. ¿Seguro quieres finalizar el turno?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Aún puedes usar tu poder de héroe. ¿Seguro quieres finalizar el turno?	
@@ -325,7 +325,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Presiona {0} para ver el maná de
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Utiliza las flechas arriba y abajo para ver los detalles de esta carta	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Presiona {0} para ver una descripción de las habilidades de esta carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Presiona {0} para jugar esta carta	0=Enter key
-ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Presiona {0} para intercambiar esta carta	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Presiona {0} para intercambiar esta carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Presiona {0} para invocar este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Utiliza las flechas para desplazarte por tus opciones y presiona {0} para seleccionar una	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondientes a cada zona para desplazarte por tus posibles objetivos y presiona {1} para seleccionar uno o {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key
@@ -470,7 +470,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Utiliza {0} para
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Utiliza {0} para eliminar cartas del mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Escribe un nuevo nombre para el mazo	
 
-ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKSOPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes paquetes de cartas	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Progreso de la misión	
