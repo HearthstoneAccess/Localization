@@ -104,8 +104,8 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	¡robaste 1 {0} pero se quem�
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	¡Tu oponente robó 1 {0} pero se quemó!	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacó a {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} intentó atacar a {1} pero atacó a {2} en su lugar!	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Revelaste a {1} de coste {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Tu oponente reveló a {1} de coste {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Revelaste {1} de coste {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Tu oponente reveló {1} de coste {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	No te quedaban cartas para revelar	
 ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	A tu oponente no le quedaban cartas para revelar	
 
