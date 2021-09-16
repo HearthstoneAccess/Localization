@@ -39,6 +39,9 @@ ACCESSIBILITY_GLOBAL_SECRET	sekret {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	{0} stopień szybkości gry	0=current game speed
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Dostępna jest nowa wersja Hearthstone Access. Proszę uruchomić Patchera w celu dokonania aktualizacji. Krok ten jest szczególnie zalecany gdyż nowa wersja może zawierać ważne poprawki błędów	
 
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Włączono tryb dostępności	Read when F8 is pressed and accessibility is turned on
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Wyłączono tryb dostępności	Read when F8 is pressed and accessibility is turned off
+
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
 ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
@@ -81,6 +84,8 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	Przywołałeś {0}	0=minion name e
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	Przywołałeś {0}. {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Przeciwnik przywołał {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Przeciwnik przywołał {0}. {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	Wymieniłeś {0}	0=card name e.g. You traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Przeciwnik wymienił {0}	0=card name e.g. Your opponent traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Dobyłeś {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	Dobyłeś {0}. {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Przeciwnik dobył {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
@@ -99,6 +104,10 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Wyciągnąłeś 1 {0} ale kar
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Przeciwnik wyciągnął 1 {0} ale karta spłonęła	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} zaatakował {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} spróbował zaatakować {1} ale {2} został zaatakowany zamiast niego	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Odkryłeś {1} o koszcie {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Przeciwnik odkrył {1} o koszcie {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Nie miałeś żadnej poprawnej karty do odkrycia	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Przeciwnik nie miałżadnej poprawnej karty do odkrycia	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	{0} many	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Zaczynasz jako pierwszy	
@@ -115,6 +124,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Z prawej strony??
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Z lewej strony??	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Pomiędzy {0} a {1}	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Zagraj kartę?	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Wymienić kartę?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Wciąż masz możliwe zagrania. Czy jesteś pewien??	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Wciąż możesz atakować. Czy jesteś pewien?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Wciąż możesz używać mocy specjalnej swojego bohatera. Czy jesteś pewien?	
@@ -315,6 +325,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Wciśnij {0} aby przeczytać licz
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Użyj klawiszy strzałek w górę i w dół aby przeczytać tę kartę	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Wciśnij {0} aby uzyskać informacje o dodatkowych możliwościach tej karty	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Wciśnij {0} aby zagrać tę kartę	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Wciśnij {0} aby wymienić tę kartę	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Wciśnij {0} aby przywołać tego stronnika	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Użyj klawiszy strzałek aby przemieszczać się po dostępnych opcjach. Wciśnij {0} aby aktywować jedną z nich	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Użyj klawisza {0} lub klawiszy stref aby nawigować po swoich celach. Naciśnij {1} aby zaatakować jeden z nich, lub {2} aby anulować	0=Tab key 1=Enter key 2=Backspace key
@@ -458,6 +469,9 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Użyj klawiszy strz
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Wciśnij {0} aby dodawać karty do swojej talii	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Wciśnij {0} aby usuwać karty ze swojej talii	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Wprowadź nową nazwę dla swojej talii	
+
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Użyj klawiszy strzałek i {0} aby odkrywać swoje karty	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Nie posiadasz żadnych pakietów kart	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Postęp zadania	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Aktualny postęp to {0} z {1}	0=current progress 1=total
