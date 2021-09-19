@@ -251,7 +251,7 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Przyjazne jednostki	e.g. {
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Pozostałe przyjazne jednostki	e.g. {Your other friendly characters} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Stronnicy przeciwnika	e.g. {Your opponent's minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Pozostali stronnicy przeciwnika	e.g. {Your other opponent's minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	 Twoistronnicy	e.g. {Your minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	 Twoi stronnicy	e.g. {Your minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Twoi pozostali stronnicy	e.g. {Your other minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	{0} twoich {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	{0} {1} twojego przeciwnika	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
