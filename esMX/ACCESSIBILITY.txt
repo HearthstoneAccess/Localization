@@ -24,6 +24,7 @@ ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Verificada
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	No verificada	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Presiona {0} en cualquier momento para abrir el menú del juego. ¡Inténtalo!	0=Esc key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Presiona {0} en cualquier momento para abrir el panel social. ¡Inténtalo!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Presiona {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad presionando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda presionar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando el juego	
@@ -37,7 +38,8 @@ ACCESSIBILITY_GLOBAL_HERO	Héroe
 ACCESSIBILITY_GLOBAL_HERO_POWER	Poder de Héroe	
 ACCESSIBILITY_GLOBAL_SECRET	secreto de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidad de juego: {0}	0=current game speed
-ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Se encuentra disponible una nueva versión de Hearthstone Access. Ejecuta el parcheador cuando te sea posible, ya que puede contener soluciones a errores	
+ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	No es possible ajustar la velocidad del juego mientras juegas contra oponentes humanos	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Se encuentra disponible una nueva versión de Hearthstone Access. Ejecuta el parcheador cuando te sea posible, ya que puede contener soluciones a errores o otras novedades	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accesibilidad activada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accesibilidad desactivada	Read when F8 is pressed and accessibility is turned off
@@ -133,6 +135,8 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	El héroe de tu oponen
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	El héroe de tu oponente no puede ser seleccionado como objetivo	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Ninguno de tus esbirros puede atacar al héroe de tu oponente	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Selecciona un objetivo	
+ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} segundos restantes	0=number of seconds - always plural e.g. {20} seconds remaining
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Estás jugando contra {0} ({1})	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	Tu mano está vacía	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	No tienes esbirros en el campo	
@@ -393,6 +397,18 @@ ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} misión de experiencia	0=xp rewarded 
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas: 1 {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Alcanzaste el nivel {0}	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Ganaste {0} XP	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Ganaste {0} XP por completar una misión	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Actualmente eres {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Ahora eres {0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	Tienes {0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Ganaste {0} |4(estrella,estrellas)	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Perdiste {0} |4(estrella,estrellas)	0=number of stars lost e.g. You've lost {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonificación de estrellas por {0}!	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonificación de racha de victorias por {0}!	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paquete de recompensa	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 paquete de cartas	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 carta	
@@ -423,6 +439,12 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Miniset,Minisets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Skin de héroe para los campos de batalla,Skins de héroe para los campos de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Skin de guía para los campos de batalla,Skins de guía para los campos de batalla)	0=amount
+
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
+ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} dice: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Le dices a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
@@ -472,6 +494,10 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Escribe un 
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes paquetes de cartas	
+
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} ode {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Progreso de la misión	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Llevas {0} de {1}	0=current progress 1=total

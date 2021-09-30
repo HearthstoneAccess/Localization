@@ -24,7 +24,7 @@ ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Verificada
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	No verificada	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú del juego. ¡Inténtalo ahora!	0=Esc key
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Pulsa {0} en cualquier momento para abrir el menú de social. ¡Inténtalo ahora!	0=F4 key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Pulsa {0} en cualquier momento para abrir el panel social. ¡Inténtalo ahora!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key 
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando juego	
@@ -440,10 +440,10 @@ ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para el héroe del campo de batalla,skins para el héroe del campo de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para el guía del campo de batalla,skins para el guía del campo de batalla)	0=amount
 
-ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel social	
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
-ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Mensaje de {0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
-ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Mensaje a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} dice: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Le dices a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
