@@ -18,7 +18,7 @@ ACCESSIBILITY_LIST_NO_ITEMS	Não ha items
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menu de Opções	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Qualidade dos gráficos	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Resolução dos gráficos	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use the Use as setas esquerda e direita para ajustar o volume	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use as setas esquerda e direita para ajustar o volume	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} Caixa de verificação	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Marcada	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Não marcada	
@@ -361,10 +361,10 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Pop-up de alerta
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use as setas direcionais para ver suas recompensas	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Você tem {0} |4(missão,missões)	0=number of quests
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use as setas direcionais para ler suas missões	
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Você tem {0} |4(quest,quests)	0=number of quests
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use as setas direcionais para ler seus quests	
 
-ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use as setas direcionais para ler o seu |4(missão,missões)	
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use as setas direcionais para ler o seu |4(quest,quests)	
 
 ACCESSIBILITY_UI_REWARD_TITLE	Você recebeu uma recompensa!	
 ACCESSIBILITY_UI_REWARD_HELP	Use as setas direcionais para ler a recompensa	
@@ -393,7 +393,7 @@ ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Você recebeu uma recompensa por classifi
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Você ganhou {0} |4(pacote de recompensa,pacotes de recompensa)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use as setas direcionais e {0} para abrir suas recompensas	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP missão	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	quest de {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
@@ -499,15 +499,15 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Ler ranking atual
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrela,estrelas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificação de estrelas	0=current star bonus e.g. {2} star bonus
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso da missão	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso do quest	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	O progresso atual é {0} de {1}	0=current progress 1=total
 
-ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou uma missão	
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou um quest	
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Carregando o tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bem-vindo de volta ao tutorial	
 ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Você derrotou Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Você derrotou Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Você derrotou Millhouse benevento	
 ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Você derrotou o Andarilho das lendas Cho	
 ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Você derrotou derrotou o Rei Mukla	
 ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Você derrotou Hemet Nesingwary	
