@@ -398,11 +398,11 @@ ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas: 1 {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Alcanzaste el nivel {0}	0=track reward level e.g. You've reached level {3}
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Ganaste {0} XP	0=XP gained e.g. You've gained {50} XP
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Ganaste {0} XP por completar una misión	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Ganaste {0} puntos de experiencia	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Ganaste {0} puntos de experiencia por completar una misión	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Actualmente eres {0}	0=rank name e.g. You are currently Bronze 10
-ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Ahora eres {0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Actualmente estás en {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Ahora estás en {0}	0=rank name e.g. You are now Diamond 1
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	Tienes {0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
 ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Ganaste {0} |4(estrella,estrellas)	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Perdiste {0} |4(estrella,estrellas)	0=number of stars lost e.g. You've lost {1} star

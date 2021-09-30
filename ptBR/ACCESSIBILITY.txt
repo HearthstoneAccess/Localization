@@ -39,7 +39,7 @@ ACCESSIBILITY_GLOBAL_HERO_POWER	Poder heroico
 ACCESSIBILITY_GLOBAL_SECRET	segredo de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidade do jogo {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Você não pode mudar a velocidade do jogo enquanto joga contra oponentes humanos	
-ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Uma nova versão do Hearthstone Access está disponível. Execute o patcher novamente sempre que possível, pois pode conter correções de bugs	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Uma nova versão do Hearthstone Access está disponível. Execute o patcher novamente sempre que possível, pois pode conter correções de bugs e algumas novidades	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Acessibilidade ativada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Acessibilidade desativada	Read when F8 is pressed and accessibility is turned off
