@@ -388,8 +388,6 @@ ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Utiliza las flechas para leer las cartas.
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	cofre de recompensa	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pulsa {0} para abrir tu cofre de recompensa	0=Enter key
 
-ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Obtuviste una recompensa de ranking, pero el modo de ranking no es accesible aún	
-
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Obtuviste {0} |4(Paquete de recompensa,Paquetes de recompensa)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Utiliza las  flechas y {0} para abrir tus recompensas	0=Enter key
 
@@ -474,8 +472,6 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXP
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Debes derrotar a todos los oponentes en modo normal para desbloquear el modo experto.	
 
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	No derrotado	
-
-ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Elige tu mazo	
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Ver colección	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Editar mazo	

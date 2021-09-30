@@ -388,8 +388,6 @@ ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use the arrow keys to read the cards
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Rewards chest popup	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Press {0} to open your rewards chest	0=Enter key
 
-ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	You got a ranked reward but ranked mode is not accessible yet	
-
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	You got {0} |4(reward package,reward packages)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use the arrow keys and {0} to open your rewards	0=Enter key
 
