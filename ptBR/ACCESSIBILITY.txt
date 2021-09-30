@@ -18,12 +18,13 @@ ACCESSIBILITY_LIST_NO_ITEMS	Não ha items
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menu de Opções	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Qualidade dos gráficos	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Resolução dos gráficos	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use the Use as setas esquerda e direita para ajustar o volume	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use as setas esquerda e direita para ajustar o volume	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} Caixa de verificação	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Marcada	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Não marcada	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menu Principal	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pressione {0} em qualquer momento para abrir o menu do jogo. Tente isso agora!	0=Esc key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Pressione {0} em qualquer momento para abrir o painel social. Tente isso agora!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pressione {0} em qualquer momento se você se sentir desorientado. Se você precisar de ajuda de uma pessoa convencional, você pode sempre pressionar {1} para desativar o modo de acessibilidade e deixar ela controlar o jogo usando o mouse como de costume. Lémbresse somente de pressionar {1} assim que ela terminar para reativar o modo de acessibilidade	0=Esc key 1=F8 key
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Carregando o jogo	
@@ -31,13 +32,14 @@ ACCESSIBILITY_GLOBAL_CLOSING_GAME	Fechando o jogo
 ACCESSIBILITY_GLOBAL_GAME_LOADED	Jogo carregado	
 ACCESSIBILITY_GLOBAL_LOADING	Carregando	
 ACCESSIBILITY_GLOBAL_PLEASE_WAIT	Porfavor espere	
-ACCESSIBILITY_GLOBAL_CARD	carta	
-ACCESSIBILITY_GLOBAL_CARD_PLURAL	cartas	
+ACCESSIBILITY_GLOBAL_CARD	card	
+ACCESSIBILITY_GLOBAL_CARD_PLURAL	cards	
 ACCESSIBILITY_GLOBAL_HERO	Herói	
 ACCESSIBILITY_GLOBAL_HERO_POWER	Poder heroico	
 ACCESSIBILITY_GLOBAL_SECRET	segredo de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidade do jogo {0}	0=current game speed
-ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Uma nova versão do Hearthstone Access está disponível. Execute o patcher novamente sempre que possível, pois pode conter correções de bugs	
+ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Você não pode mudar a velocidade do jogo enquanto joga contra oponentes humanos	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Uma nova versão do Hearthstone Access está disponível. Execute o patcher novamente sempre que possível, pois pode conter correções de bugs e algumas novidades	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Acessibilidade ativada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Acessibilidade desativada	Read when F8 is pressed and accessibility is turned off
@@ -98,21 +100,21 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Você conjurou {0}	0=secret name e.g. 
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Você conjurou {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Seu oponente conjurou 1 segredo de {0}	0=secret class e.g. Your opponent cast 1 {mage} secret
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Seu oponente conjurou {0} secrets	0=number of secrets e.g. Your opponent cast {2} secrets
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Você tentou comprar uma carta de um baralho vazio	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Seu oponente tentou comprar uma carta de um baralho vazio	
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Você comprou 1 {0} porém a carta queimou	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Seu oponente comprou 1 {0} porém a carta queimou	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Você tentou comprar um card de um deck vazio	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Seu oponente tentou comprar um card de um deck vazio	
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Você comprou 1 {0} porém o card queimou	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Seu oponente comprou 1 {0} porém o card queimou	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacou {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} tentou atacar {1} mas em vez disso atacou {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Você revelou {1} de custo {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
 ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Seu oponente revelou {1} de custo {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Você não tinha nem uma carta para revelar	
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Seu oponente não tinha nem uma carta para revelar	
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Você não tinha nem um card para revelar	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Seu oponente não tinha nem um card para revelar	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Você tem {0} mana	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	você joga primeiro	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Seu oponente joga primeiro	
-ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Vocè começa com {0} |4(carta,cartas)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Vocè começa com {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Você comprou {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Seu oponente comprou {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Você descartou {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
@@ -123,8 +125,8 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Invocar?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Invocar à direita?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Invocar à esquerda?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Innvocar entre {0} e {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
-ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jogar carta?	
-ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trocar carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jogar card?	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trocar card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Vocè ainda possui jogadas válidas. tem certeza?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Você ainda pode atacar. tem certeza?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Você ainda pode usar seu poder heroico. tem certeza?	
@@ -133,6 +135,8 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	O herói de seu oponen
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	O herói do seu oponente não pode ser alvejado	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Nenhum dos seus lacaios pode atacar o Herói do seu oponente	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Escolha um alvo	
+ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} segundos restantes	0=number of seconds - always plural e.g. {20} seconds remaining
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Você está jogando contra {0}, ({1})	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	Sua mão está vazia	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	Você não tem lacaios invocados	
@@ -147,9 +151,9 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Seu oponente não tem nem 
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Você tem {0} de {1} mana	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Você tem {0} mana	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Seu oponente tem {0} mana	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mão de seu oponente. {0} |4(carta,cartas)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Baralho. {0} |4(carta,cartas)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Baralho de seu oponente. {0} |4(carta,cartas)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mão de seu oponente. {0} |4(card,cards)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Baralho. {0} |4(card,cards)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Baralho de seu oponente. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Não há mais opções válidas	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Você não tem jogadas válidas	
 
@@ -177,19 +181,19 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	seu campo	e.g. Your Murloc R
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	o campo do seu oponente	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	seus segredos	e.g. Your Ice Block moved from your deck to {your secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	os segredos do seu oponente	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	seu baralho	e.g. Your Fireball moved from {your deck} to your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	o baralho do seu oponente	e.g. Your Fireball moved from your deck to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	seu deck	e.g. Your Fireball moved from {your deck} to your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	o deck do seu oponente	e.g. Your Fireball moved from your deck to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	seu cemitério	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	cemitério do seu oponente	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
 
 ACCESSIBILITY_GAMEPLAY_MULLIGAN	Mulligan	
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	Será substituída	
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Não será substituída	
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Use as setas direcionais para navegar pelas suas cartas iniciais. Use {0} para marcar as cartas que você deseja substituir. Pressione {1} quando você tenha terminado	0=spacebar key 1=Enter key
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Use as setas direcionais para navegar pelos seus cards iniciais. Use {0} para marcar as cartas que você deseja substituir. Pressione {1} quando você tenha terminado	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	O jogo está prestes a começar. Por favor, espere	
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	foi derrotado	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	foram derrotados	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	foi destruido	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	foram destruidos	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	quebrou	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	transformou-se em 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	transformaram-se em 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
@@ -277,10 +281,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} foi adicion
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} foram adicionadas à sua mão	0=card names e.g. {2 Murloc Raider} were added to your hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} foi adicionada à mão de seu oponente	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} foram adicionadas à mão de seu oponente	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} foi adicionada em sua baralha	0=card name e.g. 1 {Fireball} was shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} foram adicionadas em seu baralho	0=card names e.g. {2 Fireball} were shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} foi adicionada no baralho de seu oponente	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} foram adicionadas no baralho de seu oponente	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} foi adicionado em seu deck	0=card name e.g. 1 {Fireball} was shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} foram adicionados em seu deck	0=card names e.g. {2 Fireball} were shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} foi adicionado no deck de seu oponente	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} foram adicionados no deck de seu oponente	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} foi invocado para o seu campo	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} foram invocados para o seu campo	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} foi invocado para o campo do seu oponente	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
@@ -302,14 +306,14 @@ ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	Seu oponente gan
 
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Pressione {0} para ver seu herói	0=v key
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Pressione {0} para ver o herói do seu oponente	0=f key
-ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Use as setas para cima e para baixo para ler as cartas	
+ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Use as setas para cima e para baixo para ler os cards	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	Pressione {0} para atacar este alvo	0=Enter key
 ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	Pressione {0} para invocar este lacaio	0=Enter key
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Seu oponente está jogando	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Pressione {0} ou {1} para finalizar seu turno. Pressione qualquer outra tecla para cancelar	0=enter key 1=e key
 ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Use a tecla {0} para navegar pelas suas opções válidas	0=tab key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Pressione {0} para ver sua mão	0=c key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Pressione {0} para contar as cartas na mão do seu oponente	0=Shift+c keys
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Pressione {0} para contar os cards na mão do seu oponente	0=Shift+c keys
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Pressione {0} para ver seus lacaios invocados	0=b key
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Pressione {0} to para ver os lacaios invocados do seu oponente	0=g key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Pressione {0} para ver seus segredos	0=s key
@@ -318,14 +322,14 @@ ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	Pressione {0} para ver sua arma	0
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Pressione {0} para ver a arma do seu oponente	0=Shift+w keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	Pressione {0} para ver seu poder heroico	0=r key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Pressione {0} para ver o poder heroico do seu oponente	0=Shift+r keys
-ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Pressione {0} para ver a quantidade restante de cartas no seu baralho	0=d key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Pressione {0} para ver a quantidade restante de cartas no baralho do seu oponente	0=Shift+d keys
+ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Pressione {0} para ver a quantidade restante de cards no seu deck	0=d key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Pressione {0} para ver a quantidade restante de cards no deck do seu oponente	0=Shift+d keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Pressione {0} para ver seu mana	0=a key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Pressione {0} para ver o mana do seu oponente	0=Shift+a key
-ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use as setas para cima e para baixo para ler esta carta	
-ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Pressione {0} para obter uma descrição da habilidade desta carta	0=i key
-ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Pressione {0} para jogar esta carta	0=Enter key
-ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pressione {0} para trocar esta carta	0=t key
+ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use as setas para cima e para baixo para ler este card	
+ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Pressione {0} para obter uma descrição da habilidade deste card	0=i key
+ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Pressione {0} para jogar este card	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pressione {0} para trocar este card	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Pressione {0} para invocar este lacaio	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use as setas direcionais para percorrer pelas opções. Pressione {0} para escolher	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} ou as teclas dedicadas para navegar pelo seu alvo Pressione {1} para escolher um alvo ou {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key
@@ -357,10 +361,10 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Pop-up de alerta
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use as setas direcionais para ver suas recompensas	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Você tem {0} |4(missão,missões)	0=number of quests
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use as setas direcionais para ler suas missões	
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Você tem {0} |4(quest,quests)	0=number of quests
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use as setas direcionais para ler seus quests	
 
-ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use as setas direcionais para ler o seu |4(missão,missões)	
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use as setas direcionais para ler o seu |4(quest,quests)	
 
 ACCESSIBILITY_UI_REWARD_TITLE	Você recebeu uma recompensa!	
 ACCESSIBILITY_UI_REWARD_HELP	Use as setas direcionais para ler a recompensa	
@@ -377,9 +381,9 @@ ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Pressione {0} para abrir	0=
 ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	A {0} começou!	0=season name e.g. The {August 2021 season} has begun!
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	Uma nova temporada começou!	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Ganhe {0} jogos nesta temporada para ganhar um baú	0=number of games
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Ganhe {0} jogos nesta temporada para ganhar seu verso de carta	0=number of games
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Ganhe {0} jogos nesta temporada para ganhar seu verso de card	0=number of games
 
-ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use as setas direcionais para ler as cartas	
+ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use as setas direcionais para ler os cards	
 
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Pop-up do baú de recompensas	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pressione {0} para abrir seu baú de recompensas	0=Enter key
@@ -389,31 +393,43 @@ ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Você recebeu uma recompensa por classifi
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Você ganhou {0} |4(pacote de recompensa,pacotes de recompensa)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use as setas direcionais e {0} para abrir suas recompensas	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP missão	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	quest de {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Você alcançou o nível {0}	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Você ganhou {0} XP	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Você ganhou {0} XP por completar uma quest	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Você está atualmente em {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Você agora está em {0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	Você possui {0} de {1} |4(estrela,estrelas)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Você ganhou {0} |4(estrela,estrelas)	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Você perdeu {0} |4(estrela,estrelas)	0=number of stars lost e.g. You've lost {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonificação de estrelas por {0}!	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonificação de vitorias por {0}!	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Pacote de recompensa	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 pacote de cartas	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 carta	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 Verso de carta	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 pacote de cards	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 card	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 Verso de card	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 montaria	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini conjunto	
 ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 recompensa desconhecida	
 ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ingresso,ingressos)	0=number of tickets
-ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini conjunto com {0} cartas	0=number of cards
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini conjunto com {0} cards	0=number of cards
 ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} orbes arcanos	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} pó arcano	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(pacote de cartas,pacotes de cartas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(pacote de cards,pacotes de cards)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} de ouro	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copias) of 1 {1} card	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
 ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copias) of 1 core {1} card	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} dourado	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	Herói {0}	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} herois desbloqueados	0=number of unlocked Heroes 1=total number of Heroes
-ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) carta	0=number of copies
+ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) card	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Skin de herói,Skins de herois)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Verso de carta,Verso cartas)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Verso de card,Verso de cards)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(ingresso para a arena,ingressos para a arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(runa de pedra,runas de pedra)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
@@ -423,6 +439,12 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% de aumento de XP	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(mini conjunto,Mini conjuntos)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para herói dos campos de batalha,skins para herois dos campos de batalha)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para guia dos campos de batalha,skins para guias dos campos de batalha)	0=amount
+
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Painel Social	
+ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado para a área de transferência	
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} disse: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Você diz para {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escreva uma mensagem	
 
 ACCESSIBILITY_SCREEN_GO_BACK	voltar	
 
@@ -436,11 +458,11 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Pressione {0} par
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Tela de aventura	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	menu da aventura	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	jogar	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	ver baralho	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	ver deck	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	retirar-se	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Esperando que a narração termine	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Use as setas direcionais para ler suas cartas	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	Você não pode ler seu baralho nesta aventura	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Use as setas direcionais para ler seus cards	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	Você não pode ler seu deck nesta aventura	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Aventura completada	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Você está no  oponente número {0} de {1}	0=current opponent number 1=number of opponents
 
@@ -453,35 +475,39 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Você
 
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Invicto	
 
-ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Escolha seu baralho	
+ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Escolha seu deck	
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Explorar sua coleção	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Editar baralho	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Apagar baralho	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Você tem {0} de {1} cartas	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pressione {0} para criar um baralho com base neste pre construido ou {1} para escolher outro	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Pressione {0} para criar um baralho personalizado ou {1} para escolher um ja existente	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Adicionar cartas	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver o baralho	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Seu baralho está vazio	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Seu baralho contém {0} de {1} cartas	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use as setas para ler suas cartas. Use {0} para pular entre as cartas de cada classe	0=Tab key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pressione {0} para adicionar cartas ao seu baralho	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pressione {0} para remover cartas de seu baralho	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu baralho	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Editar deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Apagar deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Você tem {0} de {1} cards	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pressione {0} para criar um deck com base neste pre construido ou {1} para escolher outro	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Pressione {0} para criar um deck personalizado ou {1} para escolher um ja existente	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Adicionar cards	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver seu deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Seu deck está vazio	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Seu deck contém {0} de {1} cards	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use as setas para ler seus cards. Use {0} para pular entre os cards de cada classe	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pressione {0} para adicionar cards ao seu deck	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pressione {0} para remover cards do seu deck	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu deck	
 
-ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use as setas direcionais e {0} para revelar suas cartas	0=Enter key
-ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Você não possui nem um pacote de cartas	
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use as setas direcionais e {0} para revelar seus cards	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Você não possui nem um pacote de cards	
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso da missão	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Ler ranking atual	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrela,estrelas)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificação de estrelas	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso do quest	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	O progresso atual é {0} de {1}	0=current progress 1=total
 
-ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou uma missão	
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou um quest	
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Carregando o tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bem-vindo de volta ao tutorial	
 ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Você derrotou Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Você derrotou Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Você derrotou Millhouse benevento	
 ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Você derrotou o Andarilho das lendas Cho	
 ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Você derrotou derrotou o Rei Mukla	
 ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Você derrotou Hemet Nesingwary	
@@ -496,7 +522,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Seu próximo e último oponente é Illidan T
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Eu vou te ensinar como jogar através de um conjunto de seis tutoriais	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Se você se sentir desorientado, pressione {0}. Mesmo depois do tutorial ou ao navegar pelos menus, você sempre pode pressionar {0} quando precisar de ajuda	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Isso aí, vamos em frente	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aqui está um pacote básico de cartas de Mago para você começar. Pressione {0} para abri-lo	0=Enter key
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aqui está um pacote básico de cards de Mago para você começar. Pressione {0} para abri-lo	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	Bom trabalho	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	Belo trabalho	
 ACCESSIBILITY_TUTORIAL_NICE_ONE	Muito bem	
@@ -513,15 +539,15 @@ ACCESSIBILITY_TUTORIAL_GOT_IT	bem isso
 ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	Ainda não! Use seu poder heroico. Pressione {0} para selecioná-lo	0=r key
 
 ACCESSIBILITY_TUTORIAL_HOGGER_START	Seu primeiro oponente é um gnoll chamado Hogger. Você vai jogar como a poderosa maga Jaina Proudmoore	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Use as setas para cima e para baixo para ler primeiro esta carta	
-ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Convoque o lacaio que você acabou de comprar	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Use as setas para cima e para baixo para ler primeiro este card	
+ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Invoque o lacaio que você acabou de comprar	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Use a tecla {0} e as setas direcionais para ler os lacaios do seu oponente	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Quando um turno começa, você sempre começa comprando uma carta de seu baralho. Vamos ver o que Você comprou	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Pressione {0} para ver as cartas em sua mão	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, então ... Esta carta é um lacaio chamado Murloc Saqueador	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Quando um turno começa, você sempre começa comprando um card de seu deck. Vamos ver o que Você comprou	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Pressione {0} para ver os cards em sua mão	0=c key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, então ... Este card é um lacaio chamado Murloc Saqueador	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Lacaios são criaturas que você pode invocar no campo para lutar pelo seu Herói	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Este custa 1 mana para invocar e tem 2 pontos de ataque e 1 de vida	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Vamos começar convocando este lacaio	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Vamos começar invocando este lacaio	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Pressione {0} para fazer isso	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Pressione {0} para confirmar ou {1} para cancelar	0=Enter key 1=Backspace key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Os lacaios devem esperar um turno para atacar assim que forem invocados, então não temos mais nada a fazer	
@@ -579,7 +605,7 @@ ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Pressione {0} a qualquer momento 
 ACCESSIBILITY_TUTORIAL_CHO_1	Este Mandingueiro Vodu  curou o Herói do seu oponente	
 ACCESSIBILITY_TUTORIAL06_HELP_02	Quando os lacaios lutam entre si, os dois tomam dano	
 
-ACCESSIBILITY_TUTORIAL_MUKLA_START	Neste jogo, você verá algumas cartas com habilidades que você nunca viu antes	
+ACCESSIBILITY_TUTORIAL_MUKLA_START	Neste tutorial, você verá alguns cards com habilidades que você nunca viu antes	
 ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Se você se deparar com algo que não entende ao ler um card, como Investida ou Provocar, pressione {0} para obter mais informações	0=i key
 ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Pressione {0} quando estiver pronto para começar	0=Enter key
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Este gorila que seu oponente acabou de invocar tem uma habilidade chamada Provocar	
@@ -593,7 +619,7 @@ ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Você pode sempre pressionar {0} 
 ACCESSIBILITY_TUTORIAL05_HELP_03	Essa luta é totalmente injusta. Culpe os terríveis designers do jogo	
 ACCESSIBILITY_TUTORIAL05_HELP_04	Seus lacaios com provocar podem protegê-lo de ataques!	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Parece que seu oponente equipou uma arma	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Armas são cartas especiais que podem ser equipadas pelos heróis	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Armas são cards especiais que podem ser equipadas pelos heróis	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Cada arma tem pontos de ataque e pontos de durabilidade	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Uma vez equipados, os heróis podem atacar outros personagens durante seu turno	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Seu oponente equipou Glaives de Azzinoth: uma arma com 2 pontos de ataque e 2 de durabilidade	
@@ -604,9 +630,9 @@ ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Ouviu esse som? As armas p
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Assim que alcançam 0 de durabilidade, elas quebram e o Herói não pode mais atacar	
 
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Todo jogo normal começa com a fase mulligan	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	Nesta fase, ambos os jogadores podem substituir cartas em sua mão inicial por cartas aleatórias de seu baralho	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	Nesta fase, ambos os jogadores podem substituir cards em sua mão inicial por cards aleatórias de seu deck	
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Use as setas direcionais ou {0} para passar pela mão inicial	0=Tab key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Se você vir uma carta que não goste, pressione {0} para marcá-lo para substituição	0=Spacebar key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Depois de ter marcado todas as cartas que deseja substituir, pressione {0} para comprar novas e iniciar o jogo	0=Enter key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Se você vir um card que não goste, pressione {0} para marcá-lo para substituição	0=Spacebar key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Depois de ter marcado todos os cards que deseja substituir, pressione {0} para comprar novos e iniciar o jogo	0=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
