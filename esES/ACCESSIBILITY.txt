@@ -496,7 +496,7 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes ningún sobre de cartas	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} ode {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso de la misión	
