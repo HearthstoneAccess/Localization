@@ -443,6 +443,7 @@ ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al porta
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} dice: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Le dices a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensaje	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
