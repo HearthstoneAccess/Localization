@@ -361,7 +361,6 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Pop-up de alerta
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use as setas direcionais para ver suas recompensas	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Você tem {0} |4(quest,quests)	0=number of quests
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use as setas direcionais para ler seus quests	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use as setas direcionais para ler o seu |4(quest,quests)	

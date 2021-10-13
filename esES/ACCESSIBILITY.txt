@@ -361,7 +361,6 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Ventana de alerta
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Utiliza las flechas para revisar tus recompensas	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	Tienes {0} |4(misión,misiones)	0=number of quests
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Usa las flechas para leer tus misiones.	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Utiliza las flechas para leer tus |4(misión,misiones)	
