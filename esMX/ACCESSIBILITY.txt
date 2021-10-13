@@ -378,12 +378,12 @@ ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Reconexión
 ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} ha finalizado. Alcanzaste el rango {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Recibiste un cofre de recompensa	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Presiona {0} para abrirlo	0=Enter key
-ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	¡La {0} ha comenzado!	0=season name e.g. The {August 2021 season} has begun!
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	¡Una nueva temporada ha comenzado!	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	¡Comenzó la {0}	0=season name e.g. The {August 2021 season} has begun!
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	¡Comenzó una nueva temporada!	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Obtén {0} victorias esta temporada para recibir un cofre	0=number of games
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Obtén {0} victorias esta temporada para recibir tu dorso de carta	0=number of games
 
-ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Utiliza las flechas para leer las cartas	
+ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Usa las flechas para leer las cartas	
 
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Cofre de recompensa	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Presiona {0} para abrir tu cofre de recompensa	0=Enter key
@@ -394,6 +394,10 @@ ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Utiliza las flechas y {0} para abrir 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} misión de experiencia	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas: 1 {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Actualmente no tienes ninguna misión	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Presiona {0} para abandonar	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Presiona {0} para cambiar	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Alcanzaste el nivel {0}	0=track reward level e.g. You've reached level {3}
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Ganaste {0} puntos de experiencia	0=XP gained e.g. You've gained {50} XP
@@ -436,7 +440,7 @@ ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(moneda personalizada,monedas perso
 ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Miniset,Minisets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Skin de héroe para los campos de batalla,Skins de héroe para los campos de batalla)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Skin de guía para los campos de batalla,Skins de guía para los campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Skin de tabernero para los campos de batalla,Skins de tabernero para los campos de batalla)	0=amount
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
@@ -444,6 +448,19 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} dice: {1}	0=sender name 1=mess
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Le dices a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensaje	
+
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Ver tu nivel actual	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Recoger {0} |4(recompensa,recompensas)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Ya recogiste todas las recompensas de este nivel	
+
+ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver tu oro actual	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Comprar sobres	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Mini-sets	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leer descripción	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Comprar por {0} de oro	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_READ_CARDS	Ver cartas	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Utiliza las flechas para ver las cartas	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} de oro restante	0=amount e.g. {150} gold remaining
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
@@ -536,9 +553,9 @@ ACCESSIBILITY_TUTORIAL_GOT_IT	¡Lo tienes!
 ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Aún no! Usa tu poder de héroe. Presiona {0} para seleccionarlo	0=r key
 
 ACCESSIBILITY_TUTORIAL_HOGGER_START	Tu primer oponente es un gnoll llamado Hogger. Jugarás como la poderosa maga Jaina Valiente	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Primero utiliza las flechas arriba y abajo para ver los detalles de esta carta	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Primero usa las flechas arriba y abajo para ver los detalles de esta carta	
 ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Primero invoca el esbirro que has obtenido	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Primero utiliza {0} y las flechas para ver los esbirros de tu oponente	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Primero usa {0} y las flechas para ver los esbirros de tu oponente	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Cuando un turno comienza, siempre empiezas robando una carta de tu mazo. Veamos la que conseguimos	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Presiona {0} para ver las cartas de tu mano	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Entonces... esta carta es un esbirro llamado asaltante múrloc	
@@ -560,7 +577,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Ganarás cuando tu oponente se haya quedado si
 ACCESSIBILITY_TUTORIAL_HOGGER_3_7	COntinuemos	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Parece que obtuviste otro esbirro. ¿Puedes invocarlo por tu cuenta?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Utiliza {0} y {1} para invocar a tu esbirro	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Cuando tienes esbirros en el campo puedes utilizar las flechas izquierda y derecha para seleccionar dónde será posicionado el nuevo esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Cuando tienes esbirros en el campo puedes usar las flechas izquierda y derecha para seleccionar dónde será posicionado el nuevo esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Ahora tienes dos esbirros en el campo. A este lo invocaste ahora, por lo que tiene que esperar un turno para atacar	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Aprendamos cómo movernos por el campo	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Utiliza las flechas izquierda y derecha para desplazarte por tus esbirros	
@@ -579,19 +596,19 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Tu otro esbirro aún se encuentra agotado por
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Parece que obtuviste otro esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Eso significa que actualmente tienes dos opciones posibles	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Puedes invocar el esbirro que obtuviste o atacar con el que invocaste el turno anterior	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_4	OneUna forma de hacer esto podría ser utilizar teclas como {0} para ver tu mano o {1} para ver tu campo	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	OneUna forma de hacer esto podría ser usar las teclas como {0} para ver tu mano o {1} para ver tu campo	0=c key 1=b key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_5	Sin embargo, hay una manera más sencilla	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Presiona {0}	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Ahora estás viendo tu primera opción, invocar el esbirro que obtuviste	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Intenta presionar {0} nuevamente	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Ahora estás viendo tu segunda opción, atacar con el esbirro que invocaste el turno anterior	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Siempre puedes utilizar {0} para revisar tus opciones válidas, ¡ten siempre presente la función de esta tecla!	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Siempre puedes usar {0} para revisar tus opciones válidas, ¡ten siempre presente la función de esta tecla!	0=key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Bien. Comencemos invocando el esbirro obtenido	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Utiliza {0} o {1} y {2} para invocar a tu esbirro	0=Tab key 1=c key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Ahora intentemos atacar con nuestro otro esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Utiliza {0} o {1} para llegar a tu esbirro y {2} para atacar	0=Tab key 1=b key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ahora debes tomar otra decisión. Puedes atacar a uno de los esbirros de tu oponente o a su héroe directamente	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puedes utilizar {0} para desplazarte por tus objetivos válidos o seleccionar directamente a quién atacarás con {1} o {2}	0=Tab key 1=g key 2=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puedes usar {0} para desplazarte por tus objetivos válidos o seleccionar directamente a quién atacarás con {1} o {2}	0=Tab key 1=g key 2=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Selecciona un objetivo	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Utiliza {0} y {1} para atacar	0=Tab key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_21	¡Ya podemos finalizar nuestro turno!	
