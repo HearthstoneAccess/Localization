@@ -24,6 +24,7 @@ ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Zaznaczone
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Nie zaznaczone	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menu główne	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Naciśnij {0} w dowolnym momencie aby otworzyć menu gry.	0=Esc key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Wciśnij {0} w dowolnym momencie aby otworzyć menu społecznościowe. Wypróbuj je teraz!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Naciśnij {0} w dowolnym momencie jeżeli potrzebujesz informacji. Jeżeli potrzebujesz pomocy osoby widzącej, możesz zawsze nacisnąć {1} w celu wyłączenia trybu dostępności. Pamiętaj jednak żeby ponownie nacisnąć {1} aby odzyskać kontrolę nad grą	0=Esc key 1=F8 key
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Wczytywanie gry	
@@ -37,6 +38,7 @@ ACCESSIBILITY_GLOBAL_HERO	Bohater
 ACCESSIBILITY_GLOBAL_HERO_POWER	Moc specjalna	
 ACCESSIBILITY_GLOBAL_SECRET	sekret {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	{0} stopień szybkości gry	0=current game speed
+ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Nie możesz dostosowywać szybkości gry podczas gry z żywym przeciwnikiem	
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Dostępna jest nowa wersja Hearthstone Access. Proszę uruchomić Patchera w celu dokonania aktualizacji. Krok ten jest szczególnie zalecany gdyż nowa wersja może zawierać ważne poprawki błędów	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Włączono tryb dostępności	Read when F8 is pressed and accessibility is turned on
@@ -133,6 +135,8 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Bohater przeciwnika ni
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Bohater przeciwnika nie może zostać wybrany jako cel	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Żaden z twoich stronników nie może zaatakować bohatera przeciwnika	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Wybierz cel	
+ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} sekund pozostało	0=number of seconds - always plural e.g. {20} seconds remaining
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Walczysz przeciwko {0} ({1})	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	Twoja ręka jest pusta	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	Nie masz żadnych stronników	
@@ -384,14 +388,24 @@ ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Użyj klawiszy strzałek aby przeczytać k
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Okno skrzyni z nagrodami	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Wciśnij {0} aby otworzyć swoją skrzynię z nagrodami	0=Enter key
 
-ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Zdobyłeś nagrodę sezonową ale tryb rankingowy nie jest jeszcze dostępny	
-
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Zdobyłeś {0} |4(paczkę z nagrodami,paczki z nagrodami,paczek z nagrodami)	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Użyj klawiszy strzałek oraz klawisza {0} aby otwierać swoje nagrody	0=Enter key
 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Zadanie za {0} doświadczenia	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Nagrody: {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Wybierz nagrodę z {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Osiągnąłeś poziom {0}	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Zdobyłeś {0} punktów doświadczenia	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Otrzymałeś {0} punktów doświadczenia za wykonanie zadania	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Twoja aktualna ranga to {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Twoja nowa ranga to {0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	Posiadasz  {0} z {1} |4(gwiazdka,gwiazdki,gwiazdek)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Zdobyłeś {0} |4(gwiazdkę,gwiazdki,gwiazdek)	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Straciłeś {0} |4(gwiazdkę,gwiazdki,gwiazdek)	0=number of stars lost e.g. You've lost {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonus! Będziesz otrzymywał {0} razy więcej gwiazdek	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonus za wielokrotne zwycięstwa! Będziesz otrzymywał {0} razy więcej gwiazdek	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paczka z nagrodami	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	Pakiet kart	
@@ -424,6 +438,13 @@ ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(pomniejszy pakiet,pomniejsze pakiety,
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(portret bohatera,portrety bohaterów,portretów bohaterów) dla trybu ustawki	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skórka,skórki,skórek) przewodnika ustawki	0=amount
 
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Menu społecznościowe	
+ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	Battletag został skopiowany do schowka	
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Wiadomość do {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Wpisz wiadomość	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Wyślij wiadomość	
+
 ACCESSIBILITY_SCREEN_GO_BACK	Wróć	
 
 ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Błąd krytyczny	
@@ -453,8 +474,6 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Zanim
 
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Nie pokonany	0=class name e.g. Undefeated {Demon Hunter}
 
-ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Wybierz talię	
-
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Przeglądaj kolekcję	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edytuj talię	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	usuń talię	
@@ -472,6 +491,10 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Wprowadź n
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Użyj klawiszy strzałek i {0} aby odkrywać swoje karty	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Nie posiadasz żadnych pakietów kart	
+
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Przeczytaj aktualną rangę	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} z {1} |4(gwiazdka,gwiazdki,gwiazdek)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	Bonus na gwiazdki: {0}	0=current star bonus e.g. {2} star bonus
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Postęp zadania	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Aktualny postęp to {0} z {1}	0=current progress 1=total

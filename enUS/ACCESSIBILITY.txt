@@ -361,7 +361,6 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Alert Popup
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use the arrow keys to go through your rewards	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	You have {0} |4(quest,quests)	0=number of quests
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use the arrow keys to read your quests	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use the arrow keys to read your |4(quest,quests)	
@@ -388,14 +387,16 @@ ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use the arrow keys to read the cards
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Rewards chest popup	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Press {0} to open your rewards chest	0=Enter key
 
-ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	You got a ranked reward but ranked mode is not accessible yet	
-
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	You got {0} |4(reward package,reward packages)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use the arrow keys and {0} to open your rewards	0=Enter key
 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP quest	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Rewards {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Rewards 1 of {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	You don't have any quests	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Press {0} to abandon	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Press {0} to reroll	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	You've reached level {0}	0=track reward level e.g. You've reached level {3}
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	You've gained {0} XP	0=XP gained e.g. You've gained {50} XP
@@ -414,10 +415,10 @@ ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 card pack
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 card	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 card back	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 mount	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini set	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini-set	
 ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 unknown reward	
 ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ticket,tickets)	0=number of tickets
-ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini set with {0} cards	0=number of cards
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini-set with {0} cards	0=number of cards
 ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} arcane orbs	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} arcane dust	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(card pack,card packs)	0=amount
@@ -436,7 +437,7 @@ ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Adventure,Adventures)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket,Tavern Brawl tickets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
-ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
+ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
 
@@ -445,6 +446,20 @@ ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copied to clipbo
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Message from {0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Message to {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Type a message	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Send message	
+
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Read current level	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Claim {0} |4(reward,rewards)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed all rewards for this level	
+
+ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
 
 ACCESSIBILITY_SCREEN_GO_BACK	Go back	
 

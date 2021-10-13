@@ -388,8 +388,6 @@ ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use as setas direcionais para ler os cards
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Pop-up do baú de recompensas	
 ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Pressione {0} para abrir seu baú de recompensas	0=Enter key
 
-ACCESSIBILITY_UI_RANKED_REWARD_DISPLAY	Você recebeu uma recompensa por classificação, mas o modo por classificação ainda não está acessível	
-
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Você ganhou {0} |4(pacote de recompensa,pacotes de recompensa)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use as setas direcionais e {0} para abrir suas recompensas	0=Enter key
 
@@ -445,6 +443,7 @@ ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado para a �
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} disse: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Você diz para {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escreva uma mensagem	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensagem	
 
 ACCESSIBILITY_SCREEN_GO_BACK	voltar	
 
@@ -474,8 +473,6 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXP
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Você deve vencer todos os oponentes normais para desbloquear o especialista	
 
 ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Invicto	
-
-ACCESSIBILITY_SCREEN_CHOOSE_DECK_TITLE	Escolha seu deck	
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Explorar sua coleção	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Editar deck	
