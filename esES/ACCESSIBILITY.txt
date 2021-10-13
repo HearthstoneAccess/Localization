@@ -378,7 +378,7 @@ ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Diálogo de reconexión
 ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} ha finalizado. Alcanzaste el rango de {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Has ganado un cofre de recompensas	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Pulsa {0} para abrir	0=Enter key
-ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	La {0} ha comenzado!	0=season name e.g. The {August 2021 season} has begun!
+ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	Ha comenzado la {0}!	0=season name e.g. The {August 2021 season} has begun!
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	¡una nueva temporada ha comenzado!	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Gana {0} juegos esta temporada para recibir un cofre	0=number of games
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Gana {0} juegos esta temporada para ganar tu dorso de carta de temporada	0=number of games
@@ -394,6 +394,10 @@ ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Utiliza las  flechas y {0} para abrir
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Misión de {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Actualmente no tienes ninguna misión	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Pulsa {0} para abandonar	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Pulsa {0} para cambiar	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Has alcanzado el nivel {0}	0=track reward level e.g. You've reached level {3}
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Has ganado {0} puntos de experiencia	0=XP gained e.g. You've gained {50} XP
@@ -431,12 +435,12 @@ ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=am
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Billete para la arena,Billetes para la arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras Rúnicas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Billete para duelo de taberna,Billetes para duelo de taberna)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Passe para duelo de taberna,Passes para duelo de taberna)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(Moneda personalizada,monedas personalizadas)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para el héroe del campo de batalla,skins para el héroe del campo de batalla)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para el guía del campo de batalla,skins para el guía del campo de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para el tabernero del campo de batalla,skins para el tabernero del campo de batalla)	0=amount
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
@@ -444,6 +448,19 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} dice: {1}	0=sender name 1=mess
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Le dices a {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensaje	
+
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Ver tu nivel actual	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Recoger {0} |4(recompensa,recompensas)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Ya has recogido todas las recompensas de este nivel	
+
+ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver tu oro actual	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Comprar sobres	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Mini-sets	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leer descripción	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Comprar por {0} de oro	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_READ_CARDS	Ver cartas	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Utiliza las flechas para ver las cartas	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} de oro restante	0=amount e.g. {150} gold remaining
 
 ACCESSIBILITY_SCREEN_GO_BACK	Atrás	
 
@@ -493,7 +510,7 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes ningún sobre de cartas	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} ode {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso de la misión	
