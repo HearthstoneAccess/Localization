@@ -361,7 +361,6 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Informacja
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Użyj klawiszy strzałek aby nawigować po otrzymanych nagrodach	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_TITLE	masz {0}|4(zadanie,zadania,zadań) do wykonania	0=number of quests
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Użyj klawiszy strzałek aby nawigować po aktualnych zadaniach	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Użyj klawiszy strzałek aby przeczytać swoje |4(zadanie,zadania)	
@@ -394,6 +393,10 @@ ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Użyj klawiszy strzałek oraz klawisz
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Zadanie za {0} doświadczenia	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Nagrody: {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Wybierz nagrodę z {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Nie posiadasz żadnych aktualnie wykonywanych zadań	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Wciśnij {0} aby porzucić zadanie	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Wciśnij {0} aby wylosować nowe  zadania	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Osiągnąłeś poziom {0}	0=track reward level e.g. You've reached level {3}
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Zdobyłeś {0} punktów doświadczenia	0=XP gained e.g. You've gained {50} XP
@@ -444,6 +447,19 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0}: {1}	0=sender name 1=message e
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Wiadomość do {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Wpisz wiadomość	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Wyślij wiadomość	
+
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Przeczytaj aktualny poziom	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Odbierz {0} |4(nagrodę,nagrody,nagród)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Odebrałeś już wszystkie nagrody dla tego poziomu	
+
+ACCESSIBILITY_UI_SHOP_READ_GOLD	przeczytaj ilość złota	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Kup pakiety	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Kup mini-zestawy	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Przeczytaj opis	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Wykup za {0} złota	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_READ_CARDS	Przeczytaj karty	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Użyj klawiszy strzałek aby przeczytać karty	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} złota pozostało	0=amount e.g. {150} gold remaining
 
 ACCESSIBILITY_SCREEN_GO_BACK	Wróć	
 
