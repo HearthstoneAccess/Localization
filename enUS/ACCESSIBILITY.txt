@@ -40,6 +40,9 @@ ACCESSIBILITY_GLOBAL_SECRET	{0} secret	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Game speed {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	You cannot adjust the game speed when playing against Human opponents	
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	A new version of Hearthstone Access is available. Please run the patcher again whenever possible as it may contain bug fixes	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	You cannot do that	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Switch format	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Choose a format	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility on	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility off	Read when F8 is pressed and accessibility is turned off
@@ -61,6 +64,7 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	ninth
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	tenth	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -455,8 +459,12 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed a
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Buy Hero skins	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Buy bundles	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Buy others	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Get for free	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
@@ -501,9 +509,31 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	See deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Your deck is empty	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} of {1} cards in deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use the arrow keys to read your cards. Use {0} to jump between classes.	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Use the number keys to filter your cards by mana. Use {0} to search your collection.	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Use the arrow keys and {0} to read all available coins.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Use the arrow keys and {0} to read all available card backs.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Use the arrow keys and {0} to read all available Hero skins.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Use {0} to add cards to your deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Use {0} to remove cards from your deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Type in a new name for your deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Type in a search term	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} mana filter on	{0} mana crystal filter e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Mana filter off	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Change set	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Favorite Hero Skin set	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Favorite Card Back set	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Favorite Coin set	Spoken after setting a new favorite Coin
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Craft cards	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Read Arcane Dust	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Disenchant {0} extra |4(card,cards) for {1} Arcane Dust	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Read flavor	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Craft for {0} Arcane Dust	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Disenchant for {0} Arcane Dust	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Not enough Arcane Dust	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	You cannot craft any more copies of this card	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Card crafted	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Disenchanted	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use the arrow keys and {0} to reveal your cards	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	You don't have any card packs	
