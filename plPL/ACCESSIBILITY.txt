@@ -40,6 +40,9 @@ ACCESSIBILITY_GLOBAL_SECRET	sekret {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	{0} stopień szybkości gry	0=current game speed
 ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Nie możesz dostosowywać szybkości gry podczas gry z żywym przeciwnikiem	
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Dostępna jest nowa wersja Hearthstone Access. Proszę uruchomić Patchera w celu dokonania aktualizacji. Krok ten jest szczególnie zalecany gdyż nowa wersja może zawierać ważne poprawki błędów	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Nie możesz tego zrobić	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Przełącz format gry	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Wybierz format gry	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Włączono tryb dostępności	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Wyłączono tryb dostępności	Read when F8 is pressed and accessibility is turned off
@@ -61,6 +64,7 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	Dziewiąty
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	Dziesiąty	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	CTRL+{0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} many	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -455,8 +459,12 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Odebrałeś już wszystk
 ACCESSIBILITY_UI_SHOP_READ_GOLD	przeczytaj ilość złota	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Kup pakiety	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Kup mini-zestawy	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Kup bohaterów	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Kup zestawy	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Kup pozostałe elementy	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Przeczytaj opis	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Wykup za {0} złota	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Otrzymaj za darmo	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Przeczytaj karty	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Użyj klawiszy strzałek aby przeczytać karty	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} złota pozostało	0=amount e.g. {150} gold remaining
@@ -501,9 +509,31 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Przejrzyj
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Twoja talia jest pusta	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Talia zawiera {0} z {1} kart	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Użyj klawiszy strzałek aby przeczytać swoją kolekcję. Wciśnij {0} aby przeskakiwać pomiędzy klasami	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Użyj klawiszy rzędu numerycznego aby filtrować karty wedłóg ich kosztu. Wciśnij {0} aby przeszukać swoją kolekcję	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Użyj klawiszy strzałek oraz {0} aby przeczytać wszystkie dostępne monety	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Użyj klawiszy strzałek oraz {0} aby przeczytać wszystkie dostępne rewersy kart	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Użyj klawiszy strzałek oraz {0} aby przeczytać wszystkich dostępnych bohaterów	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Wciśnij {0} aby dodawać karty do swojej talii	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Wciśnij {0} aby usuwać karty ze swojej talii	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Wprowadź nową nazwę dla swojej talii	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Wprowadź termin wyszukiwania	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Ustawiono filtr many na {0}	{0} mana crystal filter e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Wyłączono filtr many	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Zmień zestaw	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Ustawiono ulubionego bohatera	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Ustawiono ulubiony rewers karty	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Ustawiono ulubioną monetę	Spoken after setting a new favorite Coin
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Wytwórz karty	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Przeczytaj ilość tajemnego pyłu	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Odczaruj {0} |4(nadliczbową kartę,nadliczbowe karty,nadliczbowych kart) i otrzymaj za to {1} tajemnego pyłu.	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Przeczytaj opis	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Wytwórz za {0} tajemnego pyłu	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Odczaruj i zyskaj  {0} tajemnego pyłu	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Nie posiadasz wystarczającej ilości tajemnego pyłu	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	Nie możesz wytworzyć większej liczby kopii tej karty	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Karta wytworzona	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Odczarowywanie zakończone	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Użyj klawiszy strzałek i {0} aby odkrywać swoje karty	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Nie posiadasz żadnych pakietów kart	
