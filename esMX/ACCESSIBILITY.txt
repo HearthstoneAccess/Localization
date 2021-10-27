@@ -39,7 +39,10 @@ ACCESSIBILITY_GLOBAL_HERO_POWER	Poder de Héroe
 ACCESSIBILITY_GLOBAL_SECRET	secreto de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidad de juego: {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	No es possible ajustar la velocidad del juego mientras juegas contra oponentes humanos	
-ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Se encuentra disponible una nueva versión de Hearthstone Access. Ejecuta el parcheador cuando te sea posible, ya que puede contener soluciones a errores o otras novedades	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Se encuentra disponible una nueva versión de Hearthstone Access. Ejecuta el parcheador cuando te sea posible, ya que puede contener soluciones a errores y otras novedades	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	No puedes hacer eso	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Cambiar formato de juego	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Elige un formato de juego	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accesibilidad activada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accesibilidad desactivada	Read when F8 is pressed and accessibility is turned off
@@ -61,6 +64,7 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	número 9
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	número 10	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} maná	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -454,9 +458,13 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Ya recogiste todas las r
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver tu oro actual	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Comprar sobres	
-ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Mini-sets	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Minikits	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Comprar skins de héroe	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Comprar conjuntos	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Comprar otros	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leer descripción	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Comprar por {0} de oro	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Obtener gratis	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Ver cartas	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Utiliza las flechas para ver las cartas	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} de oro restante	0=amount e.g. {150} gold remaining
@@ -501,9 +509,31 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver mazo
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	El mazo está vacío	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	El mazo contiene {0} de {1} cartas	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utiliza las flechas para ver tus cartas y {0} para saltar entre clases.	0=Tab key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Utiliza {0} para agregar cartas al mazo	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Utiliza {0} para eliminar cartas del mazo	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utiliza las teclas de número para filtrar tus cartas por coste de maná. Presiona {0} para buscar por tu colección	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utiliza las  flechas y {0} para ver las monedas disponibles	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Utiliza las flechas y {0} para ver los dorsos de cartas disponibles	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Utiliza las flechas y {0} para ver las skins de héroes disponibles	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Presiona {0} para agregar cartas al mazo	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Presiona {0} para eliminar cartas del mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Escribe un nuevo nombre para el mazo	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Escribe un término de búsqueda	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Filtro de coste de {0} maná activado	{0} mana crystal filter e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Filtro de coste de maná desactivado	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Cambiar entre sets	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Se asignó la skin de héroe como favorita	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Se asignó el dorso de carta como favorito	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Se asignó la skin de moneda como favorita	Spoken after setting a new favorite Coin
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Crear cartas	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Ver polvo arcano actual	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Desencantar {0} extra |4(carta,cartas) para obtener {1} de polvo arcano	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Ver descripción	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Crear por {0} de polvo arcano	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Desencantar para obtener {0} de polvo arcano	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	No hay polvo arcano suficiente	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	No puedes crear mas copias de esta carta	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Carta creada	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Carta desencantada	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes paquetes de cartas	
@@ -533,7 +563,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	¡Tu siguiente oponente es Hemet, cazador
 ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	¡Tu último oponente es Illidan Tempestira!	
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar de manera práctica, a través de seis partidas que funcionarán como un tutorial	
-ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si en algún momento no sabes cómo proceder, presiona {0}. Siempre puedes usar {0} cuando necesites ayuda, incluso luego de haber temrinado el tutorial.	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si en algún momento no sabes cómo proceder, presiona {0}. Siempre puedes usar {0} cuando necesites ayuda, incluso luego de haber terminado el tutorial.	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Comencemos	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aquí hay un paquete de cartas básicas de mago con las que podrás comenzar a jugar. Presiona {0} para abrirlo	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	¡Muy bien!	
@@ -552,9 +582,9 @@ ACCESSIBILITY_TUTORIAL_GOT_IT	¡Lo tienes!
 ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Aún no! Usa tu poder de héroe. Presiona {0} para seleccionarlo	0=r key
 
 ACCESSIBILITY_TUTORIAL_HOGGER_START	Tu primer oponente es un gnoll llamado Hogger. Jugarás como la poderosa maga Jaina Valiente	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Primero usa las flechas arriba y abajo para ver los detalles de esta carta	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Primero utiliza las flechas arriba y abajo para ver los detalles de esta carta	
 ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Primero invoca el esbirro que has obtenido	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Primero usa {0} y las flechas para ver los esbirros de tu oponente	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Primero utiliza {0} y las flechas para ver los esbirros de tu oponente	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Cuando un turno comienza, siempre empiezas robando una carta de tu mazo. Veamos la que conseguimos	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Presiona {0} para ver las cartas de tu mano	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Entonces... esta carta es un esbirro llamado asaltante múrloc	
@@ -576,7 +606,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Ganarás cuando tu oponente se haya quedado si
 ACCESSIBILITY_TUTORIAL_HOGGER_3_7	COntinuemos	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Parece que obtuviste otro esbirro. ¿Puedes invocarlo por tu cuenta?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Utiliza {0} y {1} para invocar a tu esbirro	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Cuando tienes esbirros en el campo puedes usar las flechas izquierda y derecha para seleccionar dónde será posicionado el nuevo esbirro	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Cuando tienes esbirros en el campo puedes utilizar las flechas izquierda y derecha para seleccionar dónde será posicionado el nuevo esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Ahora tienes dos esbirros en el campo. A este lo invocaste ahora, por lo que tiene que esperar un turno para atacar	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Aprendamos cómo movernos por el campo	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Utiliza las flechas izquierda y derecha para desplazarte por tus esbirros	
@@ -595,19 +625,19 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Tu otro esbirro aún se encuentra agotado por
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Parece que obtuviste otro esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Eso significa que actualmente tienes dos opciones posibles	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Puedes invocar el esbirro que obtuviste o atacar con el que invocaste el turno anterior	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_4	OneUna forma de hacer esto podría ser usar las teclas como {0} para ver tu mano o {1} para ver tu campo	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	OneUna forma de hacer esto podría ser utilizar las teclas como {0} para ver tu mano o {1} para ver tu campo	0=c key 1=b key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_5	Sin embargo, hay una manera más sencilla	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Presiona {0}	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Ahora estás viendo tu primera opción, invocar el esbirro que obtuviste	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Intenta presionar {0} nuevamente	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Ahora estás viendo tu segunda opción, atacar con el esbirro que invocaste el turno anterior	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Siempre puedes usar {0} para revisar tus opciones válidas, ¡ten siempre presente la función de esta tecla!	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Siempre puedes presionar {0} para revisar tus opciones válidas, ¡ten siempre presente la función de esta tecla!	0=key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Bien. Comencemos invocando el esbirro obtenido	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Utiliza {0} o {1} y {2} para invocar a tu esbirro	0=Tab key 1=c key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Ahora intentemos atacar con nuestro otro esbirro	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Utiliza {0} o {1} para llegar a tu esbirro y {2} para atacar	0=Tab key 1=b key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ahora debes tomar otra decisión. Puedes atacar a uno de los esbirros de tu oponente o a su héroe directamente	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puedes usar {0} para desplazarte por tus objetivos válidos o seleccionar directamente a quién atacarás con {1} o {2}	0=Tab key 1=g key 2=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puedes presionar {0} para desplazarte por tus objetivos válidos o seleccionar directamente a quién atacarás con {1} o {2}	0=Tab key 1=g key 2=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Selecciona un objetivo	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Utiliza {0} y {1} para atacar	0=Tab key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_21	¡Ya podemos finalizar nuestro turno!	
