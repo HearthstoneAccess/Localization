@@ -677,5 +677,5 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	ครั้งแรกส
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	ใช้ลูกศรหรือกด {0} เพื่อไปยังการ์ดบนมือของคุณ	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	หากคุณเจอการ์ดที่ไม่ถูกใจคุณสามารถกด {0} เพื่อทำเครื่องหมายสำหรับเปลี่ยนการ์ดใบใหม่แทนที่	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	เมื่อคุณทำเครื่องหมายของการ์ดที่จะเปลี่ยนกลับเข้าไปในเด็คได้แล้ว กด {0} เพื่อจั่วการ์ดใหม่และเริ่มเล่นเกม 	0=Enter key
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	เอ็นเท่อ	Optional. Overrides the Return key to be read as Enter by TTS
 
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	เอ็นเท่อ	Optional. Overrides the Return key to be read as Enter by TTS
