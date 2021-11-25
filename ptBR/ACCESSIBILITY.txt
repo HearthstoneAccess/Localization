@@ -44,6 +44,8 @@ ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Você não pode fazer isso
 ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Trocar formato de jogo	Used as a menu option for switching between standard, wild and classic
 ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Escolha um formato de jogo	Used as a menu title for choosing standard, wild or classic
 
+ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Maldito	
+
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Acessibilidade ativada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Acessibilidade desativada	Read when F8 is pressed and accessibility is turned off
 
@@ -211,6 +213,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	recuperou {0} de vida	0=re
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	recuperaram {0} de vida	0=recovered health
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	tornou-se invulnerável	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	tornaram-se invulneráveis	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	Maldiçoou	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	Maldiçoaram	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	silenciou-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	silenciaram-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	tornou-se dormente	
