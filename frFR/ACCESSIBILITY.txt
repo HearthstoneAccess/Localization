@@ -44,6 +44,7 @@ ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Vous ne pouvez pas faire cela
 ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	changer de format	Used as a menu option for switching between standard, wild and classic
 ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Choisissez un format	Used as a menu title for choosing standard, wild or classic
 
+ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	maudit	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibilité activée	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibilité désactivée 	Read when F8 is pressed and accessibility is turned off
@@ -212,6 +213,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	récupère {0} health	0=re
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	récupèrent {0} health	0=recovered health
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	devient invulnerable	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	deviennent invulnerables	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	est maudit	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	sont maudits	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	et réduit au silence	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	ont réduit au silence	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	entre en sommeil	
@@ -246,7 +249,7 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Votre {0}	0=entity name e.g. Your {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	{0} adverse	0=entity name e.g. Your opponent's {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Votre {1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	{1} {0} advere	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	{1} {0} adverse	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0} {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	Tout le monde	e.g. {everyone} took 2 damage
@@ -564,7 +567,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Votre prochain adversaire est Hemet Nesin
 ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Votre prochain et dernier adversaire est Illidan Hurlorage	
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Je vous apprendrais a jouer a travers six tutoriels de jeu	
-ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si vous vous sentez perdu, appuyez sur {0}. Même après le tutoriel ou quand vous naviguez dans les menus, vous pouvez toujours utilisez {0} dès que vous avez besoin	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si vous vous sentez perdu, appuyez sur {0}. Même après le tutoriel ou quand vous naviguez dans les menus, vous pouvez toujours utilisez {0} en cas de besoin	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	D'accord, allons-y	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Voici un paquet de cartes de mage basique pour commencer. Appuyez sur {0} pour l'ouvrir	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	Bon travail	
@@ -576,7 +579,7 @@ ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Vous souvenez-vous comment faire ce
 ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Vous souvenez-vous comment faire cela?	
 ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	Essayez!	
 ACCESSIBILITY_TUTORIAL_ALL_RIGHT	Très bien!	
-ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Nous apprendre comment faire	
+ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Nous allons apprendre comment faire	
 ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	Pouvez vous le faire?	
 ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	Vous pensez pouvoir le faire?	
 ACCESSIBILITY_TUTORIAL_GOT_IT	Compris	
@@ -622,7 +625,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Appuyez sur {0} pour attaquer avec ce servite
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Pouvez vous attaquer le serviteur adverse?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Utilisez {0} et {1} pour attaquer le serviteur adverse	0=g key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Les deux serviteurs avait 2 d'attaques et 1 de vie donc ils se sont entretuer	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Votre autre serviteur est toujours fatigué donc il n'y a rien a faire. Vouss rappelez-vous comment faire pour mettre fin à votre tour?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Votre autre serviteur est toujours fatigué donc il n'y a rien a faire. Vous rappelez-vous comment faire pour mettre fin à votre tour?	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Il semblerait que vous ayez un autre serviteur	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Cela veut dire que vous avez deux options possible maintenant	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Vous pouvez soit invoqué ce serviteur que vous venez d'obtenir, ou utiliser le serviteur invoqué au dernier tour pour attaquer	
@@ -680,5 +683,3 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si vous voyez une carte que
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Une fois que vous avez marqué toutes les cartes que vous souhaitez remplacer, appuyez sur {0} pour en tirer de nouvelles et commencer le jeu	0=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Entrez	Facultatif. Remplace la touche Retour pour être lue comme Entrée par TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	hein	Facultatif. Remplace la touche A pour être lu comme eh par TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	oeil	Facultatif. Remplace la touche I pour être lu comme un œil par TTS
