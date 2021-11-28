@@ -1,283 +1,283 @@
 TAG	TEXT	COMMENT
-ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Welcome to Hearthstone	
+ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Willkommen zu Hearthstone
 
-ACCESSIBILITY_PRESS_KEY_TO_START	Press {0} to start	0=key e.g. Press Enter to start
-ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Press {0} to continue	0=key e.g. Press Enter to continue
-ACCESSIBILITY_PRESS_KEY_TO_FINISH	Press {0} to finish	0=key e.g. Press Enter to finish
-ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Press {0} to go back	0=key e.g. Press backspace to go back
-ACCESSIBILITY_PRESS_KEY_TO_EXIT	Press {0} to exit	0=key e.g. Press Enter to exit
-ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Press {0} once you're done	0=key e.g. Press Enter once you're done
+ACCESSIBILITY_PRESS_KEY_TO_START	Drücke {0} um zu Starten	0=key e.g. Drücke Enter um zu Starten
+ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Drücke {0} um fortzufahren	0=key e.g. Drücke enter um fortzufahren
+ACCESSIBILITY_PRESS_KEY_TO_FINISH	Drücke {0} um die Aktion abzuschließen	0=key e.g. Drücke Enter um die Aktion abzuschließen
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Drücke {0} um zurück zu gehen	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_EXIT	Drücke {0} zum Beenden	0=key e.g. Press Enter to exit
+ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Drücke {0}, wenn du fertig bist	0=key e.g. Drücke enter, wenn du fertig bist
 
-ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Use the up and down arrow keys to navigate the menu. Press {0} to select an option	0=Enter key
-ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Use the up and down arrow keys to navigate the menu. Press {0} to select an option. Press {1} to go back	0=Enter key 1=Backspace key
-ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. Press {0} to select an option	0=Enter key
-ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. Press {0} to select an option. Press {1} to go back	0=Enter key 1=Backspace key
-ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} of {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
-ACCESSIBILITY_LIST_NO_ITEMS	No items	
+ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Verwende die Pfeiltasten nach oben und nach unten, um dich durch das Menü zu bewegen. Drücke {0} um eine Option auszuwählen 	0=Enter key
+ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Verwende die Pfeiltasten nach oben und nach unten, um dich durch das Menü zu bewegen. Drücke {0} um eine Option auszuwählen und {1} um zurück zu gehen	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Verwende die Pfeiltaste nach links und nach rechts, um dich durch das Menü zu bewegen. Mit Pfeiltaste nach oben und unten kannst du dir die Option noch einmal vorlesen lassen. Drücke {0} um eine Option auszuwählen	0=Enter key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Verwende die Pfeiltaste nach links und nach rechts, um dich durch das Menü zu bewegen. Mit Pfeiltaste nach oben und unten kannst du dir die Option noch einmal vorlesen lassen. Drücke {0} um eine Option auszuwählen und {1} um zurück zu gehen.	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} von {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
+ACCESSIBILITY_LIST_NO_ITEMS	Keine Einträge	
 
-ACCESSIBILITY_OPTIONS_MENU_TITLE	Options Menu	
-ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Graphics quality	
-ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Graphics resolution	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use the left and right arrow keys to adjust the volume	
-ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} checkbox	0=checkbox name e.g. {Fullscreen} checkbox
-ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Checked	
-ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Not checked	
-ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Main Menu	
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Press {0} at any time to open the game menu. Try it now!	0=Esc key
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Press {0} at any time to open the social menu. Try it now!	0=F4 key
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Press {0} at any time if you're feeling lost. If you need help from a sighted person, you can always press {1} to disable accessibility and allow them to control the game using the mouse as normal. Just remember to press {1} once they're done to reactivate accessibility	0=Esc key 1=F8 key
+ACCESSIBILITY_OPTIONS_MENU_TITLE	Einstellungsmenü	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Grafik qualität	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Grafik auflösung	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Verwende die linke und rechte Pfeiltaste um die Lautstärke einzustellen
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} Kontrollfeld	0=checkbox name e.g. {Fullscreen} checkbox
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	aktiviert	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	nicht aktiviert	
+ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Hauptmenü	
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Drücke jederzeit {0} um das Spielmenü zu öffnen, versuch es doch einmal!	0=Esc key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Drücke jederzeit {0} um das Social-Menü zu öffnen, versuch es doch einmal!		0=F4 key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Du kannst jederzeit {0} drücken, wenn du nicht mehr weiter weißt. Wenn du die Hilfe einer sehenden Person brauchst, kannst du jederzeit {1} drücken, um die Barrierefreiheit zu deaktivieren und ihr zu erlauben, das Spiel wie gewohnt mit der Maus zu steuern. Vergiss nicht, {1} zu drücken, wenn du keine hilfe mehr brauchst, um die Barrierefreiheit wieder zu aktivieren.	0=Esc key 1=F8 key
 
-ACCESSIBILITY_GLOBAL_LOADING_GAME	Loading game	
-ACCESSIBILITY_GLOBAL_CLOSING_GAME	Closing game	
-ACCESSIBILITY_GLOBAL_GAME_LOADED	Game loaded	
-ACCESSIBILITY_GLOBAL_LOADING	Loading	
-ACCESSIBILITY_GLOBAL_PLEASE_WAIT	Please wait	
-ACCESSIBILITY_GLOBAL_CARD	card	
-ACCESSIBILITY_GLOBAL_CARD_PLURAL	cards	
-ACCESSIBILITY_GLOBAL_HERO	Hero	
-ACCESSIBILITY_GLOBAL_HERO_POWER	Hero Power	
-ACCESSIBILITY_GLOBAL_SECRET	{0} secret	0=secret class e.g. {Mage} secret
-ACCESSIBILITY_GLOBAL_GAME_SPEED	Game speed {0}	0=current game speed
-ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	You cannot adjust the game speed when playing against Human opponents	
-ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	A new version of Hearthstone Access is available. Please run the patcher again whenever possible as it may contain bug fixes	
-ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	You cannot do that	
-ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Switch format	Used as a menu option for switching between standard, wild and classic
-ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Choose a format	Used as a menu title for choosing standard, wild or classic
+ACCESSIBILITY_GLOBAL_LOADING_GAME	Spiel wird geladen	
+ACCESSIBILITY_GLOBAL_CLOSING_GAME	Spiel wird geschlossen	
+ACCESSIBILITY_GLOBAL_GAME_LOADED	Spiel geladen	
+ACCESSIBILITY_GLOBAL_LOADING	Wird geladen	
+ACCESSIBILITY_GLOBAL_PLEASE_WAIT	Bitte warten	
+ACCESSIBILITY_GLOBAL_CARD	Karte	
+ACCESSIBILITY_GLOBAL_CARD_PLURAL	Karten	
+ACCESSIBILITY_GLOBAL_HERO	Held	
+ACCESSIBILITY_GLOBAL_HERO_POWER	Heldenfähigkeit	
+ACCESSIBILITY_GLOBAL_SECRET	{0} Geheimnis	0=secret class e.g. {Mage} secret
+ACCESSIBILITY_GLOBAL_GAME_SPEED	Spielgeschwindigkeit {0}	0=current game speed
+ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Du kannst die Spielgeschwindigkeit nicht anpassen, wenn du gegen menschliche Gegner spielst.	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Eine neue Version von Hearthstone Access ist verfügbar. Bitte führe den Patcher wann immer möglich erneut aus, da er Fehlerbehebungen enthalten kann.	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Das kannst du nicht tun	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Format wechseln	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Wähle ein format	Used as a menu title for choosing standard, wild or classic
 
-ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Cursed	
+ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Verflucht	
 
-ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility on	Read when F8 is pressed and accessibility is turned on
-ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility off	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Barrierefreiheit ein	Read when F8 is pressed and accessibility is turned on
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Barrierefreiheit aus	Read when F8 is pressed and accessibility is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
-ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
+ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?,	
 ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
-ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	 and 	e.g. the " and " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	 und 	e.g. the " and " in A, B, C, D and E
 
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	first	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_2	second	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_3	third	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_4	fourth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_5	fifth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_6	sixth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_7	seventh	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_8	eighth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	ninth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	tenth	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	Nummer 1	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_2	Nummer 2	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_3	Nummer 3	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_4	Nummer 4	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_5	Nummer 5	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_6	Nummer 6	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_7	Nummer 7	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_8	Nummer 8	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	Nummer 9	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	Nummer 10	
 
-ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
-ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	umschalt + {0}	0=key e.g. Shift + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Steuerung + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
-ACCESSIBILITY_READ_HERO_CARD_ATK	{0} attack	0=attack
-ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} health	0=health
-ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} armor	0=armor
-ACCESSIBILITY_READ_CARD_N_COPIES	{0} copies	0=number of copies
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - golden edition	0=card name e.g. {fireball} - golden edition
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamond edition	0=card name
+ACCESSIBILITY_READ_HERO_CARD_ATK	{0} Angriff	0=attack
+ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} Gesundheit	0=health
+ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} Rüstung	0=armor
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} kopien	0=number of copies
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - goldene Ausführung	0=card name e.g. {fireball} - golden edition
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamantene Ausführung	0=card name
 
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Opponent's turn	
-ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turn ended	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} triggered	0=full card name in zone e.g. {Your second Murloc Raider} triggered
-ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Your {0} triggered	0=card name e.g. Your {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Your opponent's {0} triggered	0=card name e.g. Your opponent's {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	Your opponent's {0} triggered; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	You played {0}	0=card name e.g. You played {Fireball}
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	You played {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Your opponent played {0}	0=card name e.g. Your opponent played {Fireball}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	Your opponent played {0}; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	You summoned {0}	0=minion name e.g. You summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	You summoned {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Your opponent summoned {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Your opponent summoned {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	You traded {0}	0=card name e.g. You traded {Fire Sale}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Your opponent traded {0}	0=card name e.g. Your opponent traded {Fire Sale}
-ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	You equipped {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	You equipped {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Your opponent equipped {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	Your opponent equipped {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
-ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	You used {0}	0=hero power name e.g. You used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	You used {0}; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Your opponent used {0}	0=hero power name e.g. Your opponent used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Your opponent used {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	You cast {0}	0=secret name e.g. You cast {Counterspell}
-ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	You cast {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Your opponent cast 1 {0} secret	0=secret class e.g. Your opponent cast 1 {mage} secret
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Your opponent cast {0} secrets	0=number of secrets e.g. Your opponent cast {2} secrets
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	You tried to draw a card from an empty deck	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Your opponent tried to draw a card from an empty deck	
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	You drew 1 {0} but it burned	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Your opponent drew 1 {0} but it burned	0=card e.g. Your opponent drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} attacked {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
-ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} attempted to attack {1} but attacked {2} instead	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	You revealed a {0} cost {1}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Your opponent revealed a {0} cost {1}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	You didn't have any valid card left to reveal	
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Your opponent didn't have any valid card left to reveal	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Der Gegner ist am Zug	
+ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Runde beendet	
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} wurde ausgelöst.		0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Deine Karte namens {0} wurde ausgelöst.		0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Die Karte namens {0} deines Gegners wurde ausgelöst.	0=card name e.g. Your opponent's {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	Die Karte namens {0} deines Gegners wurde ausgelöst, {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Du spielst {0}	0=card name e.g. You played {Fireball}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	Du spielst {0}, {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Dein Gegner spielt {0}	0=card name e.g. Your opponent played {Fireball}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	Dein Gegner spielt {0}, {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	Du hast {0} beschworen	0=minion name e.g. You summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	Du hast {0} beschworen; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Dein Gegner hat {0} beschworen	0=minion name e.g. Your opponent summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Dein Gegner hat {0} beschworen; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	Du hast {0} gehandelt	0=card name e.g. You traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Dein Gegner hat {0} gehandelt	0=card name e.g. Your opponent traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Du hast {0} ausgerüstet	0=weapon name e.g. You equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	Du hast {0} ausgerüstet. {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Dein Gegner rüstet {0} aus	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	Dein Gegner hat {0} ausgerüstet. {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	Du hast {0} benutzt	0=hero power name e.g. You used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	Du hast {0} benutzt. {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Dein Gegner hat {0} benutzt	0=hero power name e.g. Your opponent used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Dein Gegner hat {0} benutzt. {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Du zauberst {0}	0=secret name e.g. You cast {Counterspell}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Du zauberst {0}. {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Dein Gegner spielt ein {0} Geheimnis aus	0=secret class e.g. Your opponent cast 1 {mage} secret
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Dein Gegner spielt {0} Geheimnise aus	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Du hast versucht, eine Karte von einem leeren Deck zu ziehen	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Dein Gegner hat versucht, eine Karte von einem leeren Deck zu ziehen	
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Du hast 1 {0} gezogen, aber die Karte hat gebrannt	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Dein Gegner hat 1 {0} gezogen, aber die Karte hat gebrannt	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} hat {1} angegriffen	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} hat versucht {1} anzugreifen, hat jedoch {2} angegriffen	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Du hast die Karte {1} aufgedeckt, sie kostet {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Dein gegner hat die Karte {1} aufgedeckt, sie kostet {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Du hattest keine gültige Karte mehr, die du aufdecken konntest	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Dein Gegner hatte keine gültige Karte mehr zum Aufdecken	
 
-ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	You have {0} mana	0=mana
-ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	You go first	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Your opponent goes first	
-ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	You start with {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	You drew {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Du hast {0} mana	0=mana
+ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Du fängst an	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Dein Gegner fängt an	
+ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Du startest mit {0} |4(Karte,karten)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Du hast {0} gezogen	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Your opponent drew {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	You discarded {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Your opponent discarded {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	You get the coin	
-ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Waiting for opponent	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Summon?	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Summon at the right?	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Summon at the left?	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Summon between {0} and {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
-ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Play card?	
-ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trade card?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	You still have valid plays. Are you sure?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	You can still attack. Are you sure?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	You can still use your Hero Power. Are you sure?	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	You don't have any summoned minions	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Your opponent's Hero can't be attacked	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Your opponent's Hero can't be targeted	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	None of your minions can attack your opponent's Hero	
-ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Choose a target	
-ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} seconds remaining	0=number of seconds - always plural e.g. {20} seconds remaining
-ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	You're playing against {0}, the {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
+ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Du hast {0} abgeworfen	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Dein Gegner hat {0} abgeworfen	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	Du bekommst die Münze	
+ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Warte auf den Gegner	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Beschwören?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Auf die Rechte Seite beschwören?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Auf die linke Seite beschwören?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Zwischen {0} und {1} beschwören?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
+ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Karte spielen?	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Karte handeln?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Du hast immer noch gültige Spielzüge. Bist du sicher?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Du kannst immer noch angreifen. Bist du sicher?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Du kannst deine Heldenfähigkeit immer noch nutzen. Bist du sicher?	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	Du hast keine beschworenen Diener	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Der Held deines Gegners kann nicht angegriffen werden	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Der Held deines Gegners kann nicht angegriffen werden	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Keiner deiner Diener kann den Helden deines Gegners angreifen.	
+ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Wähle ein Ziel	
+ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	noch {0} Sekunden	0=number of seconds - always plural e.g. {20} seconds remaining
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Du spielst gegen {0}, mit der Klasse {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	Your hand is empty	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	You have no summoned minions	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_MINIONS_EMPTY	Your opponent has no summoned minions	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_SECRETS_EMPTY	You have no secrets	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_EMPTY	Your opponent has no secrets	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_COUNT	Your opponent has {0} |4(secret,secrets)	0=number of secrets
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	You have no Hero Power	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	Your opponent has no Hero Power	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	You have no equipped weapon	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Your opponent has no equipped weapon	
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	You have {0} out of {1} mana	0=current mana 1=total mana
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	You have {0} mana	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Your opponent has {0} mana	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Opponent's hand. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Opponent's Deck. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	No more valid options	
-ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	You have no valid plays	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	Deine Hand ist leer	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	Du hast keine beschworenen Diener	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_MINIONS_EMPTY	Dein Gegner hat keine beschworenen Diener	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_SECRETS_EMPTY	Du hast keine Geheimnisse	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_EMPTY	Dein Gegner hat keine Geheimnisse	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_COUNT	Dein Gegner hat {0} |4(Geheimnis,Geheimnise)	0=number of secrets
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	Du hast keine Heldenfähigkeit	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	Dein Gegner hat keine Heldenfähigkeit	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	Du hast keine Waffe ausgerüstet	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Dein Gegner hat keine Waffe ausgerüstet	
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Du hast {0} von {1} mana	0=current mana 1=total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Du hast {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Dein Gegner hat {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Gegnerische Hand. {0} |4(Karte,Karten)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(Karte,Karten)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Gegnerisches Deck. {0} |4(Karte,Karten)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Keine gültigen Optionen mehr	
+ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Du hast keine gültigen Spielzüge	
 
-ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	You win	
-ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	You lose	
-ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	You tied	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Du hast gewonnen	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Du hast verloren	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	Du hast	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_GENERIC	Game over	
 
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO	Your Hero	Read when you press v
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO	Opponent's Hero	Read when you press f
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Hero Power	Read when you press r
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	Opponent's Hero Power	Read when you press Shift+r
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_WEAPON	Weapon	Read when you press w
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_WEAPON	Opponent's weapon	Read when you press Shift+w
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	Hand	Read when you press c
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HAND	Opponent's hand	Read when you press Shift+c
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_MINIONS	Minions	Read when you press b
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_MINIONS	Opponent's minions	Read when you press g
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	Secrets	Read when you press s
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Opponent's secrets	Read when you press Shift+s
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO	Dein Held	Read when you press v
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO	Gegnerischer Held	Read when you press f
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Deine Heldenfähigkeit	Read when you press r
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	gegnerische  Heldenfähigkeit	Read when you press Shift+r
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_WEAPON	Deine Waffe	Read when you press w
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_WEAPON	gegnerische  Waffe	Read when you press Shift+w
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	Deine Hand	Read when you press c
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HAND	gegnerische  Hand	Read when you press Shift+c
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_MINIONS	Deine Diener	Read when you press b
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_MINIONS	gegnerische Diener	Read when you press g
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	Deine Geheimnisse	Read when you press s
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	gegnerische Geheimnisse	Read when you press Shift+s
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	your hand	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	your opponent's hand	e.g. Your Murloc Raider moved to {you opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	your battlefield	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	your opponent's battlefield	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	your secrets	e.g. Your Ice Block moved from your deck to {your secrets}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	your opponent's secrets	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	your deck	e.g. Your Fireball moved from {your deck} to your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	your opponent's deck	e.g. Your Fireball moved from your deck to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	your graveyard	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	your opponent's graveyard	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	Deine Hand	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	Hand deines Gegners	e.g. Your Murloc Raider moved to {you opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	dein Schlachtfeld	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	Schlachtfeld deines Gegners	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	deine Geheimnisse	e.g. Your Ice Block moved from your deck to {your secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	Geheimnisse deines Gegners	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	dein Deck	e.g. Your Fireball moved from {your deck} to your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	Deck deines Gegners	e.g. Your Fireball moved from your deck to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	dein Friedhof	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	Friedhof deines Gegners	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
 
 ACCESSIBILITY_GAMEPLAY_MULLIGAN	Mulligan	
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	Will be replaced	
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Will not be replaced	
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Use the arrow keys to go through your starting cards. Use {0} to mark the cards you'd like to replace. Press {1} once you're done	0=spacebar key 1=Enter key
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	The game is about to start. Please wait	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	Wird ersetzt	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Wird nicht ersetzt	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Verwende die Pfeiltasten, um durch deine Startkarten zu gehen. Benutze {0}, um die Karten zu markieren, die du ersetzen möchtest. Drücke {1}, wenn du fertig bist	0=spacebar key 1=Enter key
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	Das Spiel fängt gleich an. Bitte warten	
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	died	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	died	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	broke	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	took {0} damage	0=damage taken
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	took {0} damage	0=damage taken
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} durability	0=gained/lost durability amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} attack	0=gained/lost attack amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} health	0=gained/lost health amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} armor	0=gained/lost armor amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	recovered {0} health	0=recovered health
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	recovered {0} health	0=recovered health
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	became invulnerable	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	became invulnerable	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	was cursed	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	were cursed	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	was silenced	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	were silenced	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	became dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_DORMANT	became dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_DORMANT	is no longer dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_DORMANT	are no longer dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	became frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	became frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	is no longer frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	are no longer frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_IMMUNE	became immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_IMMUNE	became immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_IMMUNE	is no longer immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_IMMUNE	are no longer immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	became magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	became magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	is no longer magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	are no longer magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	became poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	became poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	is no longer poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	are no longer poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	became stealthed	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	became stealthed	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	gained {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	gained {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	lost {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	lost {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	stirbt	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	sterben	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	zerbrochen	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	umgewandelt in 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	umgewandelt in 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	nahm {0} Schaden	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	nahmen {0} Schaden	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} Haltbarkeit	0=gained/lost durability amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} Angriff	0=gained/lost attack amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} Gesundheit	0=gained/lost health amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} Rüstung	0=gained/lost armor amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	hat {0} Gesundheit wiederhergestellt	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	haben {0} Gesundheit wiederhergestellt	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	wurde unverwundbar	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	wurden unverwundbar	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	wurde verflucht	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	wurden verflucht	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	wurde zum Schweigen gebracht	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	wurden zum Schweigen gebracht	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	schlief ein	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_DORMANT	schliefen ein	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_DORMANT	schläft nicht mehr	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_DORMANT	schlafen nicht mehr	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	wurde eingefroren	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	wurden eingefroren	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	ist nicht mehr eingefroren	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	sind nicht mehr eingefroren	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_IMMUNE	ist immun geworden	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_IMMUNE	sind immun geworden	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_IMMUNE	sind nicht mehr immun	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_IMMUNE	sind nicht mehr immun	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	wurde magnetisch	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	wurden magnetisch	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	ist nicht mehr magnetisch	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	sind nicht mehr magnetisch	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	wurde giftig	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	wurden giftig	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	ist nicht mehr giftig	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	sind nicht mehr giftig	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	wurde verstohlen	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	wurden verstohlen	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	erlangte {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	erlangten {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	verlor {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	verloren {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Your {0}	0=entity name e.g. Your {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	Your opponent's {0}	0=entity name e.g. Your opponent's {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Your {0} {1}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	Your opponent's {0} {1}	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	deine Karte {0}	0=entity name e.g. Your {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	Die Karte des Gegners {0}	0=entity name e.g. Your opponent's {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Deine Karte {1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	Die Karte des Gegners {1} {0}	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0} {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	Everyone	e.g. {everyone} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE_ELSE	Everyone else	e.g. {everyone else} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_MINIONS	All minions	e.g. {All minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_OTHER_MINIONS	All other minions	e.g. {All other minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_BOTH_HEROES	Both heroes	e.g. {Both Heroes} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	Your enemies	e.g. {Your enemies} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	Your other enemies	e.g. {Your other enemies} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Your friendly characters	e.g. {Your friendly characters} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Your other friendly characters	e.g. {Your other friendly characters} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Your opponent's minions	e.g. {Your opponent's minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Your other opponent's minions	e.g. {Your other opponent's minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	Your minions	e.g. {Your minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Your other minions	e.g. {Your other minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	Your {0} {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Your opponent's {0} {1}	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	jeder	e.g. {everyone} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE_ELSE	alle anderen	e.g. {everyone else} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_MINIONS	alle Diener	e.g. {All minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_OTHER_MINIONS	Alle anderen Diener	e.g. {All other minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_BOTH_HEROES	Beide Helden	e.g. {Both Heroes} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	Deine Gegner	e.g. {Your enemies} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	Deine anderen Gegner	e.g. {Your other enemies} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Deine Freunde	e.g. {Your friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Deine anderen Freunde	e.g. {Your other friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Die Diener deines Gegners	e.g. {Your opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Die anderen Diener deines Gegners	e.g. {Your other opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	Deine Diener	e.g. {Your minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Deine anderen Diener	e.g. {Your other minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	Deine {0} Karten {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Die {0} {1} Karten des Gegners	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	your Hero equipped 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	your opponent's Hero equipped 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	your Hero became {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	your opponent's Hero became {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	your Hero Power became {0}	0=hero power name e.g. your Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	your opponent's Hero Power became {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	returned to your hand	e.g. Your Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	returned to your hand	e.g. Your 2 Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	returned to your opponent's hand	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	returned to your opponent's hand	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	Dein Held hat die Waffe {0} ausgerüstet	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	Der Held des Gegners hat die Waffe {0} ausgerüstet	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	dein Held wurde {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	der Held deines Gegners wurde {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	deine Heldenfähigkeit wurde {0}	0=hero power name e.g. your Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	die Heldenfähigkeit deines Gegners wurde {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	Kehrt auf deine Hand zurück	e.g. Your Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	Kehren zu deiner Hand zurück	e.g. Your 2 Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	Kehrt auf die Hand des Gegners zurück	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	kehren auf die Hand des Gegners zurück	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	moved from {0} to {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	moved from {0} to {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	moved to {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
