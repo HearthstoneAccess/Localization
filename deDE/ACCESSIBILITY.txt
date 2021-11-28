@@ -272,8 +272,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	Dein Held hat die Wa
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	Der Held des Gegners hat die Waffe {0} ausgerüstet	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	dein Held wurde {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	der Held deines Gegners wurde {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	deine Heldenfähigkeit wurde {0}	0=hero power name e.g. your Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	die Heldenfähigkeit deines Gegners wurde {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	deine Heldenfähigkeit wurde zu {0}	0=hero power name e.g. your Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	die Heldenfähigkeit deines Gegners wurde zu {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	Kehrt auf deine Hand zurück	e.g. Your Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	Kehren zu deiner Hand zurück	e.g. Your 2 Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	Kehrt auf die Hand des Gegners zurück	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
