@@ -274,31 +274,31 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	dein Held wurde {0}	0=h
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	der Held deines Gegners wurde {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	deine Heldenfähigkeit wurde zu {0}	0=hero power name e.g. your Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	die Heldenfähigkeit deines Gegners wurde zu {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	Kehrt auf deine Hand zurück	e.g. Your Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	Kehren zu deiner Hand zurück	e.g. Your 2 Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	Kehrt auf die Hand des Gegners zurück	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	kehren auf die Hand des Gegners zurück	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	moved from {0} to {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	moved from {0} to {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	moved to {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	moved to {0}	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	moved zones	e.g. Your Bloodfen Raptor {moved zones}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	moved zones	e.g. Your 2 Bloodfen Raptor {moved zones}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	Kehrte auf deine Hand zurück	e.g. Your Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	Kehrten auf deine Hand zurück	e.g. Your 2 Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	Kehrte auf die Hand des Gegners zurück	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	kehrten auf die Hand des Gegners zurück	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	bewegte  sich aus der Zone {0} in die Zone {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	bewegten  sich aus der Zone {0} in die Zone {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	wurde in die Zone {0} bewegt	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	wurden in die Zone {0} bewegt	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	wurde in eine andere Zone bewegt	e.g. Your Bloodfen Raptor {moved zones}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	Wurden in eine andere Zone bewegt	e.g. Your 2 Bloodfen Raptor {moved zones}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} was added to your hand	0=card name e.g. 1 {Murloc Raider} was added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} were added to your hand	0=card names e.g. {2 Murloc Raider} were added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} was added to your opponent's hand	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} were added to your opponent's hand	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} was shuffled into your deck	0=card name e.g. 1 {Fireball} was shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} were shuffled into your deck	0=card names e.g. {2 Fireball} were shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} was shuffled into your opponent's deck	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} were shuffled into your opponent's deck	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} was summoned into your battlefield	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} were summoned into your battlefield	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} was summoned into your opponent's battlefield	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} were summoned into your opponent's battlefield	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	you took control of {0}	0=card names
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	your opponent took control of {0}	0=card names
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} wurde zu deiner Hand hinzugefügt	0=card name e.g. 1 {Murloc Raider} was added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} wurden zu deiner Hand hinzugefügt	0=card names e.g. {2 Murloc Raider} were added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} wurde zu der Hand deines Gegner's hinzugefügt	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} wurden zu der Hand deines Gegner's hinzugefügt	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} wurde in dein Deck gemischt	0=card name e.g. 1 {Fireball} was shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} wurden in dein Deck gemischt	0=card names e.g. {2 Fireball} were shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} wurde in das Deck deines Gegners gemischt	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} wurden in das Deck deines Gegners gemischt	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} wurde auf dein Schlachtfeld beschworen	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} wurden auf dein Schlachtfeld beschworen	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} wurde in das Schlachtfeld deines Gegners beschworen	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} wurden in das Schlachtfeld deines Gegners beschworen	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	Du kontrollierst jetzt die Karten {0}	0=card names
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	Dein Gegner kontrolliert jetzt die Karten {0}	0=card names
 
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	You gained {0} Spell Damage	0=spell damage
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	You lost {0} Spell Damage	0=spell damage
