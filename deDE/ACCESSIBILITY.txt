@@ -300,103 +300,103 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} wur
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	Du kontrollierst jetzt die Karten {0}	0=card names
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	Dein Gegner kontrolliert jetzt die Karten {0}	0=card names
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	You gained {0} Spell Damage	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	You lost {0} Spell Damage	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	Your opponent gained {0} Spell Damage	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	Your opponent lost {0} Spell Damage	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	Du hast {0} Zauberschaden erhalten	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	Du hast {0} Zauberschaden verloren	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	Dein Gegner hat {0} Zauberschaden erhalten	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	Dein Gegner hat {0} Zauberschaden verloren	0=spell damage
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	You gained {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	Your opponent gained {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	You gained {0} mana and {1} |4(empty mana crystal,empty mana crystals)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Your opponent gained {0} mana and {1} |4(empty mana crystal,empty mana crystals)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	You gained {0} |4(empty mana crystal,empty mana crystals)	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	Your opponent gained {0} |4(empty mana crystal,empty mana crystals)	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	Du hast {0} Mana erhalten	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	Dein Gegner hat {0} Mana erhalten	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Du hast {0} mana und {1} |4(leeren Manakristall,leere Manakristalle) erhalten	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Dein Gegner hat {0} mana und {1} |4(leeren Manakristall,leere Manakristalle) erhalten	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	Du hast {0} |4(leerer Manakristall,leere Manakristalle) erhalten	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	Dein Gegner hat {0} |4(leerer Manakristall,leere Manakristalle) erhalten	0=amount
 
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Press {0} to look at your hero	0=v key
-ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Press {0} to look at your opponent's hero	0=f key
-ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Use the up and down arrow keys to read cards	
-ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	Press {0} to attack this target	0=Enter key
-ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	Press {0} to summon this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Your opponent is playing	
-ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Press {0} or {1} to end your turn. Press any other key to cancel	0=enter key 1=e key
-ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Use {0} to go through your valid options	0=tab key
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Press {0} to look at your hand	0=c key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Press {0} to count the cards in your opponent's hand	0=Shift+c keys
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Press {0} to look at your summoned minions	0=b key
-ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Press {0} to look at your opponent's minions	0=g key
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Press {0} to look at your secrets	0=s key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Press {0} to count your opponent's secrets	0=Shift+s keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	Press {0} to read your weapon	0=w key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Press {0} to read your opponent's weapon	0=Shift+w keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	Press {0} to read your hero power	0=r key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Press {0} to read your opponent's hero power	0=Shift+r keys
-ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Press {0} to count the remaining cards in your deck	0=d key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Press {0} to count the remaining cards in your opponent's deck	0=Shift+d keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Press {0} to read your mana	0=a key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Press {0} to read your opponent's mana	0=Shift+a key
-ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use the up and down arrow keys to read this card	
-ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Press {0} to get a description of this card's abilities	0=i key
-ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Press {0} to play this card	0=Enter key
-ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Press {0} to trade this card	0=t key
-ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Press {0} to summon this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} or the Zone keys to go through your targets. Press {1} to choose a target or {2} to cancel	0=Tab key 1=Enter key 2=Backspace key
-ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Press {0} to attack with this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Press {0} to attack with your hero	0=Enter key
-ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Press {0} to use your hero power	0=Enter key
-ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Use {0} to read through your valid targets	0=Tab key
-ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Press {0} to attack this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Press {0} to cancel the attack	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Press {0} to cancel	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Use the left and right arrow keys to choose a position for this minion	
-ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	Press {0} to open the play history log	0=y key
-ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Use the up and down arrow keys to read the play history. Press {0} to close the history log	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Press {0} to end your turn	0=e key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Drücke {0} um deinen Held zu betrachten	0=v key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Drücke {0} um den Helden deines Gegners zu betrachten	0=f key
+ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Benutze die Pfeiltasten nach oben und unten, um die Karten zu lesen	
+ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	Drücke {0}, um dieses Ziel anzugreifen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	Drücke {0}, um diesen Diener zu beschwören	0=Enter key
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Dein Gegner spielt	
+ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Drücke {0} oder {1}, um deinen Zug zu beenden. Drücke eine beliebige andere Taste, um abzubrechen	0=enter key 1=e key
+ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Verwende {0}, um durch deine gültigen Optionen zu gehen	0=tab key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Drücke {0}, um deine Hand anzuschauen	0=c key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Drücke {0}, um die Karten auf der Hand deines Gegners zu zählen	0=Shift+c keys
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Drücke {0}, um deine beschworenen Diener zu sehen	0=b key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Drücke {0}, um die beschworenen Diener deines Gegners zu sehen	0=g key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Drücke {0}, um deine Geheimnisse anzuschauen	0=s key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Drücke {0}, um die Geheimnisse deines Gegners zu zählen	0=Shift+s keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	Drücke {0}, um deine Waffe anzuschaun	0=w key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Drücke {0}, um die Waffe deines Gegners anzuschaun	0=Shift+w keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	Drücke {0}, um deine Heldenfähigkeit anzuschaun	0=r key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Drücke {0}, um die Heldenfähigkeit deines Gegners anzuschaun	0=Shift+r keys
+ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Drücke {0}, um die verbleibenden Karten in deinem Deck zu zählen	0=d key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Drücke {0}, um die verbleibenden Karten im Deck deines Gegners zu zählen	0=Shift+d keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Drücke {0}, um dein Mana zu lesen	0=a key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Drücke {0}, um das Mana deines Gegners zu lesen	0=Shift+a key
+ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Benutze die Pfeiltasten nach oben und unten, um diese Karte zu lesen	
+ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Drücke {0}, um eine Beschreibung der Fähigkeiten dieser Karte zu erhalten	0=i key
+ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Drücke {0}, um diese Karte zu spielen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Drücke {0}, um diese Karte zu tauschen	0=t key
+ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Drücke {0}, um diesen Diener zu beschwören	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Verwende die Pfeiltasten, um durch deine Optionen zu gehen. Drücke {0}, um eine auszuwählen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Verwende {0} oder die Zonentasten, um durch deine Ziele zu gehen. Drücke {1}, um ein Ziel auszuwählen oder {2}, um abzubrechen	0=Tab key 1=Enter key 2=Backspace key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Drücke {0}, um mit diesem Diener anzugreifen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Drücke {0}, um mit deinem Helden anzugreifen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Drücke {0}, um deine Heldenfähigkeit einzusetzen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Verwende {0}, um deine gültigen Ziele durchzulesen	0=Tab key
+ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Drücke {0}, um diesen Diener anzugreifen	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Drücke {0}, um den Angriff abzubrechen	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Drücke {0} zum Abbrechen	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Benutze die linke und rechte Pfeiltaste, um eine Position für diesen Diener zu wählen	
+ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	Drücke {0}, um das Spielverlaufsprotokoll zu öffnen	0=y key
+ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Verwende die Pfeiltasten nach oben und unten, um den Spielverlauf zu lesen. Drücke {0}, um das Verlaufsprotokoll zu schließen	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Drücke {0}, um deinen Zug zu beenden	0=e key
 
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Nothing has been played yet	
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0} of {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Stopped reading history	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Es wurde noch nichts gespielt	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} {0} von {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Verlaufsprotokoll geschlossen	
 
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Your battlefield starts with {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Your opponent's battlefield starts with {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Dein Schlachtfeld startet mit {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Das Schlachtfeld deines Gegners startet mit {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
 ACCESSIBILITY_UI_POPUP	Popup	
-ACCESSIBILITY_UI_REWARDS_TITLE	Rewards	
-ACCESSIBILITY_UI_UNKNOWN_POPUP	This popup hasn't been made accessible yet. Please get help from someone sighted	
-ACCESSIBILITY_UI_UNKNOWN_DIALOG	This dialog hasn't been made accessible yet. Please get help from someone sighted	
+ACCESSIBILITY_UI_REWARDS_TITLE	Belohnungen	
+ACCESSIBILITY_UI_UNKNOWN_POPUP	Dieses Popup wurde noch nicht zugänglich gemacht. Bitte hol dir Hilfe von einem Sehenden	
+ACCESSIBILITY_UI_UNKNOWN_DIALOG	Dieser Dialog ist noch nicht zugänglich gemacht worden. Bitte hole dir Hilfe von einem Sehenden	
 
-ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Alert Popup	
+ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Wichtiges Popup	
 
-ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use the arrow keys to go through your rewards	
+ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Verwende die Pfeiltasten, um durch deine Belohnungen zu gehen	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use the arrow keys to read your quests	
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Benutze die Pfeiltasten, um deine Quests zu lesen	
 
-ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use the arrow keys to read your |4(quest,quests)	
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Benutze die Pfeiltasten, um deine |4(Quest,Quests) zu lesen	
 
-ACCESSIBILITY_UI_REWARD_TITLE	You got a reward!	
-ACCESSIBILITY_UI_REWARD_HELP	Use the arrow keys to read the reward	
+ACCESSIBILITY_UI_REWARD_TITLE	Du hast eine Belohnung bekommen!	
+ACCESSIBILITY_UI_REWARD_HELP	Benutze die Pfeiltasten, um die Belohnung zu lesen	
 
-ACCESSIBILITY_UI_RANKED_INTRO_POPUP	The new ranked system is here! You can find more about it online	
+ACCESSIBILITY_UI_RANKED_INTRO_POPUP	Das neue Ranglistensystem ist da! Du kannst mehr darüber online erfahren	
 
-ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Your performance in Ranked last season earned you {0} star bonus!	0=star bonus amount
+ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Deine Leistung in der letzten Saison in der Rangliste hat dir einen Bonus von {0} Sternen eingebracht!	0=star bonus amount
 
-ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Reconnect dialog	
+ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Dialog neu verbinden	
 
-ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} has ended. You achieved the rank of {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
-ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	You have earned a rewards chest	
-ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Press {0} to open	0=Enter key
-ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	The {0} has begun!	0=season name e.g. The {August 2021 season} has begun!
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	A new season has begun!	
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Win {0} games this Season to earn a chest	0=number of games
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Win {0} games this Season to earn your Season Card Back	0=number of games
+ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} ist beendet. Du hast den Rang von {1} erreicht	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Du hast dir eine Belohnungskiste verdient	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Drücke {0} zum Öffnen	0=Enter key
+ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	Die {0} hat begonnen!	0=season name e.g. The {August 2021 season} has begun!
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	Eine neue Saison hat begonnen!	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Gewinne {0} Spiele in dieser Saison, um eine Truhe zu verdienen	0=number of games
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Gewinne {0} Spiele in dieser Saison und verdiene deine Saisonkarte zurück	0=number of games
 
-ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use the arrow keys to read the cards	
+ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Benutze die Pfeiltasten, um die Karten zu lesen	
 
-ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Rewards chest popup	
-ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Press {0} to open your rewards chest	0=Enter key
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Belohnungskiste Popup	
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Drücke {0}, um deine Belohnungskiste zu öffnen	0=Enter key
 
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	You got {0} |4(reward package,reward packages)!	
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use the arrow keys and {0} to open your rewards	0=Enter key
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Du hast {0} |4(Belohnungspaket,Belohnungspakete)!	
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Benutze die Pfeiltasten und {0}, um deine Belohnungen zu öffnen	0=Enter key
 
 ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP quest	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Rewards {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
