@@ -647,41 +647,41 @@ ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Benutze {0} und {1}, um einen Angriff zu
 ACCESSIBILITY_TUTORIAL_HOGGER_6_21	Wir sind bereit, unsere Runde zu beenden!	
 ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Ich lasse dich alleine weiterspielen. Sag mir einfach Bescheid, wenn du etwas brauchst	
 
-ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Press {0} at any time to see how much mana you have	0=a key
+ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Drücke {0}, um jederzeit zu sehen, wie viel Mana du hast	0=a key
 
-ACCESSIBILITY_TUTORIAL_CHO_1	This Voodoo Doctor healed your opponent's Hero	
-ACCESSIBILITY_TUTORIAL06_HELP_02	When minions fight each other, they both take damage	
+ACCESSIBILITY_TUTORIAL_CHO_1	Dieser Voodoodoktor hat den Helden deines Gegners geheilt	
+ACCESSIBILITY_TUTORIAL06_HELP_02	Wenn Diener gegeneinander kämpfen, erleiden sie beide Schaden	
 
-ACCESSIBILITY_TUTORIAL_MUKLA_START	In this game, you'll see some cards with abilities you haven't seen before	
-ACCESSIBILITY_TUTORIAL_MUKLA_START_B	If you run into something you don't understand when reading a card such as Charge or Taunt, press {0} to get more information	0=i key
-ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Press {0} whenever you're ready to start	0=Enter key
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	This gorilla your opponent just summoned has an ability named Taunt	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Minions with Taunt must always be killed before you can attack anyone else	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Taunt is an important ability as it can be used to protect your Hero	
+ACCESSIBILITY_TUTORIAL_MUKLA_START	In diesem Spiel wirst du einige Karten mit Fähigkeiten sehen, die du noch nie zuvor gesehen hast	
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Wenn du beim Lesen einer Karte auf etwas stößt, das du nicht verstehst, z. B. Aufladung oder Spott, drücke {0}, um weitere Informationen zu erhalten.	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Drücke {0}, wenn du bereit bist zu starten	0=Enter key
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Der Gorilla, den dein Gegner gerade beschworen hat, hat eine Fähigkeit namens Spott	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Diener mit Spott müssen immer getötet werden, bevor du einen anderen angreifen kannst	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Spott ist eine wichtige Fähigkeit, mit der du deinen Helden schützen kannst	
 
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	From now on, your Hero and your opponent's Hero will normally have a Hero Power	
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Every Hero has its own Hero Power and you can use it once per turn	
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	You can always press {0} to see your Hero Power and {1} to see your opponent's Hero Power	0=hero power key 1=opponent hero power key
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	Von nun an haben dein Held und der Held deines Gegners normalerweise eine Heldenfähigkeit	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Jeder Held hat seine eigene Heldenfähigkeit und du kannst sie einmal pro Zug einsetzen	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Du kannst immer {0} drücken, um deine Heldenfähigkeit zu sehen, und {1}, um die Heldenfähigkeit deines Gegners zu sehen.	0=hero power key 1=opponent hero power key
 
-ACCESSIBILITY_TUTORIAL05_HELP_03	This fight is totally not fair. Blame the terrible game designers	
-ACCESSIBILITY_TUTORIAL05_HELP_04	Your Taunt minions can protect you from attacks!	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	It looks like your opponent equipped a weapon	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Weapons are special cards which can be equipped by heroes	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Each weapon has some attack and some durability	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Once equipped, heroes can attack other characters during their turn	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Your opponent equipped Warglaive of Azzinoth: a weapon with 2 attack and 2 durability	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	This means your opponent's Hero will have 2 attack during his turn, and will be able to attack any of your characters	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	Mages don't often use weapons, but you'll be able to play with some later on once you've unlocked other classes	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	You can press {0} at any time to see your weapon or {1} to see your opponent's one	0=weapon key 1=opponent weapon key
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Hear that sound? Weapons lose durability every time their Hero attacks	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Once they reach 0 durability, they break and the Hero can no longer attack	
+ACCESSIBILITY_TUTORIAL05_HELP_03	Dieser Kampf ist absolut nicht fair. Schuld sind die schrecklichen Spieldesigner	
+ACCESSIBILITY_TUTORIAL05_HELP_04	Deine Spott-Diener können dich vor Angriffen schützen!	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Es sieht so aus, als hätte dein Gegner eine Waffe ausgerüstet	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Waffen sind spezielle Karten, die von Helden ausgerüstet werden können	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Jede Waffe hat einen gewissen Angriff und eine gewisse Haltbarkeit	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Einmal ausgerüstet, können Helden während ihres Zuges andere Charaktere angreifen.	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Dein Gegner hat Kriegsgleven von Azzinoth ausgerüstet: eine Waffe mit 2 Angriff und 2 Haltbarkeit	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Das bedeutet, dass der Held deines Gegners in seinem Zug ein weiteres mal angreifen kann, wenn er einen Diener davor angegriffen hat. Er kann jeder deiner Charaktere angreifen.	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	Magier benutzen nicht oft Waffen, aber du wirst später mit einigen spielen können, wenn du andere Klassen freigeschaltet hast	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Du kannst jederzeit {0} drücken, um deine Waffe zu sehen, oder {1}, um die Waffe deines Gegners zu sehen	0=weapon key 1=opponent weapon key
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Hörst du dieses Geräusch? Waffen verlieren jedes Mal an Haltbarkeit, wenn ihr Held angreift	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Sobald sie 0 Haltbarkeit erreichen, brechen sie und der Held kann nicht mehr angreifen.	
 
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Every normal game starts with the mulligan phase	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	In this phase, both players can replace cards in their starting hand with random ones from their deck	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Use the arrow keys or {0} to go through your starting hand	0=Tab key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	If you see a card you don't like, press {0} to mark it for replacement	0=Spacebar key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Once you've marked all cards you'd like to replace, press {0} to draw new ones and start the game	0=Enter key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Jedes normale Spiel beginnt mit der Mulligan-Phase.	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	In dieser Phase können beide Spieler Karten in ihrer Starthand durch zufällige Karten aus ihrem Deck ersetzen	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Verwende die Pfeiltasten oder {0}, um durch deine Starthand zu gehen	0=Tab key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Wenn du eine Karte siehst, die dir nicht gefällt, drücke {0}, um sie zum Austausch zu markieren	0=Spacebar key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Wenn du alle Karten markiert hast, die du ersetzen möchtest, drücke {0}, um neue Karten zu ziehen und das Spiel zu beginnen.	0=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	a	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	i	Optional. Overrides the I key to be read as eye by TTS
