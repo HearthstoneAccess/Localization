@@ -428,7 +428,7 @@ ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 unbekannte Belohnung
 ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(Eintrittskarte,Eintrittskarten)	0=number of tickets
 ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini-Set mit {0} Karten	0=number of cards
 ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} Arkane Kugeln	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} arkaner Staub	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} Arkanstaub	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(Kartenpackung,Kartenpakungen)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} Gold	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(Kopie,Kopien) von 1 {1} Karte	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
@@ -523,129 +523,129 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Gib einen n
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Gib einen Suchbegriff ein	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} Mana-Filter aktiviert	{0} mana crystal filter e.g. {7+} mana filter on
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Mana-Filter deaktiviert	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	ändere set	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	ändere Format	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Lieblings-Helden-Skin gesetzt 	Spoken after setting a new favorite Hero Skin
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	lieblings Kartenrücken gesetzt	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Lieblingsmünzen gesetzt	Spoken after setting a new favorite Coin
 
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Craft cards	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Read Arcane Dust	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Disenchant {0} extra |4(card,cards) for {1} Arcane Dust	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Read flavor	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Craft for {0} Arcane Dust	0=amount of dust e.g. Craft for {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Disenchant for {0} Arcane Dust	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Not enough Arcane Dust	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	You cannot craft any more copies of this card	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Card crafted	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Disenchanted	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Karten herstellen	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	lies Arkanstaub	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Entzaubere {0} extra |4(Karte,Karten) für {1} Arkanstaub	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Lies Geschmacksrichtung	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Für {0} Arkanstaub herstellen	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Entzaubere für {0} Arkanstaub	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Nicht genug Arkanstaub	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	Du kannst keine weiteren Kopien dieser Karte herstellen	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Karte hergestellt	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	entzaubert	
 
-ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use the arrow keys and {0} to reveal your cards	0=Enter key
-ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	You don't have any card packs	
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Benutze die Pfeiltasten und {0}, um deine Karten aufzudecken	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Du hast keine Kartenpackungen	
 
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Read current rank	
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} out of {1} |4(star,stars)	0=current stars 1=star slots e.g. {1} out of {3} stars
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} star bonus	0=current star bonus e.g. {2} star bonus
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Aktuellen Rang lesen	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} von {1} |4(Stern,Sterne)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} Stern-Bonus	0=current star bonus e.g. {2} star bonus
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest progress toast	
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Current progress is {0} out of {1}	0=current progress 1=total
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest vortschritt Hinweis	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Der aktuelle Fortschritt ist {0} von {1}	0=current progress 1=total
 
-ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	You finished a quest	
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Du hast eine Quest abgeschlossen	
 
-ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Loading tutorial	
-ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Welcome back to the tutorial	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	You've defeated Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	You've defeated Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	You've defeated Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	You've defeated King Mukla	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	You've defeated Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	You've defeated Illidan Stormrage	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Your next opponent is Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Your next opponent is Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Your next opponent is Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Your next opponent is King Mukla	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Your next opponent is Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Your next and final opponent is Illidan Stormrage	
+ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Lade-Tutorial	
+ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Willkommen zurück zum Tutorial	
+ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Du hast Hogger besiegt	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Du hast Millhouse Manastorm besiegt	
+ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Du hast Lorewalker Cho besiegt	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Du hast König Mukla besiegt	
+ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Du hast Hemet Nesingwary besiegt	
+ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Du hast Illidan Sturmgrimm besiegt	
+ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Dein nächster Gegner ist Hogger	
+ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Dein nächster Gegner ist Millhouse Manastorm	
+ACCESSIBILITY_TUTORIAL_NEXT_CHO	Dein nächster Gegner ist Lorewalker Cho	
+ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Dein nächster Gegner ist König Mukla	
+ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Dein nächster Gegner ist Hemet Nesingwary	
+ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Dein nächster und letzter Gegner ist Illidan Sturmgrimm	
 
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games	
-ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	If you ever feel lost, press {0}. Even after the tutorial or when navigating menus, you can always use {0} whenever you need help	0=F1 key
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Alright, let's get on with it	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Here's a basic Mage pack of cards to get you started. Press {0} to open it	0=Enter key
-ACCESSIBILITY_TUTORIAL_NICE_WORK	Nice work	
-ACCESSIBILITY_TUTORIAL_NICE_JOB	Nice job	
-ACCESSIBILITY_TUTORIAL_NICE_ONE	Nice one	
-ACCESSIBILITY_TUTORIAL_GOOD_JOB	Good job	
-ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	You got it!	
-ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Remember how to do it?	
-ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Remember how to do that?	
-ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	Try it out!	
-ACCESSIBILITY_TUTORIAL_ALL_RIGHT	All right!	
-ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Let's learn how	
-ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	Can you do it?	
-ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	Think you can do it?	
-ACCESSIBILITY_TUTORIAL_GOT_IT	Got it	
-ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	Not yet! Use your Hero Power. Press {0} to select it	0=r key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Ich bringe dir bei, wie du eine Reihe von sechs Tutorial-Spielen durchspielst	
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Wenn du dich einmal verirrt hast, drücke {0}. Auch nach dem Tutorial oder beim Navigieren durch die Menüs kannst du immer {0} benutzen, wenn du Hilfe brauchst	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Also gut, fangen wir an	
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Hier ist ein einfaches Magier-Kartenpaket, das dir den Einstieg erleichtern soll. Drücke {0}, um es zu öffnen	0=Enter key
+ACCESSIBILITY_TUTORIAL_NICE_WORK	Gut gemacht!	
+ACCESSIBILITY_TUTORIAL_NICE_JOB	Ausgezeichnet!	
+ACCESSIBILITY_TUTORIAL_NICE_ONE	Richtig So!	
+ACCESSIBILITY_TUTORIAL_GOOD_JOB	Weiter So!	
+ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	Du hast es geschafft!	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Weißt du noch, wie man es macht?	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Weißt du noch, wie man das macht?	
+ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	Probiere es aus!	
+ACCESSIBILITY_TUTORIAL_ALL_RIGHT	Also gut!	
+ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Lasst uns lernen, wie man	
+ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	Kannst du es schaffen?	
+ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	Denkst du, du kannst es schaffen?	
+ACCESSIBILITY_TUTORIAL_GOT_IT	Ich hab's	
+ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	Noch nicht! Benutze deine Heldenfähigkeit. Drücke {0}, um sie auszuwählen	0=r key
 
-ACCESSIBILITY_TUTORIAL_HOGGER_START	Your first opponent is a gnoll named Hogger. You will be playing as the powerful mage Jaina Proudmoore	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Use the up and down arrow keys to read this card first	
-ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Summon the minion you just got first	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Use {0} and the arrow keys to read your opponent's minions first	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_0	When a turn starts, you always begin by drawing a card from your deck. Let's see the one we just drew	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Press {0} to look at the cards in your hand	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, so... This card is a minion named Murloc Raider	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Minions are creatures that you can summon onto the battlefield to fight for your Hero	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	This one costs 1 mana to summon and has 2 attack and 1 health	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Let's start by summoning this minion	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Press {0} to do so	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Press {0} to confirm or {1} to cancel	0=Enter key 1=Backspace key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Minions must wait a turn to attack once they're summoned, so we have nothing left to do	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Your opponent's minion attacked your Hero so you took some damage	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Let's see how much health we have left	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Use the up and down arrow keys to read your hero card	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Use {0} and the arrow keys to find out how much health your Hero has	0=v key
-ACCESSIBILITY_TUTORIAL_HOGGER_3_3	If your Hero runs out of health, you lose. 28 health is still plenty though	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Let's look at your opponent's hero now. Press {0}	0=f key
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Can you find how much health he has?	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Use the up and down arrow keys to read your opponent's hero card	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Once your opponent's Hero runs out of health, you win	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Let's carry on	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Looks like you got another minion. Can you summon this one yourself?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Use {0} and {1} to summon your minion	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	When you already have minions on the battlefield, you can use the left and right arrow keys to select where the new minion will be placed	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_4	You now have two minions on the battlefield. This one was just summoned so it must wait a turn to attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Let's learn how to navigate the battlefield	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Use the left and right arrow keys to navigate your minions	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Use {0} and the arrow keys to navigate your summoned minions	0=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Let's look at your opponent's minions now. Press {0} to do so	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Can you read this minion by yourself?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Use the up and down arrow keys to read your opponent's minions	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Let's try to attack this minion now	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Select the Murloc Raider you summoned last turn	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Use {0} to get to your minion and {1} to launch an attack	0=b key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Press {0} to attack with this minion	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Can you attack your opponent's minion?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Use {0} and {1} to attack your opponent's minion	0=g key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Both minions had 2 attack and 1 health so they killed each other	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Your other minion is still exhausted so there's nothing left to do. Remember how to end your turn?	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Looks like you got another minion	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_2	This means you have two possible options right now	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_3	You can either summon the minion you just got, or use the one you summoned last turn to launch an attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_4	One way to do this would be using keys such as {0} to look at your hand or {1} to look at your summoned minions	0=c key 1=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_5	However, there's an easier way to do it	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Press {0}	0=Tab key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_7	You're now looking at your first option, which would be to summon the minion you just got	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Try pressing {0} again	0=Tab key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_9	You're now looking at your second option, which would be to attack with the minion you summoned last turn	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_10	You can always use {0} to go through your valid options, so make sure to remember this key!	0=key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Alright. Let's begin by summoning the minion we just got	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Use {0} or {1} and {2} to summon your minion	0=Tab key 1=c key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Let's try to attack with our other minion now	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Use {0} or {1} to find your minion and {2} to launch an attack	0=Tab key 1=b key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_14	You now have another choice to make. You can either attack one of your opponent's minions, or your opponent's hero himself	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_15	You can either use {0} to go through your valid targets or select your target directly using {1} or {2}	0=Tab key 1=g key 2=f key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Go ahead and choose a target to attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Use {0} and {1} to launch an attack	0=Tab key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_21	We're ready to end our turn!	
-ACCESSIBILITY_TUTORIAL_HOGGER_8_1	I'll let you continue playing by yourself. Just let me know if you need anything	
+ACCESSIBILITY_TUTORIAL_HOGGER_START	Dein erster Gegner ist ein Gnoll namens Hogger. Du spielst als die mächtige Magierin Jaina Proudmoore	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Benutze die Pfeiltasten nach oben und unten, um diese Karte zuerst zu lesen	
+ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Beschwöre zuerst den Diener, den du gerade bekommen hast	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Benutze {0} und die Pfeiltasten, um die gegnerischen Diener zuerst zu lesen	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Wenn ein Zug beginnt, ziehst du immer zuerst eine Karte von deinem Stapel. Schauen wir uns die Karte an, die wir gerade gezogen haben	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Drücke {0}, um dir die Karten auf deiner Hand anzusehen	0=c key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, also... Diese Karte ist ein Diener namens Murlocräuber	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Diener sind Kreaturen, die du auf das Schlachtfeld beschwören kannst, um für deinen Helden zu kämpfen.	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Dieser kostet 1 Mana zum Beschwören und hat 2 Angriffs- und 1 Lebenspunkte	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Beginnen wir mit der Beschwörung dieses Dieners	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Drücke {0}, um dies zu tun	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Drücke {0} zum Bestätigen oder {1} zum Abbrechen	0=Enter key 1=Backspace key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Diener müssen eine Runde warten, bis sie angreifen können, sobald sie beschworen wurden, also haben wir nichts mehr zu tun	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Der Diener deines Gegners hat deinen Helden angegriffen, also hast du etwas Schaden genommen	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Mal sehen, wie viel Gesundheit wir noch haben	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Benutze die Pfeiltasten nach oben und unten, um deine Heldenkarte zu lesen	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Benutze {0} und die Pfeiltasten, um herauszufinden, wie viel Gesundheit dein Held hat	0=v key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Wenn dein Held keine Gesundheit mehr hat, hast du verloren. 28 Lebenspunkte sind aber immer noch genug	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Schauen wir uns jetzt den Helden deines Gegners an. Drücke {0}	0=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Kannst du herausfinden, wie viel Gesundheit er hat?	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Benutze die Pfeiltasten nach oben und unten, um die Heldenkarte deines Gegners zu lesen	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Sobald der Held deines Gegners keine Gesundheit mehr hat, gewinnst du	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Lass uns weitermachen	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Sieht aus, als hättest du noch einen Diener bekommen. Kannst du diesen selbst beschwören?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Benutze {0} und {1}, um deinen Diener zu beschwören	0=c key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Wenn du bereits Diener auf dem Schlachtfeld hast, kannst du mit der linken und rechten Pfeiltaste auswählen, wo der neue Diener platziert werden soll	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Du hast jetzt zwei Diener auf dem Schlachtfeld. Dieser wurde gerade beschworen, also muss er eine Runde warten, um anzugreifen	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Jetzt  lernen wir, wie man auf dem Schlachtfeld navigiert	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Benutze die linke und rechte Pfeiltaste, um durch deine Diener zu navigieren	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Verwende {0} und die Pfeiltasten, um durch deine beschworenen Diener zu navigieren	0=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Schauen wir uns jetzt die Diener deines Gegners an. Drücke {0}, um dies zu tun	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Kannst du diesen Diener selbst lesen?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Benutze die Pfeiltasten nach oben und unten, um die Diener deines Gegners zu lesen	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Versuchen wir jetzt, diesen Diener anzugreifen	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Wähle den Murlocräuber, den du im letzten Zug beschworen hast	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Benutze {0}, um zu deinem Diener zu gelangen und {1}, um einen Angriff zu starten.	0=b key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Drücke {0}, um mit diesem Diener anzugreifen	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Kannst du den gegnerischen Diener angreifen?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Benutze {0} und {1}, um den gegnerischen Diener anzugreifen	0=g key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Beide Diener hatten 2 Angriff und 1 Gesundheit, also haben sie sich gegenseitig getötet.	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Dein anderer Diener ist immer noch erschöpft, es gibt also nichts mehr zu tun. Weißt du noch, wie du deinen Zug beenden kannst?	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Sieht aus, als hättest du einen weiteren Diener erhalten	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Das bedeutet, dass du im Moment zwei mögliche Optionen hast	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Du kannst entweder den Diener beschwören, den du gerade bekommen hast, oder den Diener, den du im letzten Zug beschworen hast, für einen Angriff verwenden.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	Eine Möglichkeit, dies zu tun, wäre die Verwendung von Tasten wie {0}, um deine Hand zu betrachten, oder {1}, um deine beschworenen Diener zu betrachten	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_5	Es gibt jedoch einen einfacheren Weg, dies zu tun	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Drücke {0}	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Deine erste Option ist es, den Diener zu beschwören, den du gerade bekommen hast. Diese hast du gerade im Focus.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Versuche erneut {0} zu drücken	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Du stehst nun auf der zweiten Möglichkeit, mit dem Diener anzugreifen, den du im letzten Zug beschworen hast.	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Du kannst immer {0} verwenden, um deine gültigen Optionen durchzugehen, also merke dir diese Taste!	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Also gut. Beginnen wir mit der Beschwörung des Dieners, den wir gerade bekommen haben	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Benutze {0} oder {1} und {2}, um deinen Diener zu beschwören	0=Tab key 1=c key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Versuchen wir jetzt, mit unserem anderen Diener anzugreifen	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Benutze {0} oder {1}, um deinen Diener zu finden und {2}, um einen Angriff zu starten.	0=Tab key 1=b key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Du hast nun eine weitere Wahl zu treffen. Du kannst entweder einen Diener deines Gegners angreifen oder den Helden deines Gegners selbst	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Du kannst entweder {0} verwenden, um deine gültigen Ziele durchzugehen, oder dein Ziel direkt mit {1} oder {2} auswählen.	0=Tab key 1=g key 2=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Wähle ein Ziel zum Angreifen	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Benutze {0} und {1}, um einen Angriff zu starten	0=Tab key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_21	Wir sind bereit, unsere Runde zu beenden!	
+ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Ich lasse dich alleine weiterspielen. Sag mir einfach Bescheid, wenn du etwas brauchst	
 
 ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Press {0} at any time to see how much mana you have	0=a key
 
