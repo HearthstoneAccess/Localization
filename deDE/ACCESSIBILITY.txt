@@ -398,135 +398,135 @@ ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Drücke {0}, um deine Belohnungskiste
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Du hast {0} |4(Belohnungspaket,Belohnungspakete)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Benutze die Pfeiltasten und {0}, um deine Belohnungen zu öffnen	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP quest	0=xp rewarded by quest. Note: these quests don't have a name
-ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Rewards {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
-ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Rewards 1 of {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Erhalte {0} Erfahrung Quest	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	wird mit {0} belohnt	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
+ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Eine der folgenden Belohnungen kannst du wählen: {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
-ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	You don't have any quests	
-ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Press {0} to abandon	0=a key
-ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Press {0} to reroll	0=r key
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Du hast keine Quests	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Drücke {0}, um aufzugeben	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Drücke {0}, um ein neues Quest zu würfeln	0=r key
 
-ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	You've reached level {0}	0=track reward level e.g. You've reached level {3}
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	You've gained {0} XP	0=XP gained e.g. You've gained {50} XP
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	You've gained {0} XP for completing a quest	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Du hast Level {0} erreicht	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Du hast {0} Erfahrung erhalten	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Du hast {0} Erfahrung für das Abschließen einer Quest erhalten	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	You are currently {0}	0=rank name e.g. You are currently Bronze 10
-ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	You are now {0}	0=rank name e.g. You are now Diamond 1
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	You have {0} out of {1} |4(star,stars)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
-ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	You've earned {0} |4(star,stars)	0=number of stars earned e.g. You've earned {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	You've lost {0} |4(star,stars)	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Star bonus! Times {0}	0=star bonus e.g. Star bonus! Times {4}
-ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Win Streak bonus! Times {0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	Du bist zurzeit auf Rang {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Du bist jetzt {0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	Du hast {0} von {1} |4(Stern,Sterne)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Du hast {0} |4(Stern,Sterne) verdient	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Du hast {0} |4(stern,sterne) verloren	0=number of stars lost e.g. You've lost {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Stern-Bonus! {0} Mal	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Gewinnsträhnen-Bonus! {0} Mal	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
-ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Reward package	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 card pack	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 card	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 card back	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 mount	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini-set	
-ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 unknown reward	
-ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ticket,tickets)	0=number of tickets
-ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini-set with {0} cards	0=number of cards
-ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} arcane orbs	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} arcane dust	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(card pack,card packs)	0=amount
-ACCESSIBILITY_UI_REWARD_N_GOLD	{0} gold	0=amount
-ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copy,copies) of 1 {1} card	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copy,copies) of 1 core {1} card	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
-ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Golden {0}	0=Hero name e.g. Golden Jaina Proudmoore
-ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Hero	0=class e.g. Mage Hero
-ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} out of {1} Heroes unlocked	0=number of unlocked Heroes 1=total number of Heroes
-ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copies of 1) card	0=number of copies
-ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Hero skin,Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Card back,Card backs)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena ticket,Arena tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Runestone,Runestones)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Adventure,Adventures)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket,Tavern Brawl tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins)	0=amount
-ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
+ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Belohnungs-Paket	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 Kartenpackung	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 Karte	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 Kartenrücken	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 Reittier	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 Mini-Set	
+ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 unbekannte Belohnung	
+ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(Eintrittskarte,Eintrittskarten)	0=number of tickets
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini-Set mit {0} Karten	0=number of cards
+ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} Arkane Kugeln	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} arkaner Staub	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(Kartenpackung,Kartenpakungen)	0=amount
+ACCESSIBILITY_UI_REWARD_N_GOLD	{0} Gold	0=amount
+ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(Kopie,Kopien) von 1 {1} Karte	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(Kopie,Kopien) von 1 Kern {1} Karte	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	vergoldeter Held {0}	0=Hero name e.g. Golden Jaina Proudmoore
+ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Held	0=class e.g. Mage Hero
+ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} von {1} Helden freigeschaltet	0=number of unlocked Heroes 1=total number of Heroes
+ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,kopien) Karten	0=number of copies
+ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Helden-Skin,Helden-Skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Kartenrücken,Kartenrücken)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena-Ticket,Arena-Tickets)	0=amount
+ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Runenstein,Runensteine)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Abenteuer,Abenteuer)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Kartenchaos-Eintrittskarte,Kartenchaos-Eintrittskarten)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(benutzerdefinierte Münze,benutzerdefinierte Münzen)	0=amount
+ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% Erfahrungs-Boost	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Schlachtfeld Helden-skin,Schlachtfeld Helden-skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Schlachtfeldbarkeeper-skin,Schlachtfeldbarkeeper-skins)	0=amount
 
-ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Social Menu	
-ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copied to clipboard	
-ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Message from {0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
-ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Message to {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
-ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Type a message	
-ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Send message	
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Soziale Optionen	
+ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag in Zwischenablage kopiert	
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Nachricht von {0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Nachricht an {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Schreibe eine Nachricht	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Sende Nachricht	
 
-ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Read current level	
-ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Claim {0} |4(reward,rewards)	0=number of rewards e.g. Claim {5} rewards
-ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed all rewards for this level	
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Lies aktuelles Level	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Beanspruche {0} |4(Belohnung,Belohnungen)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Du hast bereits alle Belohnungen für dieses Level erhalten	
 
-ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
-ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
-ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
-ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Buy Hero skins	
-ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Buy bundles	
-ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Buy others	
-ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
-ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
-ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Get for free	Some items in the shop are free
-ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
-ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
-ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_READ_GOLD	Lies Gold	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Packungen kaufen	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Mini-sets kaufen	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Helden-Skins kaufen	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Bündel kaufen	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	anderes kaufen	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Lies Beschreibung	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Für {0} gold kaufen	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	kostenlos bekommen	Some items in the shop are free
+ACCESSIBILITY_UI_SHOP_READ_CARDS	lies Karten	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Benutze die Pfeiltasten, um die Karten zu lesen	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} Gold übrig	0=amount e.g. {150} gold remaining
 
-ACCESSIBILITY_SCREEN_GO_BACK	Go back	
+ACCESSIBILITY_SCREEN_GO_BACK	Zurück	
 
-ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Fatal error screen	
+ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Bildschirm für schwerwiegende Fehler	
 
-ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Your Hero reached level {0}	0=level
+ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Dein Held hat Stufe {0} erreicht	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Press {0} to start or {1} to go back to the main menu	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Bildschirm Abenteurer wählen	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Drücke {0} zum Starten oder {1}, um zum Hauptmenü zurückzukehren	0=Enter key 1=Backspace key
 
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Adventure screen	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Adventure menu	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Play	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Read Deck	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Retire	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Waiting for voice-over to end	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Use the arrow keys to read your cards	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	You can't read your deck in this adventure	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Adventure complete	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	You're on opponent number {0} out of {1}	0=current opponent number 1=number of opponents
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Abenteuer-Bildschirm	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Menü Abenteuer	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Spielen	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Deck lesen	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Aufgeben	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Warten auf das Ende des Voice-over	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Benutze die Pfeiltasten, um deine Karten zu lesen	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	Du kannst dein Deck in diesem Abenteuer nicht lesen	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Abenteuer abgeschlossen	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Du bist bei Gegner Nummer {0} von {1}	0=current opponent number 1=number of opponents
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Choose an adventure	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Book of Heroes	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Choose your opponent's difficulty	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Wähle ein Abenteuer	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Buch der Helden	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Wähle die Schwierigkeit deines Gegners	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Normal	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Expert	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	You must beat all normal opponents to unlock expert	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Experte	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Du musst alle normalen Gegner besiegen, um den Experten-Modus freizuschalten	
 
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Undefeated	
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Unbesiegt	
 
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Browse collection	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edit deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Delete deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	{0} of {1} cards owned	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Press {0} to create a deck using this recipe or {1} to choose a different one	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Press {0} to create a custom deck or {1} to choose a recipe	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Add cards	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	See deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Your deck is empty	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} of {1} cards in deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use the arrow keys to read your cards. Use {0} to jump between classes.	0=Tab key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Use the number keys to filter your cards by mana. Use {0} to search your collection.	0=ctrl+f
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Use the arrow keys and {0} to read all available coins.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Use the arrow keys and {0} to read all available card backs.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Use the arrow keys and {0} to read all available Hero skins.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Use {0} to add cards to your deck	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Use {0} to remove cards from your deck	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Type in a new name for your deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Type in a search term	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} mana filter on	{0} mana crystal filter e.g. {7+} mana filter on
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Mana filter off	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Change set	Used for changing between standard cards, wild cards, united in stormwind, etc.
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Favorite Hero Skin set	Spoken after setting a new favorite Hero Skin
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Favorite Card Back set	Spoken after setting a new favorite Card Back
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Favorite Coin set	Spoken after setting a new favorite Coin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Sammlung durchsuchen	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	deck bearbeiten	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Deck löschen	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	{0} von {1} Karten im Besitz	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Drücke {0}, um ein Deck mit diesem Rezept zu erstellen, oder {1}, um ein anderes zu wählen	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Drücke {0}, um ein eigenes Deck zu erstellen oder {1}, um ein Rezept auszuwählen	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Karten hinzufügen	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Deck anschauen	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Dein Deck ist leer	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} von {1} Karten im Deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Benutze die Pfeiltasten, um deine Karten zu lesen. Benutze {0}, um zwischen den Klassen zu springen.	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Benutze den Nummernblock, um deine Karten nach Mana zu filtern. Verwende {0}, um deine Sammlung zu durchsuchen.	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Benutze die Pfeiltasten und {0}, um alle verfügbaren Münzen zu lesen.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Benutze die Pfeiltasten und {0}, um alle verfügbaren Kartenrücken zu lesen.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Benutze die Pfeiltasten und {0}, um alle verfügbaren Helden-Skins zu lesen.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Verwende {0}, um Karten zu deinem Deck hinzuzufügen	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Verwende {0}, um Karten aus deinem Deck zu entfernen	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Gib einen neuen Namen für dein Deck ein	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Gib einen Suchbegriff ein	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} Mana-Filter aktiviert	{0} mana crystal filter e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Mana-Filter deaktiviert	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	ändere set	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Lieblings-Helden-Skin gesetzt 	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	lieblings Kartenrücken gesetzt	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Lieblingsmünzen gesetzt	Spoken after setting a new favorite Coin
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Craft cards	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Read Arcane Dust	
