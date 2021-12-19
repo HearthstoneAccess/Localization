@@ -122,7 +122,7 @@ ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Du fängst an
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Dein Gegner fängt an	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Du startest mit {0} |4(Karte,karten)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Du hast {0} gezogen	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Your opponent drew {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Dein gegner hat {0} gezogen	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Du hast {0} abgeworfen	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Dein Gegner hat {0} abgeworfen	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	Du bekommst die Münze	
@@ -436,7 +436,7 @@ ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(Kopie,Kopien) von 1 Kern {1}
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	vergoldeter Held {0}	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Held	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} von {1} Helden freigeschaltet	0=number of unlocked Heroes 1=total number of Heroes
-ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,kopien) Karten	0=number of copies
+ACCESSIBILITY_UI_REWARD_CARD	{0} |4(Karte,Karten-Kopien)	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Helden-Skin,Helden-Skins)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Kartenrücken,Kartenrücken)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena-Ticket,Arena-Tickets)	0=amount
