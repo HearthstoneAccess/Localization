@@ -79,7 +79,7 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - goldene Ausführung	0=card 
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamantene Ausführung	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Der Gegner ist am Zug	
-ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Runde beendet	
+ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Yug beendet	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} wurde ausgelöst.		0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Deine Karte namens {0} wurde ausgelöst.		0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Die Karte namens {0} deines Gegners wurde ausgelöst.	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -597,7 +597,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Dieser kostet 1 Mana zum Beschwören und hat 
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Beginnen wir mit der Beschwörung dieses Dieners	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Drücke {0}, um dies zu tun	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Drücke {0} zum Bestätigen oder {1} zum Abbrechen	0=Enter key 1=Backspace key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Diener müssen eine Runde warten, bis sie angreifen können, sobald sie beschworen wurden, also haben wir nichts mehr zu tun	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Diener müssen eine Yug warten, bis sie angreifen können, sobald sie beschworen wurden, also haben wir nichts mehr zu tun	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Der Diener deines Gegners hat deinen Helden angegriffen, also hast du etwas Schaden genommen	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Mal sehen, wie viel Gesundheit wir noch haben	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Benutze die Pfeiltasten nach oben und unten, um deine Heldenkarte zu lesen	
@@ -611,7 +611,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Lass uns weitermachen
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Sieht aus, als hättest du noch einen Diener bekommen. Kannst du diesen selbst beschwören?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Benutze {0} und {1}, um deinen Diener zu beschwören	0=c key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Wenn du bereits Diener auf dem Schlachtfeld hast, kannst du mit der linken und rechten Pfeiltaste auswählen, wo der neue Diener platziert werden soll	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Du hast jetzt zwei Diener auf dem Schlachtfeld. Dieser wurde gerade beschworen, also muss er eine Runde warten, um anzugreifen	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Du hast jetzt zwei Diener auf dem Schlachtfeld. Dieser wurde gerade beschworen, also muss er eine Yug warten, um anzugreifen	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Jetzt  lernen wir, wie man auf dem Schlachtfeld navigiert	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Benutze die linke und rechte Pfeiltaste, um durch deine Diener zu navigieren	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Verwende {0} und die Pfeiltasten, um durch deine beschworenen Diener zu navigieren	0=b key
@@ -644,7 +644,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Du hast nun eine weitere Wahl zu treffen. Du 
 ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Du kannst entweder {0} verwenden, um deine gültigen Ziele durchzugehen, oder dein Ziel direkt mit {1} oder {2} auswählen.	0=Tab key 1=g key 2=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Wähle ein Ziel zum Angreifen	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Benutze {0} und {1}, um einen Angriff zu starten	0=Tab key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_21	Wir sind bereit, unsere Runde zu beenden!	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_21	Wir sind bereit, unsere Yug zu beenden!	
 ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Ich lasse dich alleine weiterspielen. Sag mir einfach Bescheid, wenn du etwas brauchst	
 
 ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Drücke {0}, um jederzeit zu sehen, wie viel Mana du hast	0=a key
