@@ -124,8 +124,8 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	상대의 선공
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	카드 {0}장으로 시작	0=number of cards
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	{0} 뽑음	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	"상대, {0} 뽑음"	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	{0} 카드 버림	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	"상대, {0} 카드 버림"	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	{0} 버림	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	"상대, {0} 버림"	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	동전 획득	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	상대를 기다리는 중	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	소환할까요?	
@@ -286,14 +286,14 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	{0}(으)로
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	이동됨	e.g. Your Bloodfen Raptor {moved zones}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	이동됨	e.g. Your 2 Bloodfen Raptor {moved zones}
 		
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	{0} 카드를 손으로 가져옴	0=card name e.g. 1 {Murloc Raider} was added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} 카드들을 손으로 가져옴	0=card names e.g. {2 Murloc Raider} were added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	{0} 카드를 상대의 손으로 가져옴	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} 카드들을 상대의 손으로 가져옴	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	{0} 카드를 덱에 섞어 넣음	0=card name e.g. 1 {Fireball} was shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} 카드들을 덱에 섞어 넣음	0=card names e.g. {2 Fireball} were shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	{0} 카드를 상대의 덱에 섞어 넣음	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} 카드들을 상대의 덱에 섞어 넣음	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	{0} 손으로 가져옴	0=card name e.g. 1 {Murloc Raider} was added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} 손으로 가져옴	0=card names e.g. {2 Murloc Raider} were added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	{0} 상대의 손으로 가져옴	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} 상대의 손으로 가져옴	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	{0} 덱에 섞어 넣음	0=card name e.g. 1 {Fireball} was shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} 덱에 섞어 넣음	0=card names e.g. {2 Fireball} were shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	{0} 상대의 덱에 섞어 넣음	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} 상대의 덱에 섞어 넣음	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	나의 필드에 소환됨; {0}	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	나의 필드에 소환됨; {0}	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	상대의 필드에 소환됨; {0}	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
@@ -379,7 +379,7 @@ ACCESSIBILITY_UI_REWARD_HELP	방향키를 이용하여 보상 내용을 확인�
 		
 ACCESSIBILITY_UI_RANKED_INTRO_POPUP	등급 시스템이 업데이트되었습니다. 온라인에서 더 많은 정보를 찾을 수 있습니다.	
 		
-ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	지난 시즌 등급전의 활약으로 별 보너스 {0}개를 받았습니다.	0=star bonus amount
+ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	지난 시즌 등급전의 활약으로 추가 별 {0}개를 받았습니다.	0=star bonus amount
 		
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	다시 연결 대화상자	
 		
@@ -416,7 +416,7 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	이제부터 랭크는 {0}입니다.	0=
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	별 {1}개 중 {0}개를 달고 있습니다.	0=current stars 1=star slots e.g. You have {1} out of {3} stars
 ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	별 {0}개를 얻었습니다.	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	별 {0}개를 잃었습니다.	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	별 보너스 {0}배!	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	추가 별 {0}배!	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	연승 보너스 {0}배!	0=win streak bonus e.g. Win Streak bonus! Times {2}
 		
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	보상 상자	
@@ -545,7 +545,7 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	가진 카드 팩이 없습니�
 		
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	현재 등급 보기	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	별 {1}개 중 {0}개	0=current stars 1=star slots e.g. {1} out of {3} stars
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	별 보너스 {0}점	0=current star bonus e.g. {2} star bonus
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	추가 별 {0}점	0=current star bonus e.g. {2} star bonus
 		
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	퀘스트 진행 축하 알림	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	{1} 중 {0} 진행 완료	0=current progress 1=total
