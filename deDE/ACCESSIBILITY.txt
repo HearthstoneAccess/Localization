@@ -1,5 +1,5 @@
 TAG	TEXT	COMMENT
-ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Willkommen zu Hearthstone
+ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Willkommen zu Hearthstone	
 
 ACCESSIBILITY_PRESS_KEY_TO_START	Drücke {0} um zu Starten	0=key e.g. Drücke Enter um zu Starten
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Drücke {0} um fortzufahren	0=key e.g. Drücke enter um fortzufahren
@@ -18,13 +18,13 @@ ACCESSIBILITY_LIST_NO_ITEMS	Keine Einträge
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Einstellungsmenü	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Grafik qualität	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Grafik auflösung	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Verwende die linke und rechte Pfeiltaste um die Lautstärke einzustellen
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Verwende die linke und rechte Pfeiltaste um die Lautstärke einzustellen	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} Kontrollfeld	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	aktiviert	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	nicht aktiviert	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Hauptmenü	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Drücke jederzeit {0} um das Spielmenü zu öffnen, versuch es doch einmal!	0=Esc key
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Drücke jederzeit {0} um das Social-Menü zu öffnen, versuch es doch einmal!		0=F4 key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Drücke jederzeit {0} um das Social-Menü zu öffnen, versuch es doch einmal!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Du kannst jederzeit {0} drücken, wenn du nicht mehr weiter weißt. Wenn du die Hilfe einer sehenden Person brauchst, kannst du jederzeit {1} drücken, um die Barrierefreiheit zu deaktivieren und ihr zu erlauben, das Spiel wie gewohnt mit der Maus zu steuern. Vergiss nicht, {1} zu drücken, wenn du keine hilfe mehr brauchst, um die Barrierefreiheit wieder zu aktivieren.	0=Esc key 1=F8 key
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Spiel wird geladen	
@@ -80,8 +80,8 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamantene Ausführung	0=c
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Der Gegner ist am Zug	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	zug beendet	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} wurde ausgelöst.		0=full card name in zone e.g. {Your second Murloc Raider} triggered
-ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Deine Karte namens {0} wurde ausgelöst.		0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} wurde ausgelöst.	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Deine Karte namens {0} wurde ausgelöst.	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Die Karte namens {0} deines Gegners wurde ausgelöst.	0=card name e.g. Your opponent's {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	Die Karte namens {0} deines Gegners wurde ausgelöst, {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Du spielst {0}	0=card name e.g. You played {Fireball}
@@ -683,5 +683,3 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Wenn du eine Karte siehst, 
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Wenn du alle Karten markiert hast, die du ersetzen möchtest, drücke {0}, um neue Karten zu ziehen und das Spiel zu beginnen.	0=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	a	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	i	Optional. Overrides the I key to be read as eye by TTS
