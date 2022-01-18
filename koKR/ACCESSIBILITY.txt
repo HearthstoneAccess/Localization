@@ -411,12 +411,12 @@ ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	보상의 길 레벨이 {0}(으)로 올�
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	경험치 {0}점을 얻었습니다.	0=XP gained e.g. You've gained {50} XP
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	퀘스트를 완수하여 경험치 {0}점을 얻었습니다.	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 		
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	현재 랭크는 {0}입니다.	0=rank name e.g. You are currently Bronze 10
-ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	이제부터 랭크는 {0}입니다.	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	현재 등급은 {0}입니다.	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	이제부터 등급은 {0}입니다.	0=rank name e.g. You are now Diamond 1
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	별 {1}개 중 {0}개를 달고 있습니다.	0=current stars 1=star slots e.g. You have {1} out of {3} stars
 ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	별 {0}개를 얻었습니다.	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	별 {0}개를 잃었습니다.	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	추가 별 {0}배!	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	추가 별 {0}개!	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	연승 보너스 {0}배!	0=win streak bonus e.g. Win Streak bonus! Times {2}
 		
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	보상 상자	
