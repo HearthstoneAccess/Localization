@@ -160,7 +160,6 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	У вашего противника {
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	В руке противника. {0} |4(карта,карты,карт)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	В колоде: {0} |4(карта,карты,карт)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	В колоде противника: {0} |4(карта,карты,карт)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Больше нет доступных вариантов	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	У вас нет доступных действий.	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Победа!	
@@ -653,7 +652,7 @@ ACCESSIBILITY_TUTORIAL_CHO_1	Этот Вуду-Доктор исцелил ге�
 ACCESSIBILITY_TUTORIAL06_HELP_02	Когда миньоны сражаются друг с другом, они оба получают урон.	
 
 ACCESSIBILITY_TUTORIAL_MUKLA_START	В этой игре вы увидите несколько карт со способностями, которых вы раньше не видели.	
-ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Если при чтении карточки вы столкнетесь с чем-то, чего не понимаете, например, "Заряд" или "провокация", нажмите {0}, чтобы получить дополнительную информацию.	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Если при чтении карточки вы столкнетесь с чем-то, чего не понимаете, например, Заряд или провокация, нажмите {0}, чтобы получить дополнительную информацию.	0=i key
 ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Когда будете готовы начать, нажмите {0}.	0=Enter key
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	У этой гориллы, которую только что призвал ваш противник, есть способность Провокация.	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Миньоны с провокацией всегда должны быть убиты, прежде чем вы сможете атаковать кого-либо еще.	
@@ -682,6 +681,3 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Используйте кл
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Если вы видите карту, которая вам не нравится, нажмите {0}, чтобы пометить ее для замены.	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Отметив все карты, которые хотите заменить, нажмите {0}, чтобы взять новые и начать игру.	0=Enter key
 
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
