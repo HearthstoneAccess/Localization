@@ -160,7 +160,6 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Dein Gegner hat {0} mana	0=current and
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Gegnerische Hand. {0} |4(Karte,Karten)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(Karte,Karten)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Gegnerisches Deck. {0} |4(Karte,Karten)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Keine gültigen Optionen mehr	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Du hast keine gültigen Spielzüge	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Du hast gewonnen	

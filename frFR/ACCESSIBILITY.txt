@@ -160,7 +160,6 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	votre adversaire a {0} mana	0=current 
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Main de votre adversaire. {0} |4(carte,cartes)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(carte,cartes)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Deck de votre adversaire. {0} |4(carte,cartes)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Plus d'options valides	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Vous n'avez aucun coup valide	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Vous avez gagné	

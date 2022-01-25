@@ -49,7 +49,7 @@ ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	คำสาป
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility เปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility ปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned off
 
-ACCESSIBILITY_FORMATTING_PERIOD		
+ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
 ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
 ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	 และ 	e.g. the " and " in A, B, C, D and E
@@ -160,7 +160,6 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	ฝ่ายตรงข้ามม�
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	บนมือฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	ในเด็คของคุณมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	ในเด็คของฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	ไม่มีตัวเลือกอื่นแล้ว	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	คุณไม่มีตัวเลือกที่เล่นได้แล้ว	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	คุณชนะ	

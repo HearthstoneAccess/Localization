@@ -160,7 +160,6 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Seu oponente tem {0} mana	0=current an
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mão de seu oponente. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Baralho. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Baralho de seu oponente. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	Não há mais opções válidas	
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Você não tem jogadas válidas	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Você venceu!	
