@@ -182,8 +182,8 @@ ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Секреты противника
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND ваша рука	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	рука противника	e.g. Your Murloc Raider moved to {you opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	ваше поле битвы	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	поле битвы противника	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	ваше поле боя	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	поле боя противника	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	ваши секреты	e.g. Your Ice Block moved from your deck to {your secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	секреты противника	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	ваша колода	e.g. Your Fireball moved from {your deck} to your opponent's deck
@@ -292,10 +292,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} замеш�
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} замешиваются в колоду	0=card names e.g. {2 Fireball} were shuffled into your deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} замешивается в колоду противника	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} замешиваются в колоду противника	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} призывается на поле битвы	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} призываются на поле битвы	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} призывается на поле битвы противника	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} призываются на поле битвы противника	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} призывается на поле боя	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} призываются на поле боя	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} призывается на поле боя противника	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} призываются на поле боя противника	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	вы берёте под контроль {0}	0=card names
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	противник берёт под контроль {0}	0=card names
 
@@ -356,8 +356,8 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Журнал событий пуст
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0} из {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Журнал событий закрыт	
 
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Ваше поле битвы начинается с {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Поле битвы противника начинается с {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Ваше поле боя начинается с {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Поле боя противника начинается с {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
 ACCESSIBILITY_UI_POPUP	Всплывающее окно	
 ACCESSIBILITY_UI_REWARDS_TITLE	Награды	
@@ -591,7 +591,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Исполь�
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	В начале каждого вашего хода вы берете случайную карту из вашей колоды. Посмотрим, что мы только что взяли	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Нажмите {0}, чтобы посмотреть карты в руке	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Хорошо, итак ... Эта карта - существа по имени Мурлок-налетчик	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Существа - это создания, которых вы можете вызывать на поле битвы, чтобы сражаться за своего Героя	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Существа - это создания, которых вы можете вызывать на поле боя, чтобы сражаться за своего Героя	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Призыв стоит 1 ману, у него 2 атаки и 1 здоровья	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Начнем с призыва этого существа	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Для этого нажмите {0}	0=Enter key
