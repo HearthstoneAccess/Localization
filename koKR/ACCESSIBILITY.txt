@@ -68,9 +68,9 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	10번
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	시프트 + {0}	0=key e.g. Shift + F
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	컨트롤 + {0}	0=key e.g. Ctrl + F
 
-ACCESSIBILITY_READ_CARD_COST	마나 비용 {0}	0=card cost
-ACCESSIBILITY_READ_CARD_ATK_HEALTH	공격력 {0}, 생명력 {1}	0=attack 1=health e.g. 3 2
-ACCESSIBILITY_READ_CARD_ATK_DURABILITY	공격력 {0}, 내구도 {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_COST	{0} 마나 필요	0=card cost
+ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0}, {1}	0=attack 1=health e.g. 3 2
+ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0}, {1}	0=attack 1=durability e.g. 1 3
 ACCESSIBILITY_READ_HERO_CARD_ATK	공격력 {0}	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	생명력 {0}	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	방어도 {0}	0=armor
@@ -89,15 +89,15 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	{0} 카드 냄; {1}	0=card na
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	상대, {0} 카드 냄	0=card name e.g. Your opponent played {Fireball}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	상대, {0} 카드 냄; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	{0} 소환	0=minion name e.g. You summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	{0} 소환; 공격력 {1}, 생명력 {2}, {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	{0} 소환; {1}, {2}, {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	상대, {0} 소환	0=minion name e.g. Your opponent summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	상대, {0} 소환; 공격력 {1}, 생명력 {2}, {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	상대, {0} 소환; {1}, {2}, {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	{0} 교환	0=card name e.g. You traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	상대, {0} 교환	0=card name e.g. Your opponent traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	{0} 장착	0=weapon name e.g. You equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	{0} 장착; 공격력 {1}, 내구도 {2}, {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	{0} 장착; {1}, {2}, {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	상대, {0} 장착	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	상대, {0} 장착; 공격력 {1}, 내구도 {2}, {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	상대, {0} 장착; {1}, {2}, {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	능력 {0} 사용	0=hero power name e.g. You used {Fireblast}
 ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	능력 {0} 사용; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	상대, 능력 {0} 사용	0=hero power name e.g. Your opponent used {Fireblast}
