@@ -1,31 +1,31 @@
 TAG	TEXT	COMMENT
 ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Добро пожаловать в Hearthstone	
 
-ACCESSIBILITY_PRESS_KEY_TO_START	Нажмите {0}, чтобы начать	0=key e.g. Press Enter to start
-ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Нажмите {0}, чтобы продолжить	0=key e.g. Press Enter to continue
-ACCESSIBILITY_PRESS_KEY_TO_FINISH	Нажмите {0}, чтобы закончить	0=key e.g. Press Enter to finish
-ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Нажмите {0}, чтобы перейти назад	0=key e.g. Press backspace to go back
-ACCESSIBILITY_PRESS_KEY_TO_EXIT	Нажмите {0}, чтобы выйти	0=key e.g. Press Enter to exit
-ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Нажмите {0}, как только Вы будете готовы	0=key e.g. Press Enter once you're done
+ACCESSIBILITY_PRESS_KEY_TO_START	чтобы начать нажмите {0}	0=key e.g. Press Enter to start
+ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Для продолжения нажмите {0}	0=key e.g. Press Enter to continue
+ACCESSIBILITY_PRESS_KEY_TO_FINISH	Для завершения нажмите {0}	0=key e.g. Press Enter to finish
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	для возврата нажмите {0}	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_EXIT	для выхода нажмите {0}	0=key e.g. Press Enter to exit
+ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Нажмите {0}, когда будете готовы	0=key e.g. Press Enter once you're done
 
-ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Используйте стрелки вверх и вниз для перемещения по меню. Нажмите {0} для выбора опции	0=Enter key
-ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Используйте стрелки вверх и вниз для перемещения по меню. Нажмите {0} для выбора опции или {1} для перехода назад	0=Enter key 1=Backspace key
-ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Используйте стрелки влево и вправо для перемещения по меню, стрелки вверх и вниз для чтения опций, {0} для выбора опции	0=Enter key
-ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Используйте стрелки влево и вправо для перемещения по меню, стрелки вверх и вниз для чтения опций, {0} для выбора опции, {1} для перехода назад	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	Используйте стрелки вверх, вниз для перемещения по меню. Нажмите {0} для выбора	0=Enter key
+ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	Используйте стрелки вверх, вниз для перемещения по меню. Нажмите {0} для выбора или {1} для возврата	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	Используйте стрелки влево, вправо для перемещения по меню, стрелки вверх, вниз для чтения, {0} для выбора	0=Enter key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	Используйте стрелки влево, вправо для перемещения по меню, стрелки вверх, вниз для чтения, {0} для выбора и {1} для возврата	0=Enter key 1=Backspace key
 ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1} из {2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
 ACCESSIBILITY_LIST_NO_ITEMS	Нет элементов	
 
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Меню Настроек	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Качество графики	
-ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Разрешение графики	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Используйте стрелки влево и вправо для изменения громкости	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Разрешение экрана	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Для регулировки громкости Используйте стрелки влево, вправо	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} флажок	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Отмечено	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Не Отмечено	
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Главное Меню	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Нажмите {0} в любое время, чтобы открыть меню игры. Попробуйте прямо сейчас!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Нажмите {0} в любое время, чтобы открыть социальное меню. Попробуйте прямо сейчас!	0=F4 key
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Нажмите {0} в любое время, если Вы чувствуете, что потерялись. Если вам требуется помощь зрячего человека, Вы всегда можете нажать {1}, чтобы отключить поддержку программ чтения с экрана и позволить управлять игрой при помощи мыши, как обычно. Не забудьте нажать {1}, когда помощь будет окончена, чтобы включить поддержку доступности вновь	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Нажмите {0} в любое время, если Вы чувствуете, что потерялись. Если вам требуется помощь зрячего человека, Вы всегда можете нажать {1}, чтобы отключить поддержку программ чтения с экрана и позволить управлять игрой при помощи мыши, как обычно. Не забудьте нажать {1}, когда помощь будет окончена, чтобы включить поддержку специальных возможностей вновь	0=Esc key 1=F8 key
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Игра загружается	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Игра закрывается	
@@ -36,15 +36,15 @@ ACCESSIBILITY_GLOBAL_CARD	карта
 ACCESSIBILITY_GLOBAL_CARD_PLURAL	карты	
 ACCESSIBILITY_GLOBAL_HERO	Герой	
 ACCESSIBILITY_GLOBAL_HERO_POWER	Сила героя	
-ACCESSIBILITY_GLOBAL_SECRET	{0} secret	0=secret class e.g. {Mage} secret
+ACCESSIBILITY_GLOBAL_SECRET	{0} секрет	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Скорость игры {0}	0=current game speed
-ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Вы не можете изменять скорость игры во время игры с реальными оппонентами	
-ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	A new version of Hearthstone Access is available. Please run the patcher again whenever possible as it may contain bug fixes	
-ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Вы не можете делать этого	
-ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Switch format	Used as a menu option for switching between standard, wild and classic
-ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Choose a format	Used as a menu title for choosing standard, wild or classic
+ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Вы не можете изменять скорость игры во время игры с реальными игроками	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Доступна новая версия Hearthstone Access. Пожалуйста, запустите патчер снова, когда сможете, так как обновление может содержать исправление ошибок	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Вы не можете сделать этого	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Переключить формат	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Выберите формат	Used as a menu title for choosing standard, wild or classic
 
-ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Cursed	
+ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Проклят	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Поддержка программ экранного доступа включена	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Поддержка программ экранного доступа выключена	Read when F8 is pressed and accessibility is turned off
@@ -52,116 +52,115 @@ ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Поддержка программ эк�
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
 ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
-ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	 and 	e.g. the " and " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	 и 	e.g. the " and " in A, B, C, D and E
 
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	first	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_2	second	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_3	third	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_4	fourth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_5	fifth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_6	sixth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_7	seventh	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_8	eighth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	ninth	
-ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	tenth	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	номер 1	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_2	номер 2	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_3	номер 3	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_4	номер 4	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_5	номер 5	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_6	номер 6	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_7	номер 7	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_8	номер 8	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	номер 9	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	номер 10	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
-ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
+ACCESSIBILITY_READ_CARD_COST	{0} маны	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
-ACCESSIBILITY_READ_HERO_CARD_ATK	{0} attack	0=attack
-ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} health	0=health
-ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} armor	0=armor
-ACCESSIBILITY_READ_CARD_N_COPIES	{0} copies	0=number of copies
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - golden edition	0=card name e.g. {fireball} - golden edition
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamond edition	0=card name
+ACCESSIBILITY_READ_HERO_CARD_ATK	Атака {0}	0=attack
+ACCESSIBILITY_READ_HERO_CARD_HEALTH	Здоровье {0}	0=health
+ACCESSIBILITY_READ_HERO_CARD_ARMOR	Броня {0}	0=armor
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} копий	0=number of copies
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - золотая	0=card name e.g. {fireball} - golden edition
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - алмазная	0=card name
 
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Opponent's turn	
-ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turn ended	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} triggered	0=full card name in zone e.g. {Your second Murloc Raider} triggered
-ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Your {0} triggered	0=card name e.g. Your {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Your opponent's {0} triggered	0=card name e.g. Your opponent's {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	Your opponent's {0} triggered; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	You played {0}	0=card name e.g. You played {Fireball}
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	You played {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Your opponent played {0}	0=card name e.g. Your opponent played {Fireball}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	Your opponent played {0}; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	You summoned {0}	0=minion name e.g. You summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	You summoned {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Your opponent summoned {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Your opponent summoned {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	You traded {0}	0=card name e.g. You traded {Fire Sale}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Your opponent traded {0}	0=card name e.g. Your opponent traded {Fire Sale}
-ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	You equipped {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	You equipped {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Your opponent equipped {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	Your opponent equipped {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
-ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	You used {0}	0=hero power name e.g. You used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	You used {0}; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Your opponent used {0}	0=hero power name e.g. Your opponent used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Your opponent used {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	You cast {0}	0=secret name e.g. You cast {Counterspell}
-ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	You cast {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Your opponent cast 1 {0} secret	0=secret class e.g. Your opponent cast 1 {mage} secret
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Your opponent cast {0} secrets	0=number of secrets e.g. Your opponent cast {2} secrets
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	You tried to draw a card from an empty deck	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Your opponent tried to draw a card from an empty deck	
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	You drew 1 {0} but it burned	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Your opponent drew 1 {0} but it burned	0=card e.g. Your opponent drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} attacked {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
-ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} attempted to attack {1} but attacked {2} instead	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	You revealed a {0} cost {1}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Your opponent revealed a {0} cost {1}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	You didn't have any valid card left to reveal	
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Your opponent didn't have any valid card left to reveal	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Ход противника	
+ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Ход завершён	
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	активация {0}	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Активация вашей {0}	0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Активация {0} противника	0=card name e.g. Your opponent's {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	Активация {0} противника; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Вы сыграли {0}	0=card name e.g. You played {Fireball}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	Вы сыграли {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Противник сыграл {0}	0=card name e.g. Your opponent played {Fireball}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	Противник сыграл {0}; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	Вы призвали {0}	0=minion name e.g. You summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	Вы призвали {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Противник призвал {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Противник призвал {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	Вы обменяли {0}	0=card name e.g. You traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Противник обменял {0}	0=card name e.g. Your opponent traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Вы экипировали {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	Вы экипировали {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Противник экипировал {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	Противник экипировал {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	Вы использовали {0}	0=hero power name e.g. You used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	Вы использовали {0}; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Противник использовал {0}	0=hero power name e.g. Your opponent used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Противник использовал {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Вы колдуете {0}	0=secret name e.g. You cast {Counterspell}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Вы колдуете {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Противник колдует 1 секрет {0}	0=secret class e.g. Your opponent cast 1 {mage} secret
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Противник колдует {0} секретов	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Вы попытались достать карту из пустой колоды	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Противник попытался достать карту из пустой колоды	
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Вы достали 1 {0}, Но она сгорела	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Противник достал 1 {0}, но она сгорела	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} атакует {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} пытается атаковать {1}, но атакует {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Вы показали {0} стоимостью {1}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Противник показал {0} стоимостью {1}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	У вас не осталось ни одной подходящий карты, которую можно было бы показать	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	У противника не осталось ни одной подходящий карты, которую можно было бы показать	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	У вас {0} маны	0=mana
-ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Вы ходите первым
+ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Вы ходите первым	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Противник ходит первым	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Вы начинаете с {0} |4(картой,картами)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Вы взяли {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Ваш противник взял {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	You discarded {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Your opponent discarded {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Противник взял {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Вы сбросили {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Противник сбросил {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	Вы получаете монетку	
-ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Ждём противника	
+ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Ожидание противника	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Призвать?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Призвать справа?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Призвать слева?	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Призвать между {0} and {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Призвать между {0} и {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Сыграть картой?	
-ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	обменять карту?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	У Вас ещё есть доступные ходы. Вы уверены?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Вы всё ещё можете атаковать. Вы уверены?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Вы всё ещё можете использовать силу героя. Вы уверены?	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Обменять карту?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	У Вас есть доступные действия. Вы уверены?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Вы можете атаковать. Вы уверены?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Вы можете использовать силу героя. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	У Вас нет призванных существ	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Герой противника не может быть атакован	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Your opponent's Hero can't be targeted	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Герой противника не может быть выбран целью	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Ни одно из ваших существ не может атаковать героя противника	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Выберите цель	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	Осталось {0} секунд	0=number of seconds - always plural e.g. {20} seconds remaining
-ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Вы играете против  {0}, {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Вы играете против {0}, {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	Ваша рука пуста	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	У Вас нет призванных существ	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	У вас нет призванных существ	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_MINIONS_EMPTY	У противника нет призванных существ	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_SECRETS_EMPTY	У Вас нет секретов	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_SECRETS_EMPTY	У вас нет секретов	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_EMPTY	У противника нет секретов	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_COUNT	У противника {0} |4(секрет,секретов)	0=number of secrets
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	У Вас нет силы героя	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	У вас нет силы героя	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	У противника нет силы героя	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	У Вас нет экипированного оружия	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	У противника нет экипированного оружия	
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	У Вас {0} из {1} маны	0=current mana 1=total mana
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	У Вас {0} маны	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	У вас нет оружия	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	У противника нет оружия	
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	У вас {0} из {1} маны	0=current mana 1=total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	У вас {0} маны	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	У противника {0} маны	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Opponent's hand. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Opponent's Deck. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_NO_MORE_VALID_OPTIONS	No more valid options	
-ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	You have no valid plays	
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	В руке противника. {0} |4(карта,карт)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	В колоде: {0} |4(карта,карт)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	В колоде противника: {0} |4(карта,карт)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Нет доступных действий	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Вы победили	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Вы проиграли	
@@ -174,513 +173,513 @@ ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	Сила героя	Read when you 
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	Сила героя противника	Read when you press Shift+r
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_WEAPON	Оружие	Read when you press w
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_WEAPON	Оружие противника	Read when you press Shift+w
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	рука	Read when you press c
-ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HAND	рука противника	Read when you press Shift+c
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_MINIONS	Существа	Read when you press b
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	Ваша рука	Read when you press c
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HAND	Рука противника	Read when you press Shift+c
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_MINIONS	Ваши существа	Read when you press b
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_MINIONS	Существа противника	Read when you press g
-ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	Секреты	Read when you press s
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	Ваши секреты	Read when you press s
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Секреты противника	Read when you press Shift+s
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	в вашу руку	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	в руку противника	e.g. Your Murloc Raider moved to {you opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	на ваше поле боя	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	на поле боя противника	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	в ваши секреты	e.g. Your Ice Block moved from your deck to {your secrets}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	в секреты противника	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	в вашу колоду	e.g. Your Fireball moved from {your deck} to your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	в колоду противника	e.g. Your Fireball moved from your deck to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	your graveyard	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	your opponent's graveyard	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND ваша рука	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	рука противника	e.g. Your Murloc Raider moved to {you opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	ваше поле битвы	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	поле битвы противника	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	ваши секреты	e.g. Your Ice Block moved from your deck to {your secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	секреты противника	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	ваша колода	e.g. Your Fireball moved from {your deck} to your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	колода противника	e.g. Your Fireball moved from your deck to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	ваше кладбище	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	кладбище противника	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
 
-ACCESSIBILITY_GAMEPLAY_MULLIGAN	Mulligan	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN	фаза пересдачи	
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	Будет заменена	
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Не будет заменена	
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Use the arrow keys to go through your starting cards. Use {0} to mark the cards you'd like to replace. Press {1} once you're done	0=spacebar key 1=Enter key
-ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	Игра сейчас начнётся. Пожалуйста, подождите	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Используйте клавиши со стрелками, чтобы просмотреть свои стартовые карты. Используйте {0}, чтобы отметить карты, которые вы хотите заменить. Когда закончите, нажмите {1}	0=spacebar key 1=Enter key
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	Игра вот-вот начнется. Пожалуйста, подождите	
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	died	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	died	Singular and plural are often the same in English
-ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	broke	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	took {0} damage	0=damage taken
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	took {0} damage	0=damage taken
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} durability	0=gained/lost durability amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} attack	0=gained/lost attack amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} health	0=gained/lost health amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} armor	0=gained/lost armor amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	recovered {0} health	0=recovered health
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	recovered {0} health	0=recovered health
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	became invulnerable	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	became invulnerable	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	was cursed	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	were cursed	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	was silenced	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	were silenced	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	became dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_DORMANT	became dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_DORMANT	is no longer dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_DORMANT	are no longer dormant	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	became frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	became frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	is no longer frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	are no longer frozen	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_IMMUNE	became immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_IMMUNE	became immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_IMMUNE	is no longer immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_IMMUNE	are no longer immune	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	became magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	became magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	is no longer magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	are no longer magnetic	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	became poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	became poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	is no longer poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	are no longer poisonous	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	became stealthed	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	became stealthed	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	gained {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	gained {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	lost {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	lost {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	умирает	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	умирают	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	ломается	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	Превращается в 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	Превращаются в 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	получает {0} урона	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	Получают {0} урона	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} прочности	0=gained/lost durability amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} атаки	0=gained/lost attack amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} здоровья	0=gained/lost health amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} брони	0=gained/lost armor amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	восстанавливает {0} здоровья	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	восстанавливают {0} здоровья	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	получает неуязвимость	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	получают неуязвимость	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	проклята	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	прокляты	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	немеет	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	немеют	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	засыпает	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_DORMANT	засыпают	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_DORMANT	просыпается	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_DORMANT	просыпаются	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	леденеет	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	леденеют	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	разморожена	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	разморожены	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_IMMUNE	получает неуязвимость	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_IMMUNE	получают неуязвимость	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_IMMUNE	теряет неуязвимость	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_IMMUNE	теряют неуязвимость	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	получает магнетизм	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	получают магнетизм	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	теряет магнетизм	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	теряют магнетизм	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	становится отравляющей	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	становятся отравляющими	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	больше не отравляющая	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	больше не отравляющие	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	получает маскировку	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	получают маскировку	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	получает {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	получают {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	теряет {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	теряют {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Your {0}	0=entity name e.g. Your {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	Your opponent's {0}	0=entity name e.g. Your opponent's {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Your {0} {1}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	Your opponent's {0} {1}	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Ваш {0}	0=entity name e.g. Your {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	{0} противника	0=entity name e.g. Your opponent's {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Ваш {1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	{1} {0} противника	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0} {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	Everyone	e.g. {everyone} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE_ELSE	Everyone else	e.g. {everyone else} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_MINIONS	All minions	e.g. {All minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_OTHER_MINIONS	All other minions	e.g. {All other minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_BOTH_HEROES	Both heroes	e.g. {Both Heroes} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	Your enemies	e.g. {Your enemies} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	Your other enemies	e.g. {Your other enemies} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Your friendly characters	e.g. {Your friendly characters} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Your other friendly characters	e.g. {Your other friendly characters} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Your opponent's minions	e.g. {Your opponent's minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Your other opponent's minions	e.g. {Your other opponent's minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	Your minions	e.g. {Your minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Your other minions	e.g. {Your other minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	Your {0} {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Your opponent's {0} {1}	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	Все	e.g. {everyone} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE_ELSE	Все остальные	e.g. {everyone else} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_MINIONS	Все существа	e.g. {All minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_OTHER_MINIONS	Все остальные существа	e.g. {All other minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_BOTH_HEROES	Оба героя	e.g. {Both Heroes} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	Враги	e.g. {Your enemies} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	Остальные враги	e.g. {Your other enemies} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	Союзники	e.g. {Your friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Остальные союзники	e.g. {Your other friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	Существа противника	e.g. {Your opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Прочие существа противника	e.g. {Your other opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	Ваши существа	e.g. {Your minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Прочие ваши существа	e.g. {Your other minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	{0} ваших {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	{0} {1} противника	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	your Hero equipped 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	your opponent's Hero equipped 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	your Hero became {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	your opponent's Hero became {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	your Hero Power became {0}	0=hero power name e.g. your Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	your opponent's Hero Power became {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	returned to your hand	e.g. Your Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	returned to your hand	e.g. Your 2 Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	returned to your opponent's hand	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	returned to your opponent's hand	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	moved from {0} to {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	moved from {0} to {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	moved to {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	moved to {0}	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	moved zones	e.g. Your Bloodfen Raptor {moved zones}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	moved zones	e.g. Your 2 Bloodfen Raptor {moved zones}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	Ваш Герой экипировал 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	Герой противника экипировал 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	Ваш Герой становится {0}	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	Герой противника становится {0}	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	ваша сила героя теперь {0}	0=hero power name e.g. your Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	Сила Героя противника теперь {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	возвращается в вашу руку	e.g. Your Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	возвращаются в вашу руку	e.g. Your 2 Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	возвращается в руку противника	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	возвращаются в руку противника	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	перемещается из {0} в {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	перемещаются из {0} в {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	перемещается в {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	перемещаются в {0}	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	меняет зону	e.g. Your Bloodfen Raptor {moved zones}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	меняют зоны	e.g. Your 2 Bloodfen Raptor {moved zones}
 
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} was added to your hand	0=card name e.g. 1 {Murloc Raider} was added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} were added to your hand	0=card names e.g. {2 Murloc Raider} were added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} was added to your opponent's hand	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} were added to your opponent's hand	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} was shuffled into your deck	0=card name e.g. 1 {Fireball} was shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} were shuffled into your deck	0=card names e.g. {2 Fireball} were shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} was shuffled into your opponent's deck	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} were shuffled into your opponent's deck	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} was summoned into your battlefield	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} were summoned into your battlefield	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} was summoned into your opponent's battlefield	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} were summoned into your opponent's battlefield	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	you took control of {0}	0=card names
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	your opponent took control of {0}	0=card names
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} добавляется в руку	0=card name e.g. 1 {Murloc Raider} was added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} добавляются в руку	0=card names e.g. {2 Murloc Raider} were added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} добавляется в руку противника	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} добавляются в руку противника	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} замешивается в колоду	0=card name e.g. 1 {Fireball} was shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} замешиваются в колоду	0=card names e.g. {2 Fireball} were shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} замешивается в колоду противника	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} замешиваются в колоду противника	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} призывается на поле битвы	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} призываются на поле битвы	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} призывается на поле битвы противника	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} призываются на поле битвы противника	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	вы берёте под контроль {0}	0=card names
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	противник берёт под контроль {0}	0=card names
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	You gained {0} Spell Damage	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	You lost {0} Spell Damage	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	Your opponent gained {0} Spell Damage	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	Your opponent lost {0} Spell Damage	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	Вы получаете {0} магического урона	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	Вы теряете {0} магического урона	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	противник получает {0} магического урона	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	противник теряет {0} магического урона	0=spell damage
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	You gained {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	Your opponent gained {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	You gained {0} mana and {1} |4(empty mana crystal,empty mana crystals)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Your opponent gained {0} mana and {1} |4(empty mana crystal,empty mana crystals)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	You gained {0} |4(empty mana crystal,empty mana crystals)	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	Your opponent gained {0} |4(empty mana crystal,empty mana crystals)	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	Вы получаете {0} маны	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	противник получает {0} маны	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Вы получаете {0} маны и {1} |4(пустой кристалл маны,пустых кристалла маны)	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	противник получает {0} маны и {1} |4(пустой кристалл маны,пустых кристалла маны)	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	Вы получаете {0} |4(пустой кристалл маны,пустых кристалла маны)	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	противник получает {0} |4(пустой кристалл маны,пустых кристалла маны)	0=amount
 
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Press {0} to look at your hero	0=v key
-ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Press {0} to look at your opponent's hero	0=f key
-ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Use the up and down arrow keys to read cards	
-ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	Press {0} to attack this target	0=Enter key
-ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	Press {0} to summon this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Your opponent is playing	
-ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Press {0} or {1} to end your turn. Press any other key to cancel	0=enter key 1=e key
-ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Use {0} to go through your valid options	0=tab key
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Press {0} to look at your hand	0=c key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Press {0} to count the cards in your opponent's hand	0=Shift+c keys
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Press {0} to look at your summoned minions	0=b key
-ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Press {0} to look at your opponent's minions	0=g key
-ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Press {0} to look at your secrets	0=s key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Press {0} to count your opponent's secrets	0=Shift+s keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	Press {0} to read your weapon	0=w key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Press {0} to read your opponent's weapon	0=Shift+w keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	Press {0} to read your hero power	0=r key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Press {0} to read your opponent's hero power	0=Shift+r keys
-ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Press {0} to count the remaining cards in your deck	0=d key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Press {0} to count the remaining cards in your opponent's deck	0=Shift+d keys
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Press {0} to read your mana	0=a key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Press {0} to read your opponent's mana	0=Shift+a key
-ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use the up and down arrow keys to read this card	
-ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Press {0} to get a description of this card's abilities	0=i key
-ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Press {0} to play this card	0=Enter key
-ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Press {0} to trade this card	0=t key
-ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Press {0} to summon this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} or the Zone keys to go through your targets. Press {1} to choose a target or {2} to cancel	0=Tab key 1=Enter key 2=Backspace key
-ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Press {0} to attack with this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Press {0} to attack with your hero	0=Enter key
-ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Press {0} to use your hero power	0=Enter key
-ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Use {0} to read through your valid targets	0=Tab key
-ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Press {0} to attack this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Press {0} to cancel the attack	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Press {0} to cancel	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Use the left and right arrow keys to choose a position for this minion	
-ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	Press {0} to open the play history log	0=y key
-ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Use the up and down arrow keys to read the play history. Press {0} to close the history log	0=Backspace key
-ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Press {0} to end your turn	0=e key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Нажмите {0}, чтобы посмотреть на своего героя	0=v key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Нажмите {0}, чтобы посмотреть на героя противника	0=f key
+ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Используйте клавиши со стрелками вверх, вниз для чтения информации о карте	
+ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	Нажмите {0}, чтобы атаковать эту цель	0=Enter key
+ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	Нажмите {0}, чтобы призвать это существо	0=Enter key
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Противник играет	
+ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Чтобы завершить ход, нажмите {0} или {1}. Нажмите любую другую кнопку для отмены	0=enter key 1=e key
+ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Используйте {0}, для выбора доступных опций	0=tab key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Нажмите {0}, чтобы посмотреть на свою руку	0=c key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Нажмите {0}, чтобы узнать количество карт в руке противника	0=Shift+c keys
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Нажмите {0}, чтобы посмотреть на своих призванных существ	0=b key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Нажмите {0}, чтобы посмотреть на существ противника	0=g key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Нажмите {0}, чтобы посмотреть свои секреты	0=s key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Нажмите {0}, чтобы просмотреть секреты противника	0=Shift+s keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	Нажмите {0}, чтобы просмотреть ваше оружие	0=w key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Нажмите {0}, чтобы просмотреть оружие противника	0=Shift+w keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	Нажмите {0}, чтобы узнать силу своего героя	0=r key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Нажмите {0}, чтобы узнать силу героя противника	0=Shift+r keys
+ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Нажмите {0}, чтобы узнать количество оставшихся карт в колоде	0=d key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Нажмите {0}, чтобы узнать количество оставшихся карт в колоде противника	0=Shift+d keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Нажмите {0}, чтобы узнать количество маны	0=a key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Нажмите {0}, чтобы узнать количество маны противника	0=Shift+a key
+ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Используйте клавиши со стрелками вверх, вниз, чтобы прочитать эту карту	
+ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Нажмите {0}, чтобы получить описание способностей этой карты	0=i key
+ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Нажмите {0}, чтобы сыграть этой картой	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Нажмите {0}, чтобы обменять эту карту	0=t key
+ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Нажмите {0}, чтобы призвать это существо	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Используйте клавиши со стрелками для выбора опций. Нажмите {0} для подтверждения	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Используйте {0} или клавиши зон для перехода к целям. Нажмите {1}, чтобы выбрать цель, или {2}, для отмены	0=Tab key 1=Enter key 2=Backspace key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Нажмите {0}, чтобы атаковать этим существом	0=Enter key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Нажмите {0}, чтобы атаковать своим героем	0=Enter key
+ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Нажмите {0}, чтобы использовать силу героя	0=Enter key
+ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Используйте {0}, чтобы просмотреть доступные цели	0=Tab key
+ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Нажмите {0}, чтобы атаковать это существо	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Нажмите {0} для отмены атаки	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Нажмите {0} для отмены	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	Используйте клавиши со стрелками влево, вправо, чтобы выбрать позицию для этого существа	
+ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	Нажмите {0} для открытия журнала событий игры	0=y key
+ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	Используйте клавиши со стрелками вверх, вниз для чтения истории игры. Нажмите {0}, чтобы закрыть журнал событий	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Для завершения хода, нажмите {0}	0=e key
 
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Nothing has been played yet	
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0} of {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Stopped reading history	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Журнал событий пуст	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0} из {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Журнал событий закрыт	
 
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Your battlefield starts with {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Your opponent's battlefield starts with {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Ваше поле битвы начинается с {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Поле битвы противника начинается с {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
-ACCESSIBILITY_UI_POPUP	Popup	
-ACCESSIBILITY_UI_REWARDS_TITLE	Rewards	
-ACCESSIBILITY_UI_UNKNOWN_POPUP	This popup hasn't been made accessible yet. Please get help from someone sighted	
-ACCESSIBILITY_UI_UNKNOWN_DIALOG	This dialog hasn't been made accessible yet. Please get help from someone sighted	
+ACCESSIBILITY_UI_POPUP	Всплывающее окно	
+ACCESSIBILITY_UI_REWARDS_TITLE	Награды	
+ACCESSIBILITY_UI_UNKNOWN_POPUP	Это всплывающее окно еще не доступно. Пожалуйста, обратитесь за помощью к зрячим	
+ACCESSIBILITY_UI_UNKNOWN_DIALOG	Это диалоговое окно еще не доступно. Пожалуйста, обратитесь за помощью к зрячим	
 
-ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Alert Popup	
+ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Всплывающее уведомление	
 
-ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Use the arrow keys to go through your rewards	
+ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Используйте клавиши со стрелками, чтобы просмотреть свои награды	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Use the arrow keys to read your quests	
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Используйте клавиши со стрелками, чтобы прочитать свои задания	
 
-ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Use the arrow keys to read your |4(quest,quests)	
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Используйте клавиши со стрелками, чтобы прочитать |4(задание,задания)	
 
-ACCESSIBILITY_UI_REWARD_TITLE	You got a reward!	
-ACCESSIBILITY_UI_REWARD_HELP	Use the arrow keys to read the reward	
+ACCESSIBILITY_UI_REWARD_TITLE	Вы получили награду!	
+ACCESSIBILITY_UI_REWARD_HELP	Используйте клавиши со стрелками, чтобы прочитать награду	
 
-ACCESSIBILITY_UI_RANKED_INTRO_POPUP	The new ranked system is here! You can find more about it online	
+ACCESSIBILITY_UI_RANKED_INTRO_POPUP	Новая рейтинговая система уже здесь! Вы можете найти больше об этом в Интернете	
 
-ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Your performance in Ranked last season earned you {0} star bonus!	0=star bonus amount
+ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Ваше выступление в рейтинге прошлого сезона принесло вам бонус в размере {0} звезд!	0=star bonus amount
 
-ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Reconnect dialog	
+ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Диалог повторного подключения	
 
-ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} has ended. You achieved the rank of {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
-ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	You have earned a rewards chest	
-ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Press {0} to open	0=Enter key
-ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	The {0} has begun!	0=season name e.g. The {August 2021 season} has begun!
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	A new season has begun!	
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Win {0} games this Season to earn a chest	0=number of games
-ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Win {0} games this Season to earn your Season Card Back	0=number of games
+ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} закончился. Вы получили ранг {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Вы заработали сундук с наградами	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Нажмите {0}, чтобы открыть	0=Enter key
+ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	{0} начался!	0=season name e.g. The {August 2021 season} has begun!
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	Новый сезон начался!	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Выиграйте {0} игр в этом сезоне, чтобы заработать сундук	0=number of games
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Выиграйте {0} игр в этом сезоне, чтобы получить рубашку сезонной карты	0=number of games
 
-ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Use the arrow keys to read the cards	
+ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	Используйте клавиши со стрелками, для чтения карт	
 
-ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Rewards chest popup	
-ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Press {0} to open your rewards chest	0=Enter key
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	Сундук с наградами - всплывающие окно	
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Нажмите {0}, чтобы открыть сундук с наградами	0=Enter key
 
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	You got {0} |4(reward package,reward packages)!	
-ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Use the arrow keys and {0} to open your rewards	0=Enter key
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	У вас есть {0} |4(пакет вознаграждений,пакетов вознаграждений)!	
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Используйте клавиши со стрелками,а затем {0}, чтобы открыть свои награды	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP quest	0=xp rewarded by quest. Note: these quests don't have a name
-ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Rewards {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
-ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Rewards 1 of {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	Задание за {0} опыта	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Награды {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
+ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Награды 1 из {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
-ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	You don't have any quests	
-ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Press {0} to abandon	0=a key
-ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Press {0} to reroll	0=r key
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	У вас нет заданий	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Нажмите {0}, чтобы отказаться	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Нажмите {0}, чтобы переиграть	0=r key
 
-ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	You've reached level {0}	0=track reward level e.g. You've reached level {3}
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	You've gained {0} XP	0=XP gained e.g. You've gained {50} XP
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	You've gained {0} XP for completing a quest	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Вы достигли {0} уровня	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Вы получили {0} опыта	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	Вы получили {0} опыта за выполнение задания	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	You are currently {0}	0=rank name e.g. You are currently Bronze 10
-ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	You are now {0}	0=rank name e.g. You are now Diamond 1
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	You have {0} out of {1} |4(star,stars)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
-ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	You've earned {0} |4(star,stars)	0=number of stars earned e.g. You've earned {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	You've lost {0} |4(star,stars)	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Star bonus! Times {0}	0=star bonus e.g. Star bonus! Times {4}
-ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Win Streak bonus! Times {0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	В настоящее время вы {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	сейчас вы {0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	У вас {0} из {1} |4(звезды,звезд)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Вы заработали {0} |4(звезду,звезд)	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Вы потеряли {0} |4(звезду,звезд)	0=number of stars lost e.g. You've lost {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Звездный бонус! {0} раза	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Бонус за серию побед! {0} раза	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
-ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Reward package	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 card pack	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 card	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 card back	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 mount	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini-set	
-ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 unknown reward	
-ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(ticket,tickets)	0=number of tickets
-ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Mini-set with {0} cards	0=number of cards
-ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} arcane orbs	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} arcane dust	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(card pack,card packs)	0=amount
-ACCESSIBILITY_UI_REWARD_N_GOLD	{0} gold	0=amount
-ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copy,copies) of 1 {1} card	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copy,copies) of 1 core {1} card	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
-ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Golden {0}	0=Hero name e.g. Golden Jaina Proudmoore
-ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Hero	0=class e.g. Mage Hero
-ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} out of {1} Heroes unlocked	0=number of unlocked Heroes 1=total number of Heroes
-ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copies of 1) card	0=number of copies
-ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Hero skin,Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Card back,Card backs)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Arena ticket,Arena tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Runestone,Runestones)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Adventure,Adventures)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Tavern Brawl ticket,Tavern Brawl tickets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins)	0=amount
-ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
-ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
+ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Пакет вознаграждений	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 комплект карт	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 карта	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 рубашка	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 ездовое животное	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 мини-набор	
+ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 неизвестная награда	
+ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(билет,билетов)	0=number of tickets
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	Мини-набор с {0} картами	0=number of cards
+ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} чародейских сфер	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} чародейской пыли	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(комплект карт,комплектов карт)	0=amount
+ACCESSIBILITY_UI_REWARD_N_GOLD	{0} золота	0=amount
+ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(копия,копии) 1 карты {1}	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(копия,копии)  1 основной карты {1}	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	Золотой {0}	0=Hero name e.g. Golden Jaina Proudmoore
+ACCESSIBILITY_UI_REWARD_CLASS_HERO	герой {0}	0=class e.g. Mage Hero
+ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} из {1} героев разблокировано	0=number of unlocked Heroes 1=total number of Heroes
+ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,копий) карты	0=number of copies
+ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(облик,обликов) героя	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Рубашка,Рубашек)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Билет,Билетов) на арену	0=amount
+ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Рунный камень,рунных камней)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Приключение,Приключений)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Билет,Билетов) на потасовку	0=amount
+ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(изготовленная монетка,изготовленных монетки)	0=amount
+ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% Повышение опыта	0=amount
+ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Мини-набор,Мини-наборов)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(облик,обликов) героя Полей сражений	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(облик,обликов) хранителя таверны Полей сражений	0=amount
 
-ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Social Menu	
-ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copied to clipboard	
-ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Message from {0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
-ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Message to {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
-ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Type a message	
-ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Send message	
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Социальное меню	
+ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag скопирован в буфер обмена	
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Сообщение от {0}: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Сообщение для {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Напишите сообщение	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Отправить сообщение	
 
-ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Read current level	
-ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Claim {0} |4(reward,rewards)	0=number of rewards e.g. Claim {5} rewards
-ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed all rewards for this level	
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Прочитать текущий уровень	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Забрать {0} |4(награду,награды)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Вы уже забрали все награды за этот уровень	
 
-ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
-ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
-ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
-ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Buy Hero skins	
-ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Buy bundles	
-ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Buy others	
-ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
-ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
-ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Get for free	Some items in the shop are free
-ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
-ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
-ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_READ_GOLD	Узнать количество золота	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Купить комплекты карт	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Купить мини-наборы	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Купить облики героев	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Купить наборы	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Купить прочие	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Прочитать описание	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Купить за {0} золота	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Получить бесплатно	Some items in the shop are free
+ACCESSIBILITY_UI_SHOP_READ_CARDS	Прочитать карты	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Используйте клавиши со стрелками, чтобы читать карты	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	Осталось золота: {0}	0=amount e.g. {150} gold remaining
 
-ACCESSIBILITY_SCREEN_GO_BACK	Go back	
+ACCESSIBILITY_SCREEN_GO_BACK	Назад	
 
-ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Fatal error screen	
+ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Экран фатальной ошибки	
 
-ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Your Hero reached level {0}	0=level
+ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Ваш герой достиг {0} уровня	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Press {0} to start or {1} to go back to the main menu	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Выберите приключение	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Нажмите {0}, чтобы начать, или {1}, чтобы вернуться в главное меню	0=Enter key 1=Backspace key
 
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Adventure screen	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Adventure menu	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Play	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Read Deck	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Retire	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	Waiting for voice-over to end	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Use the arrow keys to read your cards	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	You can't read your deck in this adventure	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Adventure complete	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	You're on opponent number {0} out of {1}	0=current opponent number 1=number of opponents
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Экран приключений	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Меню приключений	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Играть	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Прочитать колоду	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Сдаться	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	В ожидании окончания закадрового голоса	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Используйте клавиши со стрелками, чтобы прочитать свои карты	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	Вы не можете прочитать свою колоду в этом приключении	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Приключение завершено	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Противник номер {0} из {1}	0=current opponent number 1=number of opponents
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Choose an adventure	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Book of Heroes	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Choose your opponent's difficulty	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Normal	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Expert	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	You must beat all normal opponents to unlock expert	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Выберите приключение	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Книга Героев	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Выберите уровень сложности противника	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Нормальный	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Эксперт	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	Вы должны победить всех обычных противников, чтобы разблокировать эксперта	
 
-ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Undefeated	
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	Непобежденный	
 
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Browse collection	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Edit deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Delete deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	{0} of {1} cards owned	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Press {0} to create a deck using this recipe or {1} to choose a different one	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Press {0} to create a custom deck or {1} to choose a recipe	0=Enter key 1=Backspace key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Add cards	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	See deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Your deck is empty	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} of {1} cards in deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use the arrow keys to read your cards. Use {0} to jump between classes.	0=Tab key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Use the number keys to filter your cards by mana. Use {0} to search your collection.	0=ctrl+f
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Use the arrow keys and {0} to read all available coins.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Use the arrow keys and {0} to read all available card backs.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Use the arrow keys and {0} to read all available Hero skins.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Use {0} to add cards to your deck	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Use {0} to remove cards from your deck	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Type in a new name for your deck	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Type in a search term	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} mana filter on	{0} mana crystal filter e.g. {7+} mana filter on
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Mana filter off	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Change set	Used for changing between standard cards, wild cards, united in stormwind, etc.
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Favorite Hero Skin set	Spoken after setting a new favorite Hero Skin
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Favorite Card Back set	Spoken after setting a new favorite Card Back
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Favorite Coin set	Spoken after setting a new favorite Coin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	Просмотреть коллекцию	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	Изменить колоду	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	Удалить колоду	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	Вы владеете {0} карт из {1}	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Нажмите {0}, чтобы создать колоду по этому рецепту, или {1}, чтобы выбрать другую	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Нажмите {0}, чтобы создать собственную колоду, или {1}, чтобы выбрать рецепт	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Добавить карты	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Посмотреть колоду	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Ваша колода пуста	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Карт в колоде: {0} из {1}	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Используйте клавиши со стрелками, чтобы читать карты. Используйте {0} для перехода между классами	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Используйте клавиши цифр, чтобы отфильтровать ваши карты по стоимости. Используйте {0} для поиска в своей коллекции	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные монетки	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные рубашки карт	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные облики Героев	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Используйте {0}, для добавления  карты в колоду	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Используйте {0}, для удаления карты из колоды	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Введите новое имя для колоды	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Введите поисковый запрос	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Фильтрация по стоимости {0} маны	{0} mana crystal filter e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Фильтрация по стоимости отключена	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Изменить набор	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Любимый набор обликов героя	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Любимый набор рубашек карт	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Любимый набор монеток	Spoken after setting a new favorite Coin
 
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Craft cards	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Read Arcane Dust	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Disenchant {0} extra |4(card,cards) for {1} Arcane Dust	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Read flavor	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Craft for {0} Arcane Dust	0=amount of dust e.g. Craft for {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Disenchant for {0} Arcane Dust	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Not enough Arcane Dust	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	You cannot craft any more copies of this card	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Card crafted	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Disenchanted	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Создать карты	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Узнать количество Чародейской пыли	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Распылить {0} |4(лишнюю карту,лишних карт) за {1} Чародейской пыли	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Читать описание	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Создать за {0} Чародейской пыли	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Распылить карту за {0} чародейской пыли	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Недостаточно чародейской пыли	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	Вы не можете создать больше копий этой карты	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Карта создана	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Распылено	
 
-ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use the arrow keys and {0} to reveal your cards	0=Enter key
-ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	You don't have any card packs	
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Используйте клавиши со стрелками и {0}, чтобы открыть свои карты	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	У вас нет комплектов карт	
 
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Read current rank	
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} out of {1} |4(star,stars)	0=current stars 1=star slots e.g. {1} out of {3} stars
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} star bonus	0=current star bonus e.g. {2} star bonus
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Прочитать текущий ранг	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} из {1} |4(звезды,звезд)	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	Звездный бонус: {0}	0=current star bonus e.g. {2} star bonus
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest progress toast	
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Current progress is {0} out of {1}	0=current progress 1=total
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Уведомление: прогресс задания 	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Текущий прогресс {0} из {1}	0=current progress 1=total
 
-ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	You finished a quest	
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Вы выполнили задание	
 
-ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Loading tutorial	
-ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Welcome back to the tutorial	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	You've defeated Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	You've defeated Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	You've defeated Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	You've defeated King Mukla	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	You've defeated Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	You've defeated Illidan Stormrage	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Your next opponent is Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Your next opponent is Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Your next opponent is Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Your next opponent is King Mukla	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Your next opponent is Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Your next and final opponent is Illidan Stormrage	
+ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Загрузка учебника	
+ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Добро пожаловать обратно в учебник	
+ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Вы победили Дробителя	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Вы победили Миллхауса Манашторма	
+ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Вы победили хранителя истории Чо	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Вы победили короля Муклу	
+ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Вы победили Хеминга Эрнестуэя	
+ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Вы победили Иллидана Ярость Бури	
+ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Ваш следующий противник - Дробитель	
+ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Ваш следующий противник - Миллхаус Манашторм	
+ACCESSIBILITY_TUTORIAL_NEXT_CHO	Ваш следующий противник - Хранитель истории Чо	
+ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Ваш следующий противник - король Мукла	
+ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Ваш следующий противник - Хеминг Эрнестуэй	
+ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Ваш следующий и последний противник - Иллидан Ярость Бури	
 
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games	
-ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	If you ever feel lost, press {0}. Even after the tutorial or when navigating menus, you can always use {0} whenever you need help	0=F1 key
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Alright, let's get on with it	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Here's a basic Mage pack of cards to get you started. Press {0} to open it	0=Enter key
-ACCESSIBILITY_TUTORIAL_NICE_WORK	Nice work	
-ACCESSIBILITY_TUTORIAL_NICE_JOB	Nice job	
-ACCESSIBILITY_TUTORIAL_NICE_ONE	Nice one	
-ACCESSIBILITY_TUTORIAL_GOOD_JOB	Good job	
-ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	You got it!	
-ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Remember how to do it?	
-ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Remember how to do that?	
-ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	Try it out!	
-ACCESSIBILITY_TUTORIAL_ALL_RIGHT	All right!	
-ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Let's learn how	
-ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	Can you do it?	
-ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	Think you can do it?	
-ACCESSIBILITY_TUTORIAL_GOT_IT	Got it	
-ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	Not yet! Use your Hero Power. Press {0} to select it	0=r key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Я научу вас играть с помощью набора из шести обучающих игр	
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Если вы не знаете что делать, нажмите {0}. Даже после обучения и при навигации по меню вы всегда можете использовать {0}, когда вам понадобится помощь	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Хорошо, давай покончим с этим	
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Вот базовый набор карт Мага, с которой вы начнете. Нажмите {0}, чтобы открыть ее	0=Enter key
+ACCESSIBILITY_TUTORIAL_NICE_WORK	неплохо сыграно	
+ACCESSIBILITY_TUTORIAL_NICE_JOB	Хорошая работа	
+ACCESSIBILITY_TUTORIAL_NICE_ONE	Хорошо	
+ACCESSIBILITY_TUTORIAL_GOOD_JOB	Молодец	
+ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	ВЫ справились	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Помните, как это делать?	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Помните, как сделать это?	
+ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	Попробуйте!	
+ACCESSIBILITY_TUTORIAL_ALL_RIGHT	Хорошо!	
+ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Давайте узнаем как	
+ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	Вы можете это сделать?	
+ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	думаете, вы сможете это сделать?	
+ACCESSIBILITY_TUTORIAL_GOT_IT	Понятно	
+ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	еще Нет! Используйте свою силу героя. Нажмите {0}, чтобы выбрать ее	0=r key
 
-ACCESSIBILITY_TUTORIAL_HOGGER_START	Your first opponent is a gnoll named Hogger. You will be playing as the powerful mage Jaina Proudmoore	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Use the up and down arrow keys to read this card first	
-ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Summon the minion you just got first	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Use {0} and the arrow keys to read your opponent's minions first	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_0	When a turn starts, you always begin by drawing a card from your deck. Let's see the one we just drew	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Press {0} to look at the cards in your hand	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, so... This card is a minion named Murloc Raider	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Minions are creatures that you can summon onto the battlefield to fight for your Hero	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	This one costs 1 mana to summon and has 2 attack and 1 health	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Let's start by summoning this minion	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Press {0} to do so	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Press {0} to confirm or {1} to cancel	0=Enter key 1=Backspace key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Minions must wait a turn to attack once they're summoned, so we have nothing left to do	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Your opponent's minion attacked your Hero so you took some damage	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Let's see how much health we have left	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Use the up and down arrow keys to read your hero card	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Use {0} and the arrow keys to find out how much health your Hero has	0=v key
-ACCESSIBILITY_TUTORIAL_HOGGER_3_3	If your Hero runs out of health, you lose. 28 health is still plenty though	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Let's look at your opponent's hero now. Press {0}	0=f key
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Can you find how much health he has?	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Use the up and down arrow keys to read your opponent's hero card	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Once your opponent's Hero runs out of health, you win	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Let's carry on	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Looks like you got another minion. Can you summon this one yourself?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Use {0} and {1} to summon your minion	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	When you already have minions on the battlefield, you can use the left and right arrow keys to select where the new minion will be placed	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_4	You now have two minions on the battlefield. This one was just summoned so it must wait a turn to attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Let's learn how to navigate the battlefield	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Use the left and right arrow keys to navigate your minions	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Use {0} and the arrow keys to navigate your summoned minions	0=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Let's look at your opponent's minions now. Press {0} to do so	0=g key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Can you read this minion by yourself?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Use the up and down arrow keys to read your opponent's minions	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Let's try to attack this minion now	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Select the Murloc Raider you summoned last turn	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Use {0} to get to your minion and {1} to launch an attack	0=b key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Press {0} to attack with this minion	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Can you attack your opponent's minion?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Use {0} and {1} to attack your opponent's minion	0=g key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Both minions had 2 attack and 1 health so they killed each other	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Your other minion is still exhausted so there's nothing left to do. Remember how to end your turn?	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Looks like you got another minion	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_2	This means you have two possible options right now	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_3	You can either summon the minion you just got, or use the one you summoned last turn to launch an attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_4	One way to do this would be using keys such as {0} to look at your hand or {1} to look at your summoned minions	0=c key 1=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_5	However, there's an easier way to do it	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Press {0}	0=Tab key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_7	You're now looking at your first option, which would be to summon the minion you just got	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Try pressing {0} again	0=Tab key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_9	You're now looking at your second option, which would be to attack with the minion you summoned last turn	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_10	You can always use {0} to go through your valid options, so make sure to remember this key!	0=key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Alright. Let's begin by summoning the minion we just got	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Use {0} or {1} and {2} to summon your minion	0=Tab key 1=c key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Let's try to attack with our other minion now	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Use {0} or {1} to find your minion and {2} to launch an attack	0=Tab key 1=b key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_14	You now have another choice to make. You can either attack one of your opponent's minions, or your opponent's hero himself	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_15	You can either use {0} to go through your valid targets or select your target directly using {1} or {2}	0=Tab key 1=g key 2=f key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Go ahead and choose a target to attack	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Use {0} and {1} to launch an attack	0=Tab key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_21	We're ready to end our turn!	
-ACCESSIBILITY_TUTORIAL_HOGGER_8_1	I'll let you continue playing by yourself. Just let me know if you need anything	
+ACCESSIBILITY_TUTORIAL_HOGGER_START	Ваш первый противник - гнолл по имени Дробитель. Вы будете играть за могущественного мага Джайну Праудмур	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Для начала, используйте клавиши со стрелками вверх, вниз, чтобы прочитать эту карту	
+ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Призовите существо, которое вы только что получили	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Используйте {0} и клавиши со стрелками, чтобы прочитать существ противника	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_0	В начале каждого вашего хода вы берете случайную карту из вашей колоды. Посмотрим, что мы только что взяли	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Нажмите {0}, чтобы посмотреть карты в руке	0=c key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Хорошо, итак ... Эта карта - существа по имени Мурлок-налетчик	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Существа - это создания, которых вы можете вызывать на поле битвы, чтобы сражаться за своего Героя	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Призыв стоит 1 ману, у него 2 атаки и 1 здоровья	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Начнем с призыва этого существа	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Для этого нажмите {0}	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Нажмите {0} для подтверждения или {1} для отмены	0=Enter key 1=Backspace key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Призванные существа смогут атаковать в следующий ход, поэтому нам нечего делать	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Существо противника атаковало вашего героя, поэтому вы получили некоторый урон	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Посмотрим, сколько здоровья у нас осталось	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Используйте клавиши со стрелками вверх, вниз, чтобы прочитать карту своего героя	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Используйте {0} и клавиши со стрелками, чтобы узнать, сколько здоровья у вашего Героя	0=v key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Если у вашего Героя закончится здоровье - вы проиграете. однако, 28 здоровья всё еще очень много	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Давайте теперь посмотрим на героя противника. Нажмите {0}	0=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Сможете узнать, сколько у него здоровья?	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Используйте клавиши со стрелками вверх, вниз, чтобы прочитать карту героя противника	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Когда у Героя противника не останется здоровья, вы победите	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Давайте продолжим	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Похоже, у Вас есть еще одно существо. Сможете призвать его самостоятельно?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Используйте {0}, а затем {1}, чтобы призвать миньона	0=c key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Когда у вас уже есть существа на поле боя, вы можете использовать клавиши со стрелками влево, вправо, чтобы выбрать, где будет помещено новое существо	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Теперь у вас есть два существа на поле боя. последнее было только что призвано, поэтому оно должно ждать 1 ход, чтобы атаковать	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Давайте узнаем, как перемещаться по полю боя	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Для просмотра существ, Используйте клавиши со стрелками влево, вправо	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Используйте {0}, а затем клавиши со стрелками для просмотра призванных существ	0=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Давайте теперь посмотрим на существ противника. Для этого нажмите {0}	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Сможете сами прочитать информацию об этом существе?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Используйте клавиши со стрелками вверх, вниз, чтобы прочитать информацию о существах противника	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_10	А сейчас давайте попробуем атаковать это существо	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Выберите мурлока-налетчика, которого вы призвали в прошлый ход	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	нажмите {0}, чтобы добраться до своего существа, а затем {1}для начала атаки	0=b key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Нажмите {0}, чтобы атаковать этим существом	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Сможете атаковать существо противника?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	нажмите {0}, а затем {1}, чтобы атаковать существо противника	0=g key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_16	У обоих существ было 2 атаки и 1 здоровья, поэтому они убили друг друга	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	Другое Ваше существо все еще не может атаковать, так что делать нечего. Помните, как закончить ход?	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Похоже, у вас есть еще одно существо	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Это означает, что сейчас у вас есть два возможных варианта действий	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Вы можете либо призвать только что полученное существо, либо атаковать призванным в прошлый ход	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	Один из способов это сделать - использовать такие клавиши, как {0}, чтобы посмотреть на руку, или {1}, чтобы посмотреть на призванных существ	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_5	Однако есть более простой способ это сделать	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Нажмите {0}	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Вы выбрали первый вариант: вызвать только что полученное существо	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Попробуйте снова нажать {0}	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Теперь вы выбрали второй вариант: атаковать существом, призванным на прошлом ходу	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Вы всегда можете использовать {0} для выбора доступных действий, так что обязательно запомните эту клавишу!	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Хорошо. Начнем с призыва только что полученного существа	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Используйте {0} или {1}, а затем {2}, чтобы призвать существо	0=Tab key 1=c key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13	а теперь давайте попробуем атаковать другим нашим существом	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Используйте {0} или {1}, чтобы найти существо, а затем {2}для атаки	0=Tab key 1=b key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Теперь вам надо сделать ещё один выбор. Вы можете атаковать одного из существ противника, либо самого героя противника	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Вы можете использовать {0} для перехода к подходящим целям, или выбрать цель напрямую с помощью {1} или {2}	0=Tab key 1=g key 2=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Давайте, выберете цель атаки	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Используйте {0}, а затем {1}, чтобы атаковать	0=Tab key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_21	Мы готовы закончить наш ход!	
+ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Пожалуй, теперь вы можете продолжить играть самостоятельно. Просто дайте мне знать, если вам что-нибудь понадобится	
 
-ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Press {0} at any time to see how much mana you have	0=a key
+ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Нажмите {0} в любой момент, чтобы узнать, сколько у вас маны	0=a key
 
-ACCESSIBILITY_TUTORIAL_CHO_1	This Voodoo Doctor healed your opponent's Hero	
-ACCESSIBILITY_TUTORIAL06_HELP_02	When minions fight each other, they both take damage	
+ACCESSIBILITY_TUTORIAL_CHO_1	Этот Знахарь вуду исцелил героя противника	
+ACCESSIBILITY_TUTORIAL06_HELP_02	Когда существа сражаются друг с другом, они оба получают урон	
 
-ACCESSIBILITY_TUTORIAL_MUKLA_START	In this game, you'll see some cards with abilities you haven't seen before	
-ACCESSIBILITY_TUTORIAL_MUKLA_START_B	If you run into something you don't understand when reading a card such as Charge or Taunt, press {0} to get more information	0=i key
-ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Press {0} whenever you're ready to start	0=Enter key
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	This gorilla your opponent just summoned has an ability named Taunt	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Minions with Taunt must always be killed before you can attack anyone else	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Taunt is an important ability as it can be used to protect your Hero	
+ACCESSIBILITY_TUTORIAL_MUKLA_START	В этой игре вы увидите несколько карт со способностями, которых вы раньше не видели	
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Если при чтении карты вы увидите что-то, чего не понимаете, например, натиск или провокация, нажмите {0}, чтобы получить дополнительную информацию	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Нажмите {0}, Когда будете готовы начать	0=Enter key
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	У этой гориллы, которую только что призвал противник, есть способность Провокация	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	Существа с провокацией всегда должны быть убиты, прежде чем вы сможете атаковать кого-либо еще	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Провокация - важная способность, так как ее можно использовать для защиты Героя	
 
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	From now on, your Hero and your opponent's Hero will normally have a Hero Power	
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Every Hero has its own Hero Power and you can use it once per turn	
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	You can always press {0} to see your Hero Power and {1} to see your opponent's Hero Power	0=hero power key 1=opponent hero power key
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	С этого момента у вашего героя и героя противника появляется сила героя	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	У каждого героя есть своя сила героя. вы можете использовать ее один раз за ход	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Вы всегда можете нажать {0}, чтобы увидеть свою силу героя, и {1}, чтобы увидеть силу героя противника	0=hero power key 1=opponent hero power key
 
-ACCESSIBILITY_TUTORIAL05_HELP_03	This fight is totally not fair. Blame the terrible game designers	
-ACCESSIBILITY_TUTORIAL05_HELP_04	Your Taunt minions can protect you from attacks!	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	It looks like your opponent equipped a weapon	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Weapons are special cards which can be equipped by heroes	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Each weapon has some attack and some durability	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Once equipped, heroes can attack other characters during their turn	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Your opponent equipped Warglaive of Azzinoth: a weapon with 2 attack and 2 durability	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	This means your opponent's Hero will have 2 attack during his turn, and will be able to attack any of your characters	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	Mages don't often use weapons, but you'll be able to play with some later on once you've unlocked other classes	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	You can press {0} at any time to see your weapon or {1} to see your opponent's one	0=weapon key 1=opponent weapon key
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Hear that sound? Weapons lose durability every time their Hero attacks	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Once they reach 0 durability, they break and the Hero can no longer attack	
+ACCESSIBILITY_TUTORIAL05_HELP_03	Это возмутительно неравный поединок. Вините во всем безжалостных разработчиков	
+ACCESSIBILITY_TUTORIAL05_HELP_04	Ваши существа провокаторы могут защитить вас от атак!	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Похоже, противник экипировал оружие	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Оружие - это особые карты, которые могут быть экипированы героями	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	У каждого оружия есть атака и прочность	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	После экипировки герои могут атаковать других персонажей во время своего хода	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Ваш противник использует Боевые клинки Аззинота: оружие с 2 атаками и 2 прочностью	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Это означает, что Герой вашего противника будет иметь 2 атаки в свой ход и сможет атаковать любого из ваших персонажей	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	Маги не часто используют оружие, но вы сможете поиграть с ним позже, когда разблокируете другие классы	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Вы можете в любой момент нажать {0}, чтобы увидеть свое оружие, или {1}, чтобы увидеть оружие противника	0=weapon key 1=opponent weapon key
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Слышите этот звук? Оружие теряет прочность каждый раз, когда его владелец атакует	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Когда его прочность достигает 0, оно ломается, и Герой больше не может атаковать	
 
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Every normal game starts with the mulligan phase	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	In this phase, both players can replace cards in their starting hand with random ones from their deck	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Use the arrow keys or {0} to go through your starting hand	0=Tab key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	If you see a card you don't like, press {0} to mark it for replacement	0=Spacebar key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Once you've marked all cards you'd like to replace, press {0} to draw new ones and start the game	0=Enter key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Каждая обычная игра начинается с фазы пересдачи	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	На этом этапе оба игрока могут заменить карты в своей стартовой руке на случайные из колоды	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Используйте клавиши со стрелками или {0}для выбора карт в руке	0=Tab key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Если вы видите карту, которая вам не нравится, нажмите {0}, чтобы пометить ее для замены	0=Spacebar key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Отметив все карты, которые хотите заменить, нажмите {0}, чтобы взять новые и начать игру	0=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
