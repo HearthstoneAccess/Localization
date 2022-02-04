@@ -80,10 +80,10 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - алмазная	0=card na
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Ход противника	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Ход завершен	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	Срабатывает {0}	0=full card name in zone e.g. {Your second Murloc Raider} triggered
-ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Срабатывает ваша {0}	0=card name e.g. Your {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Срабатывает {0} противника	0=card name e.g. Your opponent's {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	Срабатывает {0} противника; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} срабатывает	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	{0} срабатывает	0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	{0} противника срабатывает	0=card name e.g. Your opponent's {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	{0} противника срабатывает; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Вы сыграли {0}	0=card name e.g. You played {Fireball}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	Вы сыграли {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Противник сыграл {0}	0=card name e.g. Your opponent played {Fireball}
