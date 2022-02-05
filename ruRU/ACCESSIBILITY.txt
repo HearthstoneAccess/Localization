@@ -104,7 +104,7 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Противник исполь�
 ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Противник использовал {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Вы колдуете {0}	0=secret name e.g. You cast {Counterspell}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Вы колдуете {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Противник колдует 1 {0} секрет	0=secret class e.g. Your opponent cast 1 {mage} secret
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Противник колдует 1 секрет {0}	0=secret class e.g. Your opponent cast 1 {mage} secret
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Противник колдует {0} секретов	0=number of secrets e.g. Your opponent cast {2} secrets
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Вы попытались взять карту из пустой колоды	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Противник попытался взять карту из пустой колоды	
