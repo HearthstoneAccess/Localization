@@ -180,7 +180,7 @@ ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_MINIONS	Существа противник
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	Секреты	Read when you press s
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Секреты противника	Read when you press Shift+s
 
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND ваша рука	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	ваша рука	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	рука противника	e.g. Your Murloc Raider moved to {you opponent's hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	ваше поле боя	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	поле боя противника	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
@@ -619,7 +619,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Сможете сами прочитать и�
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Используйте клавиши со стрелками вверх и вниз, чтобы прочитать информацию о существах противника	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_10	А сейчас давайте попробуем атаковать это существо	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Выберите мурлока-налетчика, которого вы призвали в прошлый ход	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	нажмите {0}, чтобы добраться до своего существа, а затем {1}для начала атаки	0=b key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	нажмите {0}, чтобы добраться до своего существа, а затем {1} для начала атаки	0=b key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Нажмите {0}, чтобы атаковать этим существом	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Сможете атаковать существо противника?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	нажмите {0}, а затем {1}, чтобы атаковать существо противника	0=g key 1=Enter key
@@ -638,7 +638,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Вы всегда можете использ
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Хорошо. Начнем с призыва только что полученного существа	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Используйте {0} или {1}, а затем {2}, чтобы призвать существо	0=Tab key 1=c key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13	а теперь давайте попробуем атаковать другим нашим существом	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Используйте {0} или {1}, чтобы найти существо, а затем {2}для атаки	0=Tab key 1=b key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Используйте {0} или {1}, чтобы найти существо, а затем {2} для атаки	0=Tab key 1=b key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Теперь вам надо сделать ещё один выбор. Вы можете атаковать одного из существ противника, либо самого героя противника	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Вы можете использовать {0} для перехода к подходящим целям, или выбрать цель напрямую с помощью {1} или {2}	0=Tab key 1=g key 2=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Давайте, выберете цель атаки	
@@ -677,10 +677,7 @@ ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Когда его про
 
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Каждая обычная игра начинается с фазы пересдачи	
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	На этом этапе оба игрока могут заменить карты в своей стартовой руке на случайные из колоды	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Используйте клавиши со стрелками или {0}для выбора карт в руке	0=Tab key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Используйте клавиши со стрелками или {0} для выбора карт в руке	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Если вы видите карту, которая вам не нравится, нажмите {0}, чтобы пометить ее для замены	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Отметив все карты, которые хотите заменить, нажмите {0}, чтобы взять новые и начать игру	0=Enter key
 
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
