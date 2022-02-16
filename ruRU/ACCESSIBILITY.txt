@@ -680,5 +680,5 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	На этом этапе о
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Используйте клавиши со стрелками или {0} для выбора карт в руке	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Если вы видите карту, которая вам не нравится, нажмите {0}, чтобы пометить ее для замены	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Отметив все карты, которые хотите заменить, нажмите {0}, чтобы взять новые и начать игру	0=Enter key
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
 
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
