@@ -320,7 +320,7 @@ ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	pulsa {0} para atacar a este obj
 ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	pulsa {0} para invocar a este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	tu oponente está jugando	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Pulsa {0} o {1} para terminar tu turno. Pulsa cualquier otra tecla para cancelar	0=enter key 1=e key
-ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Usa {0} para revisar tus jugadas válidas	0=tab key
+ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Pulsa {0} para revisar tus jugadas válidas	0=tab key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Pulsa {0} para mirar tu mano	0=c key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Pulsa {0} para conocer el número de cartas en la mano de tu oponente	0=Shift+c keys
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Pulsa {0} para ver los esbirros que has invocado	0=b key
@@ -345,7 +345,7 @@ ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondien
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Pulsa {0} para atacar con este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Pulsa {0} para atacar con tu héroe	0=Enter key
 ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Pulsa {0} para usar tu poder de héroe	0=Enter key
-ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Usa {0} para ver tus objetivos válidos	0=Tab key
+ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Utiliza {0} para ver tus objetivos válidos	0=Tab key
 ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Pulsa {0} para atacar a este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Pulsa {0} para cancelar el ataque	0=Backspace key
 ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Pulsa {0} para cancelar	0=Backspace key
@@ -422,7 +422,7 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Ventana de alerta
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Utiliza las flechas para revisar tus recompensas	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Usa las flechas para leer tus misiones.	
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Utiliza las flechas para leer tus misiones.	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Utiliza las flechas para leer tus |4(misión,misiones)	
 
@@ -645,7 +645,7 @@ ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Vamos a ver como hacerlo
 ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	¿Puedes hacerlo?	
 ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	¿Crees que puedes hacerlo?	
 ACCESSIBILITY_TUTORIAL_GOT_IT	Lo entendiste	
-ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Todavía no! Usa tu poder de héroe. Presiona {0} para seleccionarlo	0=r key
+ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Todavía no! Usa tu poder de héroe. Pulsa {0} para seleccionarlo	0=r key
 
 ACCESSIBILITY_TUTORIAL_HOGGER_START	Tu primer oponente es un gnoll llamado Hogger. Jugarás como la poderosa maga Jaina Valiente.	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Utiliza las flechas arriba y abajo para leer esta carta	
@@ -662,7 +662,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Pulsa {0} para confirmar o {1} para cancelar	0
 ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Los esbirros deben esperar un turno para atacar una vez que son invocados, por lo que no nos queda nada por hacer.	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_0	El esbirro de tu oponente atacó a tu héroe, por lo que recibiste algo de daño.	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Vamos a ver cuanta salud nos queda	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa las flechas arriba y abajo para ver las estadísticas de tu héroe	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Utiliza las flechas arriba y abajo para ver las estadísticas de tu héroe	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Pulsa {0} y luego utiliza las flechas para averiguar cuánta salud tiene tu héroe.	0=v key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Si tu héroe se queda sin salud, pierdes. Pero tranquilo! Con 28 de salud aún tienes para rato	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Veamos ahora al héroe de tu oponente. Pulsa {0}	0=f key
@@ -744,15 +744,15 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utiliza las flechas direcci
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una carta que no te gusta o interesa, pulsa {0} para marcarla y que sea  reemplazada	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una vez que hayas marcado todas las cartas que deseas reemplazar, pulsa {0} para robar nuevas cartas e iniciar el juego	0=Enter key
 
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Usa {0} y {1} para comprar esbirros.	0=g key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Usa {0} y {1} para comprar esbirros por 3 de oro. Recluta a un egército para destruir a tus enemigos!	0=g key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Usa {0} y {1} para vender esbirros.	0=b key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Usa {0} y {1} para vender esbirros a tu posadero. Te añade un espacio livre y te da una moneda de oro por el!	0=b key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Usa {0} y {1} para reubicar a tus esbirros	0=b key 1=Space key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Usa {0} y {1} para actualizar tu taberna	0=u key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} y {1} to para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Usa {0} y {1} para congelar a los esbirros de la taberna y poder comprarlos en el próximo turno	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros.	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros por 3 de oro. Recluta a un egército para destruir a tus enemigos!	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender esbirros.	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender esbirros a tu posadero. Te añade un espacio livre y te da una moneda de oro por el!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para reubicar a tus esbirros	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para actualizar tu taberna	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para congelar a los esbirros de la taberna y poder comprarlos en el próximo turno	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Pulsa {0} Para ver cuanto tiempo te queda para hacer tus jugadas!	e key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} y {1} invocar esbirros	0=c key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Pulsa {0} y {1} invocar esbirros	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
