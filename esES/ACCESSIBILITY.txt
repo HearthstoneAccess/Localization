@@ -361,7 +361,7 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Se detuvo la lectura del historial
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Tu campo comienza con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	El campo de tu oponente comienza con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Nivel {0}	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Nivel de taberna {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} de oro	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Nivel de taberna {0} y {1} de oro	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Te enfrentas a {1}, nivel de taberna {0} con {2} de salud y {3} |4(esbirro,esbirros)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
@@ -407,7 +407,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Colega del héroe
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Pulsa {0} para ver tu oro	0=a key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Pulsa {0} para leer la información de tu taberna	0=t key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Pulsa {0} para ver tu colega de héroe	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Pulsa {0} para ver el colega de tu héroe	0=d key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Pulsa {0} para ver las estadísticas de tu próximo oponente	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pulsa {0} para ver la clasificación general	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Pulsa {0} para ver tus estadísticas	0=m key
@@ -745,14 +745,14 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una carta que no te 
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una vez que hayas marcado todas las cartas que deseas reemplazar, pulsa {0} para robar nuevas cartas e iniciar el juego	0=Enter key
 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros.	0=g key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros por 3 de oro. Recluta a un egército para destruir a tus enemigos!	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros por 3 de oro. ¡Recluta un egército para destruir a tus enemigos!	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender esbirros.	0=b key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender esbirros a tu posadero. Te añade un espacio livre y te da una moneda de oro por el!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender un esbirro a tu posadero. ¡Te añade un espacio livre y te da una moneda de oro por él!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para reubicar a tus esbirros	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para actualizar tu taberna	0=u key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para congelar a los esbirros de la taberna y poder comprarlos en el próximo turno	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Pulsa {0} Para ver cuanto tiempo te queda para hacer tus jugadas!	e key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Pulsa {0} y {1} invocar esbirros	0=c key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Pulsa {0} y {1} para invocar esbirros	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
