@@ -48,6 +48,8 @@ ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Maldito
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accesibilidad activada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accesibilidad desactivada	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	Modo streamer activado	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	Modo streamer desactivado	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
@@ -318,7 +320,7 @@ ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	pulsa {0} para atacar a este obj
 ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	pulsa {0} para invocar a este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	tu oponente está jugando	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Pulsa {0} o {1} para terminar tu turno. Pulsa cualquier otra tecla para cancelar	0=enter key 1=e key
-ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Usa {0} para revisar tus jugadas válidas	0=tab key
+ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Pulsa {0} para revisar tus jugadas válidas	0=tab key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Pulsa {0} para mirar tu mano	0=c key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Pulsa {0} para conocer el número de cartas en la mano de tu oponente	0=Shift+c keys
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Pulsa {0} para ver los esbirros que has invocado	0=b key
@@ -343,7 +345,7 @@ ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondien
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Pulsa {0} para atacar con este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Pulsa {0} para atacar con tu héroe	0=Enter key
 ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	Pulsa {0} para usar tu poder de héroe	0=Enter key
-ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Usa {0} para ver tus objetivos válidos	0=Tab key
+ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	Utiliza {0} para ver tus objetivos válidos	0=Tab key
 ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	Pulsa {0} para atacar a este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	Pulsa {0} para cancelar el ataque	0=Backspace key
 ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	Pulsa {0} para cancelar	0=Backspace key
@@ -359,6 +361,58 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Se detuvo la lectura del historial
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Tu campo comienza con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	El campo de tu oponente comienza con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Nivel de taberna {0}	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} de oro	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Nivel de taberna {0} y {1} de oro	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Te enfrentas a {1}, nivel de taberna {0} con {2} de salud y {3} |4(esbirro,esbirros)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Te enfrentas a {1}, nivel de taberna {0} con {2} de salud, {4} de armadura y {3} |4(esbirro,esbirros)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Te enfrentas a {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	Tienes {0} de {1} de oro	0=current gold 1=total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	Tienes {0} de oro	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} de oro restante	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Esbirros a la venta	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	No hay esbirros a la venta	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	¿Comprar {0}?	0=minion name e.g. Buy Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	¿Vender {0}?	0=minion name e.g. Sell Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	¿Congelar taberna?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	¿Congelar taberna por {0} de oro?	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	¿Descongelar taberna?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	¿Refrescar taberna por {0} de oro?	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	¿Actualizar taberna por {0} de oro?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	¿Colocar en la última posición?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	¿Colocar en la primera posición?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	¿Colocar entre {0} y {1}?	Move between {Murloc Raider} and {Bloodfen Raptor}?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	Realizó {0} de daño a {1}	0=damage dealt 1=opponent Hero e.g. Dealt {10} damage to {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	Recibió {0} de daño de {1}	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	Empató con {0}	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} apareció en la Taberna de Bob	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} aparecieron en la Taberna de Bob	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	Obtuviste 1 {0}	0=card name e.g. You got 1 {Murloc Raider}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	Obtuviste {0}	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	{0} de tu posadero	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	{1} {0} de tu posadero	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	Los esbirros de tu posadero	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	Los demás esbirros de tu posadero	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	Los {0} {1} de tu posadero	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	Ganaste con {0} |4(esbirro sobreviviente,esbirros sobrevivientes)	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	Tu oponente ganó con {0} |4(esbirro sobreviviente,esbirros sobrevivientes)	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} |4(jugador,jugadores) fueron destruidos	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} |4(jugador,jugadores) restantes	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Medidor de colegas: {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Colega del héroe	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Pulsa {0} para ver tu oro	0=a key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Pulsa {0} para leer la información de tu taberna	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Pulsa {0} para ver el colega de tu héroe	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Pulsa {0} para ver las estadísticas de tu próximo oponente	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pulsa {0} para ver la clasificación general	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Pulsa {0} para ver tus estadísticas	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pulsa {0} para ver los tipos de esbirros disponibles en esta partida	0=o key
+
 ACCESSIBILITY_UI_POPUP	Ventana emergente	
 ACCESSIBILITY_UI_REWARDS_TITLE	Recompensas	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	Esta ventana emergente aún no es accesible. Obtén ayuda de alguien que vea.	
@@ -368,7 +422,7 @@ ACCESSIBILITY_UI_ALERT_POPUP_TITLE	Ventana de alerta
 
 ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Utiliza las flechas para revisar tus recompensas	
 
-ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Usa las flechas para leer tus misiones.	
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Utiliza las flechas para leer tus misiones.	
 
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Utiliza las flechas para leer tus |4(misión,misiones)	
 
@@ -416,6 +470,12 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Has ganado {0} |4(estrella,estrella
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Has perdido {0} |4(estrella,estrellas)	0=number of stars lost e.g. You've lost {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonificación de estrellas por {0}!	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonificación de racha de victorias por {0}!	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Tu calificación aumentó en {0}	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Tu calificación disminuyó en {0}	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Tu nueva calificación es {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Tu calificación continúa siendo {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} de {1} jugadores listos	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Sobre de recompensa	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 sobre de cartas	
@@ -545,6 +605,9 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Estadísticas	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Narrar ataques de esbirros durante la fase de combate	
+
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso de la misión	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	El progreso actual es {0} de {1}	0=current progress 1=total
 
@@ -582,7 +645,7 @@ ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	Vamos a ver como hacerlo
 ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	¿Puedes hacerlo?	
 ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	¿Crees que puedes hacerlo?	
 ACCESSIBILITY_TUTORIAL_GOT_IT	Lo entendiste	
-ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Todavía no! Usa tu poder de héroe. Presiona {0} para seleccionarlo	0=r key
+ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	¡Todavía no! Usa tu poder de héroe. Pulsa {0} para seleccionarlo	0=r key
 
 ACCESSIBILITY_TUTORIAL_HOGGER_START	Tu primer oponente es un gnoll llamado Hogger. Jugarás como la poderosa maga Jaina Valiente.	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Utiliza las flechas arriba y abajo para leer esta carta	
@@ -599,7 +662,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Pulsa {0} para confirmar o {1} para cancelar	0
 ACCESSIBILITY_TUTORIAL_HOGGER_2_6	Los esbirros deben esperar un turno para atacar una vez que son invocados, por lo que no nos queda nada por hacer.	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_0	El esbirro de tu oponente atacó a tu héroe, por lo que recibiste algo de daño.	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Vamos a ver cuanta salud nos queda	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa las flechas arriba y abajo para ver las estadísticas de tu héroe	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Utiliza las flechas arriba y abajo para ver las estadísticas de tu héroe	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Pulsa {0} y luego utiliza las flechas para averiguar cuánta salud tiene tu héroe.	0=v key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Si tu héroe se queda sin salud, pierdes. Pero tranquilo! Con 28 de salud aún tienes para rato	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Veamos ahora al héroe de tu oponente. Pulsa {0}	0=f key
@@ -680,5 +743,16 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	En esta fase, ambos jugador
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utiliza las flechas direccionales o {0} para ver tu mano inicial	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una carta que no te gusta o interesa, pulsa {0} para marcarla y que sea  reemplazada	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una vez que hayas marcado todas las cartas que deseas reemplazar, pulsa {0} para robar nuevas cartas e iniciar el juego	0=Enter key
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros.	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros por 3 de oro. ¡Recluta un egército para destruir a tus enemigos!	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender esbirros.	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender un esbirro a tu posadero. ¡Te añade un espacio livre y te da una moneda de oro por él!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para reubicar a tus esbirros	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para actualizar tu taberna	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para congelar a los esbirros de la taberna y poder comprarlos en el próximo turno	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Pulsa {0} Para ver cuanto tiempo te queda para hacer tus jugadas!	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Pulsa {0} y {1} para invocar esbirros	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
