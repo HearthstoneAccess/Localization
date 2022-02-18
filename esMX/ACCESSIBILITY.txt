@@ -51,7 +51,6 @@ ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accesibilidad desactivada	Read when F8 is
 ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	Modo streamer activado	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
 ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	Modo streamer desactivado	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
-
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
 ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
