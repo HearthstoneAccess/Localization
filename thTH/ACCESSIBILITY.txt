@@ -18,7 +18,7 @@ ACCESSIBILITY_LIST_NO_ITEMS	ไม่มีตัวเลือก
 ACCESSIBILITY_OPTIONS_MENU_TITLE	ตั้งค่าเมนู	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	ปรับคุณภาพกราฟิก	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	ปรับความละเอียดหน้าจอ	
-ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	ใช้ลูกศรซ้ายหรือลูกศรขวาเพื่อปรับความดังของเสียงดนตรี	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	ใช้ลูกศรซ้ายหรือลูกศรขวาเพื่อปรับความดังของเสียง	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} ช่องทำเครื่องหมาย	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	เลือก	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	ไม่เลือก	
@@ -48,6 +48,8 @@ ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	คำสาป
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility เปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility ปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	โหมดสตรีมเมอร์เปิดใช้งานแล้ว	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	โหมดสตรีมเมอร์ปิดใช้งานแล้ว	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
@@ -359,6 +361,58 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	หยุดอ่านประวั
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	สนามรบของคุณเริ่มต้นด้วย {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	สนามรบของฝ่ายตรงข้ามเริ่มต้นด้วย {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	ขั้น {0}	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} ทอง	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	โรงเตี๊ยมขั้นที่ {0} และ {1} ทอง	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	คุณพบกับขั้นที่ {0} {1} กับ {2} พลังชีวิต และ {3} |4(มินเนี่ยน,มินเนี่ยน)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	คุณพบกับขั้นที่ {0} {1} กับ {2} พลังชีวิต {4} พลังป้องกัน และ {3} |4(มินเนี่ยน,มินเนี่ยน)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	คุณพบกับ {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	คุณมี {0} ทองจากทั้งหมด {1} ทอง	0=current gold 1=total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	คุณมี {0} ทอง	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} ทองคงเหลือ	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	มินเนี่ยนที่จะขาย	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	No ไม่มีมินเนี่ยนที่จะขาย	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	ซื้อ {0}?	0=minion name e.g. Buy Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	ขาย {0}?	0=minion name e.g. Sell Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	แช่แข็งโรงเตี๊ยม?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	แช่แข็งโรงเตี๊ยมใช้ {0} gold?	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	ยกเลิกแช่แข็งโรงเตี๊ยม?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	รีเฟรชโรงเตี๊ยมใช้ {0} gold?	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	อัพเกรดโรงเตี๊ยมใช้ {0} gold?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	ย้ายไปตำแหน่งสุดท้าย?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	ย้ายไปตำแหน่งแรก?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	ย้ายไประหว่าง {0} และ {1}?	Move between {Murloc Raider} and {Bloodfen Raptor}?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	สร้างความเสียหาย {0} แต้ม ให้กับ {1}	0=damage dealt 1=opponent Hero e.g. Dealt {10} damage to {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	ได้รับความเสียหาย {0} แต้ม จาก {1}	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	เสมอกับ {0}	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} ปรากฏในโรงเตี๊ยมของบ็อบ	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} ปรากฏในโรงเตี๊ยมของบ็อบ	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	คุณได้รับ 1 {0}	0=card name e.g. You got 1 {Murloc Raider}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	คุณได้รับ {0}	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	บาร์เทนเดอร์ของคุณ {0}	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	บาร์เทนเดอร์ของคุณ {0} {1}	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	บาร์เทนเดอร์มินเนี่ยนของคุณ	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	บาร์เทนเดอร์มินเนี่ยนตัวอื่นของคุณ	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	บาร์เทนเดอร์ของคุณ {0} {1}	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	คุณชนะโดย {0} มินเนี่ยนที่ |4(รอด,รอด)	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	ฝ่ายตรงข้ามชนะโดย {0} มินเนี่ยนที่ |4(รอด,รอด)	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} |4(ผู้เล่น,ผู้เล่น) ตาย	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} |4(ผู้เล่น,ผู้เล่น) ที่เหลืออยู่	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	บัดดี้ {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	ฮีโร่บัดดี้	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	กด {0} เพื่อตรวจสอบทอง	0=a key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	กด {0} เพื่อตรวจสอบข้อมูลโรงเตี๊ยมของคุณ	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	กด {0} เพื่อตรวจสอบฮีโร่บัดดี้ของคุณ	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	กด {0} เพื่อตรวจสอบข้อมูลถัดไปของฝ่ายตรงข้าม	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	กด {0} เพื่อตรวจสอบกระดานผู้นำ	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	กด {0} เพื่อตรวจสอบข้อมูลของคุณเอง	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	กด {0} เพื่อตรวจสอบเผ่าในเกมนี้	0=o key
+
 ACCESSIBILITY_UI_POPUP	ป๊อปอัพ	
 ACCESSIBILITY_UI_REWARDS_TITLE	รางวัล	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	ป๊อปอัพนี้ยังไม่ถูกทำให้เข้าถึงกับโปรแกรมอ่านหน้าจอ กรุณาขอความช่วยเหลือจากคนสายตาปกติ	
@@ -416,6 +470,12 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	คุณได้รับดา�
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	คุณสูญเสียดาว {0} |4(ดวง,ดวง)	0=number of stars lost e.g. You've lost {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	ดาวโบนัสคูณ {0}	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	ชณะอย่างต่อเนื่องโบนัสคูณ {0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	เรตติ้งของคุณเพิ่มขึ้น {0}	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	เรตติ้งของคุณลดลง {0}	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	ปัจจุบันเรตติ้งของคุณอยู่ที่ {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	เรตติ้งของคุณยังคงอยู่ที่ {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} จากทั้งหมด {1} คนพร้อม	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	กล่องรางวัล	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 ซองการ์ด	
@@ -544,6 +604,9 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	คุณไม่มีซอ�
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	ตรวจสอบลำดับปัจจุบัน	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	คุณมีดาว {0} จากดาวทั้งหมด {1} |4(ดวง,ดวง)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	คุณมีดาวโบนัส {0} ดวง	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	ตรวจสอบข้อมูล	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	อธิบายการโจมตีระหว่างต่อสู้	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	ความคืบหน้าของภารกิจ	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	ความคืบหน้าภารกิจปัจจุบัน {0} จากทั้งหมด {1}	0=current progress 1=total
@@ -680,5 +743,16 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	ครั้งแรกส
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	ใช้ลูกศรหรือกด {0} เพื่อไปยังการ์ดบนมือของคุณ	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	หากคุณเจอการ์ดที่ไม่ถูกใจคุณสามารถกด {0} เพื่อทำเครื่องหมายสำหรับเปลี่ยนการ์ดใบใหม่แทนที่	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	เมื่อคุณทำเครื่องหมายของการ์ดที่จะเปลี่ยนกลับเข้าไปในเด็คได้แล้ว กด {0} เพื่อจั่วการ์ดใหม่และเริ่มเล่นเกม 	0=Enter key
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อซื้อมินเนี่ยน	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อซื้อมินเนี่ยนในราคา 3 ทอง เริ่มสร้างกองทัพย์ของคุณเพื่อจัดการฝ่ายตรงข้ามเลย	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อขายมินเนี่ยน	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อขายมินเนี่ยนให้กับบาร์เทนเดอร์ของคุณ มันจะช่วยเพิ่มที่ว่างให้กับคุณ และจะได้รับ 1 ทอง	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อจัดลำดับมินเนี่ยนของคุณใหม่	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่ออัพเกรดโรงเตี๊ยมของคุณ	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อรีเฟรชโรงเตี๊ยมของคุณ และพบกับมินเนี่ยนตัวใหม่	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อแช่แข็งมินเนี่ยน และพบกับมินเนี่ยนที่ถูกแช่แข็งในเทิร์นถัดไป	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	กด {0} เพื่อตรวจสอบเวลาที่เหลือที่คุณสามารถเล่นได้	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	กด {0} และ {1} เพื่อซัมมอนมินเนี่ยน	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	เอ็นเท่อ	Optional. Overrides the Return key to be read as Enter by TTS
