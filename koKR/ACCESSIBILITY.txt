@@ -48,6 +48,8 @@ ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	저주
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	접근성 모드 켬	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	접근성 모드 끔	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	스트리머 모드 켬	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	스트리머 모드 끔	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
@@ -359,6 +361,58 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	플레이 기록을 닫습니다.
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	개전 효과 발동; {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	상대 개전 효과 발동; {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	{0}단계	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0}골드	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	선술집 {0}단계, {1}골드	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	{0}단계, {1}, 생명력 {2}, 하수인 {3} 조우함	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	{0}단계, {1}, 생명력 {2}, 방어도 {4}, 하수인 {3} 조우함	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	{0} 조우함	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	{0}골드 보유 중, 최대 {1}	0=current gold 1=total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	{0}골드 보유 중	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0}골드 남음	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	판매 중인 하수인	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	판매 중인 하수인 없음	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	{0} 하수인을 구매할까요?	0=minion name e.g. Buy Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	{0} 하수인을 판매할까요?	0=minion name e.g. Sell Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	빙결할까요?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	{0}골드을 지불하고 빙결할까요?	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	빙결을 중단할까요?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	{0}골드를 지불하고 다른 하수인 라인업을 가져올까요?	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	{0}골드를 지불하고 선술집을 강화할까요?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	끝으로 옮길까요?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	처음으로 옮길까요?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	{0}, {1} 사이로 옮길까요?	Move between {Murloc Raider} and {Bloodfen Raptor}?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	{1}에게 {0}의 피해 줌	0=damage dealt 1=opponent Hero e.g. Dealt {10} damage to {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	{1}으로부터 {0}의 피해 받음	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	{0}과 동률	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	{0} 선술집에 추가됨	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} 선술집에 추가됨	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	{0} 가져옴	0=card name e.g. You got 1 {Murloc Raider}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	{0} 가져옴	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	아군 {0}	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	아군 {0} {1}	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	아군 하수인	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	적 하수인	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	아군 {0} {1}	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	아군 하수인 {0}개체 생존함	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	적 하수인 {0}개체 생존함	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0}명 탈락함	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	생존자 {0}명	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	전우 게이지 {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	전우	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	남은 골드를 확인하려면 {0}키를 누르세요.	0=a key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	선술집 상태를 확인하려면 {0}키를 누르세요.	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	전우를 확인하려면 {0}키를 누르세요.	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	다음 상대의 상태를 확인하려면 {0}키를 누르세요.	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	순위를 확인하려면 {0}키를 누르세요.	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	내 상태를 확인하려면 {0}키를 누르세요.	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	이번 게임의 종족을 확인하려면 {0}키를 누르세요.	0=o key
+
 ACCESSIBILITY_UI_POPUP	팝업	
 ACCESSIBILITY_UI_REWARDS_TITLE	보상	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	아직 접근할 수 없는 팝업입니다. 업데이트를 기다리거나, 비시각장애인의 도움을 받을 수 있습니다.	
@@ -416,6 +470,12 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	별 {0}개를 얻었습니다.	0=nu
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	별 {0}개를 잃었습니다.	0=number of stars lost e.g. You've lost {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	추가 별 {0}배!	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	연승 보너스 {0}배!	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	MMR이 {0} 오릅니다.	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	MMR이 {0} 떨어집니다.	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	이제부터 MMR은 {0}입니다.	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	MMR이 유지됩니다: {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{1}명 중 {0}명 준비됨	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	보상 상자	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	카드 팩 한 개	
@@ -544,6 +604,9 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	가진 카드 팩이 없습니�
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	현재 등급 보기	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	별 {1}개 중 {0}개	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	추가 별 {0}점	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	상태 확인	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	전투 중 공격 읽기	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	퀘스트 진행 축하 알림	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	{1} 중 {0} 진행 완료	0=current progress 1=total
@@ -680,5 +743,16 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	이 단계에서 두 플레
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	방향키와 {0}키를 이용하여 처음 손에 주어진 카드를 둘러보세요.	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	마음에 들지 않는 카드가 있으면 {0}키를 눌러 체크하세요.	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	교체하려는 카드를 모두 체크한 후, {0}키를 누르고 게임을 시작할 수 있습니다.	0=Enter key
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 하수인을 구매할 수 있습니다.	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 3골드에 하수인을 구매할 수 있습니다. 하수인들을 모아 상대를 제압하세요.	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 하수인을 판매할 수 있습니다.	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 하수인을 판매할 수 있습니다. 여유 공간을 확보하고 1골드도 얻으세요.	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 하수인의 위치를 변경할 수 있습니다.	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 선술집을 강화할 수 있습니다.	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 판매 중인 하수인 라인업을 1골드에 바꿀 수 있습니다.	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	{0}키 및 {1}키를 이용하여 하수인을 빙결 상태로 만듭니다. 빙결된 하수인은 다음 턴에 다시 열람할 수 있습니다.	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	{0}키를 눌러 남은 시간을 확인할 수 있습니다.	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	{0}키 및 {1}키를 이용하여 하수인을 소환할 수 있습니다.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	엔터	Optional. Overrides the Return key to be read as Enter by TTS

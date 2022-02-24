@@ -48,6 +48,8 @@ ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Verflucht
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Barrierefreiheit ein	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Barrierefreiheit aus	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	Streamer-Modus eingeschaltet	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	Streamer-Modus ausgeschaltet	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?,	
@@ -359,6 +361,58 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Verlaufsprotokoll geschlossen
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Dein Schlachtfeld startet mit {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Das Schlachtfeld deines Gegners startet mit {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Stufe {0}	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} gold	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Tavernenstufe {0} und {1} Gold	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Du stehst einem Stufe {0} {1} mit {2} Gesundheit und {3} |4(Diener,Diener) gegenüber	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Du stehst einem Stufe {0} {1} mit {2} Gesundheit, {4} Rüstung und {3} |4(Diener,Diener) gegenüber	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Du stehst {0} gegenüber	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	Du hast {0} von {1} Gold	0=current gold 1=total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	Du hast {0} Gold	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} Gold übrig	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Diese Diener stehen im Moment zum Verkauf	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	Keine Diener stehen zum Verkauf	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	{0} kaufen?	0=minion name e.g. Buy Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	{0} verkaufen?	0=minion name e.g. Sell Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	Gasthaus einfrieren?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Gasthaus für {0} Gold einfrieren?	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Gasthaus auftauen?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Gasthaus für {0} Gold auffrischen?	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Gasthaus für {0} Gold aufwerten?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Auf die letzte Position verschieben?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Auf die erste Position verschieben?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	Zwischen {0} und {1} bewegen?	Move between {Murloc Raider} and {Bloodfen Raptor}?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	Verursachte {0} Schaden an {1}	0=damage dealt 1=opponent Hero e.g. Dealt {10} damage to {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	Erhielt {0} Schaden von {1}	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	Verbündet mit {0}	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} erschien in Bob's Gasthaus	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} erschienen in Bob's Gasthaus	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	Du hast 1 {0} erhalten	0=card name e.g. You got 1 {Murloc Raider}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	Du hast {0} erhalten	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	Die Karte deines Barkeepers {0}	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	Die Karte {1} {0} deines Barkeepers	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	Die Diener deines Barkeepers	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	Die anderen Diener deines Barkeepers	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	Die {0} {1} deines Barkeepers	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	Du hast mit {0} überlebenden |4(Diener,Diener) gewonnen	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	Dein Gegner hat mit {0} überlebenden |4(Diener,Diener) gewonnen	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} |4(Spieler,Spieler) gestorben	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} |4(Spieler,Spieler) übrig	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Partneranzeige {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Schlachtfeldpartner	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Drücke {0}, um dein Gold zu lesen	0=a key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Drücke {0}, um deine Gasthausinformationen zu lesen	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Drücke {0}, um deinen Schlachtfeldpartner anzuschauen	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Drücke {0}, um die Statistiken deines nächsten Gegners zu lesen	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Drücke {0}, um die Rangliste zu lesen	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Drücke {0}, um deine Statistiken zu lesen	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Drücke {0}, um die Rennen in diesem Spiel zu lesen	0=o key
+
 ACCESSIBILITY_UI_POPUP	Popup	
 ACCESSIBILITY_UI_REWARDS_TITLE	Belohnungen	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	Dieses Popup wurde noch nicht zugänglich gemacht. Bitte hol dir Hilfe von einem Sehenden	
@@ -416,6 +470,12 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Du hast {0} |4(Stern,Sterne) verdie
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Du hast {0} |4(stern,sterne) verloren	0=number of stars lost e.g. You've lost {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Stern-Bonus! {0} Mal	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Gewinnsträhnen-Bonus! {0} Mal	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Deine Bewertung ist um {0} gestiegen	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Deine Bewertung ist um {0} gefallen	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Deine Bewertung ist jetzt {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Deine Bewertung ist immer noch {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} von {1} Spielern bereit	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Belohnungs-Paket	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 Kartenpackung	
@@ -545,6 +605,9 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Aktuellen Rang lesen
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} von {1} |4(Stern,Sterne)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} Stern-Bonus	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Statistiken lesen	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Angriffe während der Kampfphase vorlesen	
+
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest vortschritt Hinweis	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Der aktuelle Fortschritt ist {0} von {1}	0=current progress 1=total
 
@@ -592,7 +655,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Wenn ein Zug beginnt, ziehst du immer zuerst e
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Drücke {0}, um dir die Karten auf deiner Hand anzusehen	0=c key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, also... Diese Karte ist ein Diener namens Murlocräuber	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	Diener sind Kreaturen, die du auf das Schlachtfeld beschwören kannst, um für deinen Helden zu kämpfen.	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Dieser kostet 1 Mana zum Beschwören und hat 2 Angriffs- und 1 Lebenspunkte	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Dieser kostet ein Mana um beschworenzu werden und hat 2 Angriffs- und einen Lebenspunkt	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Beginnen wir mit der Beschwörung dieses Dieners	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Drücke {0}, um dies zu tun	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Drücke {0} zum Bestätigen oder {1} zum Abbrechen	0=Enter key 1=Backspace key
@@ -680,5 +743,16 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	In dieser Phase können bei
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Verwende die Pfeiltasten oder {0}, um durch deine Starthand zu gehen	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Wenn du eine Karte siehst, die dir nicht gefällt, drücke {0}, um sie zum Austausch zu markieren	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Wenn du alle Karten markiert hast, die du ersetzen möchtest, drücke {0}, um neue Karten zu ziehen und das Spiel zu beginnen.	0=Enter key
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Benutze {0} und {1}, um Diener zu kaufen.	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Verwende {0} und {1}, um Diener für 3 Gold zu kaufen. Baue eine Armee auf, um deine Feinde zu besiegen!	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Benutze {0} und {1}, um Diener zu verkaufen.	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Verwende {0} und {1}, um Diener an deinen Barkeeper zu verkaufen. Das gibt Platz frei und du bekommst 1 Gold dafür!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Benutze {0} und {1}, um deine Diener neu anzuordnen	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Verwende {0} und {1}, um dein Gasthaus aufzuwerten	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Benutze {0} und {1}, um deine Taverne aufzufrischen und neue Rekruten zu sehen	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Verwende {0} und {1}, um Diener einzufrieren und sie im nächsten Zug wiederzusehen.	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Drücke {0}, um herauszufinden, wie viel Zeit Du noch zum Spielen hast!	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Benutze {0} und {1}, um Diener zu beschwören.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
