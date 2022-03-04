@@ -48,6 +48,8 @@ ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Przeklęty
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Włączono tryb dostępności	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Wyłączono tryb dostępności	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	Dostępny tryb globalnej transmisji włączony	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	Dostępny tryb globalnej transmisji wyłączony	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
@@ -359,6 +361,58 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Zamknięto dziennik zdarzeń
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Twoja część pola bitwy zawiera {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Wroga część pola bitwy zawiera {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Poziom {0}	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} złota	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Poziom karczmy {0} {1} złota	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Napotykasz {1} poziomu {0} z {2} zdrowia i {3} (stronnikami)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Napotykasz {1} poziomu {0}  z {2} zdrowia, {4} pancerza i {3} (stronnikami)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Napotykasz {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	{0} z {1} złota	0=current gold 1=total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	{0} złota	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} pozostałego złota	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Stronnicy Na sprzedaż	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	Nie ma stronników na sprzedaż	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	Kupić {0}?	0=minion name e.g. Buy Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	Sprzedać {0}?	0=minion name e.g. Sell Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	Zamrozić karczmę?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Zamrozić karczmę za {0} złota?	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Odmrozić karczmę??	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Odświerzyć karczmę za {0} złota?	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Ulepszyć karczmę za {0} złota?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Przenieść na ostatnią pozycję?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Przenieść na pierwszą pozycję?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	Przenieść pomiędzy {0} i {1}?	Move between {Murloc Raider} and {Bloodfen Raptor}?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	Zadał {0} obrażeń dla {1}	0=damage dealt 1=opponent Hero e.g. Dealt {10} damage to {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	Otrzymał {0} obrażeń od {1}	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	Remis z {0}	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} pojawili się w Karczmie Boba	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} pojawił się w Karczmie Boba	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	Otrzymano 1 {0}	0=card name e.g. You got 1 {Murloc Raider}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	Otrzymano {0}	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	{0} twojego karczmarza	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	{0} {1} twojego karczmarza 	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	Stronnicy twojego karczmarza	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	Inni stronnicy twojego karczmarza	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	{0} {1} twojego karczmarza	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	wygrywasz z {0} żyjącymi (stronnikami)	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	Twój przeciwnik wygrywa z {0} żyjącymi (stronnikami)	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} graczy umarło	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} graczy pozostało	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Licznik Towarzysza {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Toważysz bohatera	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Wciśnij {0} by przeczytać twoje złoto	0=a key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Wciśnij {0} by przeczytać informacje o twojej karczmie	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Wciśnij {0} by przeczytać Towarzysza twojego Bohatera	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Wciśnij {0} by przeczytać statystyki twojego następnego przeciwnika	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Wciśnij {0} by przeczytać tablicę wyników	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Wciśnij {0} by przeczytać twoje statystyki	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Wciśnij {0} by przeczytać rodzaje stronników w tej grze	0=o key
+
 ACCESSIBILITY_UI_POPUP	Okno wyskakujące	
 ACCESSIBILITY_UI_REWARDS_TITLE	Nagrody	
 ACCESSIBILITY_UI_UNKNOWN_POPUP	To okno nie posiada jeszcze modułu dostępności. Skorzystaj z pomocy osoby widzącej	
@@ -382,7 +436,7 @@ ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Uzyskałeś {0} gwiazdek w tym sezonie
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Okno dialogowe ponownego łączenia	
 
 ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	Sezon {0} dobiegł końca. Uzyskana ranga to {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
-ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Zdobyłeś skryznię z nagrodami	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Zdobyłeś skrzynię z nagrodami	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Wciśnij {0} aby otworzyć	0=Enter key
 ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	Rozpoczął się sezon {0}!	0=season name e.g. The {August 2021 season} has begun!
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	Rozpoczął się nowy sezon!	
@@ -416,6 +470,12 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Zdobyłeś {0} |4(gwiazdkę,gwiazdk
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Straciłeś {0} |4(gwiazdkę,gwiazdki,gwiazdek)	0=number of stars lost e.g. You've lost {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonus! Będziesz otrzymywał {0} razy więcej gwiazdek	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonus za wielokrotne zwycięstwa! Będziesz otrzymywał {0} razy więcej gwiazdek	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Twoja ocena podniosła się o {0}	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Twoja ocena obniżyła się o {0}	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Twoja ocena to {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Twoja ocena to nadal {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} z {1} graczy gotowych	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paczka z nagrodami	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	Pakiet kart	
@@ -544,6 +604,9 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Nie posiadasz żadnych pakietów
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Przeczytaj aktualną rangę	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} z {1} |4(gwiazdka,gwiazdki,gwiazdek)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	Bonus na gwiazdki: {0}	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Przeczytaj statystyki	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Relacjonój ataki w czasie walki	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Postęp zadania	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Aktualny postęp to {0} z {1}	0=current progress 1=total
@@ -680,5 +743,16 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	Podczas tej fazy możesz wy
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Użyj klawiszy strzałek lub klawisza {0} aby przemieszczać się po kartach znajdujących się w twojej ręce	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Jeżeli odnajdziesz nie potrzebną ci kartę, wciśnij {0} aby oznaczyć ją do zamiany. Jeżeli jednak zmienisz zdanie, ponowne wciśnięcie {0} odznaczy kartę	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Gdy już oznaczysz wszystkie karty do zamiany, wciśnij {0} aby jej dokonać i rozpocząć grę	0=Enter key
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników.	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników za 3 złota. Build up an army to take down your enemies!	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników.	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników twojemu Karczmarzowi. It frees up space and you get 1 Gold for it!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Użyj {0} i {1} by przestawiać kolejność twoich stronników	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Użyj {0} i {1} by ulepszyć twoją karczmę	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Użyj {0} i {1} by odświerzyć twoją karczmę i zobaczyć nowych rekrutów	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Użyj {0} i {1} by zamrozić stronników i zobaczyć ich ponownie w następnej turze.	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Wciśnij {0} by zobaczyć ile czasu masz jeszcze by grać w tej turze!	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Użyj {0} i {1} by przywoływać stronników.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
