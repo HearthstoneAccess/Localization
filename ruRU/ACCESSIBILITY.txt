@@ -364,9 +364,9 @@ ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Поле боя п�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Уровень {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} золота	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Уровень таверны {0} и {1} золота	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Вы сражаетесь с {0} {1} уровня, {2} здоровья и {3} |4(существо,существа,существ)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Вы сражаетесь с {0} {1} уровня, {2} здоровья, {4} брони и {3}|4(существо,существа,существ)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Вы сражаетесь с {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Сражение с {1}, {0} уровень, {2} здоровья и {3} |4(существо,существа,существ)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Сражение с {1}, {0} уровень, {2} здоровья, {4} брони и {3}|4(существо,существа,существ)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Сражение с {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	{0} из {1} золота	0=current gold 1=total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	У вас {0} золота	0=current and total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	Осталось {0} золота	0=amount e.g. {3} gold remaining
@@ -468,8 +468,8 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Сейчас вы {0}	0=rank name e.g. 
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	У вас {0} из {1} |4(звезды,звезд,звезд)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
 ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Вы заработали {0} |4(звезду,звезды,звезд)	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Вы потеряли {0} |4(звезду,звезды,звезд)	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Звездный бонус! {0} раза	0=star bonus e.g. Star bonus! Times {4}
-ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Бонус за серию побед! {0} раза	0=win streak bonus e.g. Win Streak bonus! Times {2}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Звездный бонус! X{0}	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Бонус за серию побед! X{0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Ваш рейтинг увеличился на {0}	0=rating increase e.g. Your rating increased by 50
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Ваш рейтинг уменьшился на {0}	0=rating decrease e.g. Your rating decreased by 50
