@@ -468,8 +468,8 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	Сейчас вы {0}	0=rank name e.g. 
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	У вас {0} из {1} |4(звезды,звезд,звезд)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
 ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	Вы заработали {0} |4(звезду,звезды,звезд)	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Вы потеряли {0} |4(звезду,звезды,звезд)	0=number of stars lost e.g. You've lost {1} star
-ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Звездный бонус! X{0}	0=star bonus e.g. Star bonus! Times {4}
-ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Бонус за серию побед! X{0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Звездный бонус! X {0}	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Бонус за серию побед! X {0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Ваш рейтинг увеличился на {0}	0=rating increase e.g. Your rating increased by 50
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Ваш рейтинг уменьшился на {0}	0=rating decrease e.g. Your rating decreased by 50
