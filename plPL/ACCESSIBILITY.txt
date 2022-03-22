@@ -471,10 +471,10 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Straciłeś {0} |4(gwiazdkę,gwiazdki
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonus! Będziesz otrzymywał {0} razy więcej gwiazdek	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonus za wielokrotne zwycięstwa! Będziesz otrzymywał {0} razy więcej gwiazdek	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Twoja ocena podniosła się o {0}	0=rating increase e.g. Your rating increased by 50
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Twoja ocena obniżyła się o {0}	0=rating decrease e.g. Your rating decreased by 50
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Twoja ocena to {0}	0=new rating e.g. Your rating is now 1337
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Twoja ocena to nadal {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	twoja klasyfikacja podniosła się o {0}	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Twoja klasyfikacja obniżyła się o {0}	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Twoja klasyfikacja to {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Twoja klasyfikacja to nadal {0}	0=rating e.g. Your rating is still 1337
 ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} z {1} graczy gotowych	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Paczka z nagrodami	
@@ -745,9 +745,9 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Jeżeli odnajdziesz nie pot
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Gdy już oznaczysz wszystkie karty do zamiany, wciśnij {0} aby jej dokonać i rozpocząć grę	0=Enter key
 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników.	0=g key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników za 3 złota. Build up an army to take down your enemies!	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników za 3 złota. Zbuduj armię by pokonać Wroguw!	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników.	0=b key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników twojemu Karczmarzowi. It frees up space and you get 1 Gold for it!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników twojemu Karczmarzowi. To Zwalnia Miejsce i otrzymujesz 1 złota za to!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Użyj {0} i {1} by przestawiać kolejność twoich stronników	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Użyj {0} i {1} by ulepszyć twoją karczmę	0=u key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Użyj {0} i {1} by odświerzyć twoją karczmę i zobaczyć nowych rekrutów	0=r key 1=Enter key
