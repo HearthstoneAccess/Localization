@@ -590,6 +590,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Любимый наб�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Создать карты	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Узнать количество чародейной пыли	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Распылить {0} |4(лишнюю карту,лишние карты,лишних карт) за {1} чародейной пыли	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Читать карту	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Читать связанную карту	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Читать описание	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Создать за {0} чародейной пыли	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Распылить за {0} чародейной пыли	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
