@@ -590,6 +590,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	ตั้งเหร�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	สร้างการ์ด	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	ตรวจสอบผงเวทมนตร์	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	ย่อยการ์ดพิเศษ {0} |4(ใบ,ใบ) ได้รับ {1} ผงเวทมนตร์	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	ตรวจสอบการ์ด	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	ตรวจสอบการ์ดที่เกี่ยวข้อง	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	อ่าน flavor	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	สร้างการ์ดนี้ใช้ {0} ผงเวทมนตร์	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	ย่อยการ์ดนี้ได้รับ {0} ผงเวทมนตร์	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
