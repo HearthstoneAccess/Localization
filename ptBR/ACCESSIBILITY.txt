@@ -234,10 +234,10 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	magnetizou-se
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	magnetizaram-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	desmagnetizou-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	desmagnetizaram-se	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	Adquiriu veneno	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	adquiram veneno	
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	perdeu veneno	
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	perderam venenos	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	Adquiriu venenoso	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	adquiram venenoso	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	perdeu venenoso	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	perderam venenoso	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	Adquiriu furtivo	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	adquiriram furtivo	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ganhou {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
@@ -356,7 +356,7 @@ ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Pressione {0} para finalizar seu turno	0=e 
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	não foi feita nem uma jogada ainda	
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} {0} de {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	leitura de histórico cancelada	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Fechando leitura de histórico
 
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Seu campo começa com {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	O campo do seu oponente começa com {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
@@ -409,7 +409,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Pressione {0} para ve
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Pressione {0} para ler a informação da sua taverna	0=t key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Pressione {0} para ver o camarada do seu herói	0=d key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Pressione {0} para ver as stats do seu próximo oponente	0=n key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pressione {0} para ver a clasificação geral	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pressione {0} para ver a classificação geral	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Pressione {0} para ver suas stats	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pressione {0} para ver os tipos de lacaios disponíveis nesta partida	0=o key
 
@@ -431,7 +431,7 @@ ACCESSIBILITY_UI_REWARD_HELP	Use as setas direcionais para ler a recompensa
 
 ACCESSIBILITY_UI_RANKED_INTRO_POPUP	O novo sistema de classificação está aqui! Você pode encontrar mais sobre isso online	
 
-ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Seu desempenho na classificação na última temporada rendeu a você {0} bonus de estrela!	0=star bonus amount
+ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Seu desempenho na classificação na última temporada rendeu à você {0} bonus de estrela!	0=star bonus amount
 
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Diálogo de reconexão	
 
@@ -455,7 +455,7 @@ ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	quest de {0} pontos de experiência	0=xp 
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Recompensas {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Recompensas 1 de {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
-ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Você não possui nem um quest	
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Você não possui  quests	
 ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Pressione {0} para abandonar	0=a key
 ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Pressione {0} para trocar	0=r key
 
@@ -471,10 +471,10 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Você perdeu {0} |4(estrela,estrelas)
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonificação de estrelas por {0}!	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonificação de vitorias por {0}!	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Sua Clasificação aumentóu em {0}	0=rating increase e.g. Your rating increased by 50
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Sua clasificação diminuiu em {0}	0=rating decrease e.g. Your rating decreased by 50
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Sua nova clasificação é {0}	0=new rating e.g. Your rating is now 1337
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Sua clasificação continua sendo {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Sua classificação aumentou em {0}	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Sua classificação diminuiu em {0}	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Sua nova classificação é {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Sua classificação continua sendo {0}	0=rating e.g. Your rating is still 1337
 ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} de {1} jogadores prontos	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Pacote de recompensa	
@@ -582,9 +582,9 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um n
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Escreva um termo de busca	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Filtro de custo de {0} mana ativado	{0} mana crystal filter e.g. {7+} mana filter on
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Filtro de custo de mana desativado	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Trocar entre kits	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Trocar entre coleções	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	A skin de herói foi selecionada como favorita	Spoken after setting a new favorite Hero Skin
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	O dorso de card foi selecionado como favorito	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	O verso de card foi selecionado como favorito	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	A skin de moeda foi selecionada como favorita	Spoken after setting a new favorite Coin
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Criar cards	
@@ -607,13 +607,13 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Ler ranking atual
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrela,estrelas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificação de estrelas	0=current star bonus e.g. {2} star bonus
 
-ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Stats	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Estatísticas	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Narrar ataques dos lacaios durante a fase de combate	
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso do quest	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso da quest	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	O progresso atual é {0} de {1}	0=current progress 1=total
 
-ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou um quest	
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou uma quest	
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Carregando o tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Bem-vindo de volta ao tutorial	
@@ -631,7 +631,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Seu próximo oponente é Hemet Nesingwary
 ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Seu próximo e último oponente é Illidan Tempesfúria	
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Eu vou te ensinar como jogar através de um conjunto de seis tutoriais	
-ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Se você se sentir desorientado, pressione {0}. Mesmo depois do tutorial ou ao navegar pelos menus, você sempre pode pressionar {0} quando precisar de ajuda	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Se você  sentir-se desorientado, pressione {0}. Mesmo depois do tutorial ou ao navegar pelos menus, você sempre pode pressionar {0} quando precisar de ajuda	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Isso aí, vamos em frente	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Aqui está um pacote básico de cards de Mago para você começar. Pressione {0} para abri-lo	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	Bom trabalho	
