@@ -53,8 +53,8 @@ ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	Modalità streamer disattiva	Read when Ct
 
 ACCESSIBILITY_FORMATTING_PERIOD	.	
 ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	.!?;	
-ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	, 	e.g. the ", " in A, B, C, D and E
-ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	 e 	e.g. the " and " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	,	e.g. the ", " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	e	e.g. the " and " in A, B, C, D and E
 
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	numero 1	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_2	numero 2	
