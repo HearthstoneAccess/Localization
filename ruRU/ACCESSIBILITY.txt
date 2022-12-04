@@ -757,4 +757,17 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Используй
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Нажмите {0}, чтобы узнать, сколько времени у вас осталось до игры!	e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Используйте {0} и {1} для призыва существ.	0=c key 1=Enter key
 
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES	У вас {0} |4(труп,трупа,трупов)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES_EMPTY	У вас нет трупов	
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES	У противника {0} |4(труп,трупа,трупов)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES_EMPTY	У противника нет трупов	
+
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Книга Наёмников	
+
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Кровь	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	Лёд	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Нечестивость	The unholy death knight rune
+
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} прочности	0=durability e.g. 1 durability, for a location
+
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
