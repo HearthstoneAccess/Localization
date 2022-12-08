@@ -758,3 +758,11 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Drücke {0}, um herausz
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Benutze {0} und {1}, um Diener zu beschwören.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
+
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES    {0} |4(leiche,leichen)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	keine leichen	
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} haltbarkeit	0=durability e.g. 1 durability, for a location
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Blut	The blood death knight rune	
+ACCESSIBILITY_READ_CARD_RUNE_FROST	Frost	The frost death knight rune	
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Unheilig	The unholy death knight rune	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	buch der söldner	
