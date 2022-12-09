@@ -71,8 +71,12 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} маны	0=card cost
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} прочности	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Кровь	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	Лёд	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Нечестивость	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} атаки	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} здоровья	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} брони	0=armor
@@ -159,6 +163,8 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	У противника н
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} из {1} маны	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} маны	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	У противника {0} маны	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(труп,трупа,трупов)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	нет трупов	
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	В руке противника. {0} |4(карта,карты,карт)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	В колоде: {0} |4(карта,карты,карт)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	В колоде противника: {0} |4(карта,карты,карт)	0=number of cards
@@ -516,6 +522,7 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Напишите сообщен
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Отправить сообщение	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Прочитать текущий уровень	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} из {1} Опыта до следующего уровня	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Забрать {0} |4(награду,награды,наград)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Вы уже забрали все награды за этот уровень	
 
@@ -539,6 +546,12 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Экран фатальной ош
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Ваш герой достиг {0} уровня	0=level
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Выберите приключение	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	Выберете главу	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	Глава {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	Эта глава сейчас заблокирована	
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	Заблокирована	
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	Доступна	
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	Завершена	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Нажмите {0}, чтобы начать, или {1}, чтобы вернуться в главное меню	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Экран приключений	
@@ -554,6 +567,9 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Противник ном
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Выберите приключение	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Книга Героев	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Книга Наёмников	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	Руины Запределья: Пролог	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	Марш Короля-лича: Пролог	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Выберите уровень сложности противника	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Нормальный	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Эксперт	
@@ -756,16 +772,5 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Использу�
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Используйте {0} и {1}, чтобы заморозить существ и увидеть их снова на следующем ходу.	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Нажмите {0}, чтобы узнать, сколько времени у вас осталось до игры!	e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Используйте {0} и {1} для призыва существ.	0=c key 1=Enter key
-
-ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(труп,трупа,трупов)	0=current amount of corpses
-ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	нет трупов	
-
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Книга Наёмников	
-
-ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Кровь	The blood death knight rune
-ACCESSIBILITY_READ_CARD_RUNE_FROST	Лёд	The frost death knight rune
-ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Нечестивость	The unholy death knight rune
-
-ACCESSIBILITY_READ_CARD_DURABILITY	{0} прочности	0=durability e.g. 1 durability, for a location
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
