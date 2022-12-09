@@ -71,8 +71,12 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} มานา	0=card cost
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} ความทนทาน	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	รูนเลือด	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	รูนน้ำแข็ง	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	รูนไม่บริสุท	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} พลังโจมตี	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} พลังชีวิต	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} พลังป้องกัน	0=armor
@@ -159,6 +163,10 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	ฝ่ายตรงข�
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	คุณมี {0} จากทั้งหมด {1} มานา	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	คุณมี {0} มานา	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	ฝ่ายตรงข้ามมี {0} มานา	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES	คุณมี {0} |4(ศพ,ศพ)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES_EMPTY	คุณไม่มีศพแล้ว	
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES	ฝ่ายตรงข้ามมี {0} |4(ศพ,ศพ)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES_EMPTY	ฝ่ายตรงข้ามไม่มีศพแล้ว	
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	บนมือฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	ในเด็คของคุณมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	ในเด็คของฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
@@ -554,6 +562,7 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	คุณอยู่ก�
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	เลือกการผจญภัย	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	หนังสือฮีโร่	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	หนังสือทหารรับจ้าง	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	เลือกระดับความยากของศัตรู	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	ปกติ	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	เชี่ยวชาญ	
