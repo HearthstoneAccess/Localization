@@ -778,5 +778,7 @@ ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Zaproś do ustawki
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - specjalna edycja	0=card name
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	przeczytaj ilość kamienirunicznych	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	wykup za {0} kamienirunicznych	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	pozostało {0} kamienirunicznych	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	za mało kamieni runicznych	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
