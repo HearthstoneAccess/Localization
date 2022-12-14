@@ -368,6 +368,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Stopped reading history
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Your battlefield starts with {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Your opponent's battlefield starts with {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} joined the party.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} declined the invite.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} left the party.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Tier {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} gold	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Tavern tier {0} and {1} gold	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
