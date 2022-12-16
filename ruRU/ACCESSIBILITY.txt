@@ -83,6 +83,7 @@ ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} брони	0=armor
 ACCESSIBILITY_READ_CARD_N_COPIES	{0} копий	0=number of copies
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - золотая	0=card name e.g. {fireball} - golden edition
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - алмазная	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - особая	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Ход противника	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Ход завершен	
@@ -367,6 +368,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Журнал событий закры�
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Ваше поле боя начинается с {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Поле боя противника начинается с {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} присоединился к Полям Сражений	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} отклонил приглашение	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} покинул Поля Сражений	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Уровень {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} золота	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Уровень таверны {0} и {1} золота	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
@@ -520,6 +524,8 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Сообщение от {0}: {1}	0
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Сообщение для {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Напишите сообщение	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Отправить сообщение	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Преглосить на поля срожений	
+ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Вы не можете прегласить {0} сейчас	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Прочитать текущий уровень	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} из {1} Опыта до следующего уровня	
@@ -527,6 +533,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Забрать {0} |4(наград�
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Вы уже забрали все награды за этот уровень	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Узнать количество золота	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Узнать количество Рунных камней	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Купить комплекты карт	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Купить мини-наборы	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Купить облики героев	
@@ -534,10 +541,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Купить наборы
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Купить прочие	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Прочитать описание	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Купить за {0} золота	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Купить за {0} Рунных камней	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Получить бесплатно	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Прочитать карты	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Используйте клавиши со стрелками, чтобы читать карты	
-ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	Осталось золота: {0}	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	Осталось {0} золота	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	Осталось {0} Рунных камней	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Недостаточно Рунных камней	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Назад	
 

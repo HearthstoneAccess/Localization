@@ -368,6 +368,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Stopped reading history
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Your battlefield starts with {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Your opponent's battlefield starts with {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} joined the party.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} declined the invite.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} left the party.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Tier {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} gold	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Tavern tier {0} and {1} gold	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
@@ -530,6 +533,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Claim {0} |4(reward,rewards)	0=numb
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed all rewards for this level	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Read runestones	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Buy Hero skins	
@@ -537,10 +541,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Buy bundles
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Buy others	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Buy for {0} runestones	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Get for free	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} runestones remaining	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Not enough runestones	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Go back	
 
