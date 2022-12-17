@@ -159,9 +159,9 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Przeciwnik nie ma dobytej 
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} z {1} many	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} many	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Przeciwnik ma {0} many	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES	masz {0} |Trupów)	0=current amount of corpses
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES_EMPTY	nie masz trupów	
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES	twój przeciwnik ma {0} |trupów)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |(trupów)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	nie ma trupów
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES	twój przeciwnik ma {0} |(trupów)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES_EMPTY	twuj przeciwnik nie ma trupów	
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	{0} |4(karta,karty,kart) w ręce przeciwnika	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	{0} |4(karta,karty,kart) w talii	0=number of cards
@@ -775,5 +775,15 @@ ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	misja {0}, {1}	0 = misja numer, 1 = s
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	popioły rubierzy Prolog	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	rycerz śmierci Prolog	
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Zaproś do ustawki	
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - specjalna edycja	0=card name
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	przeczytaj ilość kamienirunicznych	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	wykup za {0} kamienirunicznych	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	pozostało {0} kamienirunicznych	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	za mało kamieni runicznych	
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	twoje pole bitwy rospoczyna z {0}	0=kart e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	pole bitwy  twojego przeciwnika rospoczyna z {0}	0 kart e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} dołączył do drużyny.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} odrzucił zaproszenie.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} opuścił drużynę.	0 is player name
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
