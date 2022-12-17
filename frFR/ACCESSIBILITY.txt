@@ -507,12 +507,12 @@ ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dos de cartes,Dos de cartes)	0=amoun
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Ticket d'arène,Tickets d'arènes)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Pierre runique,pierres runiques)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventure,Aventures)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Ticket bagarre de taverne,Tickets bagarre de taverne)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Ticket bras de fer,Tickets bras de fer)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(Pièce personalisée,Pièces personalisées)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP augmenté	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Apparence de héros en mode champs de bataille,Apparences de héros  en mode champs de bataille)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Apparence de guide en mode champs de bataille,Apparences de guides en mode champs de bataille)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Apparence de barman en mode champs de bataille,Apparences de barmans en mode champs de bataille)	0=amount
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Menu Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copier dans le press-papier	
@@ -528,6 +528,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Réclamer {0} |4(récompense,récom
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Vous avez déja réclamé toutes les récompenses pour se niveau	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Consulter l'or	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Consulter les pierres runiques	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Acheter un paquet	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Acheter un Mini-sets	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Acheter des apparences de héros.	
@@ -535,10 +536,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Acheter des ensembles
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Acheter d'autres articles	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Description	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Acheter pour {0} or	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Acheter pour {0} pierres runiques	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Obtenir gratuitement	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Lire les cartes	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Utilisez les flèches pour lire les cartes	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} or restant	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} pierres runiques restantes	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Pas assez de pierres runiques	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Retour	
 
@@ -547,6 +551,13 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	écran d'erreur fatal
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Votre héros a atteint le niveau {0}	0=level
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choisissez une aventure	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	Choisissez une Mission	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	Mission {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	Cette mission est verrouillée pour l'instant.
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	Verrouillée
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	Disponnible
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	Complètée
+
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Appuyez sur {0} pour commencer ou {1} pour retourner au menu principal	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	écran aventure	
