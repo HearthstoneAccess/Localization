@@ -81,8 +81,9 @@ ACCESSIBILITY_READ_HERO_CARD_ATK	{0} พลังโจมตี	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} พลังชีวิต	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} พลังป้องกัน	0=armor
 ACCESSIBILITY_READ_CARD_N_COPIES	{0} ก๊อปปี้	0=number of copies
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - รุ่นทอง	0=card name e.g. {fireball} - golden edition
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - รุ่นเพชร	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - สีทอง	0=card name e.g. {fireball} - golden edition
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - ขอบเพชร	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - ซิกเนเจอร์	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	เทิร์นของฝ่ายตรงข้าม	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	จบเทิร์น	
@@ -522,12 +523,15 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	ข้อความจาก {0}
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	ส่งข้อความถึง {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	พิมพ์ข้อความของคุณ	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	ส่งข้อความ	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	เชิญเข้าร่วมกลุ่ม battleground	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	ตรวจสอบเลเวลปัจจุบัน	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} จาก {1} ค่าประสบการณ์เพื่อไปยังเลเวลถัดไป	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	รับ {0} |4(รางวัล,รางวัล)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	คุณรับรางวัลสำหรับเลเวลนี้ไปแล้ว	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	ตรวจสอบทอง	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	ตรวจสอบหินรูน	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	ซื้อซองการ์ด	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	ซื้อมินิเซ็ต	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	ซื้อสกินฮีโร่	
@@ -535,10 +539,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	ซื้อห่อการ์ด
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	ซื้ออื่นๆ	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	อ่านคำบรรยาย	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	ซื้อในราคา {0} ทอง	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	ซื้อในราคา {0} หินรูน	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	รับฟรี	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	อ่านการ์ด	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	ใช้ลูกศรเพื่ออ่านการ์ด	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} ทองคงเหลือ	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} หินรูนคงเหลือ	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	มีหินรูนไม่พอ	
 
 ACCESSIBILITY_SCREEN_GO_BACK	ย้อนกลับ	
 
@@ -547,6 +554,12 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	หน้าจอข้อผิ�
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	ฮีโร่ของคุณเลื่อนเป็นเลเวล {0}	0=level
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	เลือกการผจญภัย	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	เลือกภารกิจที่จะเล่น	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	ภารกิจ {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	ขณะนี้ภารกิจนี้ถูกล็อกอยู่
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	ล็อก
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	พร้อมให้เล่น
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	เสร็จสมบูรณ์แล้ว
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	กด {0} เพื่อเลือกการผจญภัยหรือกด {1} เพื่อย้อนกลับไปเมนูหลัก	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	หน้าจอการผจญภัย	
@@ -563,6 +576,8 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	คุณอยู่ก�
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	เลือกการผจญภัย	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	หนังสือฮีโร่	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	หนังสือทหารรับจ้าง	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	ขี้เถ้าของเอาท์แลนด์: บทนำ	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	เดธไนท์: บทนำ	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	เลือกระดับความยากของศัตรู	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	ปกติ	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	เชี่ยวชาญ	
