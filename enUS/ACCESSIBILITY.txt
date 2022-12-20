@@ -786,3 +786,8 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Use {0} and {1} to summo
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Press {0} to switch between viewing your current deck and choosing a new card to add. 
+ACCESSIBILITY_ARENA_WINS_LOSSES	Wins: {0}, Losses: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	You have {0} tickets.	0 is number of tickets.
