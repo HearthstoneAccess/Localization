@@ -784,3 +784,8 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Нажмите {0}, ч�
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Используйте {0} и {1} для призыва существ.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Нажмите {0} для переключения между просмотром вашей текущей колоды и выбором новой карты для добавления.
+ACCESSIBILITY_ARENA_WINS_LOSSES	Побед: {0}, Поражений: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	Арена	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	У вас {0} |4(билет,билета,билетов).	0 is number of tickets.
