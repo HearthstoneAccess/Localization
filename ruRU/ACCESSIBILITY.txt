@@ -142,11 +142,15 @@ ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Сыграть картой?
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Обменять карту?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	У Вас есть доступные действия. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Вы можете атаковать. Вы уверены?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Вы можете использовать локацию. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Вы можете использовать силу героя. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	У Вас нет призванных существ	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Герой противника не может быть атакован	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Герой противника не может быть выбран целью	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Ни одно из ваших существ не может атаковать героя противника	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	Это не ваше существо	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	Это не существо	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Это  существо не может атаковать героя противника	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Выберите цель	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	Осталось {0} секунд	0=number of seconds - always plural e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Вы играете против {0}, {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
