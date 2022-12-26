@@ -370,6 +370,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	หยุดอ่านประวั
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	สนามรบของคุณเริ่มต้นด้วย {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	สนามรบของฝ่ายตรงข้ามเริ่มต้นด้วย {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} เข้าร่วมกลุ่มแล้ว	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} ปฏิเสธคำเชิญ	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} ออกจากกลุ่มแล้ว	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	ขั้น {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} ทอง	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	โรงเตี๊ยมขั้นที่ {0} และ {1} ทอง	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
@@ -782,3 +785,8 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	กด {0} เพื่
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	กด {0} และ {1} เพื่อซัมมอนมินเนี่ยน	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	เอ็นเท่อ	Optional. Overrides the Return key to be read as Enter by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	กด {0} เพื่อสลับไปดูเด็คปัจจุบันและเพิ่มการ์ด 
+ACCESSIBILITY_ARENA_WINS_LOSSES	ชนะ: {0}, แพ้: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	ลานประลอง	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	คุณมี {0} ตั๋ว	0 is number of tickets.
