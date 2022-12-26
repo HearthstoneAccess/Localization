@@ -120,8 +120,8 @@ ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} attaque {1}	0=attacker name 1=defende
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} tente d'attaquer {1} mais attaque {2} à la place	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Vous révélez une carte coutant {0} , {1}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
 ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	votre adversaire révèle une carte coutant {0}, {1}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Vous n'avez plus de carte valide à révéler	
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	votre adversaire n'a plus de carte valide à révéler	
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Vous n'avez plus de cartes valides à révéler	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	votre adversaire n'a plus de cartes valides à révéler	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Vous avez {0} mana	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Vous jouez en premier	
@@ -130,22 +130,26 @@ ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Vous commencez avec {0} |4(carte,c
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Vous piochez {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	votre adversaire pioche {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Vous jetez {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	votre adversaire jete {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	votre adversaire jette {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	Vous obtenez la pièce	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	En attente de votre adversaire	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Invoquer?	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Invoquer a droite?	
-ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Invoquer a gauche?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Invoquer à droite?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Invoquer à gauche?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Invoquer entre {0} et {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jouer la carte?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	échanger la carte?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Vous avez encore des options de jeux valides. Êtes vous sur?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Vous avez encore des options de jeu valides. Êtes-vous sûr?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Vous pouvez encore attaquer. Êtes vous sur?	
-ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Vous pouvez encore utilisé votre pouvoir héroïque. Êtes vous sur?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Vous pouvez encore utiliser votre pouvoir héroïque. Êtes vous sur?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Vous pouvez encore utiliser un lieu. êtes-vous sûr?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	Vous n'avez aucun serviteur invoqué	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Le Héros adverse ne peut pas être attaqué	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Le Héros adverse ne peut pas être visé	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Le Héros adverse ne peut pas être ciblé	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Aucun de vos serviteurs ne peut attaquer le héros adverse	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	Ce n'est pas un serviteur alié	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	Ce n'est pas un serviteur	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Ce serviteur ne peut pas attaquer le héro adverse	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Choisissez une cible	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} secondes restantes	0=number of seconds - always plural e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Vous jouez contre {0}, le {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
@@ -367,6 +371,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Fermer l'historique
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Votre champ de bataille s'ouvre avec {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Le champ de bataille adverse s'ouvre avec {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} a rejoint la partie.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} a refusé l'invitation.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} a quitté la partie.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Niveau {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} or	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Niveau de la tavern {0} and {1} or	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
@@ -524,6 +531,7 @@ ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Inviter en champs de bataille
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Vous ne pouvez pas défier {0} pour le moment.	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Lire niveau actuel	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} xp sur {1} jusqu'au niveau suivant	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Réclamer {0} |4(récompense,récompenses)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Vous avez déja réclamé toutes les récompenses pour se niveau	
 
@@ -781,3 +789,7 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Appuyez sur {0} pour sa
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Utilisez {0} et {1} pour invoquer des serviteurs.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Entrez	Facultatif. Remplace la touche Retour pour être lue comme Entrée par TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Appuyez sur {0} pour basculer entre votre deck et les cartes proposées. 
+ACCESSIBILITY_ARENA_WINS_LOSSES	Victoires: {0}, Défaites: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	Arène	For use in the modes menu
