@@ -789,5 +789,6 @@ ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	w ciśnij {0} aby przełączać się międ
 ACCESSIBILITY_ARENA_WINS_LOSSES	zwycięstw: {0}, przegranych: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
 ACCESSIBILITY_ARENA_TICKETS_COUNT	masz {0} biletów.	0 is number of tickets.
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Wciąż możesz aktywować lokację. czy jesteś pewien?	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
