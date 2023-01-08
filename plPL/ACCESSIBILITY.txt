@@ -780,6 +780,8 @@ ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	przeczytaj ilość kamienirunicznych
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	wykup za {0} kamienirunicznych	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	pozostało {0} kamienirunicznych	0=amount e.g. {150} runestones remaining
 ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	za mało kamieni runicznych	
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	twoje pole bitwy rospoczyna z {0}	0=kart e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	pole bitwy  twojego przeciwnika rospoczyna z {0}	0 kart e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} dołączył do drużyny.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} odrzucił zaproszenie.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} opuścił drużynę.	0 is player name
@@ -789,5 +791,7 @@ ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
 ACCESSIBILITY_ARENA_TICKETS_COUNT	masz {0} biletów.	0 is number of tickets.
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Wciąż możesz aktywować lokację. czy jesteś pewien?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	bilet W widoku tawerny
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	to nie jest przyjazny stronnik
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	ten stronnik nie może atakować bohatera przeciwnika	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
