@@ -793,5 +793,14 @@ ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Wciąż możesz akty
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	bilet W widoku tawerny
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	to nie jest przyjazny stronnik
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	ten stronnik nie może atakować bohatera przeciwnika	
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	wybierz kategorię:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Niedawno zakończone:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} z {2} całkowitych osiągnięć punktów ({3}), {4} z {5} osiągnięć zakończonych	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	odbierz teraz!	
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	poziom: {0} z {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	postęp: {0} z {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	zarobiłeś {0} osiągnięć punktów	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	nie możesz odebrać osiągnięcia.
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	odbierz osiągnięcie	Used in the viewing menu
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
