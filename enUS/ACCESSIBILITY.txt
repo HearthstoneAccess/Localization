@@ -798,9 +798,11 @@ ACCESSIBILITY_ARENA_TICKETS_COUNT	You have {0} tickets.	0 is number of tickets.
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Select Category:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Recently Completed:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} of {2} total achievement points ({3}), {4} of {5} achievements completed	should be self explanatory, {0} is the category or subcategory name.
-ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Claim it now!	
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Claimable:
 ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Tier: {0} of {1}	0 is current tier, 1 is highest tier
 ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	PROGRESS: {0} of {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Claim Achievement
 ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Earn {0} Achievement Points	0 is number of points
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Could not claim achievement.
-ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Claim Achievement	Used in the viewing menu
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Use the left and right arrows to browse the achievement list and up and down arrows to reach the currently selected achievement's information. Press {0} to attempt to claim a claimable achievement. Press {1} to return to the previous menu. Press {2} to switch between viewing all achievements and viewing incomplete ones.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} of {1} achievements Incomplete
