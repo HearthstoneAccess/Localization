@@ -795,7 +795,7 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	to nie jest przyjazny st
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	ten stronnik nie może atakować bohatera przeciwnika	
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	wybierz kategorię:
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Niedawno zakończone:
-ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} z {2} całkowitych osiągnięć punktów ({3}), {4} z {5} osiągnięć zakończonych	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} z {2} całkowitych punktów osiągnięć ({3}), {4} z {5} osiągnięć zakończonych	should be self explanatory, {0} is the category or subcategory name.
 ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	odbierz teraz!	
 ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	poziom: {0} z {1}	0 is current tier, 1 is highest tier
 ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	postęp: {0} z {1}	0 is current, 1 is how much is needed
