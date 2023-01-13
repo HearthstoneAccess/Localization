@@ -799,7 +799,7 @@ ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} z {2} całkowitych punktów osi
 ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	odbierz teraz!	
 ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	poziom: {0} z {1}	0 is current tier, 1 is highest tier
 ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	postęp: {0} z {1}	0 is current, 1 is how much is needed
-ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	zarobiłeś {0} punktów osiągnięć	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	zarób {0} punktów osiągnięć	0 is number of points
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	nie możesz odebrać osiągnięcia.
 ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	odbierz osiągnięcie	Used in the viewing menu
 
