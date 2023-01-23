@@ -466,22 +466,22 @@ ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	按 {0} 打开你的奖品箱	0=回�
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	你获得了 {0}个 |4(奖品箱,奖品箱)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	使用光标键和 {0} 打开你的奖品	0=回车 key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} 任务 经验	0=xp rewarded by quest. Note: these quests don't have a name
-ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	奖励 {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
-ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	奖励 {0}中的1个	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0}经验	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	奖励{0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
+ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	奖励{0}中的1个	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
 ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	你没有任何任务	
-ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	按 {0} 放弃	0=a key
-ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	按 {0} 更换	0=r key
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	按{0}放弃	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	按{0}更换	0=r key
 
-ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	你达到了 {0}级	0=track reward level e.g. You've reached level {3}
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	你获得了 {0} 经验	0=XP gained e.g. You've gained {50} XP
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	完成任务，你获得了 {0} 经验	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	你达到了{0}级	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	你获得了{0}经验	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	完成任务，你获得了{0}经验	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	你现在的段位是{0}	0=rank name e.g. You are currently Bronze 10
-ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	你现在的段位是 {0}	0=rank name e.g. You are now Diamond 1
-ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	你具有 {0}颗星星，需要 {1}颗 |4(星星,星星)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
-ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	你已经赢得了 {0}颗 |4(星星,星星)	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	你现在的段位是{0}	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	你具有{0}颗星星，需要{1}颗 |4(星星,星星)	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	你已经赢得了 {0}颗|4(星星,星星)	0=number of stars earned e.g. You've earned {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	你失去了 {0}颗 |4(星星,星星)	0=number of stars lost e.g. You've lost {1} star
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	第 {0}次星星加成	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	第 {0}次连胜奖励	0=win streak bonus e.g. Win Streak bonus! Times {2}
@@ -493,18 +493,18 @@ ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	你的评分仍然是{0}	0=ratin
 ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{1}位玩家中有{0}位已准备就绪	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	奖品箱	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 卡包	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 卡	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 卡背	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 坐骑	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 迷你套卡	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1个卡包	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1张卡	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1个卡背	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1个坐骑	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1副迷你套卡	
 ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 未知奖品	
 ACCESSIBILITY_UI_REWARD_N_TICKETS	{0}张 |4(券,券)	0=number of tickets
-ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	具有 {0}张卡的迷你套卡	0=number of cards
-ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} 奥数宝珠	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} 奥数之尘	0=amount
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	具有{0}张卡的迷你套卡	0=number of cards
+ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0}奥数宝珠	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0}奥数之尘	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0}个 |4(卡包,卡包)	0=amount
-ACCESSIBILITY_UI_REWARD_N_GOLD	{0} 金币	0=amount
+ACCESSIBILITY_UI_REWARD_N_GOLD	{0}金币	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0}张 |4(复制,复制) 关于1张{1}卡	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
 ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0}张 |4(复制,复制) 关于1张核心{1}卡	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	金色的 {0}	0=Hero name e.g. Golden Jaina Proudmoore
@@ -785,14 +785,25 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	使用 {0} �
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	使用{0} 和 {1} 升级你的酒馆	0=u key 1=回车 key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	使用 {0} 和 {1} 刷新你的酒馆	0=r key 1=回车 key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	使用 {0} 和 {1} 冻结随从，并且在下一回合见到他们	0=f key 1=回车 key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	按 {0} 查看你的剩余时间	e key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	使用 {0} 和 {1} 召唤随从	0=c key 1=回车 key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	按{0}查看你的剩余时间	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	使用{0}和{1}召唤随从	0=c key 1=回车 key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	回车键	Optional. Overrides the Return key to be read as enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_Backspace	退格键	Optional. Overrides the Backspace key to be read as 退格 by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_Backspace	退格键	Optional. Overrides the Backspace key to be read as by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Escape	ESC	Optional. Overrides the Escape key to be read as Exc by TTS
 
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	按 {0} 在查看当前卡组和添加卡牌之间切换。
-ACCESSIBILITY_ARENA_WINS_LOSSES	获胜场数: {0}, 失败场数: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_ARENA_WINS_LOSSES	获胜场数:{0},失败场数:{1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	竞技模式	For use in the modes menu
-ACCESSIBILITY_ARENA_TICKETS_COUNT	你有 {0} 张门票。	0 is number of tickets.
+ACCESSIBILITY_ARENA_TICKETS_COUNT	你有{0}张门票。	0 is number of tickets.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	选择分类	
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	最近完成	
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}:成就点数{1}斜杠{2}，成就总完成度{3}，已完成{4}斜杠{5}个成就	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	已完成	
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	等级:{0}斜杠{1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	进度:{0}斜杠{1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	完成成就	
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	可获得{0}成就点数	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	不可完成成就	
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	使用左右光标浏览成就列表，使用上下光标浏览成就内容，按{0}领取成就，按{1}返回，按{2}在查看所有成就和查看未完成成就之间切换	
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	未完成成就{0}斜杠{1}	
