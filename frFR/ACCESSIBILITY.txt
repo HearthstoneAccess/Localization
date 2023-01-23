@@ -793,3 +793,15 @@ ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Entrez	Facultatif. Remplace la touche Re
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Appuyez sur {0} pour basculer entre votre deck et les cartes proposées. 
 ACCESSIBILITY_ARENA_WINS_LOSSES	Victoires: {0}, Défaites: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	Arène	For use in the modes menu
+
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Sélectionnez une catégorie:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Accomplis récemment:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} points de haut fait sur {2} ({3}), {4} of {5} achievements completed	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Réclamable:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Niveau: {0} sur {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	PROGRESSION: {0} sur {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Réclamer le haut fait
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Recevez {0} points de haut fait	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Could not Impossible de réclamer ce haut fait.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Utilisez les flèches gauche et droite pour parcourir la liste des hauts faits et les flèches haut et bas pour atteindre les informations du haut fait sélectionné. Appuyez sur {0} pour attempt pour réclamer un haut fait accomplis. Appuyez sur {1} pour retourner au menu précédent. Appuyez sur {2} pour basculer entre tous les hauts faits et les hauts faits non-complétés.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} hauts faits incomplets sur {1}
