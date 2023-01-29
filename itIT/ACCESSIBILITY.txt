@@ -756,3 +756,21 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere qu
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} e {1} per evocare i servitori.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Invio	Optional. Overrides the Return key to be read as Enter by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Premi {0} per passare dalla visualizzazione del mazzo attuale alla scelta di una nuova carta da aggiungere.
+ACCESSIBILITY_ARENA_WINS_LOSSES	Vincite: {0}, Perdite: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	Hai {0} biglietti.	0 is number of tickets.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Seleziona categoria:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completati di recente:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} di {2} punti obiettivi totali ({3}), {4} di {5} obiettivi completati	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Riscattabile:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Livello: {0} di {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	Avanzamento: {0} di {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Riscatta Obiettivo
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Ottieni {0} Punti Obiettivo	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Impossibile riscattare l'obiettivo.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Usa le frecce sinistra e destra per navigare nell'elenco degli obiettivi e le frecce su e giù per visualizzare le informazioni dell'obiettivo selezionato. Premi {0} per tentare di riscattare un obiettivo richiedibile. Premi {1} per tornare al menu precedente. Premi {2} per passare tra la visualizzazione di tutti gli obiettivi e la visualizzazione di quelli incompleti.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Obiettivi Incompleti
