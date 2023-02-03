@@ -803,5 +803,6 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	odbierz osiągnięcie	Used in the viewing m
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Nie możesz rzucić teraz wyzwania {0}.	
 ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Włącz rejestrowanie debugowania dla tego uruchomienia	
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Wypożyczony do godz {0}	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	nawiedzona	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
