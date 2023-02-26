@@ -18,6 +18,8 @@ ACCESSIBILITY_LIST_NO_ITEMS	ไม่มีตัวเลือก
 ACCESSIBILITY_OPTIONS_MENU_TITLE	ตั้งค่าเมนู	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	ปรับคุณภาพกราฟิก	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	ปรับความละเอียดหน้าจอ	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	เปิดใช้งานบันทึกการดีบักสำหรับครั้งนี้	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	อ่านคำพูดเมื่อไม่ได้อยู่หน้าต่างเกม	
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	ใช้ลูกศรซ้ายหรือลูกศรขวาเพื่อปรับความดังของเสียง	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} ช่องทำเครื่องหมาย	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	เลือก	
@@ -45,6 +47,7 @@ ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	เปลี่ยนรูปแบบ	Used 
 ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	เลือกตัวเลือกรูปแบบ	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	คำสาป	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	สิง	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility เปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility ปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned off
@@ -630,6 +633,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	ย่อยก
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	ใช้ลูกศรและกด {0} เพื่อบอกชื่อการ์ด	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	คุณไม่มีซองการ์ด	
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	เปิดให้ยืมจนถึง {0}	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	ตรวจสอบลำดับปัจจุบัน	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	คุณมีดาว {0} จากดาวทั้งหมด {1} |4(ดวง,ดวง)	0=current stars 1=star slots e.g. {1} out of {3} stars
