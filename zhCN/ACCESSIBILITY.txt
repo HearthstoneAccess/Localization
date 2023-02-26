@@ -19,6 +19,7 @@ ACCESSIBILITY_OPTIONS_MENU_TITLE	选项菜单
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	画面质量	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	画面分辨率	
 ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	为本次运行启用调试日志	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	语音后台输出	
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	使用左右光标调整音量	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} 复选框	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	已选中	
@@ -46,6 +47,7 @@ ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	开关格式	Used as a menu option for switch
 ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	选择一种格式	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	诅咒	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	纠缠	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	启用辅助功能	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	关闭辅助功能	Read when F8 is pressed and accessibility is turned off
@@ -100,39 +102,39 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	你召唤了 {0}	0=minion name e.g
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	你召唤了 {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	你的对手召唤了 {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	你的对手召唤了 {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	你交易了 {0}	0=card name e.g. You traded {Fire Sale}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	你的对手交易了 {0}	0=card name e.g. Your opponent traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	你交易了{0}	0=card name e.g. You traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	你的对手交易了{0}	0=card name e.g. Your opponent traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	你装备了 {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	你装备了 {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	你的对手装备了 {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	你的对手装备了 {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
-ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	你释放了 {0}	0=hero power name e.g. You used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	你释放了 {0}; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	你的对手释放了 {0}	0=hero power name e.g. Your opponent used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	你的对手释放了 {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	你的对手装备了{0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	你释放了{0}	0=hero power name e.g. You used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	你释放了{0};{1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	你的对手释放了{0}	0=hero power name e.g. Your opponent used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	你的对手释放了{0};{1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	你放置了 {0}	0=secret name e.g. You cast {Counterspell}
-ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	你放置了 {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	你放置了{0};{1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	你的对手放置了 1 张{0} 奥秘卡	0=secret class e.g. Your opponent cast 1 {mage} secret
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	你的对手放置了 {0} 奥秘卡	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	你的对手放置了{0}奥秘卡	0=number of secrets e.g. Your opponent cast {2} secrets
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	你试图从空牌堆中抽牌	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	你的对手试图从空牌堆中抽牌	
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	你抽了 1 张{0} 但是它烧掉了	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	你的对手抽了 1 张{0} 但是它烧掉了	0=card e.g. Your opponent drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} 攻击了 {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	你抽了1张{0}但是它烧掉了	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	你的对手抽了1张{0}但是它烧掉了	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0}攻击了{1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} 试图攻击 {1} 但却攻击了 {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
-ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	你展示了一张 {0} 点消耗的 {1}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	你的对手展示了一张 {0} 点消耗的 {1}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	你展示了一张{0}点消耗的{1}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	你的对手展示了一张{0}点消耗的{1}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	你没有可交易的卡以供展示	
 ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	你的对手没有可交易的卡以供展示	
 
-ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	你具有 {0} 法力水晶	0=mana
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	你具有{0}法力水晶	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	你先出牌	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	你的对手先出牌	
-ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	你使用 {0}张 |4(卡,卡)开局	0=number of cards
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	你抽出了 {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	你的对手抽出了 {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	你丢弃了 {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	你的对手丢弃了 {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	你使用{0}张 |4(卡,卡)开局	0=number of cards
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	你抽出了{0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	你的对手抽出了{0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	你丢弃了{0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	你的对手丢弃了{0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	你得到了硬币	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	等待对手	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	召唤随从	
@@ -154,7 +156,7 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	那不是一个随从
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	那个随从不能攻击敌方英雄	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	选择目标	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	剩余{0}秒 	0=number of seconds - always plural e.g. {20} seconds remaining
-ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	你在对战 {0}, 的 {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	你在对战{0}，的{1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	你的手里什么都没有	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	你没有召唤随从	
@@ -172,8 +174,8 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	你的对手具有 {0} 法力水晶	0=
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(尸体,尸体)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	没有尸体
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	对手的手中 {0}张 |4(卡,卡)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	牌组 {0}张 |4(卡,卡)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	对手的牌组 {0}张 |4(卡,卡)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	牌库 {0}张 |4(卡,卡)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	对手的牌库 {0}张 |4(卡,卡)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	你没有有效的出牌选择	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	你获胜了	
@@ -635,6 +637,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	分解
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	使用光标键和 {0} 展示你的卡牌	0=回车 key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	你没有任何卡包了	
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	借用中，剩余 {0}	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	阅读当前排名	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	当前{0}颗星星，需要{1}颗 |4(星星,星星)	0=current stars 1=star slots e.g. {1} out of {3} stars
