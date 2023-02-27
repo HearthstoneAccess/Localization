@@ -1,4 +1,4 @@
-          TAG	TEXT	COMMENT
+TAG	TEXT	COMMENT
 ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Benvenuto in Hearthstone	
 
 ACCESSIBILITY_PRESS_KEY_TO_START	Premi {0} per iniziare	0=key e.g. Press Enter to start
@@ -624,7 +624,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Crea carte
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Controlla Polvere Arcana	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Disincanta {0} |4(carta,carte) extra per {1} Polvere arcana	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Leggi la carta	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Leggi le carte correlate	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDLeggi	Leggi le carte correlate	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Leggi la descrizione
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Creata per {0} polvere arcana	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Disincanta per {0} Polvere arcana	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -790,7 +790,7 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Usa
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} e {1} per aggiornare la locanda e poter scegliere tra nuove reclute	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Usa {0} e {1} per congelare i servitori e ritrovarli nel turno successivo	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere quanto tempo hai a disposizione prima di giocare!	e key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} e {1} per evocare i servitori.	0=c key 1=Enter key   
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} e {1} per evocare i servitori.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Invio	Optional. Overrides the Return key to be read as Enter by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
@@ -810,4 +810,4 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Riscatta Obiettivo
 ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Ottieni {0} Punti Obiettivo	0 is number of points
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Impossibile riscattare l'obiettivo.
 ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Usa le frecce sinistra e destra per navigare nell'elenco degli obiettivi e le frecce su e giù per visualizzare le informazioni dell'obiettivo selezionato. Premi {0} per tentare di riscattare un obiettivo richiedibile. Premi {1} per tornare al menu precedente. Premi {2} per passare tra la visualizzazione di tutti gli obiettivi e la visualizzazione di quelli incompleti.
-ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Obiettivi Incompleti 
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Obiettivi Incompleti
