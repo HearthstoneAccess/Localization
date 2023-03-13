@@ -807,3 +807,4 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Заработано {0} Очков дост
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	нельзя получить достижение
 ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Используйте стрелки влево и вправо для просмотра списка достижений, а стрелки вверх и вниз - для доступа к информации о текущем выбранном достижении. Нажмите {0}, чтобы попытаться получить доступное достижение. Нажмите {1}, чтобы вернуться в предыдущее меню. Нажмите {2}, чтобы переключиться между просмотром всех достижений и просмотром незавершенных.
 ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} из {1} неполных достижений
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Нажмите c для доступа к коллекции	Available in some choose deck menus
