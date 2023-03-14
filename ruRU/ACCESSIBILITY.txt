@@ -530,8 +530,8 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Сообщение от {0}: {1}	0
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Сообщение для {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Напишите сообщение	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Отправить сообщение	
-ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Преглосить на поля срожений	
-ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Вы не можете прегласить {0} сейчас	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Пригласить на поля сражений	
+ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Вы не можете пригласить {0} сейчас	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Прочитать текущий уровень	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} из {1} Опыта до следующего уровня	
