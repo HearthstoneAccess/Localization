@@ -820,3 +820,4 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Earn {0} Achievement Points	0 is number of p
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Could not claim achievement.
 ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Use the left and right arrows to browse the achievement list and up and down arrows to reach the currently selected achievement's information. Press {0} to attempt to claim a claimable achievement. Press {1} to return to the previous menu. Press {2} to switch between viewing all achievements and viewing incomplete ones.
 ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} of {1} achievements Incomplete
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Press c to access your collection	Available in some choose deck menus
