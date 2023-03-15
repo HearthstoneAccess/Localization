@@ -806,5 +806,7 @@ ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Wypożyczony do godz {
 ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	nawiedzona	
 ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Mowa w tle	
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	wciśnij c, aby uzyskać dostęp do swojej kolekcji	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	poziom {0}: {1} xp potrzeba	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, nagrody: {0}	0 is text description of rewards. This is appended to the previous item.
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
