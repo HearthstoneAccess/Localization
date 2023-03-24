@@ -811,5 +811,6 @@ ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, nagrody: {0}	0 is text descripti
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	przeglądaj szafkę	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	wróć do talii	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	szafka	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Aby edytować szafkę, przejdź do trybu edycji talii, Znajdź kartę etc i naciśnij spację.
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
