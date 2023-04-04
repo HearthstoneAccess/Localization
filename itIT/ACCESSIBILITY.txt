@@ -230,6 +230,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	è diventato invulnerabil
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	sono diventati invulnerabili	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	è stato maledetto	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	sono stati maledetti	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_HAUNTED	è stato infestato
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_HAUNTED	sono stati infestati
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	è stato silenziato	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	sono stati silenziati	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	è ora dormiente	
@@ -380,6 +382,7 @@ ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} Ha rifiutato l'invi
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} Ha abbandonato la battaglia.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	livello {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} monete	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	Biglietto	nella visualizzazione della locanda
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	livello locanda {0} e {1} monete	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Il nemico è di livello {0} {1} con {2} salute e {3} |4(servitore,servitori)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Il nemico è di livello {0} {1} con {2} salute, {4} armatura e {3} |4(servitore,servitori)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
@@ -419,12 +422,12 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	Hai vinto con
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	Il tuo avversario ha vinto con {0} |4(servitore,servitori) sopravvissuti	e.g. Your opponent won with {2} surviving minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} |4(giocatore,giocatori) sono morti	e.g. {2} players died
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} |4(giocatore,giocatori) rimanenti	e.g. {2} players remaining
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Buddy Meter {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Misuratore amico {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Eroe amico	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Premi {0} per conoscere le tue monete	0=a key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Premi {0} per ottenere informazioni sulla locanda	0=t key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Premi {0} per leggere il tuo Hero Buddy	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Premi {0} per leggere il tuo eroe amico	0=d key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Premi {0} per conoscere le statistiche del tuo prossimo avversario	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Premi {0} per leggere il tabellone	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Premi {0} per conoscere le tue statistiche	0=m key
@@ -495,10 +498,10 @@ ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Il tuo punteggio è ancora {0}	0
 ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} su {1} giocatori pronti	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Pacchetto premio	
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	un pacchetto di carte	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	una busta di carte	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	una carta	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 dorso delle carte
-ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 ricompensa	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 importo	
 ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 mini-set	
 ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 ricompensa sconosciuta	
 ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} |4(biglietto,biglietti)	0=number of tickets
@@ -508,13 +511,13 @@ ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} polvere arcana	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} |4(busta di carte,buste di carte)	0=amount
 ACCESSIBILITY_UI_REWARD_N_GOLD	{0} oro	0=amount
 ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} |4(copia,copie) di 1 {1} carta	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
-ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copie) di 1 carta {1} principale	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copie) di 1 principale {1} carta	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} dorato	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Eroe	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} su {1} eroi sbloccati	0=number of unlocked Heroes 1=total number of Heroes
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copie di 1) carta	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(skin dell'eroe,skin degli eroi)	0=amount
-ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso carta,Dorsi carta)	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso delle carte,Dorsi delle carte)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Biglietto Arena,Biglietti Arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Pietra runica,Pietre runiche)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Avventura,Avventure)	0=amount
@@ -536,7 +539,7 @@ ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Non puoi sfidare {0} adesso
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Leggi il livello attuale	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} su {1} Xp per il prossimo livello	
-ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Ottieni {0} |4(reward,rewards)	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Ottieni {0} |4(ricompensa,ricompense)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Hai già ottenuto tutte le ricompense per questo livello.	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Leggi oro	
@@ -547,7 +550,7 @@ ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Acquista skin Eroe
 ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Acquista pacchetti	
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Compra altro	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leggi la descrizione	
-ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Compra per {0} monete	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Compra per {0} oro	0=amount e.g. Buy for {100} gold
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Compra per {0} pietre runiche	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Ottienilo gratuitamente	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Esamina carte	
@@ -562,7 +565,7 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Errore grave
 
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Il tuo eroe ha raggiunto il livello {0}	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Schermata di selezione dell'avventuriero screen	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Schermata di selezione dell'avventuriero	
 ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	Scegli una missione da giocare	
 ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	Missione {0}, {1}	0 = mission number, 1 = completion status
 ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	Questa missione è attualmente bloccata
@@ -602,12 +605,16 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Premi {0} per creare 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Premi {0} per creare un mazzo personalizzato o {1} per selezionare una combinazione	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Aggiungi carte	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Mostra il mazzo	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	mostra il sideboard	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	torna al mazzo	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Il tuo mazzo è vuoto	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} di {1} carte nel mazzo	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Non valida	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Sideboard	Used in place of the deck name when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Usa i tasti freccia per leggere le tue carte. Usa {0} per saltare tra le classi.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Usa i tasti numerici per filtrare le tue carte per mana. Usa {0} per cercare nella tua collezione.	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Usa i tasti freccia e {0} per leggere tutte le monete disponibili.	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Usa i tasti Frecia e {0} per leggere tutti i dorsi delle carte disponibili.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Usa i tasti Freccia e {0} per leggere tutti i dorsi delle carte disponibili.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Usa i tasti Freccia e {0} per leggere tutte le skin eroe disponibili.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Usa {0} per aggiungere carte al tuo mazzo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Usa {0} per rimuovere le carte dal tuo mazzo	0=Enter key
@@ -624,7 +631,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Crea carte
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Controlla Polvere Arcana	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Disincanta {0} |4(carta,carte) extra per {1} Polvere arcana	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Leggi la carta	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDLeggi	Leggi le carte correlate	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Leggi le carte correlate	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Leggi la descrizione
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Creata per {0} polvere arcana	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Disincanta per {0} Polvere arcana	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -663,16 +670,16 @@ ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Il tuo prossimo avversario è Millhouse Ma
 ACCESSIBILITY_TUTORIAL_NEXT_CHO	Il tuo prossimo avversario è il ramingo Cho	
 ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Il tuo prossimo avversario è Re Mukla	
 ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Il tuo prossimo avversario è Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Il tuo prossimo e ultimo avversario è Illidan Gran Tempesta	
+ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Il tuo prossimo e ultimo avversario è Illidan GranTempesta	
 
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Ti insegnerò come giocare attraverso un tutorial formato da sei giochi	
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Ti insegnerò come giocare attraverso un tutorial formato da sei partite	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Se ti senti in difficoltà, premi {0}. Anche dopo il tutorial o durante la navigazione nei menu, puoi sempre utilizzare {0} ogni volta che hai bisogno di aiuto	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Molto bene, proseguiamo	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Ecco un pacchetto di carte di base del Mago per iniziare. Premi {0} per aprirlo	0=Enter key
-ACCESSIBILITY_TUTORIAL_NICE_WORK	Ben fatto	
+ACCESSIBILITY_TUTORIAL_NICE_WORK	bel lavoro	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	Ottimo lavoro	
 ACCESSIBILITY_TUTORIAL_NICE_ONE	Ben fatto	
-ACCESSIBILITY_TUTORIAL_GOOD_JOB	Ottimo lavoro	
+ACCESSIBILITY_TUTORIAL_GOOD_JOB	buon lavoro	
 ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	Hai capito perfettamente!	
 ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	Ricordi come si fa?	
 ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	Ricordi come farlo?	
@@ -684,32 +691,32 @@ ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	Pensi di potercela fare?
 ACCESSIBILITY_TUTORIAL_GOT_IT	Fatto	
 ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	Non ancora! Usa il tuo Potere Eroe. Premi {0} per selezionarlo	0=r key
 
-ACCESSIBILITY_TUTORIAL_HOGGER_START	Il tuo primo avversario è uno gnoll di nome Hogger. Giocherai nei panni della potente maga Jaina Marefiero	
+ACCESSIBILITY_TUTORIAL_HOGGER_START	Il tuo primo avversario è uno gnoll di nome Boccalarga. Giocherai nei panni della potente maga Jaina Marefiero	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	Usa i tasti freccia su e giù per leggere prima questa carta	
 ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	Evoca per primo il servitore che hai appena ricevuto	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	Utilizza {0} e le frecce per leggere prima i servitori del tuo avversario	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	Quando inizia un turno, bisogna sempre pescare una carta dal tuo mazzo. Vediamo quello che abbiamo appena pescato	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	Premi {0} per guardare le carte che hai in mano	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, quindi... Questa carta è un servitore di nome Murloc Raider	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	Ok, quindi... Questa carta è un servitore di nome Murloc Incursore	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	I servitori sono creature che puoi evocare sul campo di battaglia che combattono per il tuo eroe	
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Questo costa 1 mana per essere evocato e ha 2 attacchi e 1 salute	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	Questo costa 1 mana per essere evocato e ha 2 attacco e 1 salute	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Iniziamo evocando questo servitore	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Premi {0} per farlo	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Premi {0} per confermare o {1} per annullare	0=Enter key 1=Backspace key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_6	I servitori devono aspettare un turno per attaccare una volta evocati, quindi non abbiamo più niente da fare	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Il servitore del tuo avversario ha attaccato il tuo eroe, quindi hai subito dei danni	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Vediamo quanta salute ci rimane	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa i tasti freccia su e giù per leggere la tua carta eroe	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa i tasti freccia su e giù per leggere il tuo eroe	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Usa {0} e i tasti freccia per scoprire quanta salute ha il tuo eroe	0=v key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Se il tuo eroe termina la salute, hai perso. Ad ogni modo 28 salute è ancora molta	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Diamo un'occhiata all'eroe del tuo avversario ora. Premi {0}	0=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Riesci a scoprire quanta salute ha??	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Usa i tasti freccia su e giù per leggere la carta eroe del tuo avversario	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Usa i tasti freccia su e giù per leggere l'eroe del tuo avversario	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Quando l'eroe del tuo avversario esaurisce la salute, vinci	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Andiamo avanti	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Sembra che tu abbia un altro servitore. Riesci ad evocarlo da solo senza aiuti?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Usa {0} e {1} per evocare il tuo servitore	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Quando hai già servitori sul campo di battaglia, puoi usare i tasti freccia sinistra e destra per selezionare posizionare il nuovo servitore	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	Quando hai già servitori sul campo di battaglia, puoi usare i tasti freccia sinistra e destra per selezionare dove posizionare il nuovo servitore	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Ora hai due servitori sul campo di battaglia. Questo è stato appena evocato, quindi deve aspettare un turno per attaccare	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Impariamo a esplorare il campo di battaglia	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Usa i tasti freccia sinistra e destra per spostarti tra i tuoi servitori	
@@ -718,13 +725,13 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Diamo un'occhiata ai servitori del tuo avversa
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Riesci a leggere questo servitore da solo?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Usa i tasti freccia su e giù per leggere i servitori del tuo avversario	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Ora Proviamo ad attaccare questo servitore	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Seleziona il murloc esploratore che hai evocato nel turno precedente	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Seleziona il murloc incursore che hai evocato nel turno precedente	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Usa {0} per andare all'elenco dei tuoi servitori e {1} per lanciare un attacco	0=b key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Premi {0} per attaccare con questo servitore	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Puoi attaccare il servitore del tuo avversario?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Usa {0} e {1} per attaccare il servitore del tuo avversario	0=g key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Entrambe i servitori hanno 2 attacco e 1 salute perciò si sono uccisi a vicenda	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_17	L'altro tuo servitore è ancora esausto, quindi non c'è più niente da fare. Ricordi come terminare il tuo turno?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Entrambi i servitori hanno 2 attacco e 1 salute perciò si sono uccisi a vicenda	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	L'altro tuo servitore è ancora inattivo, quindi non c'è più niente da fare. Ricordi come terminare il tuo turno?	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Sembra che tu abbia un altro servitore	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_2	Ciò significa che hai due possibili opzioni in questo momento	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_3	Puoi evocare il servitore che hai appena ottenuto o usare quello che hai evocato l'ultimo turno per lanciare un attacco	
@@ -748,38 +755,40 @@ ACCESSIBILITY_TUTORIAL_HOGGER_8_1	Ti lascerò continuare a giocare da solo. Famm
 
 ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	Premi {0} in qualsiasi momento per vedere quanto mana hai	0=a key
 
-ACCESSIBILITY_TUTORIAL_CHO_1	Questo medico Voodoo ha aumentato la salute dell'eroe avversario	
-ACCESSIBILITY_TUTORIAL06_HELP_02	Quando i servitori combattono un contro l'altro, entrambi subiscono danni	
+ACCESSIBILITY_TUTORIAL_CHO_1	Questo Taumaturgo Vudù ha recuperato la salute dell'eroe avversario	
+ACCESSIBILITY_TUTORIAL06_HELP_02	Quando i servitori combattono uno contro l'altro, entrambi subiscono danni	
 
-ACCESSIBILITY_TUTORIAL_MUKLA_START	In questo gioco vedrai alcune carte con abilità che non hai mai incontrato prima	
-ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Se ti imbatti in qualcosa che non capisci durante la lettura di una carta come Charge o Provocazione, premi {0} per ottenere maggiori informazioni	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START	In questa partita vedrai alcune carte con abilità che non hai mai incontrato prima	
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Se ti imbatti in qualcosa che non capisci durante la lettura di una carta come Carica o Provocazione, premi {0} per ottenere maggiori informazioni	0=i key
 ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Premi {0} quando sei pronto a cominciare	0=Enter key
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Questo gorilla che il tuo avversario ha appena evocato ha un'abilità chiamata provocazione	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	I servitori con provocazione devono sempre essere uccisi prima di poter attaccare qualsiasi altra creatura	
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	Provocazione è un'abilità importante in quanto può essere utilizzata per proteggere il tuo eroe	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	I servitori con provocazione devono sempre essere uccisi prima di poter attaccare qualsiasi altro personaggio	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	La Provocazione è un'abilità importante in quanto può essere utilizzata per proteggere il tuo eroe	
 
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	D'ora in avanti, entrambe gli eroi disporranno di un potere eroe	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	D'ora in avanti, entrambi gli eroi disporranno di un potere eroe	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Ogni eroe dispone di un potere eroe specifico e lo può utilizzare una volta per turno	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Puoi sempre premere {0} per conoscere il tuo potere eroe e {1} per leggere quello del tuo avversario	0=hero power key 1=opponent hero power key
 
-ACCESSIBILITY_TUTORIAL05_HELP_03	Questo combattimento non è assolutamente alla pari. Dai la colpa a quegli stupidi creatori del gioco	
+ACCESSIBILITY_TUTORIAL05_HELP_03	Questo combattimento non è assolutamente alla pari. Dai la colpa anche ai progettisti del gioco!	
 ACCESSIBILITY_TUTORIAL05_HELP_04	I tuoi servitori con provocazione possono proteggerti dagli attacchi!	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Sembra che il tuo avversario abbia equipaggiato un'arma	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Le armi sono carte speciali che possono essere equipaggiate dagli eroi	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Ogni arma dispone di un determinato attacco e durata	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Ogni arma dispone di un determinato attacco e integrità	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Una volta equipaggiati, gli eroi possono attaccare altri personaggi durante il loro turno	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Il tuo avversario ha equipaggiato la Lama da Guerra di Azzinoth: un'arma con 2 attacchi e 2 durabilità	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Ciò significa che l'eroe del tuo avversario avrà 2 attacchi durante il suo turno e sarà in grado di attaccare qualsiasi tuo personaggio	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Il tuo avversario ha equipaggiato la Lama da Guerra di Azzinoth: un'arma con 2 attacchi e 2 integrità	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Ciò significa che l'eroe del tuo avversario avrà 2 attacco durante il suo turno e sarà in grado di attaccare qualsiasi tuo personaggio	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	I maghi non usano spesso le armi, ma potrai giocarci in seguito una volta sbloccate altre classi	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Puoi premere {0} in qualsiasi momento per vedere la tua arma o {1} per vedere quella del tuo avversario	0=weapon key 1=opponent weapon key
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Sentito quel suono? Le armi perdono durata ogni volta che il loro eroe attacca	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Sentito quel suono? Le armi perdono integrità ogni volta che il loro eroe attacca	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Una volta raggiunto lo 0, si rompono e l'Eroe non può più attaccare	
 
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Ogni partita normale inizia con la fase servitori	
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	In questa fase, entrambe i giocatori possono sostituire le carte della mano iniziale con alcune casuali del loro mazzo	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	Ogni partita normale inizia con la fase di sostituzione delle carte	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	In questa fase, entrambi i giocatori possono sostituire le carte della mano iniziale con alcune casuali del loro mazzo	
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Usa le frecce o {0} per esplorare la tua mano iniziale	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Se trovi una carta che non ti piace, premi {0} per marcarla per la sostituzione	0=Spacebar key
-ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una volta che le carte indesiderate sono state marcate per essere sostituite, premi {0} per rigenerare il mazzo ed iniziare il gioco	0=Enter key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una volta che le carte indesiderate sono state marcate per essere sostituite, premi {0} per rimescolare il mazzo ed iniziare la partita	0=Enter key
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Per modificare il Sideboard, passa alla modalità di modifica del mazzo e focalizzati su questa carta e premi la barra spaziatrice.	
 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Usa {0} e {1} per acquistare i servitori.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Usa {0} e {1} per acquistare servitori per 3 Monete. Costruisci la tua armata per sconfiggere i nemici!	0=g key 1=Enter key
@@ -787,7 +796,7 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Usa {0} e {1} pe
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Usa {0} e {1} per vendere  i servitori al tuo locandiere. Verrà liberato spazio per l'armata e guadagnerai una moneta!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Usa {0} e {1} per ridisporre i tuoi servitori	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Usa {0} e {1} per aumentare di livello la locanda	0=u key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} e {1} per aggiornare la locanda e poter scegliere tra nuove reclute	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} e {1} per aggiornare la locanda e poter scegliere tra nuovi servitori	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Usa {0} e {1} per congelare i servitori e ritrovarli nel turno successivo	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere quanto tempo hai a disposizione prima di giocare!	e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} e {1} per evocare i servitori.	0=c key 1=Enter key
@@ -811,3 +820,6 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Ottieni {0} Punti Obiettivo	0 is number of p
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Impossibile riscattare l'obiettivo.
 ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Usa le frecce sinistra e destra per navigare nell'elenco degli obiettivi e le frecce su e giù per visualizzare le informazioni dell'obiettivo selezionato. Premi {0} per tentare di riscattare un obiettivo richiedibile. Premi {1} per tornare al menu precedente. Premi {2} per passare tra la visualizzazione di tutti gli obiettivi e la visualizzazione di quelli incompleti.
 ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Obiettivi Incompleti
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	premi c per accedere alla tua collezione	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Livello {0}: {1} xp necessari	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, ricompense: {0}	0 is text description of rewards. This is appended to the previous item.
