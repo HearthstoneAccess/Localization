@@ -820,3 +820,5 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} из {1} неполных до�
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Нажмите c для доступа к коллекции	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Уровень {0}: {1} опыта до следующего уровня	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Достижения: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_MODES_DUELS	Дуэли	For use in the modes menu
