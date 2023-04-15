@@ -822,3 +822,4 @@ ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Уровень {0}: {1} опы�
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Достижения: {0}	0 is text description of rewards. This is appended to the previous item.
 
 ACCESSIBILITY_MODES_DUELS	Дуэли	For use in the modes menu
+ACCESSIBILITY_DUELS_READ_STATS	Прочитать статистику	Read your casual, heroic duels ratings, maximum wins and season ending time info
