@@ -18,10 +18,17 @@ ACCESSIBILITY_LIST_NO_ITEMS	Aucun élément.
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menu Options	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Graphismes : Qualité	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Graphismes : résolution	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Activer le logging pour cette session	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Vocalisation en arrière-plan	
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Utilisez les flèches gauche et droite pour régler le volume	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} case a cocher	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Coché	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Non-coché	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	Vitesse de l'attaque automatique: {0}	Options menu
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Lente	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Moyenne	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	Rapide	
+
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menu Principal	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Appuyez sur {0} à tout moment pour ouvrir le menu du jeu. Essayez maintenant!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Appuyez sur {0} à tout moment pour ouvrir le menu social. Essayez maintenant!	0=F4 key
@@ -123,7 +130,7 @@ ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	votre adversaire révèle un
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Vous n'avez plus de cartes valides à révéler	
 ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	votre adversaire n'a plus de cartes valides à révéler	
 
-ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Vous avez {0} mana	0=mana
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	{0} mana	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Vous jouez en premier	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	votre adversaire joue en premier	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Vous commencez avec {0} |4(carte,cartes)	0=number of cards
@@ -164,8 +171,8 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	Vous n'avez pas de pouvo
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	votre adversaire n'a pas de pouvoir héroïque	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	Vous n'avez pas equipé d'arme	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	votre adversaire n'a pas equipé d'arme	
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Vous avez {0} sur {1} mana	0=current mana 1=total mana
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Vous avez {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} sur {1} mana	0=current mana 1=total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} mana	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	votre adversaire a {0} mana	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(cadavre,cadavres)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	aucun cadavre
@@ -803,5 +810,8 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	PROGRESSION: {0} sur {1}	0 is current, 1
 ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Réclamer le haut fait
 ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Recevez {0} points de haut fait	0 is number of points
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Could not Impossible de réclamer ce haut fait.
-ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Utilisez les flèches gauche et droite pour parcourir la liste des hauts faits et les flèches haut et bas pour atteindre les informations du haut fait sélectionné. Appuyez sur {0} pour attempt pour réclamer un haut fait accomplis. Appuyez sur {1} pour retourner au menu précédent. Appuyez sur {2} pour basculer entre tous les hauts faits et les hauts faits non-complétés.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Utilisez les flèches gauche et droite pour parcourir la liste des hauts faits et les flèches haut et bas pour atteindre les informations du haut fait sélectionné. Appuyez sur {0} pour réclamer un haut fait accomplis. Appuyez sur {1} pour retourner au menu précédent. Appuyez sur {2} pour basculer entre tous les hauts faits et les hauts faits non-complétés.
 ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} hauts faits incomplets sur {1}
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Appuyez sur c pour accéder à votre collection	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Niveau {0}: sur {1} expérience	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Récompenses: {0}	0 is text description of rewards. This is appended to the previous item.
