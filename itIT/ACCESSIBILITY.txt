@@ -79,7 +79,7 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
-ACCESSIBILITY_READ_CARD_DURABILITY	{0} durabilità	0=durability e.g. 1 durability, for a location
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} Integrità	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
 ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Sangue	The blood death knight rune
@@ -97,49 +97,49 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno dell'avversario
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turno terminato	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} si attiva	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	L'effetto del tuo {0} si è attivato	0=card name e.g. Your {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	L'effetto del {0} del tuo avversario si è attivato	0=card name e.g. Your opponent's {Psyfiend} triggered
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	L'effetto del {0} del tuo avversario si è attivato; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	L'effetto del {0} dell'avversario si è attivato	0=card name e.g. Your opponent's {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	L'effetto del {0} dell'avversario si è attivato; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	Hai giocato {0}	0=card name e.g. You played {Fireball}
 ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	Hai giocato {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	Il tuo avversario ha giocato {0}	0=card name e.g. Your opponent played {Fireball}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	Il tuo avversario ha giocato {0}; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	L'avversario ha giocato {0}	0=card name e.g. Your opponent played {Fireball}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	L'avversario ha giocato {0}; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	Hai evocato {0}	0=minion name e.g. You summoned {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	Hai evocato {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	Il tuo avversario ha evocato {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	Il tuo avversario ha evocato {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	L'avversario ha evocato {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	L'avversario ha evocato {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	Hai scambiato {0}	0=card name e.g. You traded {Fire Sale}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	Il tuo avversario ha scambiato {0}	0=card name e.g. Your opponent traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	L'avversario ha scambiato {0}	0=card name e.g. Your opponent traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	Hai equipaggiato {0}	0=weapon name e.g. You equipped {Aldrachi Warblades}
 ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	Hai equipaggiato {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	Il tuo avversario ha equipaggiato {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	Il tuo avversario ha equipaggiato {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	L'avversario ha equipaggiato {0}	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	L'avversario ha equipaggiato {0}; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
 ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	Hai usato {0}	0=hero power name e.g. You used {Fireblast}
 ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	Hai usato {0}; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	Il tuo avversario ha usato {0}	0=hero power name e.g. Your opponent used {Fireblast}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	Il tuo avversario ha usato {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	L'avversario ha usato {0}	0=hero power name e.g. Your opponent used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	L'avversario ha usato {0}; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Hai lanciato {0}	0=secret name e.g. You cast {Counterspell}
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Hai lanciato {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Il tuo avversario ha lanciato 1 {0} segreto	0=secret class e.g. Your opponent cast 1 {mage} secret
-ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Il tuo avversario ha lanciato {0} segreti	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	L'avversario ha lanciato un {0} segreto	0=secret class e.g. Your opponent cast 1 {mage} secret
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	L'avversario ha lanciato {0} segreti	0=number of secrets e.g. Your opponent cast {2} secrets
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Hai provato a pescare una carta da un mazzo vuoto	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Il tuo avversario ha provato a pescare una carta da un mazzo vuoto	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	L'avversario ha provato a pescare una carta da un mazzo vuoto	
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Hai pescato 1 {0}, ma si è bruciato	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Il tuo avversario ha pescato 1 {0}. ma si è bruciato	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	L'avversario ha pescato 1 {0}. ma si è bruciato	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} ha attaccato {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} ha provato ad attaccare {1}, ma ha invece attaccato {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Hai rivelato un {1} dal costo {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	Il tuo avversario ha rivelato un {1} dal costo {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	L'avversario ha rivelato un {1} dal costo {0}	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	Non hai alcuna carta valida rimanente da poter rivelare	
-ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	Il tuo avversario non ha alcuna carta rimanente valida da poter rivelare	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	L'avversario non ha alcuna carta rimanente valida da poter rivelare	
 
 ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	Hai {0} mana	0=mana
 ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	Tocca a te per primo	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Tocca per primo al tuo avversario	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	Tocca per primo all'avversario	
 ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	Inizi con {0} |4(carta,carte)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	Hai pescato {0}	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	Il tuo avversario ha pescato {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	L'avversario ha pescato {0}	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	Hai scartato {0}	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Il tuo avversario ah scartato {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	L'avversario ah scartato {0}	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	La moneta va a te	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	In attesa dell'avversario	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Vuoi evocare?	
@@ -154,28 +154,28 @@ ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Puoi ancora attivare
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Puoi ancora usare il tuo potere eroe. Sei sicuro?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	Non hai alcun servitore in gioco	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	L'eroe avversario non può essere attaccato	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	L'eroe avversario non può essere un bersaglio	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	L'eroe avversario non può essere bersagliato	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Nessuno dei tuoi servitori può attaccare l'eroe avversario	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	Quello non è un tuo servitore	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	Quello non è un servitore	
-ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Quel servitore non può attaccare l'eroe del tuo avversario	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Quel servitore non può attaccare l'eroe dell'avversario	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Scegli un bersaglio	
-ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} secondi rimanenti	0=number of seconds - always plural e.g. {20} seconds remaining
+ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} |4(secondo rimanente,secondi rimanenti)	0=number of seconds - always plural e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Stai giocando contro {0}, il {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	La tua mano è vuota	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	Non hai servitori in gioco	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_MINIONS_EMPTY	Il tuo avversario non ha servitori in gioco	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_MINIONS_EMPTY	L'avversario non ha servitori in gioco	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_SECRETS_EMPTY	Non hai alcun segreto	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_EMPTY	Il tuo avversario non ha alcun segreto	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_COUNT	Il tuo avversario ha {0} |4(segreto,segreti)	0=number of secrets
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_EMPTY	L'avversario non ha alcun segreto	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_COUNT	L'avversario ha {0} |4(segreto,segreti)	0=number of secrets
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	Non hai alcun potere eroe	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	Il tuo avversario non ha alcun potere eroe	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	L'avversario non ha alcun potere eroe	
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	Non hai equipaggiato alcuna arma	
-ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Il tuo avversario non ha equipaggiato alcuna arma	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	L'avversario non ha equipaggiato alcuna arma	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Hai {0} su {1} mana	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Hai {0} mana	0=current and total mana
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Il tuo avversario ha {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	L'avversario ha {0} mana	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(cadavere,cadaveri)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	nessun cadavere
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mano dell'avversario. {0} |4(carta,carte)	0=number of cards
@@ -202,15 +202,15 @@ ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	Segreti	Read when you press s
 ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	Segreti dell'avversario	Read when you press Shift+s
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	la tua mano	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	la mano del tuo avversario	e.g. Your Murloc Raider moved to {you opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	la mano dell'avversario	e.g. Your Murloc Raider moved to {you opponent's hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	il tuo campo di battaglia	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	il campo di battaglia del tuo avversario	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	il campo di battaglia dell'avversario	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	I tuoi segreti	e.g. Your Ice Block moved from your deck to {your secrets}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	I segreti del tuo avversario	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	I segreti dell'avversario	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
 ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	il tuo mazzo	e.g. Your Fireball moved from {your deck} to your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	il mazzo del tuo avversario	e.g. Your Fireball moved from your deck to {your opponent's deck}
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	il tuo cimitero	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	il cimitero del tuo avversario	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	Il mazzo dell'avversario	e.g. Your Fireball moved from your deck to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	Il tuo cimitero	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	Il cimitero dell'avversario	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
 
 ACCESSIBILITY_GAMEPLAY_MULLIGAN	Mulligan	
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	Verrà sostituito	
@@ -223,9 +223,9 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	sono morti	Singular and plura
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	si è rotto	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	si è trasformato in 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	si sono trasformati in 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	ha subito {0} danni	0=damage taken
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	hanno subito {0} danni	0=damage taken
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} resistenza	0=gained/lost durability amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	ha subito {0} |4(danno,danni)	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	hanno subito {0} |4(danno,danni)	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} integrità	0=gained/lost durability amount
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} attacco	0=gained/lost attack amount
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} salute	0=gained/lost health amount
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} armatura	0=gained/lost armor amount
@@ -263,15 +263,15 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	ha guadagnato furtività
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	hanno guadagnato furtività	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	ha guadagnato {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	hanno guadagnato {0}	0=stats e.g. gained {taunt, 3 attack and 2 health}
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	perso {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	Ha perso {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	hanno perso {0}	0=stats e.g. lost {taunt, 3 attack and 2 health}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	Il tuo {0}	0=entity name e.g. Your {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	Il {0} del tuo avversario	0=entity name e.g. Your opponent's {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	Il {0} dell'avversario	0=entity name e.g. Your opponent's {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	Il tuo {1} {0}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	Il {1} {0} del tuo avversario	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	Il {1} {0} dell'avversario	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0} {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	Tutti	e.g. {everyone} took 2 damage
@@ -283,12 +283,12 @@ ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	I tuoi nemici	e.g. {Your enemies} took
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	Gli altri tuoi nemici	e.g. {Your other enemies} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	I tuoi alleati	e.g. {Your friendly characters} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	Gli altri tuoi alleati	e.g. {Your other friendly characters} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	I servitori del tuo avversario	e.g. {Your opponent's minions} took 2 damage
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Gli altri servitori del tuo avversario	e.g. {Your other opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	I servitori dell'avversario	e.g. {Your opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	Gli altri servitori dell'avversario	e.g. {Your other opponent's minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	I tuoi servitori	e.g. {Your minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	Gli altri tuoi servitori	e.g. {Your other minions} took 2 damage
 ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	Il tuo {1} numero {0}	0=count 1=minion name e.g. Your {2} {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Il {1} numero {0} del tuo avversario	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	Il {1} numero {0} dell'avversario	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	il tuo Eroe ha equipaggiato 1 {0}	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	l'Eroe avversario ha equipaggiato 1 {0}	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
@@ -298,8 +298,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	il tuo Potere Ero
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	il Potere Eroe dell'avversario è diventato {0}	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	è tornato nella tua mano	e.g. Your Bloodfen Raptor {returned to your hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	sono tornati nella tua mano	e.g. Your 2 Bloodfen Raptor {returned to your hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	è tornato nella mano del tuo avversario	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	sono ritornati nella mano del tuo avversario	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	è tornato nella mano dell'avversario	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	sono ritornati nella mano dell'avversario	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	è andato da {0} a {1}	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	sono andati da {0} a {1}	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	è andato a {0}	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
@@ -309,30 +309,30 @@ ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	hanno
 
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 {0} è stato aggiunto alla tua mano	0=card name e.g. 1 {Murloc Raider} was added to your hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} sono stati aggiunti alla tua mano	0=card names e.g. {2 Murloc Raider} were added to your hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} è stato aggiunto alla mano del tuo avversario	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} sono stati aggiunti alla mano del tuo avversario	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 {0} è stato aggiunto alla mano dell'avversario	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} sono stati aggiunti alla mano dell'avversario	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 {0} è stato rimescolato nel tuo mazzo	0=card name e.g. 1 {Fireball} was shuffled into your deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} sono stati rimescolati nel tuo mazzo	0=card names e.g. {2 Fireball} were shuffled into your deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} è stato rimescolato nel mazzo del tuo avversario	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} sono stati rimescolati nel mazzo del tuo avversario	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 {0} è stato rimescolato nel mazzo dell'avversario	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} sono stati rimescolati nel mazzo dell'avversario	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 {0} è stato evocato nel tuo campo di battaglia	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} sono stati evocati nel tuo campo di battaglia	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} è stato evocato nel campo di battaglia del tuo avversario	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} sono stati evocati nel campo di battaglia del tuo avversario	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 {0} è stato evocato nel campo di battaglia dell'avversario	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} sono stati evocati nel campo di battaglia dell'avversario	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
 ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	hai preso il controllo di {0}	0=card names
-ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	il tuo avversario ha preso il controllo di {0}	0=card names
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	L'avversario ha preso il controllo di {0}	0=card names
 
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	Hai guadagnato {0} Danni Magici	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	Hai perso {0} Danni Magici	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	Il tuo avversario ha guadagnato {0} Danni Magici	0=spell damage
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	Il tuo avversario ha perso {0} Danni Magici	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	Hai guadagnato {0} |4(Danno Magico,Danni Magici)	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	Hai perso {0} |4(Danno Magico,Danni Magici)	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	L'avversario ha guadagnato {0} |4(Danno Magico,Danni Magici)	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	L'avversario ha perso {0} |4(Danno Magico,Danni Magici)	0=spell damage
 
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	Hai guadagnato {0} mana	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	Il tuo avversario ha guadagnato {0} mana	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	L'avversario ha guadagnato {0} mana	0=amount
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Hai guadagnato {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	Il tuo avversario ha guadagnato {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	L'avversario ha guadagnato {0} mana e {1} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=mana gained 1=empty mana crystals gained
 ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	Hai guadagnato {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
-ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	Il tuo avversario ha guadagnato {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	L'avversario ha guadagnato {0} |4(cristallo di mana vuoto,cristalli di mana vuoti)	0=amount
 
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	Premi {0} per leggere le statistiche del tuo eroe	0=v key
 ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Premi {0} per controllare le statistiche dell'eroe avversario	0=f key
@@ -343,19 +343,19 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Il tuo avversario sta giocando
 ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Premi {0} o {1} per terminare il tuo turno. Premi qualsiasi altro tasto per annullare	0=enter key 1=e key
 ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Usa {0} per scorrere le tue opzioni valide	0=tab key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Press {0} per leggere la tua mano	0=c key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Press {0} per sapere il numero di carte nella mano del tuo avversario	0=Shift+c keys
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	Press {0} per sapere il numero di carte nella mano dell'avversario	0=Shift+c keys
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	Premi {0} per spostarti tra i servitori che hai ebocato	0=b key
-ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Premi {0} per spostarti tra i servitori del tuo avversario	0=g key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	Premi {0} per spostarti tra i servitori dell'avversario	0=g key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	Press {0} per leggere i tuoi segreti	0=s key
-ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Premi {0} per sapere il numero di segreti del tuo avversario	0=Shift+s keys
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	Premi {0} per sapere il numero di segreti dell'avversario	0=Shift+s keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	Premi {0} per leggere le statistiche della tua arma	0=w key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Premi {0} per leggere le statistiche dell'arma del tuo avversario	0=Shift+w keys
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	Premi {0} per leggere le statistiche dell'arma dell'avversario	0=Shift+w keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	Premi {0} per leggere il tuo potere eroe	0=r key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Premi {0} per leggere il potere eroe del tuo avversario	0=Shift+r keys
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	Premi {0} per leggere il potere eroe dell'avversario	0=Shift+r keys
 ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Premi {0} per sapere il numero di carte rimaste nel tuo mazzo	0=d key
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Premi {0} per sapere il numero di carte rimaste nel mazzo dell'avversario	0=Shift+d keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Premi {0} per leggere il tuo mana	0=a key
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Premi {0} per leggere il mana del tuo avversario	0=Shift+a key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Premi {0} per leggere il mana dell'avversario	0=Shift+a key
 ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Usa le frecce su e giù per leggere questa carta	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Premi {0} per avere una descrizione delle abilità di questa carta	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Premi {0} per giocare questa carta	0=Enter key
@@ -377,33 +377,33 @@ ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	Premi {0} per terminare il tuo turno	0=e ke
 
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	Non è stato giocato ancora nulla	
 ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0} di {1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
-ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	lettura del registro interrotta	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	lettura del registro chiusa	
 
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Il tuo campo di battaglia inizia con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
-ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Il campo di battaglia del tuo avversario inizia con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Il campo di battaglia dell'avversario inizia con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} Ha aderito alla battaglia.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} Ha rifiutato l'invito.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} Ha abbandonato la battaglia.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	livello {0}	0=card tier
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} monete	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} |4(moneta,monete)	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	Biglietto	nella visualizzazione della locanda
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	livello locanda {0} e {1} monete	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Il nemico è di livello {0} {1} con {2} salute e {3} |4(servitore,servitori)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Il nemico è di livello {0} {1} con {2} salute, {4} armatura e {3} |4(servitore,servitori)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Il nemico è {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	Possiedi {0} su {1} monete	0=current gold 1=total gold
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	Possiedi {0} monete	0=current and total gold
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} monete rimanenti	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	Possiedi {0} |4(moneta,monete)	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} |4(moneta rimanente,monete rimanenti)	0=amount e.g. {3} gold remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Servitori in vendita	Read when you press g in the recruit phase
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	Non ci sono servitori in vendita	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	Comprare {0}?	0=minion name e.g. Buy Tarecgosa?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	Vendere {0}?	0=minion name e.g. Sell Tarecgosa?
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	Congelare locanda?	
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Congelare la locanda per {0} monete?	0=amount e.g. Freeze tavern for 1 gold?
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Decongelare locanda??	
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Aggiornare locanda per {0} monete?	0=amount e.g. Refresh tavern for 1 gold?
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Potenziare la locanda per {0} monete?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	Congelare la locanda?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Congelare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Scongelare la locanda??	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Ricaricare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Aggiornare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Upgrade tavern for 3 gold?
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Spostare all'ultima posizione?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Spostare in prima posizione?	
@@ -414,26 +414,26 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	Subit
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	Pareggio con {0}	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 {0} è appparso nella locanda di Bob	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} è apparso nella locanda di Bob	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} Sono apparsi nella locanda di Bob	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	Hai ottenuto 1 {0}	0=card name e.g. You got 1 {Murloc Raider}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	Hai ottenuto {0}	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	Il {0} del tuo locandiere	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	Il {0} del locandiere	0=entity name e.g. Your bartender's {Raid Leader}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	Il {0} {1} del tuo locandiere	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	I servitori del tuo locandiere	e.g. {Your bartender's minions} took 2 damage
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	Gli altri servitori del tuo locandiere	e.g. {Your other bartender's minions} took 2 damage
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	{0} {1} del tuo locandiere	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	I servitori del locandiere	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	Gli altri servitori del locandiere	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	{0} {1} del locandiere	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
 
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	Hai vinto con {0} |4(servitore,servitori) sopravvissuti	e.g. You won with {2} surviving minions
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	Il tuo avversario ha vinto con {0} |4(servitore,servitori) sopravvissuti	e.g. Your opponent won with {2} surviving minions
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} |4(giocatore,giocatori) sono morti	e.g. {2} players died
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} |4(giocatore,giocatori) rimanenti	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	Hai vinto con {0} |4(servitore sopravvissuto,servitori sopravvissuti)	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	L'avversario ha vinto con {0} |4(servitore sopravvissuto,servitori sopravvissuti)	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} |4(giocatore è morto,giocatori sono morti)	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	{0} |4(giocatore rimanente,giocatori rimanenti)	e.g. {2} players remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Misuratore amico {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Eroe amico	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Premi {0} per conoscere le tue monete	0=a key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Premi {0} per ottenere informazioni sulla locanda	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Premi {0} per ottenere informazioni sul livello locanda	0=t key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Premi {0} per leggere il tuo eroe amico	0=d key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Premi {0} per conoscere le statistiche del tuo prossimo avversario	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Premi {0} per conoscere le statistiche del prossimo avversario	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Premi {0} per leggere il tabellone	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Premi {0} per conoscere le tue statistiche	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Premi {0} per leggere le tipologie di servitori in questa partita	0=o key
@@ -460,10 +460,10 @@ ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	La tua prestazione nelle partite Class
 
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Finestra di dialogo di riconnessione	
 
-ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	La stagione {0} è terminata. Hai raggiunto il grado {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
+ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	La {0} è terminata. Hai raggiunto il grado {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Hai guadagnato un forziere di ricompense	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Premi {0} per aprire	0=Enter key
-ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	La stagione di {0} è cominciata!	0=season name e.g. The {August 2021 season} has begun!
+ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	La {0} è cominciata!	0=season name e.g. The {August 2021 season} has begun!
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	Una nuova stagione è cominciata!	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	Vinci {0} partite in questa stagione per ottenere un forziere	0=number of games
 ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	Vinci {0} partite per guadagnare il tuo dorso stagionale	0=number of games
@@ -482,7 +482,7 @@ ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Ricompense 1 di {0}	0=possi
 
 ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	Non hai missioni	
 ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	Premi {0} per abbandonare	0=a key
-ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Premi {0} per rilanciare	0=r key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	Premi {0} per cambiare	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	Hai raggiunto il livello {0}	0=track reward level e.g. You've reached level {3}
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	Hai guadagnato {0} XP	0=XP gained e.g. You've gained {50} XP
@@ -520,13 +520,13 @@ ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} |4(copia,copie) di 1 principale
 ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} dorato	0=Hero name e.g. Golden Jaina Proudmoore
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} Eroe	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} su {1} eroi sbloccati	0=number of unlocked Heroes 1=total number of Heroes
-ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copie di 1) carta	0=number of copies
+ACCESSIBILITY_UI_REWARD_CARD	{0} |4(copia,copie) di una carta	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(skin dell'eroe,skin degli eroi)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso delle carte,Dorsi delle carte)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Biglietto Arena,Biglietti Arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Pietra runica,Pietre runiche)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Avventura,Avventure)	0=amount
-ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Biglietto locanda,Biglietti Locanda)	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Biglietto locanda,Biglietti Locanda )	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(moneta personalizzata,monete personalizzate)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% potenziamento XP	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-set)	0=amount
@@ -549,18 +549,18 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Hai già ottenuto tutte 
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Leggi oro	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	leggi pietre runiche	
-ACCESSIBILITY_UI_SHOP_BUY_PACKS	Compra buste	
-ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Compra Mini-set	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	Acquista buste	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Acquista Mini-set	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Acquista skin Eroe	
 ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Acquista pacchetti	
-ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Compra altro	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Acquista altro	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leggi la descrizione	
-ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Compra per {0} oro	0=amount e.g. Buy for {100} gold
-ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Compra per {0} pietre runiche	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Acquista per {0} oro	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Acquista per {0} pietre runiche	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Ottienilo gratuitamente	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Esamina carte	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Usa i tasti freccia per leggere le carte	
-ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} monete rimanenti	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} oro rimanente	0=amount e.g. {150} gold remaining
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} pietre runiche rimanenti	0=amount e.g. {150} runestones remaining
 ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Pietre runiche insufficienti	
 
@@ -616,6 +616,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DEC
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} di {1} carte nel mazzo	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Non valida	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Sideboard	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Formato cambiato	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Usa i tasti freccia per leggere le tue carte. Usa {0} per saltare tra le classi.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Usa i tasti numerici per filtrare le tue carte per mana. Usa {0} per cercare nella tua collezione.	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Usa i tasti freccia e {0} per leggere tutte le monete disponibili.	0=Enter key
@@ -646,7 +647,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Carta creata
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Disincantata	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Usa le frecce e {0} per rivelare le tue carte	0=Enter key
-ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Non disponi di alcun pacchetto di carte	
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Non disponi di alcuna busta di carte	
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	In prestito fino al {0}	
 
@@ -680,7 +681,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Il tuo prossimo e ultimo avversario è Illid
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Ti insegnerò come giocare attraverso un tutorial formato da sei partite	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Se ti senti in difficoltà, premi {0}. Anche dopo il tutorial o durante la navigazione nei menu, puoi sempre utilizzare {0} ogni volta che hai bisogno di aiuto	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Molto bene, proseguiamo	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Ecco un pacchetto di carte di base del Mago per iniziare. Premi {0} per aprirlo	0=Enter key
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Ecco una busta di carte base del Mago per iniziare. Premi {0} per aprirla	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	bel lavoro	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	Ottimo lavoro	
 ACCESSIBILITY_TUTORIAL_NICE_ONE	Ben fatto	
@@ -709,15 +710,15 @@ ACCESSIBILITY_TUTORIAL_HOGGER_2_3	Iniziamo evocando questo servitore
 ACCESSIBILITY_TUTORIAL_HOGGER_2_4	Premi {0} per farlo	0=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_5	Premi {0} per confermare o {1} per annullare	0=Enter key 1=Backspace key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_6	I servitori devono aspettare un turno per attaccare una volta evocati, quindi non abbiamo più niente da fare	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Il servitore del tuo avversario ha attaccato il tuo eroe, quindi hai subito dei danni	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_0	Il servitore dell'avversario ha attaccato il tuo eroe, quindi hai subito dei danni	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_1	Vediamo quanta salute ci rimane	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2	Usa i tasti freccia su e giù per leggere il tuo eroe	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	Usa {0} e i tasti freccia per scoprire quanta salute ha il tuo eroe	0=v key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_3	Se il tuo eroe termina la salute, hai perso. Ad ogni modo 28 salute è ancora molta	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Diamo un'occhiata all'eroe del tuo avversario ora. Premi {0}	0=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_4	Diamo un'occhiata all'eroe dell'avversario ora. Premi {0}	0=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_5	Riesci a scoprire quanta salute ha??	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Usa i tasti freccia su e giù per leggere l'eroe del tuo avversario	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Quando l'eroe del tuo avversario esaurisce la salute, vinci	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	Usa i tasti freccia su e giù per leggere l'eroe dell'avversario	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_6	Quando l'eroe dell'avversario esaurisce la salute, vinci	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_7	Andiamo avanti	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	Sembra che tu abbia un altro servitore. Riesci ad evocarlo da solo senza aiuti?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	Usa {0} e {1} per evocare il tuo servitore	0=c key 1=Enter key
@@ -726,15 +727,15 @@ ACCESSIBILITY_TUTORIAL_HOGGER_4_4	Ora hai due servitori sul campo di battaglia. 
 ACCESSIBILITY_TUTORIAL_HOGGER_4_5	Impariamo a esplorare il campo di battaglia	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	Usa i tasti freccia sinistra e destra per spostarti tra i tuoi servitori	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	Usa {0} e i tasti freccia per muoverti tra i tuoi servitori evocati	0=b key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Diamo un'occhiata ai servitori del tuo avversario ora. Premi {0} per farlo	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_8	Diamo un'occhiata ai servitori dell'avversario ora. Premi {0} per farlo	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_9	Riesci a leggere questo servitore da solo?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Usa i tasti freccia su e giù per leggere i servitori del tuo avversario	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	Usa i tasti freccia su e giù per leggere i servitori dell'avversario	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_10	Ora Proviamo ad attaccare questo servitore	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_11	Seleziona il murloc incursore che hai evocato nel turno precedente	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	Usa {0} per andare all'elenco dei tuoi servitori e {1} per lanciare un attacco	0=b key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_12	Premi {0} per attaccare con questo servitore	0=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Puoi attaccare il servitore del tuo avversario?	
-ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Usa {0} e {1} per attaccare il servitore del tuo avversario	0=g key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13	Puoi attaccare il servitore dell'avversario?	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	Usa {0} e {1} per attaccare il servitore dell'avversario	0=g key 1=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_4_16	Entrambi i servitori hanno 2 attacco e 1 salute perciò si sono uccisi a vicenda	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_17	L'altro tuo servitore è ancora inattivo, quindi non c'è più niente da fare. Ricordi come terminare il tuo turno?	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_1	Sembra che tu abbia un altro servitore	
@@ -746,12 +747,12 @@ ACCESSIBILITY_TUTORIAL_HOGGER_6_6	Premi {0}	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_7	Ora ti trovi sulla tua prima possibilità, che sarebbe quella di evocare il servitore che hai appena ottenuto	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_8	Prova a premere di nuovo {0}	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_9	Ora stai guardando la tua seconda opzione, che sarebbe quella di attaccare con il servitore che hai evocato nel turno precedente	
-ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Puoi sempre usare {0} per esaminare le tue opzioni valide, quindi assicurati di ricordare questo tasto!	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	Puoi sempre usare {0} per esaminare le tue opzioni valide, quindi assicurati di ricordare questo tasto!	0=Tab key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12	Bene. Iniziamo evocando il servitore che abbiamo appena ricevuto	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	Usa {0} o {1} e {2} per evocare il tuo servitore	0=Tab key 1=c key 2=Enter key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13	Proviamo ora ad attaccare con l'altro servitore	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	Usa {0} o {1} per trovare il tuo servitore e {2} per lanciare un attacco	0=Tab key 1=b key 2=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ora hai un'altra scelta da fare. Puoi attaccare uno dei servitori del tuo avversario o direttamente il suo eroe	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_14	Ora hai un'altra scelta da fare. Puoi attaccare uno dei servitori dell'avversario o direttamente il suo eroe	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_15	Puoi usare sia {0} per cercare un bersaglio valido o sceglierllo direttamente con {1} o {2}	0=Tab key 1=g key 2=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16	Vai avanti e scegli un bersaglio da attaccare	
 ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	Usa {0} e {1} per lanciare un attacco	0=Tab key 1=Enter key
@@ -766,24 +767,24 @@ ACCESSIBILITY_TUTORIAL06_HELP_02	Quando i servitori combattono uno contro l'altr
 ACCESSIBILITY_TUTORIAL_MUKLA_START	In questa partita vedrai alcune carte con abilità che non hai mai incontrato prima	
 ACCESSIBILITY_TUTORIAL_MUKLA_START_B	Se ti imbatti in qualcosa che non capisci durante la lettura di una carta come Carica o Provocazione, premi {0} per ottenere maggiori informazioni	0=i key
 ACCESSIBILITY_TUTORIAL_MUKLA_START_C	Premi {0} quando sei pronto a cominciare	0=Enter key
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Questo gorilla che il tuo avversario ha appena evocato ha un'abilità chiamata provocazione	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	Questo gorilla che l'avversario ha appena evocato ha un'abilità chiamata provocazione	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	I servitori con provocazione devono sempre essere uccisi prima di poter attaccare qualsiasi altro personaggio	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	La Provocazione è un'abilità importante in quanto può essere utilizzata per proteggere il tuo eroe	
 
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	D'ora in avanti, entrambi gli eroi disporranno di un potere eroe	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	Ogni eroe dispone di un potere eroe specifico e lo può utilizzare una volta per turno	
-ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Puoi sempre premere {0} per conoscere il tuo potere eroe e {1} per leggere quello del tuo avversario	0=hero power key 1=opponent hero power key
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	Puoi sempre premere {0} per conoscere il tuo potere eroe e {1} per leggere quello dell'avversario	0=hero power key 1=opponent hero power key
 
 ACCESSIBILITY_TUTORIAL05_HELP_03	Questo combattimento non è assolutamente alla pari. Dai la colpa anche ai progettisti del gioco!	
 ACCESSIBILITY_TUTORIAL05_HELP_04	I tuoi servitori con provocazione possono proteggerti dagli attacchi!	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Sembra che il tuo avversario abbia equipaggiato un'arma	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	Sembra che l'avversario abbia equipaggiato un'arma	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	Le armi sono carte speciali che possono essere equipaggiate dagli eroi	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	Ogni arma dispone di un determinato attacco e integrità	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	Una volta equipaggiati, gli eroi possono attaccare altri personaggi durante il loro turno	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	Il tuo avversario ha equipaggiato la Lama da Guerra di Azzinoth: un'arma con 2 attacchi e 2 integrità	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Ciò significa che l'eroe del tuo avversario avrà 2 attacco durante il suo turno e sarà in grado di attaccare qualsiasi tuo personaggio	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	L'avversario ha equipaggiato la Lama da Guerra di Azzinoth: un'arma con 2 attacco e 2 integrità	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	Ciò significa che l'eroe dell'avversario avrà 2 attacco durante il suo turno e sarà in grado di attaccare qualsiasi tuo personaggio	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	I maghi non usano spesso le armi, ma potrai giocarci in seguito una volta sbloccate altre classi	
-ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Puoi premere {0} in qualsiasi momento per vedere la tua arma o {1} per vedere quella del tuo avversario	0=weapon key 1=opponent weapon key
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	Puoi premere {0} in qualsiasi momento per vedere la tua arma o {1} per vedere quella dell'avversario	0=weapon key 1=opponent weapon key
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	Sentito quel suono? Le armi perdono integrità ogni volta che il loro eroe attacca	
 ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	Una volta raggiunto lo 0, si rompono e l'Eroe non può più attaccare	
 
@@ -798,33 +799,33 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Per modificare il Sideboard
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Usa {0} e {1} per acquistare i servitori.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Usa {0} e {1} per acquistare servitori per 3 Monete. Costruisci la tua armata per sconfiggere i nemici!	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Usa {0} e {1} per vendere i servitori.	0=b key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Usa {0} e {1} per vendere  i servitori al tuo locandiere. Verrà liberato spazio per l'armata e guadagnerai una moneta!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Usa {0} e {1} per vendere  i servitori al locandiere. Verrà liberato spazio per l'armata e guadagnerai una moneta!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Usa {0} e {1} per ridisporre i tuoi servitori	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Usa {0} e {1} per aumentare di livello la locanda	0=u key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} e {1} per aggiornare la locanda e poter scegliere tra nuovi servitori	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} e {1} per ricaricare la locanda e poter scegliere tra nuovi servitori	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Usa {0} e {1} per congelare i servitori e ritrovarli nel turno successivo	0=f key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere quanto tempo hai a disposizione prima di giocare!	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere quanto tempo hai a disposizione prima di giocare!	0=e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} e {1} per evocare i servitori.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Invio	Optional. Overrides the Return key to be read as Enter by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
-ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	a	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	i	Optional. Overrides the I key to be read as eye by TTS
 
 ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Premi {0} per passare dalla visualizzazione del mazzo attuale alla scelta di una nuova carta da aggiungere.
-ACCESSIBILITY_ARENA_WINS_LOSSES	Vincite: {0}, Perdite: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_ARENA_WINS_LOSSES	Vittorie: {0}, Sconfitte: {1}	0 is wins, 1 is losses
 ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
-ACCESSIBILITY_ARENA_TICKETS_COUNT	Hai {0} biglietti.	0 is number of tickets.
+ACCESSIBILITY_ARENA_TICKETS_COUNT	Hai {0} |4(biglietto,biglietti).	0 is number of tickets.
 ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Seleziona categoria:
-ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completati di recente:
-ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} di {2} punti obiettivi totali ({3}), {4} di {5} obiettivi completati	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completate di recente:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} di {2} punti impresa totali ({3}), {4} di {5} imprese completate	should be self explanatory, {0} is the category or subcategory name.
 ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Riscattabile:
-ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Livello: {0} di {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Fase: {0} di {1}	0 is current tier, 1 is highest tier
 ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	Avanzamento: {0} di {1}	0 is current, 1 is how much is needed
-ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Riscatta Obiettivo
-ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Ottieni {0} Punti Obiettivo	0 is number of points
-ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Impossibile riscattare l'obiettivo.
-ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Usa le frecce sinistra e destra per navigare nell'elenco degli obiettivi e le frecce su e giù per visualizzare le informazioni dell'obiettivo selezionato. Premi {0} per tentare di riscattare un obiettivo richiedibile. Premi {1} per tornare al menu precedente. Premi {2} per passare tra la visualizzazione di tutti gli obiettivi e la visualizzazione di quelli incompleti.
-ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Obiettivi Incompleti
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Riscatta impresa
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Ottieni {0} Punti impresa	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Impossibile riscattare l'impresa.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Usa le frecce sinistra e destra per navigare nell'elenco delle imprese e le frecce su e giù per visualizzare le informazioni dell'impresa selezionata. Premi {0} per tentare di riscattare un'impresa richiedibile. Premi {1} per tornare al menu precedente. Premi {2} per passare tra la visualizzazione di tutte le imprese e la visualizzazione di quelle incomplete.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Imprese Incomplete
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	premi c per accedere alla tua collezione	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Livello {0}: {1} xp necessari	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, ricompense: {0}	0 is text description of rewards. This is appended to the previous item.
