@@ -822,3 +822,7 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} จาก {1} ความส�
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	กด c เพื่อเข้าถึงคอลเลกชั่น	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	เลเวล {0}: {1} ค่าประสบการณ์ที่ต้องการ	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, รางวัล: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	ตรวจสอบข้อมูลการเล่น	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	เลือกรูปแบบการต่อสู้	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	แพ้	Losses count in current duels run
