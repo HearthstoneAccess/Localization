@@ -339,7 +339,7 @@ ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	Premi {0} per controllare le stati
 ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	Usa le frecce su e giù per leggere le carte	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	Premi {0} per attaccare questo bersaglio	0=Enter key
 ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	Premi {0} per evocare questo servitore	0=Enter key
-ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	Il tuo avversario sta giocando	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	L'avversario sta giocando	
 ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	Premi {0} o {1} per terminare il tuo turno. Premi qualsiasi altro tasto per annullare	0=enter key 1=e key
 ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	Usa {0} per scorrere le tue opzioni valide	0=tab key
 ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	Press {0} per leggere la tua mano	0=c key
@@ -401,7 +401,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	Comprare {0}?	0=minion nam
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	Vendere {0}?	0=minion name e.g. Sell Tarecgosa?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	Congelare la locanda?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Congelare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Freeze tavern for 1 gold?
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Scongelare la locanda??	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Scongelare la locanda?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Ricaricare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Aggiornare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Upgrade tavern for 3 gold?
 
@@ -434,7 +434,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Premi {0} per conosce
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Premi {0} per ottenere informazioni sul livello locanda	0=t key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Premi {0} per leggere il tuo eroe amico	0=d key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Premi {0} per conoscere le statistiche del prossimo avversario	0=n key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Premi {0} per leggere il tabellone	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Premi {0} per leggere la classifica	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Premi {0} per conoscere le tue statistiche	0=m key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Premi {0} per leggere le tipologie di servitori in questa partita	0=o key
 
@@ -449,7 +449,7 @@ ACCESSIBILITY_UI_REWARD_SCROLL_HELP	Usa le frecce per scorrere le tue ricompense
 
 ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Usa le frecce per leggere le tue missioni	
 
-ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Usa le frecce per leggere la tua |4(missione,missioni)	
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Usa le frecce per leggere |4(la tua missione,le tue missioni)	
 
 ACCESSIBILITY_UI_REWARD_TITLE	Hai ottenuto una ricompensa!	
 ACCESSIBILITY_UI_REWARD_HELP	Usa le frecce per leggere la ricompensa	
@@ -476,7 +476,7 @@ ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	Premi {0} per aprire il tuo forziere 
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	Hai ottenuto {0} |4(ricompensa,ricompense)!	
 ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	Usa i tasti freccia e {0} per aprire le tue ricompense	0=Enter key
 
-ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XP missione	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	missione {0} XP	0=xp rewarded by quest. Note: these quests don't have a name
 ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	Ricompense {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
 ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	Ricompense 1 di {0}	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
 
@@ -655,10 +655,17 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leggi posizionamento attuale
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} di {1} |4(stella,stelle)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} stelle bonus	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Mostra inviti	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Consulta statistiche	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Leggi le fasi di attacco durante il combattimento	
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Livello di avanzamento missione	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	invitato	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	pronto	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	capo	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	non è pronto	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	sta giocando	
+
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	progressione della missione	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Progresso attuale {0} di {1}	0=current progress 1=total
 
 ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Hai terminato una missione	
@@ -829,3 +836,7 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} di {1} Imprese Incomplete
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	premi c per accedere alla tua collezione	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Livello {0}: {1} xp necessari	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, ricompense: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	Consulta statistiche	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	Scegli il tipo per i Duelli	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	Sconfitte	Losses count in current duels run
