@@ -491,7 +491,7 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Vous avez perdu {0} |4(étoile,étoil
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Etoile bonus! Fois {0}	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonus de série de victoire! Fois {0}	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Votre classement augmente de {0}	0=rating increase e.g. Your rating increased by 50
+ ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Votre classement augmente de {0}	0=rating increase e.g. Your rating increased by 50
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Votre classement diminue de {0}	0=rating decrease e.g. Your rating decreased by 50
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Votre classement est maintenant de {0}	0=new rating e.g. Your rating is now 1337
 ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Votre classement est toujours de {0}	0=rating e.g. Your rating is still 1337
@@ -607,8 +607,13 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Appuyez sur {0} pour 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Appuyez sur {0} pour créer un deck personalisé ou sur {1} pour choisir un pré-set	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Ajoutez des cartes	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Voir le deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	Voir l'extra deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Retour au deck	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Votre deck est vide	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Vous avez {0} cartes sur {1} dans le deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Invalide	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	extradeck	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Format modifié	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utilisez les flèches pour lire les cartes. Utilisez {0} pour sauter les classes.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utilisez les chiffres pour filtrer vos cartes selon leur coût en mana. Utilisez {0} pour effectuer une recherche dans votre collection.	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utilisez les flèche et la touche {0} pour consulter toutes les pièces disponnibles.	0=Enter key
@@ -645,8 +650,15 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Lire rang actuel
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} sur {1} |4(étoile,étoiles)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} étoile bonus	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Voir les membres	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Consulter les statistiques	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Lire les attaques durant la phase de combat	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	invité	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	prêt	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	meneur	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	en attente	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	en jeu	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Dialogue de progression de la mission	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Progression actuelle {0} sur {1}	0=current progress 1=total
@@ -815,3 +827,6 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} hauts faits incomplets sur {1}
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Appuyez sur c pour accéder à votre collection	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Niveau {0}: sur {1} expérience	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Récompenses: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	Lire les statistiques	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choisissez un type de duels'	Choosing the type of duels (casual/heroic)
