@@ -647,8 +647,15 @@ ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Прочитать текущ�
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} из {1} |4(звезды,звезды,звезд)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	Звездный бонус: {0}	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Просмотреть группу	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Прочитать статистику	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Рассказывать об атаках во время боя	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	приглашен	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	готов	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	лидер	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	не готов	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	играет	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Уведомление: прогресс задания 	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Текущий прогресс {0} из {1}	0=current progress 1=total
