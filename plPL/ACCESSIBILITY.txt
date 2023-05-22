@@ -828,5 +828,6 @@ ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	gra
 ACCESSIBILITY_DUELS_READ_STATS	Przeczytaj statystyki	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Wybierz rodzaj pojedynków	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	przegranych	Losses count in current duels run
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	zobacz drużynę	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
