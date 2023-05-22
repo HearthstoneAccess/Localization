@@ -840,3 +840,7 @@ ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Rewards: {0}	0 is text descripti
 ACCESSIBILITY_DUELS_READ_STATS	Read stats	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choose duels' type	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Losses	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Use arrow keys to read hero powers, {0} to select.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Use arrow keys to read starter treasures, {0} to select.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Use arrow keys to read treasures, {0} to choose a treasure and {1} to view your deck.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Use {0} and {1} to move between loot crates, arrow keys to read cards in a crate, {2} to choose a crate and {3} to view your deck.	{0} Tab {1} Shift+Tab {2} Enter {3} D key

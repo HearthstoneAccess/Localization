@@ -824,3 +824,7 @@ ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Достижения: {0}	0 is t
 ACCESSIBILITY_DUELS_READ_STATS	Прочитать статистику	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Выберите тип дуэлей	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Поражений	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Используйте клавиши со стрелками для чтения сил героя, {0} для выбора.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Используйте клавиши со стрелками для чтения стартовых сокровищ, {0} для выбора.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Используйте клавиши со стрелками для чтения сокровищ, {0} для выбора сокровища и {1} для просмотра вашей колоды.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Используйте {0} и {1} для перемещения между добычами, клавиши со стрелками для чтения карт в добыче, {2} для выбора добычи и {3} для просмотра вашей колоды.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
