@@ -811,7 +811,7 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Usa {0} e {1}
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Usa {0} e {1} per aumentare di livello la locanda	0=u key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Usa {0} e {1} per ricaricare la locanda e poter scegliere tra nuovi servitori	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Usa {0} e {1} per congelare i servitori e ritrovarli nel turno successivo	0=f key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere quanto tempo hai a disposizione prima di giocare!	0=e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Premi {0} per sapere quanto tempo hai a disposizione prima di giocare!	0 e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Usa {0} e {1} per evocare i servitori.	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Invio	Optional. Overrides the Return key to be read as Enter by TTS
@@ -840,3 +840,7 @@ ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, ricompense: {0}	0 is text descri
 ACCESSIBILITY_DUELS_READ_STATS	Consulta statistiche	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Scegli il tipo per i Duelli	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Sconfitte	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Usa i tasti freccia per leggere i poteri eroe, {0} per selezionare.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Usa i tasti freccia per leggere i tesori distintivi, {0} per selezionare.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Usa i tasti freccia per leggere i tesori, {0} per scegliere un tesoro e {1} per esaminare il tuo mazzo.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Usa {0} e {1} per spostarti tra i secchi dei bottini, i tasti freccia per leggere le carte in un secchio, {2} per scegliere un secchio e {3} per esaminare il tuo mazzo.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
