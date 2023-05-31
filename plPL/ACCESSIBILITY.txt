@@ -829,5 +829,9 @@ ACCESSIBILITY_DUELS_READ_STATS	Przeczytaj statystyki	Read your casual, heroic du
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Wybierz rodzaj pojedynków	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	przegranych	Losses count in current duels run
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	zobacz drużynę	
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Użyj klawiszy strzałek, aby odczytać moce specjalne, {0} aby wybrać.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Użyj klawiszy strzałek, aby przeczytać skarby, {0}, aby wybrać.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Użyj klawiszy strzałek, aby odczytać skarby, {0}, aby wybrać skarb i {1}, aby wyświetlić swoją talię.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Użyj {0} i {1}, aby poruszać się między skrzynkami z łupami, klawiszy strzałek, aby czytać karty w skrzyni, {2}, aby wybrać skrzynię i {3}, aby wyświetlić swoją talię.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
