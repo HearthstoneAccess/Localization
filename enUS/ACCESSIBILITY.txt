@@ -844,3 +844,4 @@ ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Use arrow keys to read hero powers, {
 ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Use arrow keys to read starter treasures, {0} to select.	{0} enter key
 ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Use arrow keys to read treasures, {0} to choose a treasure and {1} to view your deck.	{0} is enter, {1} is D key
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Use {0} and {1} to move between loot crates, arrow keys to read cards in a crate, {2} to choose a crate and {3} to view your deck.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Try Again	
