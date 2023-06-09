@@ -722,7 +722,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_3_1	どれぐらいの体力が残っているか�
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2	上下の矢印キーで、自分のヒーローカードを読みます	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	{0} と矢印キーで、自分のヒーローの残り体力を確認してみましょう	0=v key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_3	自分のヒーローの体力がなくなると負けになります。 まだ28も残っているので、大丈夫ですけどね	
-ACCESSIBILITY_TUTORIAL_HOGGER_3_4	相手のヒーローも見てみましょう。 {-} を押してください	0=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_4	相手のヒーローも見てみましょう。 {0} を押してください	0=f key
 ACCESSIBILITY_TUTORIAL_HOGGER_3_5	どれぐらいの体力が残っているかわかりますか？	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	上下の矢印キーで、相手のヒーローカードを読みます	
 ACCESSIBILITY_TUTORIAL_HOGGER_3_6	相手のヒーローの体力を削りきることができれば、勝ちになります	
