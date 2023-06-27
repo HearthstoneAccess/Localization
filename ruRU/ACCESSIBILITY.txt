@@ -836,3 +836,5 @@ ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Используйте клав
 ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Используйте клавиши со стрелками для чтения сокровищ, {0} для выбора сокровища и {1} для просмотра вашей колоды.	{0} is enter, {1} is D key
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Используйте {0} и {1} для перемещения между добычами, клавиши со стрелками для чтения карт в добыче, {2} для выбора добычи и {3} для просмотра вашей колоды.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Ваш забег в дуэлях завершился. Нажмите {0} для просмотра ваших наград.	{0}=Enter key
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Попробуйте Еще Раз	
