@@ -834,5 +834,6 @@ ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Użyj klawiszy strzałek, aby p
 ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Użyj klawiszy strzałek, aby odczytać skarby, {0}, aby wybrać skarb i {1}, aby wyświetlić swoją talię.	{0} is enter, {1} is D key
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Użyj {0} i {1}, aby poruszać się między skrzynkami z łupami, klawiszy strzałek, aby czytać karty w skrzyni, {2}, aby wybrać skrzynię i {3}, aby wyświetlić swoją talię.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Spróbuj ponownie	
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Twoja seria pojedynków dobiegła końca. Naciśnij {0}, aby zobaczyć swoje nagrody.	{0}=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
