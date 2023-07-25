@@ -844,3 +844,6 @@ ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	使用箭头键阅读英雄技能,按
 ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	使用箭头键读取起始宝藏，按{0}选择宝藏	{0} enter key
 ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	使用箭头键读取宝藏，按{0}选择宝藏，按{1}查看卡组	{0} is enter, {1} is D key
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	使用{0}和{1}切换奖励宝箱，使用箭头键浏览宝箱中的卡牌，使用{2}选择宝箱，使用{3}查看卡组	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	你的对决结束了，按{0}查看奖励	{0}=Enter key
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	再试一次	
