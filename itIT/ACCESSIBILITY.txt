@@ -844,3 +844,6 @@ ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Usa i tasti freccia per leggere i pot
 ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Usa i tasti freccia per leggere i tesori distintivi, {0} per selezionare.	{0} enter key
 ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Usa i tasti freccia per leggere i tesori, {0} per scegliere un tesoro e {1} per esaminare il tuo mazzo.	{0} is enter, {1} is D key
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Usa {0} e {1} per spostarti tra i secchi dei bottini, i tasti freccia per leggere le carte in un secchio, {2} per scegliere un secchio e {3} per esaminare il tuo mazzo.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	La tua sezione dei duelli è terminata. Premi {0} per vedere le tue ricompense.	{0}=Enter key
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Riprova	
