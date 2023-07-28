@@ -595,7 +595,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Wytwórz karty
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Przeczytaj ilość tajemnego pyłu	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Odczaruj {0} |4(nadliczbową kartę,nadliczbowe karty,nadliczbowych kart) i otrzymaj za to {1} tajemnego pyłu.	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	przeczytaj kartę	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	przeczytaj pokrewną kartę	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Przeczytaj Powiązaną Kartę	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Przeczytaj opis	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Wytwórz za {0} tajemnego pyłu	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Odczaruj i zyskaj  {0} tajemnego pyłu	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -835,5 +835,6 @@ ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Użyj klawiszy strzałek, aby od
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Użyj {0} i {1}, aby poruszać się między skrzynkami z łupami, klawiszy strzałek, aby czytać karty w skrzyni, {2}, aby wybrać skrzynię i {3}, aby wyświetlić swoją talię.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Spróbuj ponownie	
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Twoja seria pojedynków dobiegła końca. Naciśnij {0}, aby zobaczyć swoje nagrody.	{0}=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Przeczytaj powiązane karty	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
