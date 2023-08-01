@@ -482,11 +482,11 @@ ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	報酬は {0} の中から1
 
 ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	クエストがありません	
 ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	{0} で中断	0=a key
-ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	{0} で再開	0=r key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	{0} で別のクエストに変更	0=r key
 
 ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	レベル {0} に到達	0=track reward level e.g. You've reached level {3}
 ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	{0} XPを獲得	0=XP gained e.g. You've gained {50} XP
-ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	クエストを完了して {0} XPを獲得	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	クエスト完了、 {0} XPを獲得	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
 
 ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	現在 {0}	0=rank name e.g. You are currently Bronze 10
 ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	現在 {0} になりました	0=rank name e.g. You are now Diamond 1
