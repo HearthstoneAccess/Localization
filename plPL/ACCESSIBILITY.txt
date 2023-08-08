@@ -836,5 +836,6 @@ ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Użyj {0} i {1}, aby poruszać się między
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Spróbuj ponownie	
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Twoja seria pojedynków dobiegła końca. Naciśnij {0}, aby zobaczyć swoje nagrody.	{0}=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Przeczytaj powiązane karty	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Wykuć karte?	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
