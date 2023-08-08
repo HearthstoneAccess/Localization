@@ -18,10 +18,17 @@ ACCESSIBILITY_LIST_NO_ITEMS	ไม่มีตัวเลือก
 ACCESSIBILITY_OPTIONS_MENU_TITLE	ตั้งค่าเมนู	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	ปรับคุณภาพกราฟิก	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	ปรับความละเอียดหน้าจอ	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	เปิดใช้งานบันทึกการดีบักสำหรับครั้งนี้	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	อ่านคำพูดเมื่อไม่ได้อยู่หน้าต่างเกม	
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	ใช้ลูกศรซ้ายหรือลูกศรขวาเพื่อปรับความดังของเสียง	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} ช่องทำเครื่องหมาย	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	เลือก	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	ไม่เลือก	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	ความเร็วการโจมตีอัตโนมัติ: {0}	Options menu
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	ช้า	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	ปานกลาง	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	เร็ว	
+
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	เมนูหลัก	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	กด {0} ได้ตลอดเวลาเพื่อเรียกเมนูเกม ทดลองเลย	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	กด {0} ได้ตลอดเวลาเพื่อเรียกเมนูโซเชียล ทดลองเลย	0=F4 key
@@ -45,6 +52,7 @@ ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	เปลี่ยนรูปแบบ	Used 
 ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	เลือกตัวเลือกรูปแบบ	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	คำสาป	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	สิง	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility เปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility ปิดใช้งานแล้ว	Read when F8 is pressed and accessibility is turned off
@@ -71,14 +79,19 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} มานา	0=card cost
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} ความทนทาน	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	รูนเลือด	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	รูนน้ำแข็ง	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	รูนไม่บริสุท	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} พลังโจมตี	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} พลังชีวิต	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} พลังป้องกัน	0=armor
 ACCESSIBILITY_READ_CARD_N_COPIES	{0} ก๊อปปี้	0=number of copies
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - รุ่นทอง	0=card name e.g. {fireball} - golden edition
-ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - รุ่นเพชร	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - สีทอง	0=card name e.g. {fireball} - golden edition
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - ขอบเพชร	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - ซิกเนเจอร์	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	เทิร์นของฝ่ายตรงข้าม	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	จบเทิร์น	
@@ -137,6 +150,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	เล่นการ์ด
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	เปลี่ยนการ์ด	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	คุณยังสามารถเล่นการ์ดได้อยู่ แน่ใจหรือไม่ที่จะจบเทิร์น	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	คุณยังสามารถโจมตีได้อยู่ แน่ใจหรือไม่ที่จะจบเทิร์น	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	คุณยังสามารถใช้สถานที่ได้อยู่ แน่ใจหรือไม่	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	คุณยังสามารถใช้พลังฮีโร่ได้อยู่ แน่ใจหรือไม่ที่จะจบเทิร์น	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	คุณไม่มีมินเนี่ยนที่ซัมมอน	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	ฮีโร่ฝ่ายตรงข้ามไม่สามารถโจมตีได้	
@@ -159,6 +173,10 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	ฝ่ายตรงข�
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	คุณมี {0} จากทั้งหมด {1} มานา	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	คุณมี {0} มานา	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	ฝ่ายตรงข้ามมี {0} มานา	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES	คุณมี {0} |4(ศพ,ศพ)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_CORPSES_EMPTY	คุณไม่มีศพแล้ว	
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES	ฝ่ายตรงข้ามมี {0} |4(ศพ,ศพ)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES_EMPTY	ฝ่ายตรงข้ามไม่มีศพแล้ว	
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	บนมือฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	ในเด็คของคุณมี {0} |4(ใบ,ใบ)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	ในเด็คของฝ่ายตรงข้ามมี {0} |4(ใบ,ใบ)	0=number of cards
@@ -361,6 +379,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	หยุดอ่านประวั
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	สนามรบของคุณเริ่มต้นด้วย {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	สนามรบของฝ่ายตรงข้ามเริ่มต้นด้วย {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} เข้าร่วมกลุ่มแล้ว	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} ปฏิเสธคำเชิญ	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} ออกจากกลุ่มแล้ว	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	ขั้น {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} ทอง	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	โรงเตี๊ยมขั้นที่ {0} และ {1} ทอง	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
@@ -514,12 +535,15 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	ข้อความจาก {0}
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	ส่งข้อความถึง {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	พิมพ์ข้อความของคุณ	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	ส่งข้อความ	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	เชิญเข้าร่วมกลุ่ม battleground	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	ตรวจสอบเลเวลปัจจุบัน	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} จาก {1} ค่าประสบการณ์เพื่อไปยังเลเวลถัดไป	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	รับ {0} |4(รางวัล,รางวัล)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	คุณรับรางวัลสำหรับเลเวลนี้ไปแล้ว	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	ตรวจสอบทอง	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	ตรวจสอบหินรูน	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	ซื้อซองการ์ด	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	ซื้อมินิเซ็ต	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	ซื้อสกินฮีโร่	
@@ -527,10 +551,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	ซื้อห่อการ์ด
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	ซื้ออื่นๆ	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	อ่านคำบรรยาย	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	ซื้อในราคา {0} ทอง	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	ซื้อในราคา {0} หินรูน	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	รับฟรี	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	อ่านการ์ด	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	ใช้ลูกศรเพื่ออ่านการ์ด	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} ทองคงเหลือ	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} หินรูนคงเหลือ	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	มีหินรูนไม่พอ	
 
 ACCESSIBILITY_SCREEN_GO_BACK	ย้อนกลับ	
 
@@ -539,6 +566,12 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	หน้าจอข้อผิ�
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	ฮีโร่ของคุณเลื่อนเป็นเลเวล {0}	0=level
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	เลือกการผจญภัย	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	เลือกภารกิจที่จะเล่น	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	ภารกิจ {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	ขณะนี้ภารกิจนี้ถูกล็อกอยู่
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	ล็อก
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	พร้อมให้เล่น
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	เสร็จสมบูรณ์แล้ว
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	กด {0} เพื่อเลือกการผจญภัยหรือกด {1} เพื่อย้อนกลับไปเมนูหลัก	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	หน้าจอการผจญภัย	
@@ -554,6 +587,9 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	คุณอยู่ก�
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	เลือกการผจญภัย	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	หนังสือฮีโร่	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	หนังสือทหารรับจ้าง	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	ขี้เถ้าของเอาท์แลนด์: บทนำ	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	เดธไนท์: บทนำ	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	เลือกระดับความยากของศัตรู	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	ปกติ	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	เชี่ยวชาญ	
@@ -569,8 +605,13 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	กด {0} เพื�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	กด {0} เพื่อสร้างเด็คที่กำหนดเองหรือกด {1} เพื่อเลือกสูตร	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	เพิ่มการ์ด	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	ดูเด็ค	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	ดูตู้	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	ย้อนกลับไปที่เด็ค	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	เด็คของคุณว่างเปล่า	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} จากทั้งหมด {1} การ์ดในเด็ค	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	ไม่ถูกต้อง	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	ตู้ข้าง	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	เปลี่ยนรูปแบบแล้ว	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	ใช้ลูกศรเพื่ออ่านการ์ด กด {0} เพื่อข้ามไปมาระหว่างคลาส	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	กดตัวเลขเพื่อกรองการ์ดด้วยจำนวนมานา กด {0} เพื่อค้นหาในคอลเลกชั่นของคุณ	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	กดลูกศรและกด {0} เพื่ออ่านเหรียญที่มีอยู่ทั้งหมด	0=Enter key
@@ -602,6 +643,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	ย่อยก
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	ใช้ลูกศรและกด {0} เพื่อบอกชื่อการ์ด	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	คุณไม่มีซองการ์ด	
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	เปิดให้ยืมจนถึง {0}	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	ตรวจสอบลำดับปัจจุบัน	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	คุณมีดาว {0} จากดาวทั้งหมด {1} |4(ดวง,ดวง)	0=current stars 1=star slots e.g. {1} out of {3} stars
@@ -746,6 +789,8 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	ใช้ลูกศรห
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	หากคุณเจอการ์ดที่ไม่ถูกใจคุณสามารถกด {0} เพื่อทำเครื่องหมายสำหรับเปลี่ยนการ์ดใบใหม่แทนที่	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	เมื่อคุณทำเครื่องหมายของการ์ดที่จะเปลี่ยนกลับเข้าไปในเด็คได้แล้ว กด {0} เพื่อจั่วการ์ดใหม่และเริ่มเล่นเกม 	0=Enter key
 
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	หากต้องการแก้ไขตู้ข้างให้ไปที่โหมดแก้ไขเด็คอยู่ที่การ์ดใบนั้นแล้วกดspace	
+
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อซื้อมินเนี่ยน	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อซื้อมินเนี่ยนในราคา 3 ทอง เริ่มสร้างกองทัพย์ของคุณเพื่อจัดการฝ่ายตรงข้ามเลย	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	กด {0} และ {1} เพื่อขายมินเนี่ยน	0=b key 1=Enter key
@@ -758,3 +803,31 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	กด {0} เพื่
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	กด {0} และ {1} เพื่อซัมมอนมินเนี่ยน	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	เอ็นเท่อ	Optional. Overrides the Return key to be read as Enter by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	กด {0} เพื่อสลับไปดูเด็คปัจจุบันและเพิ่มการ์ด 
+ACCESSIBILITY_ARENA_WINS_LOSSES	ชนะ: {0}, แพ้: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	ลานประลอง	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	คุณมี {0} ตั๋ว	0 is number of tickets.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	เลือกประเภท:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	เพิ่งเสร็จสมบูรณ์:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} จาก {2} คะแนนความสำเร็จรวม ({3}), {4} จาก {5} ความสำเร็จที่เสร็จสมบูรณ์	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	อ้างสิทธิ์ได้:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	=ชั้น: {0} จาก {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	ความคืบหน้า: {0} จาก {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	เรียกร้องความสำเร็จ
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	ได้รับ {0} แต้มความสำเร็จ	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	ไม่สามารถอ้างสิทธิ์ความสำเร็จได้
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	ใช้ลูกศรซ้ายหรือลูกศรขวาเพื่อเลือกดูรายการความสำเร็จ ใช้ลูกศรขึ้นหรือลูกศรลงเพื่อดูข้อมูลความสำเร็จที่เลือกอยู่ กด {0} เพื่อพยายามอ้างสิทธิ์ที่สามารถรับได้ กด {1} เพื่อย้อนกลับไปเมนูก่อนหน้า กด {2} เพื่อสลับไปดูความสำเร็จที่เสร็จและยังไม่เสร็จสมบูรณ์
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} จาก {1} ความสำเร็จที่ยังไม่เสร็จสมบูรณ์
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	กด c เพื่อเข้าถึงคอลเลกชั่น	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	เลเวล {0}: {1} ค่าประสบการณ์ที่ต้องการ	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, รางวัล: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	ตรวจสอบข้อมูลการเล่น	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	เลือกรูปแบบการต่อสู้	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	แพ้	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	ใช้ปุ่มลูกศรเพื่ออ่านพลังฮีโร่กด {0} เพื่อเลือก	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	ใช้ปุ่มลูกศรเพื่ออ่านสมบัติเริ่มต้นกด {0} เพื่อเลือก	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	ใช้ปุ่มลูกศรเพื่ออ่านสมบัติกด {0} เพื่อเลือกสมบัติและกด {1} เพื่อดูเด็คของคุณ	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	ใช้ปุ่ม {0} และปุ่ม {1} เพื่อเลื่อนไปมาระหว่างกล่องของขวัญ ลูกศรเพื่ออ่านการ์ดในกล่องกด {2} เพื่อเลือกกล่อง และกด {3} เพื่อดูเด็คของคุณ	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	ลองใหม่อีกครั้ง	

@@ -1,0 +1,846 @@
+TAG	TEXT	COMMENT
+ACCESSIBILITY_WELCOME_TO_HEARTHSTONE	Hearthstoneへようこそ	
+
+ACCESSIBILITY_PRESS_KEY_TO_START	{0} を押してスタート	0=key e.g. Press Enter to start
+ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	{0} を押して続ける	0=key e.g. Press Enter to continue
+ACCESSIBILITY_PRESS_KEY_TO_FINISH	{0} を押して完了	0=key e.g. Press Enter to finish
+ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	{0} を押して戻る	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_EXIT	{0} を押して終了	0=key e.g. Press Enter to exit
+ACCESSIBILITY_PRESS_KEY_ONCE_DONE	完了したら {0} を押してください	0=key e.g. Press Enter once you're done
+
+ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	上下の矢印キーを使用してメニュー項目を移動します。 {0} を押して決定します	0=Enter key
+ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	上下の矢印キーを使用してメニュー項目を移動します。  {0} を押して決定します。 {1} を押して戻ります	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	左右の矢印キーを使用してメニュー項目を移動します。 上下の矢印キーを使用してオプションを読みます。 {0} を押してオプションを決定します	0=Enter key
+ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	左右の矢印キーを使用してメニュー項目を移動します。 上下の矢印キーを使用してオプションを読みます。 {0} を押してオプションを決定します。 {1} を押して戻ります	0=Enter key 1=Backspace key
+ACCESSIBILITY_MENU_OPTION_FORMAT	{0} {1}の{2}	0=option name 1=option number 2=options count e.g. Options 1 of 2
+ACCESSIBILITY_LIST_NO_ITEMS	項目なし	
+
+ACCESSIBILITY_OPTIONS_MENU_TITLE	オプションメニュー	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	画質	
+ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	解像度	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	このゲームの起動中にデバッグログを有効化	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	バックグラウンドでの読み上げ	
+ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	左右の矢印キーを使用して音量を調整します	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} チェックボックス	0=checkbox name e.g. {Fullscreen} checkbox
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	チェック	
+ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	チェックなし	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	オートアタックの早さ: {0}	Options menu
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	遅い	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	普通	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	早い	
+
+ACCESSIBILITY_HUB_MAIN_MENU_TITLE	メインメニュー	
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	いつでも {0} を押せばゲームメニューが開きます。 ここで試してみましょう！	0=Esc key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	いつでも {0} を押せばソーシャルメニューが開きます。ここで試してみましょう！	0=F4 key
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	迷ったときは、いつでも {0} を押してください。 視力によるサポートが必要になったら、いつでも {1} を押すことでアクセシビリティを無効にして、通常通りのマウス操作が可能になります。 終わったら、 {1} を押してアクセシビリティを再度有効にしてください	0=Esc key 1=F8 key
+
+ACCESSIBILITY_GLOBAL_LOADING_GAME	ゲームを読み込み中	
+ACCESSIBILITY_GLOBAL_CLOSING_GAME	ゲームを終了しています	
+ACCESSIBILITY_GLOBAL_GAME_LOADED	ゲームを読み込みました	
+ACCESSIBILITY_GLOBAL_LOADING	読み込み中	
+ACCESSIBILITY_GLOBAL_PLEASE_WAIT	お待ちください	
+ACCESSIBILITY_GLOBAL_CARD	カード	
+ACCESSIBILITY_GLOBAL_CARD_PLURAL	カード	
+ACCESSIBILITY_GLOBAL_HERO	ヒーロー	
+ACCESSIBILITY_GLOBAL_HERO_POWER	ヒーローパワー	
+ACCESSIBILITY_GLOBAL_SECRET	{0} 秘策	0=secret class e.g. {Mage} secret
+ACCESSIBILITY_GLOBAL_GAME_SPEED	ゲームスピード {0}	0=current game speed
+ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	対人戦ではゲームスピードを調整できません	
+ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	新しいバージョンの Hearthstone Access が利用可能です。可能なときにパッチャーを実行してください。バグ修正が行われている可能性があります	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	それはできません	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	フォーマットを変更	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	フォーマットを選んでください	Used as a menu title for choosing standard, wild or classic
+
+ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	呪い	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	呪われた	
+
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	アクセシビリティ オン	Read when F8 is pressed and accessibility is turned on
+ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	アクセシビリティ オフ	Read when F8 is pressed and accessibility is turned off
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_ON	ストリーマーモード オン	Read when Ctrl+Shift+S is pressed and streamer mode is turned on
+ACCESSIBILITY_GLOBAL_STREAMER_MODE_OFF	ストリーマーモード オフ	Read when Ctrl+Shift+S is pressed and streamer mode is turned off
+
+ACCESSIBILITY_FORMATTING_PERIOD	。	
+ACCESSIBILITY_FORMATTING_SENTENCE_ENDING_CHARACTERS	。！？;	
+ACCESSIBILITY_FORMATTING_LIST_SEPARATOR	、	e.g. the ", " in A, B, C, D and E
+ACCESSIBILITY_FORMATTING_LIST_FINAL_SEPARATOR	そして	e.g. the " and " in A, B, C, D and E
+
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_1	1番目の	Languages with grammatical genders can work around using digits and configure text that uses ordinal numbers such as "minion number 1" instead of "first minion"
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_2	2番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_3	3番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_4	4番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_5	5番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_6	6番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_7	7番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_8	8番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	9番目の	
+ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	10番目の	
+
+ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
+
+ACCESSIBILITY_READ_CARD_COST	{0} マナ	0=card cost
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} 耐久力	0=durability e.g. 1 durability, for a location
+ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
+ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	血	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	凍気	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	不浄	The unholy death knight rune
+ACCESSIBILITY_READ_HERO_CARD_ATK	{0} 攻撃力	0=attack
+ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} 体力	0=health
+ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} 装甲	0=armor
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} 枚のコピー	0=number of copies
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - ゴールデン・エディション	0=card name e.g. {fireball} - golden edition
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - ダイヤモンド・エディション	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - シグネチャー・エディション	0=card name
+
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	相手のターン	
+ACCESSIBILITY_GAMEPLAY_TURN_ENDED	ターン終了	
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} が発動	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	自分の {0} が発動	0=card name e.g. Your {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	相手の {0} が発動	0=card name e.g. Your opponent's {Psyfiend} triggered
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	相手の {0} が発動; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	{0} をプレイ	0=card name e.g. You played {Fireball}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	{0} をプレイ; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	相手は {0} をプレイ	0=card name e.g. Your opponent played {Fireball}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	相手は {0} をプレイ; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	{0} を召喚	0=minion name e.g. You summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	{0} を召喚; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	相手は {0} を召喚	0=minion name e.g. Your opponent summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	相手は {0} を召喚; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	{0} をトレード	0=card name e.g. You traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	相手は {0} をトレード	0=card name e.g. Your opponent traded {Fire Sale}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON	{0} を装備	0=weapon name e.g. You equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_PLAYER_EQUIPPED_WEAPON_BIG_CARD	{0} を装備; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. You equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON	相手は {0} を装備	0=weapon name e.g. Your opponent equipped {Aldrachi Warblades}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_EQUIPPED_WEAPON_BIG_CARD	相手は {0} を装備; {1} {2} {3}	0=weapon name 1=attack 2=durability 3=card text e.g. Your opponent equipped {Aldrachi Warblades}; {2} {2} {Lifesteal}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER	{0} を使用	0=hero power name e.g. You used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_PLAYER_USED_HERO_POWER_BIG_CARD	{0} を使用; {1}	0=hero power name 1=card text e.g. You used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER	相手は {0} を使用	0=hero power name e.g. Your opponent used {Fireblast}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_USED_HERO_POWER_BIG_CARD	相手は {0} を使用; {1}	0=hero power name 1=card text e.g. Your opponent used {Fireblast}; {Hero Power Deal 1 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	{0} をキャスト	0=secret name e.g. You cast {Counterspell}
+ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	{0} をキャスト; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	相手は 1 {0} の秘策をキャスト	0=secret class e.g. Your opponent cast 1 {mage} secret
+ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	相手は {0} つの秘策をキャスト	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	空のデッキからカードを引こうとした	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	相手は空のデッキからカードを引こうとした	
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	1 枚の {0} を引いたが、バーンした	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	相手は 1 枚の {0} を引いたが、バーンした	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} は {1} を攻撃	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
+ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} は {1} を攻撃しようとしたが、代わりに {2} を攻撃	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	コスト {0} の {1} を公開	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_REVEALED_CARD	相手は、コスト {0} の {1} を公開	0=card cost 1=card name e.g. Your opponent revealed a 4 cost Fireball
+ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_NO_VALID_CARDS	公開できるカードを持っていなかった	
+ACCESSIBILITY_GAMEPLAY_JOUST_OPPONENT_NO_VALID_CARDS	相手は、公開可能なカードを持っていなかった	
+
+ACCESSIBILITY_GAMEPLAY_PLAYER_TURN_START_READ_MANA	使えるマナは {0}	0=mana
+ACCESSIBILITY_GAMEPLAY_YOU_GO_FIRST	自分の先攻	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_GOES_FIRST	相手の先攻	
+ACCESSIBILITY_GAMEPLAY_YOU_START_WITH_N_CARDS	{0} 枚のカードで開始	0=number of cards
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARDS	{0} をドロー	0=card names e.g. You drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARDS	相手は {0} をドロー	0=card names e.g. Your opponent drew {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_PLAYER_DISCARDED_CARDS	{0} を廃棄	0=card names e.g. You discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	相手は {0} を廃棄	0=card names e.g. Your opponent discarded {1 Bloodfen Raptor and 1 Murloc Raider}
+ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	コインを獲得	
+ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	対戦相手を待機中	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	召喚しますか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	右側に召喚しますか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	左側に召喚しますか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	{0} と {1} の間に召喚しますか？	Summon between {Murloc Raider} and {Bloodfen Raptor}?
+ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	カードをプレイしますか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	カードをトレードしますか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	まだプレイ可能な手が残っています。よろしいですか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	まだ攻撃できます。よろしいですか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	まだロケーションをアクティベートできます。よろしいですか？	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	まだヒーローパワーを使用できます。よろしいですか？	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	召喚したミニオンはいません	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	相手のヒーローを攻撃できません	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	相手のヒーローを対象にできません	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	相手のヒーローを攻撃できるミニオンはいません	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	味方のミニオンではありません	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	ミニオンではありません	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	そのミニオンは相手のヒーローを攻撃できません	
+ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	大賞を選んでください	
+ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	あと {0} 秒	0=number of seconds e.g. {20} seconds remaining
+ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	対戦相手は {0}, {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
+
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HAND_EMPTY	手札がありません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_MINIONS_EMPTY	召喚したミニオンはいません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_MINIONS_EMPTY	相手が召喚したミニオンはいません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_SECRETS_EMPTY	秘策はありません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_EMPTY	相手の秘策はありません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_SECRETS_COUNT	相手には {0} つの秘策があります	0=number of secrets
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_HERO_POWER_EMPTY	ヒーローパワーがありません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_HERO_POWER_EMPTY	相手のヒーローパワーはありません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	装備している武器はありません	
+ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	相手が装備している武器はありません	
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} / {1} マナ	0=current mana 1=total mana
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} マナ	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	相手は {0} マナ	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} 死体	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	死体なし	
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	相手の手札。 {0} 枚	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	デッキ. {0} 枚	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	相手のデッキ. {0} 枚	0=number of cards
+ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	プレイ可能な手はありません	
+
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	勝利	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	敗北	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	引き分け	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_GENERIC	ゲームオーバー	
+
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO	自分のヒーロー	Read when you press v
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO	相手のヒーロー	Read when you press f
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO_POWER	ヒーローパワー	Read when you press r
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HERO_POWER	相手のヒーローパワー	Read when you press Shift+r
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_WEAPON	武器	Read when you press w
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_WEAPON	相手の武器	Read when you press Shift+w
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HAND	手札	Read when you press c
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_HAND	相手の手札	Read when you press Shift+c
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_MINIONS	ミニオン	Read when you press b
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_MINIONS	相手のミニオン	Read when you press g
+ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_SECRETS	秘策	Read when you press s
+ACCESSIBILITY_GAMEPLAY_ZONE_OPPONENT_SECRETS	相手の秘策	Read when you press Shift+s
+
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_HAND	自分の手札	e.g. Your opponent's Murloc Raider moved from your opponent's hand to {your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_HAND	相手の手札	e.g. Your Murloc Raider moved to {you opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_BATTLEFIELD	自分のバトルフィールド	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_BATTLEFIELD	相手のバトルフィールド	e.g. Your Murloc Raider moved from your graveyard to {your battlefield}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_SECRETS	自分の秘策	e.g. Your Ice Block moved from your deck to {your secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_SECRETS	相手の秘策	e.g. Your Ice Block moved from your deck to {your opponent's secrets}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_DECK	自分のデッキ	e.g. Your Fireball moved from {your deck} to your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_DECK	相手のデッキ	e.g. Your Fireball moved from your deck to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_PLAYER_GRAVEYARD	自分の墓地	e.g. Your Murloc Raider moved from {your graveyard} to your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_ZONE_OPPONENT_GRAVEYARD	相手の墓地	e.g. Your opponent's Murloc Raider moved from {your opponent's graveyard} to your battlefield
+
+ACCESSIBILITY_GAMEPLAY_MULLIGAN	マリガン	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_BE_REPLACED	交換されます	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	交換されません	
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	開始時のカードを矢印キーを使って確認します。 {0} で交換したいカードをマークします。 完了したら {1} を押します	0=spacebar key 1=Enter key
+ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	ゲームはまもなく始まります。しばらくお待ちください	
+
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	を破壊	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	を破壊	Singular and plural are often the same in English
+ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	は破壊	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	は 1 {0} に変化	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	は 1 {0} に変化	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	に {0} ダメージ	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TOOK_N_DAMAGE	に {0} ダメージ	0=damage taken
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} 耐久力	0=gained/lost durability amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} 攻撃力	0=gained/lost attack amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} 体力	0=gained/lost health amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} 装甲	0=gained/lost armor amount
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	は {0} 体力を回復	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	は {0} 体力を回復	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	は耐性を獲得	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	は耐性を獲得	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	に呪いを付与	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	に呪いを付与	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_HAUNTED	は呪い状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_HAUNTED	は呪い状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	は沈黙状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	は沈黙状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	は休眠状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_DORMANT	は休眠状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_DORMANT	の休眠状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_DORMANT	の休眠状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_FROZEN	は凍結状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_FROZEN	は凍結状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_FROZEN	の凍結状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_FROZEN	の凍結状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_IMMUNE	は無敵状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_IMMUNE	は無敵状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_IMMUNE	の無敵状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_IMMUNE	の無敵状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_MAGNETIC	は超電磁状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_MAGNETIC	は超電磁状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_MAGNETIC	の超電磁状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_MAGNETIC	の超電磁状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_POISONOUS	は猛毒状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_POISONOUS	は猛毒状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_NO_LONGER_POISONOUS	の猛毒状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_NO_LONGER_POISONOUS	の猛毒状態が解除	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_STEALTHED	は隠れ身状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_STEALTHED	は隠れ身状態	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_GAINED_STATS	は {0} を獲得	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_GAINED_STATS	は {0} を獲得	0=stats e.g. gained {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_LOST_STATS	は {0} を消失	0=stats e.g. lost {taunt, 3 attack and 2 health}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_LOST_STATS	は {0} を消失	0=stats e.g. lost {taunt, 3 attack and 2 health}
+
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_SPEECHES_FORMAT	{0} {1}	0=entities 1=effect e.g. {Your Hero and your Raid Leader} {took 3 damage}
+
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME	自分の {0}	0=entity name e.g. Your {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME	相手の {0}	0=entity name e.g. Your opponent's {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_ENTITY_FULL_NAME_IN_LIST	自分の {0} {1}	0=ordinal number 1=entity name e.g. Your {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_ENTITY_FULL_NAME_IN_LIST	相手の {0} {1}	0=ordinal number 1=entity name e.g. Your opponent's {second} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES	{0}枚の {1}	0=number of entities 1=entity name e.g. {2} {Raid Leader}
+
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE	全員	e.g. {everyone} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_EVERYONE_ELSE	そのほか	e.g. {everyone else} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_MINIONS	全てのミニオン	e.g. {All minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ALL_OTHER_MINIONS	ほかの全てのミニオン	e.g. {All other minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_BOTH_HEROES	お互いのヒーロー	e.g. {Both Heroes} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_ENEMIES	自分の敵	e.g. {Your enemies} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_ENEMIES	ほかの自分の敵	e.g. {Your other enemies} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_CHARACTERS	自分の味方キャラクター	e.g. {Your friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_CHARACTERS	ほかの自分の味方キャラクター	e.g. {Your other friendly characters} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_MINIONS	相手のミニオン	e.g. {Your opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_OPPONENT_MINIONS	ほかの相手のミニオン	e.g. {Your other opponent's minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_MINIONS	自分のミニオン	e.g. {Your minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OTHER_FRIENDLY_MINIONS	ほかの自分のミニオン	e.g. {Your other minions} took 2 damage
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_FRIENDLY_SAME_NAME_ENTITIES	自分の {0}体の {1}	0=count 1=minion name e.g. Your {2} {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_DIFF_GROUP_OPPONENT_SAME_NAME_ENTITIES	相手の{0}体の {1}	0=count 1=minion name e.g. Your opponent's {2} {Raid Leader}
+
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_EQUIPPED_WEAPON	自分のヒーローは 1 つの {0} を装備	0=weapon name e.g. your Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_EQUIPPED_WEAPON	相手のヒーローは 1 つの {0} を装備	0=weapon name e.g. your opponent's Hero equipped 1 {Fiery War Axe}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_CHANGED	自分のヒーローが {0} に変化	0=hero name e.g. your Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_CHANGED	相手のヒーローが {0} に変化	0=hero name e.g. your opponent's Hero became {Lord Jaraxxus}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_PLAYER_HERO_POWER_CHANGED	自分のヒーローパワーが {0} に変化	0=hero power name e.g. your Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_OPPONENT_HERO_POWER_CHANGED	相手のヒーローパワーが {0} に変化	0=hero power name e.g. your opponent's Hero Power became {Fireblast}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_PLAYER_HAND	が自分の手札に帰還	e.g. Your Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_PLAYER_HAND	が自分の手札に帰還	e.g. Your 2 Bloodfen Raptor {returned to your hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_RETURNED_TO_OPPONENT_HAND	が相手の手札に帰還	e.g. Your Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_RETURNED_TO_OPPONENT_HAND	が相手の手札に帰還	e.g. Your 2 Bloodfen Raptor {returned to your opponent's hand}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_FROM_ZONE_TO_ZONE	が {0} から {1} へ移動	0=from zone name 1=to zone name e.g. Your Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_FROM_ZONE_TO_ZONE	が {0} から {1} へ移動	0=from zone name 1=to zone name e.g. Your 2 Bloodfen raptor moved from {your hand} to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_TO_ZONE	が {0} に移動	0=zone name e.g. Your Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_TO_ZONE	が {0} に移動	0=zone name e.g. Your 2 Bloodfen Raptor moved to {your opponent's deck}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_ENTITY_MOVED_ZONES_GENERIC	のゾーンが移動	e.g. Your Bloodfen Raptor {moved zones}
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_MULTIPLE_ENTITIES_MOVED_ZONES_GENERIC	のゾーンが移動	e.g. Your 2 Bloodfen Raptor {moved zones}
+
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_HAND	1 枚の {0} が自分の手札に追加	0=card name e.g. 1 {Murloc Raider} was added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_HAND	{0} が自分の手札に追加	0=card names e.g. {2 Murloc Raider} were added to your hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_HAND	1 枚の {0} が相手の手札に追加	0=card name e.g. 1 {Murloc Raider} was added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_HAND	{0} が相手の手札に追加	0=card names e.g. {2 Murloc Raider} were added to your opponent's hand
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_DECK	1 枚の {0} がシャッフルされて自分のデッキに追加	0=card name e.g. 1 {Fireball} was shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_DECK	{0} がシャッフルされて自分のデッキに追加	0=card names e.g. {2 Fireball} were shuffled into your deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_DECK	1 枚の {0} がシャッフルされて相手のデッキに追加	0=card name e.g. 1 {Fireball} was shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_DECK	{0} がシャッフルされて相手のデッキに追加	0=card names e.g. {2 Fireball} were shuffled into your opponent's deck
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_PLAYER_BATTLEFIELD	1 枚の {0} が自分のバトルフィールドに召喚	0=card name e.g. 1 {Murloc Raider} was summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_PLAYER_BATTLEFIELD	{0} が自分のバトルフィールドに召喚	0=card names e.g. {2 Murloc Raider} were summoned into your battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_OPPONENT_BATTLEFIELD	1 枚の {0} が相手のバトルフィールドに召喚	0=card name e.g. 1 {Murloc Raider} was summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_OPPONENT_BATTLEFIELD	{0} が相手のバトルフィールドに召喚	0=card names e.g. {2 Murloc Raider} were summoned into your opponent's battlefield
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_PLAYER	{0} のコントロールを奪取	0=card names
+ACCESSIBILITY_GAMEPLAY_DIFF_MOVEMENT_CARDS_TAKEN_CONTROL_BY_OPPONENT	相手は {0} のコントロールを奪取	0=card names
+
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_SPELL_DAMAGE	{0} スペルダメージを獲得	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_LOST_SPELL_DAMAGE	{0} スペルダメージを消失	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_SPELL_DAMAGE	相手は {0} スペルダメージを獲得	0=spell damage
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_LOST_SPELL_DAMAGE	相手は {0} スペルダメージを消失	0=spell damage
+
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA	{0} マナを獲得	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA	相手は {0} マナを獲得	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	{0} マナと {1} 空のマナクリスタルを獲得	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_MANA_AND_EMPTY_MANA_CRYSTALS	相手は {0} マナと {1} 空のマナクリスタルを獲得	0=mana gained 1=empty mana crystals gained
+ACCESSIBILITY_GAMEPLAY_DIFF_PLAYER_GAINED_EMPTY_MANA_CRYSTALS	{0} 空のマナクリスタルを獲得	0=amount
+ACCESSIBILITY_GAMEPLAY_DIFF_OPPONENT_GAINED_EMPTY_MANA_CRYSTALS	相手は {0} 空のマナクリスタルを獲得	0=amount
+
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HERO_HELP	{0} を押して自分のヒーローを確認します	0=v key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_HERO_HELP	{0} を押して相手のヒーローを確認します	0=f key
+ACCESSIBILITY_GAMEPLAY_READ_CARDS_HELP	上下の矢印キーを使用してカードを読みます	
+ACCESSIBILITY_GAMEPLAY_CONFIRM_TO_ATTACK_TARGET	{0} を押してこの対象を攻撃します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_PRESS_ENTER_TO_SUMMON_THIS_MINION	{0} を押してこのミニオンを召喚します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN_VOICE	相手がプレイ中	
+ACCESSIBILITY_GAMEPLAY_CONFIRM_END_TURN_HELP	{0} または {1} を押して自分のターンを終了します。 キャンセルするには、別のキーを押します	0=enter key 1=e key
+ACCESSIBILITY_GAMEPLAY_SEE_VALID_OPTIONS	{0} を使用して、利用可能なオプション間を移動します	0=tab key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_HAND_HELP	{0} を押して自分の手札を確認します	0=c key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_HAND_HELP	{0} を押して相手の手札枚数を確認します	0=Shift+c keys
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_MINIONS_HELP	{0} を押して自分が召喚したミニオンを確認します	0=b key
+ACCESSIBILITY_GAMEPLAY_SEE_OPPONENT_MINIONS_HELP	{0} を押して相手のミニオンを確認します	0=g key
+ACCESSIBILITY_GAMEPLAY_SEE_PLAYER_SECRETS_HELP	{0} を押して自分の秘策を確認します	0=s key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_SECRETS_HELP	{0} を押して相手の秘策を確認します	0=Shift+s keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_WEAPON_HELP	{0} を押して自分の武器を確認します	0=w key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_WEAPON_HELP	{0} を押して相手の武器を確認します	0=Shift+w keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_HERO_POWER_HELP	{0} を押して自分のヒーローパワーを確認します	0=r key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HERO_POWER_HELP	{0} を押して相手のヒーローパワーを確認します	0=Shift+r keys
+ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	{0} を押して自分のデッキの残り枚数を確認します	0=d key
+ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	{0} を押して相手のデッキの残り枚数を確認します	0=Shift+d keys
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	{0} を押して自分のマナを確認します	0=a key
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	{0} を押して相手のマナを確認します	0=Shift+a key
+ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	上下の矢印キーを使用してこのカードを読みます	
+ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	{0} を押して、このカードのアビリティの説明を確認します	0=i key
+ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	{0} を押してこのカードをプレイします	0=Enter key
+ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	{0} を押してこのカードをトレードします	0=t key
+ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	{0} を押してこのミニオンを召喚します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	矢印キーを使用してオプション間を移動します。 {0} を押して1つを選択します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	{0} またはゾーンキーを使用して対象間を移動します。 {1} を押してターゲットを選択します。 {2} でキャンセルします	0=Tab key 1=Enter key 2=Backspace key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	{0} を押して、このミニオンで攻撃します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	{0} を押して、自分のヒーローで攻撃します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_USE_HERO_POWER_HELP	{0} を押してヒーローパワーを使用します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_READ_THROUGH_VALID_TARGETS	{0} を使用して有効な対象を確認します	0=Tab key
+ACCESSIBILITY_GAMEPLAY_ATTACK_THIS_MINION_HELP	{0} を押してこのミニオンを攻撃します	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CANCEL_ATTACK_HELP	{0} を押して攻撃をキャンセルします	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_CANCEL_HELP	{0} でキャンセルします	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_SUMMONING_CHOOSE_POSITION_HELP	左右の矢印キーを使用して、このミニオンの位置を選択します	
+ACCESSIBILITY_GAMEPLAY_OPEN_HISTORY_LOG_HELP	{0} でプレイのログを開きます	0=y key
+ACCESSIBILITY_GAMEPLAY_READ_HISTORY_HELP	上下の矢印キーを使用してプレイ履歴を閲覧します。 {0} を押してログを閉じます	0=Backspace key
+ACCESSIBILITY_GAMEPLAY_END_TURN_HELP	{0} を押してターンを終了します	0=e key
+
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_EMPTY	まだなにもプレイされていません	
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_ENTRY_FORMAT	{2} ; {0}の{1}	0=current entry 1=number of entries 2=entry e.g. {5} of {7} {your Hero took 5 damage}
+ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	履歴の閲覧を終了しました	
+
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	自分のバトルフィールドに {0} がある状態で開始します	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
+ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	相手のバトルフィールドに {0} がある状態で開始します	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
+
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} がパーティに加わりました。	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} が招待を拒否しました。	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} がパーティーを抜けました。	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	ティア {0}	0=card tier
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} ゴールド	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	チケット	In the tavern view
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	酒場 ティア {0} 、 {1} ゴールド	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	ティア {0} の {1} と対戦します。 相手の体力は {2} 、 ミニオンの数は {3}	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	ティア {0} の {1} と対戦します。 相手の体力は {2} 、 装甲は {4} 、 ミニオンの数は {3}体	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	{0} と対戦します	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	ゴールドは {0} / {1}	0=current gold 1=total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	ゴールドは {0}	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	残り {0} ゴールド	0=amount e.g. {3} gold remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	販売中のミニオン	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	販売中のミニオンはいません	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	{0} を買いますか？	0=minion name e.g. Buy Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	{0} を売りますか？	0=minion name e.g. Sell Tarecgosa?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	酒場を凍結しますか？	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	{0} で酒場を凍結しますか？	0=amount e.g. Freeze tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	酒場を凍結解除しますか？	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	{0} ゴールドで酒場をリフレッシュしますか？	0=amount e.g. Refresh tavern for 1 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	{0} ゴールドで酒場をアップグレードしますか？	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	最後の位置に移動しますか？	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	最初の位置に移動しますか？	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	{0} と {1} の間に移動しますか？	Move between {Murloc Raider} and {Bloodfen Raptor}?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_DEALT_DAMAGE	{1} に {0} ダメージを与えた	0=damage dealt 1=opponent Hero e.g. Dealt {10} damage to {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	{1} から {0} ダメージを受けた	0=damage taken 1=opponent Hero e.g. Took {10} damage from {Millhouse Manastorm}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	{0} と引き分けた	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1 枚の {0} がボブの酒場に加わりました	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} がボブの酒場に加わりました	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	1 枚の {0} を獲得	0=card name e.g. You got 1 {Murloc Raider}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	{0} を獲得	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	自分のバーテンダーの {0}	0=entity name e.g. Your bartender's {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME_IN_LIST	自分のバーテンダーの {0} {1}	0=ordinal number 1=entity name e.g. Your bartender's {second} {Raid Leader}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_MINIONS	自分のバーテンダーのミニオン	e.g. {Your bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_OTHER_BARTENDER_MINIONS	ほかの自分のバーテンダーのミニオン	e.g. {Your other bartender's minions} took 2 damage
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	自分のバーテンダーの {0} 枚の {1}	0=count 1=minion name e.g. Your bartender's {2} {Raid Leader}
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	自分の勝利、生き残ったミニオンは {0}体	e.g. You won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	相手の勝利、生き残ったミニオンは {0}体	e.g. Your opponent won with {2} surviving minions
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	{0} 人のプレイヤーが死亡	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	残りのプレイヤー数は {0} 人	e.g. {2} players remaining
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	バディメーター {0}%	0=buddy meter progress e.g. Buddy Meter {45}%
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	ヒーロー・バディ	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	{0} を押してゴールドを確認します	0=a key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	{0} を押して酒場の情報を確認します	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	{0} を押して自分のヒーロー・バディを確認します	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	{0} を押して、次の相手のステータスを確認します	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	{0} を押してリーダーボードを読みます	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	{0} を押して自分のステータスを確認します	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	{0} を押してこのゲームでのレースを確認します	0=o key
+
+ACCESSIBILITY_UI_POPUP	ポップアップ	
+ACCESSIBILITY_UI_REWARDS_TITLE	報酬	
+ACCESSIBILITY_UI_UNKNOWN_POPUP	このポップアップはまだアクセシブルになっていません。サポートを依頼してください	
+ACCESSIBILITY_UI_UNKNOWN_DIALOG	このダイアログはまだアクセシブルになっていません。サポートを依頼してください	
+
+ACCESSIBILITY_UI_ALERT_POPUP_TITLE	アラート・ポップアップ	
+
+ACCESSIBILITY_UI_REWARD_SCROLL_HELP	矢印キーを使用して報酬を確認します	
+
+ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	矢印キーを使用してクエストを確認します	
+
+ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	矢印キーを使用してクエストを確認します	
+
+ACCESSIBILITY_UI_REWARD_TITLE	報酬を獲得！	
+ACCESSIBILITY_UI_REWARD_HELP	矢印キーを使用して報酬を確認します	
+
+ACCESSIBILITY_UI_RANKED_INTRO_POPUP	新しいランクドシステムはこちらです！ 詳細はオンラインで	
+
+ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	最後のシーズンでのランクド・パフォーマンスで {0} スターボーナスを獲得！	0=star bonus amount
+
+ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	再接続ダイアログ	
+
+ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} が終了しました。 {1} のランクを達成しました	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	報酬チェストを獲得	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	{0} を押して開きます	0=Enter key
+ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	{0} が始まりました！	0=season name e.g. The {August 2021 season} has begun!
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REDUCED_WELCOME	新しいシーズンが始まりました！	
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CHEST	このシーズンで {0} 回勝利してチェストを獲得	0=number of games
+ACCESSIBILITY_UI_SEASON_END_DIALOG_REMINDER_CARDBACK	このシーズンで {0} 回勝利してシーズンカードバックを獲得	0=number of games
+
+ACCESSIBILITY_UI_CARD_LIST_POPUP_HELP	矢印キーを使用してカードを読みます	
+
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_TITLE	報酬チェストポップアップ	
+ACCESSIBILITY_UI_CHEST_REWARD_DISPLAY_HELP	{0} を押して報酬チェストを開きます	0=Enter key
+
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_TITLE	{0} つの報酬パッケージを獲得！	
+ACCESSIBILITY_UI_REWARD_BOXES_DISPLAY_HELP	矢印キーと {0} で報酬を開きます	0=Enter key
+
+ACCESSIBILITY_UI_QUEST_NO_NAME_XP_ONLY	{0} XPのクエスト	0=xp rewarded by quest. Note: these quests don't have a name
+ACCESSIBILITY_UI_QUEST_REWARD_DESCRIPTION	報酬は {0}	0=rewards e.g. Rewards {2 cards and 1 card pack from recent expansions}
+ACCESSIBILITY_UI_QUEST_REWARD_CHOOSE_ONE_DESCRIPTION	報酬は {0} の中から1つ選択	0=possible rewards e.g. Rewards 1 of {2 card packs from recent expansions, 2 cards and 2 hero skins}
+
+ACCESSIBILITY_UI_QUEST_LOG_NO_QUESTS	クエストがありません	
+ACCESSIBILITY_UI_QUEST_LOG_ABANDON_QUEST	{0} で中断	0=a key
+ACCESSIBILITY_UI_QUEST_LOG_REROLL_QUEST	{0} で別のクエストに変更	0=r key
+
+ACCESSIBILITY_UI_TRACK_REWARD_LEVEL_UP	レベル {0} に到達	0=track reward level e.g. You've reached level {3}
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN	{0} XPを獲得	0=XP gained e.g. You've gained {50} XP
+ACCESSIBILITY_UI_TRACK_REWARD_XP_GAIN_FROM_QUEST	クエスト完了、 {0} XPを獲得	0=xp rewarded by quest e.g. You've gained {1500} XP for completing a quest
+
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_RANK	現在 {0}	0=rank name e.g. You are currently Bronze 10
+ACCESSIBILITY_UI_RANK_CHANGE_UI_NEW_RANK	現在 {0} になりました	0=rank name e.g. You are now Diamond 1
+ACCESSIBILITY_UI_RANK_CHANGE_UI_CURRENT_STARS	{0} / {1} スター	0=current stars 1=star slots e.g. You have {1} out of {3} stars
+ACCESSIBILITY_UI_RANK_CHANGE_UI_EARNED_STARS	{0} スターを獲得	0=number of stars earned e.g. You've earned {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	{0} スターが剥奪	0=number of stars lost e.g. You've lost {1} star
+ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	スターボーナス! {0} 倍	0=star bonus e.g. Star bonus! Times {4}
+ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	連勝ボーナス！ {0} 倍	0=win streak bonus e.g. Win Streak bonus! Times {2}
+
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	レーティングが {0} 上昇しました	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	レーティングが {0} 減少しました	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	レーティングが {0} になりました	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	レーティングはまだ {0} です	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{1} 人中 {0} が準備完了	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
+
+ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	報酬パッケージ	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_PACK	1 つのカードパック	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD	1 枚のカード	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_CARD_BACK	1 つのカードバック	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MOUNT	1 つのマウント	
+ACCESSIBILITY_UI_REWARD_TYPE_ONE_MINI_SET	1 つのミニセット	
+ACCESSIBILITY_UI_REWARD_TYPE_UNKNOWN	1 つの不明な報酬	
+ACCESSIBILITY_UI_REWARD_N_TICKETS	{0} 枚のチケット	0=number of tickets
+ACCESSIBILITY_UI_REWARD_MINI_SET_WITH_N_CARDS	{0} 枚のカードの入ったミニセット	0=number of cards
+ACCESSIBILITY_UI_REWARD_N_ARCANE_ORBS	{0} つのアーケインオーブ	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARCANE_DUST	{0} のアーケインダスト	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_PACKS	{0} つのカードパック	0=amount
+ACCESSIBILITY_UI_REWARD_N_GOLD	{0} ゴールド	0=amount
+ACCESSIBILITY_UI_REWARD_CARD_FROM_CLASS	{0} 枚の {1} カード	0=number of copies 1=class e.g. {2} copies of 1 {mage} card
+ACCESSIBILITY_UI_REWARD_CORE_CARD_FROM_CLASS	{0} 枚の {1} コアカード	0=number of copies 1=class e.g. {2} copies of 1 core {mage} card
+ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	ゴールデン {0}	0=Hero name e.g. Golden Jaina Proudmoore
+ACCESSIBILITY_UI_REWARD_CLASS_HERO	{0} ヒーロー	0=class e.g. Mage Hero
+ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} / {1} のヒーローをアンロック済み	0=number of unlocked Heroes 1=total number of Heroes
+ACCESSIBILITY_UI_REWARD_CARD	{0} 枚	0=number of copies
+ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} つのヒーロースキン	0=amount
+ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} つのカードバック	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} 枚の闘技場チケット	0=amount
+ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} つのルーンストーン	0=amount
+ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} つのアドベンチャー	0=amount
+ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} 枚の酒場の喧嘩チケット	0=amount
+ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} 枚のカスタムコイン	0=amount
+ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XPブースト	0=amount
+ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} つのミニセット	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} つのバトルグラウンド・ヒーロースキン	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} つのバトルグラウンド・ガイド・スキン	0=amount
+
+ACCESSIBILITY_UI_SOCIAL_MENU_NAME	ソーシャルメニュー	
+ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	バトルタグをクリップボードにコピーしました	
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} からのメッセージ: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	{0} へのメッセージ: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
+ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	メッセージを入力してください	
+ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	メッセージを送信	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	バトルグラウンドのパーティーに招待	
+ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	現在 {0} には挑戦できません。	
+
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	現在のレベルを確認	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	次のレベルまで {0} / {1} Xp	
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	{0} つの報酬を交換	0=number of rewards e.g. Claim {5} rewards
+ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	このレベルでの報酬を全て交換しました	
+
+ACCESSIBILITY_UI_SHOP_READ_GOLD	ゴールドを確認	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	ルーンストーンを確認	
+ACCESSIBILITY_UI_SHOP_BUY_PACKS	パックを購入	
+ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	ミニセットを購入	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	ヒーロースキンを購入	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	バンドルを購入	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	その他の購入	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	説明を読む	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	{0} ゴールドで購入	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	{0} ルーンストーンで購入	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	無料でゲット	Some items in the shop are free
+ACCESSIBILITY_UI_SHOP_READ_CARDS	カードを読む	
+ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	矢印キーを使用してカードを読みます	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	残り {0} ゴールド	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	残り {0} ルーンストーン	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	ルーンストーンが足りません	
+
+ACCESSIBILITY_SCREEN_GO_BACK	戻る	
+
+ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	重大なエラー画面	
+
+ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	自分のヒーローがレベル {0} になりました	0=level
+
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	アドベンチャラー浅学画面	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	プレイするミッションを選んでください	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	ミッション {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	このミッションは、現在ロックされています。	
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	ロック中	
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	プレイ可能	
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	完了	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	{0} を押して開始するか、 {1} を押してメインメニューに戻ります	0=Enter key 1=Backspace key
+
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	アドベンチャー画面	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	アドベンチャーメニュー	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	プレイ	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	デッキを確認	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	リタイア	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	ボイスオーバーの終了を待っています	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	矢印キーを使用してカードを読みます	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	このアドベンチャーではデッキを確認できません	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	アドベンチャー完了	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	{1} 人中 {0} 人目の対戦相手	0=current opponent number 1=number of opponents
+
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	アドベンチャーを選択	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Book of Heroes	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Book of Mercenaries	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	灰に舞う降魔の狩人: プロローグ	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	デスナイト: プロローグ	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	対戦相手の難易度を選択	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	ノーマル	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	エキスパート	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_EXPERT_LOCKED	全ての「ノーマル」対戦相手をアンロックしなければなりません	
+
+ACCESSIBILITY_SCREEN_CHOOSE_OPPONENT_MENU_UNDEFEATED_OPPONENT_LABEL	まだ倒していません	
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BROWSE_COLLECTION	コレクションを閲覧	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK	デッキを編集	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_DELETE_DECK	デッキを削除	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_OWNED_CARDS_COUNT	{1} 枚中 {0} 枚のカードを所有	0=number of owned cards in deck recipe 1=number of cards in deck e.g. {20} of {30} cards owned
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	{0} を押して、このレシピから新しいデッキを作成します。または、 {1} を押して別のものを選びます	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	{0} でカスタムデッキを作成します。または、 {1} を押してレシピを選びます	0=Enter key 1=Backspace key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	カードを追加	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	デッキを見る	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	サイドボードを見る	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	デッキに戻る	Used when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	デッキは空です	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	デッキのカードは {0} / {1} 枚	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	不正	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	サイドボード	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	フォーマットを変更しました	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	矢印キーを使用してカードを閲覧します。 {0} でクラス間を移動します	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	数字キーを使用して、マナでカードを絞り込みます。 {0} でコレクションを検索します	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	矢印キーと {0} を使用して、全ての利用可能なコインを読みます。	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	矢印キーと {0} を使用して、 全ての利用可能なカードバックを読みます	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	矢印キーと {0} を使用して、全ての利用可能なヒーロースキンを読みます.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	{0} でカードをデッキに加えます	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	{0} でカードをデッキから抜きます	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	新しいデッキ名を入力してください	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	検索語句を入力してください	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} マナフィルター オン	{0} mana crystal filter e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	マナフィルター オフ	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	セットを変更	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	お気に入りのヒーロースキンを設定しました	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	お気に入りのカードバックを設定しました	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	お気に入りのコインを設定しました	Spoken after setting a new favorite Coin
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	カードを合成	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	アーケインダストを確認	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	{0} 枚の余分なカードを分解して、 {1} アーケインダストを獲得	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	カードを読む	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	関連するカードを読む	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	フレーバーを読む	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	{0} アーケインダストで合成	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	{0} アーケインダストで分解	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	アーケインダストが足りません	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	このカードはこれ以上合成できません	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	カードを合成しました	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	分解しました	
+
+ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	矢印キーと {0} を使用してカードを開きます	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	カードパックを持っていません	
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	{0} までローン中	
+
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	現在のランクを確認	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} / {1} スター	0=current stars 1=star slots e.g. {1} out of {3} stars
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} スターボーナス	0=current star bonus e.g. {2} star bonus
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	パーティーを見る	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	ステータスを確認	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	戦闘フェイズで攻撃内容を読み上げ	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	招待済み	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	準備完了	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	リーダー	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	準備が整っていません	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	プレイ中	
+
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	クエスト進捗トースト	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	現在の進捗は {0} / {1}	0=current progress 1=total
+
+ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	クエストを完了しました	
+
+ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	チュートリアルを読み込み中	
+ACCESSIBILITY_TUTORIAL_WELCOME_BACK	おかえりなさい	
+ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	ホガーを倒しました	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	ミルハウス・マナストームを倒しました	
+ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	ロアウオーカー・チョウを倒しました	
+ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	キングムクラを倒しました	
+ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	ヘメット・ネッシングワリーを倒しました	
+ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	イリダン・ストームレイジを倒しました	
+ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	次の対戦相手は、ホガーです	
+ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	次の対戦相手は、ミルハウス・マナストームです	
+ACCESSIBILITY_TUTORIAL_NEXT_CHO	次の対戦相手は、ロアウオーカー・チョウです	
+ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	次の対戦相手は、キングムクラです	
+ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	次の対戦相手は、ヘメット・ネッシングワリーです	
+ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	最後の対戦相手は、イリダン・ストームレイジです	
+
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	6つのチュートリアルレベルをプレイする方法を説明します	
+ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	操作がわからなくなったら、 {0} を押してください。 チュートリアルが終わった後や、メニューを移動している間も、ヘルプが必要な時にはいつでも {0} を使えます	0=F1 key
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	それでは、早速試してみましょう	
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	メイジのスターターカードパックから始めましょう。 {0} で開けてみてください	0=Enter key
+ACCESSIBILITY_TUTORIAL_NICE_WORK	よくできました	
+ACCESSIBILITY_TUTORIAL_NICE_JOB	その調子	
+ACCESSIBILITY_TUTORIAL_NICE_ONE	いいね	
+ACCESSIBILITY_TUTORIAL_GOOD_JOB	やったね	
+ACCESSIBILITY_TUTORIAL_YOU_GOT_IT	よくやった！	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_IT	やり方は覚えましたか？	
+ACCESSIBILITY_TUTORIAL_REMEMBER_HOW_TO_DO_THAT	やり方は大丈夫ですね？	
+ACCESSIBILITY_TUTORIAL_TRY_IT_OUT	試してみましょう！	
+ACCESSIBILITY_TUTORIAL_ALL_RIGHT	よし！	
+ACCESSIBILITY_TUTORIAL_LETS_LEARN_HOW	どうやるか学びましょう	
+ACCESSIBILITY_TUTORIAL_CAN_YOU_DO_IT	できますか？	
+ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	できそうですか？	
+ACCESSIBILITY_TUTORIAL_GOT_IT	やったね	
+ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	まだです！ ヒーローパワーを使いましょう。 {0} を押して選択します	0=r key
+
+ACCESSIBILITY_TUTORIAL_HOGGER_START	最初の対戦相手は、ホガーという名を持つノールです。 自分は、力をもいつメイジ、ジーナ・プラウドムーアとしてプレイします	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	最初に、上下の矢印キーでこのカードを読んでください	
+ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	最初に引いたミニオンを召喚してみてください	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	まず、 {0} と矢印キーで相手のミニオンを確認してください	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_0	ターンが始まるとき、必ず最初にカードを1枚引きます。今引いたカードを見てみましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_1	{0} を押して、自分の手札を確認しましょう	0=c key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	OK。このカードは、『マーロックの襲撃兵』というミニオンです	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	ミニオンは、バトルフィールドに召喚でき、自分のヒーローのために戦ってくれる生物です	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	このミニオンは、召喚するために1マナを必要とします。 攻撃力は 2 で、体力は 1 です	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_3	手始めに、このミニオンを召喚してみましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_4	{0} で召喚します	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_5	{0} で決定するか、 {1} でキャンセルします	0=Enter key 1=Backspace key
+ACCESSIBILITY_TUTORIAL_HOGGER_2_6	ミニオンは、攻撃できるまでに1ターン待たなければいけませんので、このターンでできることはありません	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_0	相手のミニオンが自分のヒーローを攻撃して、ダメージを受けました	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_1	どれぐらいの体力が残っているか確認してみましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2	上下の矢印キーで、自分のヒーローカードを読みます	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_2_HELP	{0} と矢印キーで、自分のヒーローの残り体力を確認してみましょう	0=v key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_3	自分のヒーローの体力がなくなると負けになります。 まだ28も残っているので、大丈夫ですけどね	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_4	相手のヒーローも見てみましょう。 {0} を押してください	0=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5	どれぐらいの体力が残っているかわかりますか？	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_5_HELP	上下の矢印キーで、相手のヒーローカードを読みます	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_6	相手のヒーローの体力を削りきることができれば、勝ちになります	
+ACCESSIBILITY_TUTORIAL_HOGGER_3_7	続けていきましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1	もう 1 体のミニオンを引きましたね。召喚できますか？	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	{0} と {1} でミニオンを召喚します	0=c key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	すでにミニオンがバトルフィールドにいるとき、左右の矢印キーでミニオンの召喚場所を選べます	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_4	自分のバトルフィールドのミニオンが 2 体になりました。今召喚したミニオンは、攻撃できるまでに1ターン待たなければいけません	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_5	バトルフィールドを見る方法を学んでいきましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6	左右の矢印キーで自分のミニオンを確認します	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_6_HELP	{0} と矢印キーで、自分の召喚したミニオンを確認します	0=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_8	相手のミニオンも確認してみましょう。 {0} を押してください	0=g key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9	このミニオンはどうですか？	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_9_HELP	上下の矢印キーで、相手のミニオンの情報を読みます	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_10	このミニオンを攻撃してみましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11	最後に召喚した『マーロックの襲撃兵』を選びましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_11_HELP	{0} で自分のミニオンに移動して、 {1} で攻撃を指示します	0=b key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_12	{0} を押すと、このミニオンで攻撃します	0=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13	相手のミニオンを攻撃できますか？	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_13_HELP	{0} と {1} で相手のミニオンを攻撃します	0=g key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_4_16	両方のミニオンは、攻撃力が 2 、体力が 1 だったので、お互いに破壊されました	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_17	自分のもう 1 体のミニオンは、まだ召喚酔いを起こしているので、このターンでできることはもうありません。どうやってターンを終了するか覚えていますか？	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_1	もう 1 体のミニオンを引きましたね	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_2	今とれる選択肢は2つあります	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_3	今引いたミニオンを召喚するか、フィールドにいるミニオンで攻撃するかです	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_4	一つのやり方は、 {0} で手札を選ぶか、 {1} で自分の召喚したミニオンを選ぶことです	0=c key 1=b key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_5	でも、もっと簡単な方法があります。	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_6	{0} を押してみてください	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_7	最初の選択肢、先ほど引いたミニオンに移動しました。このミニオンを召喚できます	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_8	もう一度 {0} を押してみましょう	0=Tab key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_9	次の選択肢、前のターンで召喚したミニオンが選ばれました。このミニオンで攻撃できます	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_10	{0} を使って、今打てる手をいつでも選ぶことができます。このコマンドを覚えておきましょう！	0=key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12	それでは、今引いたミニオンを召喚しましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_12_HELP	{0} または {1} を押して、 そのあと {2} でミニオンを召喚しましょう	0=Tab key 1=c key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13	自分のほかのミニオンでも攻撃してみましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_13_HELP	{0} または {1} で自分のミニオンを見つけて、 {2} で攻撃を指示します	0=Tab key 1=b key 2=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_14	またいくつかの選択肢が出てきました。 相手のミニオンのどれかを攻撃するか、相手のヒーロー自身を攻撃するかです	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_15	{0} を使って選択可能な対象を移動するか、 {1} や {2} を使って直接大賞を選びます	0=Tab key 1=g key 2=f key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16	攻撃する対象を選びましょう	
+ACCESSIBILITY_TUTORIAL_HOGGER_6_16_HELP	{0} と {1} で攻撃を指示します	0=Tab key 1=Enter key
+ACCESSIBILITY_TUTORIAL_HOGGER_6_21	ターンを終了して大丈夫です！	
+ACCESSIBILITY_TUTORIAL_HOGGER_8_1	この先は、自分でプレイしてみましょう。なにか困ったことがあったら教えてください！	
+
+ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	{0} で、どれぐらいのマナが残っているかをいつでも確認できます	0=a key
+
+ACCESSIBILITY_TUTORIAL_CHO_1	この『ヴードゥーの呪術医』が、相手のヒーローを回復させました	
+ACCESSIBILITY_TUTORIAL06_HELP_02	ミニオン同士が戦うとき、お互いが体力を消耗します	
+
+ACCESSIBILITY_TUTORIAL_MUKLA_START	このゲームから、今までには出てこなかったアビリティを持つカードが登場します	
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	カードを読んだとき、『突撃』や『挑発』のような初めてのアビリティを見つけたら、 {0} を押して詳細を確認できます	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_C	準備ができたら、 {0} を押してください	0=Enter key
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	今相手が召喚したゴリラには、『挑発』というアビリティがあります。	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	『挑発』のアビリティを持つミニオンは、ほかの対象を攻撃する前に破壊しなければいけません	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	自分のヒーローを守る盾になるので、『挑発』はとても重要なアビリティです。	
+
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	これからは、自分と相手のヒーローは、通常通りヒーローパワーを使えます	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_B	それぞれのヒーローには固有のヒーローパワーがあって、 1 ターンに 1 度だけ使うことができます	
+ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP_C	いつでも {0} で自分のヒーローパワー、 {1} で相手のヒーローパワーを選べます	0=hero power key 1=opponent hero power key
+
+ACCESSIBILITY_TUTORIAL05_HELP_03	この戦いは全くもってフェアではありません。文句はダメダメゲームデザイナーにお願いします	
+ACCESSIBILITY_TUTORIAL05_HELP_04	自分の『挑発』アビリティのミニオンは、攻撃から守ってくれます！	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP	相手は武器を装備したようです	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_B	武器は、ヒーローに装備できる特別なカードです	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_C	武器には、攻撃力と耐久力があります	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_D	武器を装備すると、そのターン、ヒーロー自身がほかのキャラクターを攻撃できるようになります	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_E	相手は、『アズィノスのウォーグレイヴ』を装備しました。 攻撃力は 2 で、耐久力は 2 です	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_F	つまり、相手のターンでは、彼自身が 2 の攻撃力を持っていて、キャラクターに攻撃することが可能です	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_G	メイジはあまり武器を使うことがありませんが、ほかのクラスを解放すれば、いくつか試せるようになるでしょう	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_EQUIPPED_HELP_H	いつでも {0} で自分の武器、 {1} で相手の武器を見られます	0=weapon key 1=opponent weapon key
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP	今の音がわかりましたか？ 武器の耐久力は、ヒーローが攻撃するたびに減っていきます	
+ACCESSIBILITY_TUTORIAL_ILLIDAN_WEAPON_DURABILITY_HELP_B	武器の耐久力が 0 になったら、その武器は破壊されて、ヒーローが攻撃することはできなくなります	
+
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME	全ての通常ゲームは、マリガンフェイズから始まります	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	このフェイズで、お互いのプレイヤーは、最初の手札をデッキ内のランダムな別のカードに入れ替えることができます	
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	矢印キー または {0} を使用して最初の手札を確認します	0=Tab key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	気に入らないカードがあれば、 {0} を押してそのカードに交換マークを付けます	0=Spacebar key
+ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	交換したいカードにマークを付け終わったら、 {0} を押して新しいカードを引き直し、ゲームを開始します	0=Enter key
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	サイドボードを編集するには、デッキ編集モードに切り替え、このカードにフォーカスしてから、スペースキーを押します。	
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	{0} と {1} を使用してミニオンを買います。	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	{0} と {1} を使用して、 3 ゴールドでミニオンを買います。 相手を倒すために、ミニオン軍団を組織しましょう！	0=g key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	{0} と {1} を使用してミニオンを売ります	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	{0} と {1} を使用して、バーテンダーにミニオンを売ります。 ミニオンを売るとスペースが解放され、 1 ゴールドを得ます！	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	{0} と {1} を使用してミニオンを並べ替えます	0=b key 1=Space key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	{0} と {1} を使用して、酒場をアップグレードします	0=u key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	{0} と {1} を使用して酒場をリフレッシュして、新しいrecruitを確認します	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	{0} と {1} を使用してミニオンを凍結させて、次のターンで再び見えるようにします	0=f key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	{0} を使用して、プレイに残された時間を確認します！	e key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	{0} と {1} を使用してミニオンを召喚します。	0=c key 1=Enter key
+
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	エンター	Optional. Overrides the Return key to be read as Enter by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	{0} を押して、現在のデッキとカード追加のビューを切り替えます。	
+ACCESSIBILITY_ARENA_WINS_LOSSES	勝利: {0}, 敗北: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	闘技場	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	チケットは {0} 枚。	0 is number of tickets.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	カテゴリを選んでください:	
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	最近完了:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {2} 中 {1} 合計実績ポイント ({3}), {5} 個中 {4} 個の実績を達成	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	交換可能:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	ティア: {0} / {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	進捗: {1} 中 {0}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	実績を交換	
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	{0} 実績ポイントを獲得	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	実績を交換できませんでした。	
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	左右の矢印キーを使用して実績を閲覧し、上下の矢印キーを使用して選択中の実績の詳細を読みます。 {0} を押して、交換可能な実績の交換を試みます。 {1} を押して前のメニューに戻ります。 {2} を押して、全ての実績の一覧と未完了の実績の一覧を切り替えます。	
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{1} 個中 {0} 個の未完了の実績を表示中	
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	C を押してコレクションを閲覧できます	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	レベル {0}: {1} 経験値が必要	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, 報酬: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	ステータスを確認	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	デュエルのタイプを選択	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	敗北	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	矢印キーを使用してヒーローパワーを閲覧し、 {0} を押して選択します。	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	矢印キーを使用してスタータートレジャーを確認し、 {0} を押して選択します。	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	矢印キーを利用してトレジャーを確認し、 {0} を押して1つを選択します。 {1} で自分のデッキを確認します。	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	{0} と {1} を使用して戦利品クレート間を移動して, 矢印キーを使用してクレートの中身を読みます。 {2} を押してでクレートを選択します。 {3} で自分のデッキを確認します。	{0} Tab {1} Shift+Tab {2} Enter {3} D key
