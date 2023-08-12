@@ -837,5 +837,6 @@ ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Spróbuj ponownie
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Twoja seria pojedynków dobiegła końca. Naciśnij {0}, aby zobaczyć swoje nagrody.	{0}=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Przeczytaj powiązane karty	
 ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Automatycznie zapisuj dzienniki historii bitew w folderze
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Wybory ukryte	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
