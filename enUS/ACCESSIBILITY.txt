@@ -96,6 +96,7 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - signature edition	0=card
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Opponent's turn	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turn ended	
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Choices hidden	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} triggered	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Your {0} triggered	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Your opponent's {0} triggered	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -363,7 +364,8 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Press {0} to get a description of 
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Press {0} to play this card	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Press {0} to trade this card	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Press {0} to summon this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one. Press {1} to inspect the board	0=Enter key 1=tab key
+ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Use the zone keys to inspect the state of the game board. Press {0} to return to the choices	0=tab key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} or the Zone keys to go through your targets. Press {1} to choose a target or {2} to cancel	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Press {0} to attack with this minion	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Press {0} to attack with your hero	0=Enter key
