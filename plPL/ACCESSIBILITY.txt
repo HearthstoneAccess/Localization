@@ -839,5 +839,6 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Przeczytaj p
 ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Automatycznie zapisuj dzienniki historii bitew w folderze
 ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Wybór ukryty	
 ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Użyj klawiszy stref, aby sprawdzić stan planszy. Naciśnij {0}, aby powrócić do wyboru	0=tab key
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Wykuć karte?	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
