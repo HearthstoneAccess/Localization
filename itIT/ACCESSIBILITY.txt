@@ -20,6 +20,7 @@ ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Qualità Grafica
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Risoluzione Grafica	
 ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Abilita la registrazione di debug per questa esecuzione	
 ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Parla in background	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Salva automaticamente i registri della cronologia delle battaglie nella cartella dei registri delle battaglie	
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Usa le frecce sinistra e destra per regolare il volume	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} casella di controllo	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Attivata	
@@ -95,6 +96,7 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - edizione pregiata	0=card
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno dell'avversario	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turno terminato	
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Scelte nascoste	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} si attiva	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	L'effetto del tuo {0} si è attivato	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	L'effetto del {0} dell'avversario si è attivato	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -148,6 +150,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Vuoi evocare a sinistra?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Vuoi evocare tra {0} e {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Vuoi giocare questa carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Vuoi scambiare questa carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Vuoi forgiare questa carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Hai ancora giocate valide. Sei sicuro?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Puoi ancora attaccare. Sei sicuro?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Puoi ancora attivare il tuo luogo. Sei sicuro?	
@@ -361,7 +364,8 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Premi {0} per avere una descrizion
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Premi {0} per giocare questa carta	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Premi {0} per scambiare questa carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Premi {0} per evocare questo servitore	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa le frecce su e giù per scorrere le opzioni disponibili. Premi {0} per selezionarne una	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Usa i tasti freccia per navigare tra le tue opzioni. Premi {0} per sceglierne una. Premi {1} per ispezionare il tabellone di gioco		0=Enter key 1=tab key
+ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Usa i tasti zona per ispezionare lo stato del tabellone di gioco. Premi {0} per tornare alle scelte	0=tab key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Usa {0} o i tasti zona per spostarti tra i bersagli disponibili. Premi {1} per scegliere un bersaglio o {2} per annullare	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Premi {0} per attaccare con questo servitore	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Premi {0} per attaccare con il tuo eroe	0=Enter key
@@ -405,6 +409,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Scongelare la locanda
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Ricaricare la locanda per {0} |4(moneta,monete)?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Migliorare il livello per {0} |4(moneta,monete)?	0=amount e.g. Upgrade tavern for 3 gold?
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalia: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
+
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Spostare all'ultima posizione?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Spostare in prima posizione?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	Spostare tra {0} e {1}?	Move between {Murloc Raider} and {Bloodfen Raptor}?
@@ -436,7 +442,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Premi {0} per leggere 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Premi {0} per conoscere le statistiche del prossimo avversario	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Premi {0} per leggere la classifica	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Premi {0} per conoscere le tue statistiche	0=m key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Premi {0} per leggere le tipologie di servitori in questa partita	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Premi {0} per leggere le TIPOLOGIE DI SERVITORI e le ANOMALIE IN QUESTA PARTITA	0=o key
 
 ACCESSIBILITY_UI_POPUP	Popup	
 ACCESSIBILITY_UI_REWARDS_TITLE	Ricompense	
@@ -624,6 +630,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Usa i tasti Freccia
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Usa i tasti Freccia e {0} per leggere tutte le skin eroe disponibili.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Usa {0} per aggiungere carte al tuo mazzo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Usa {0} per rimuovere le carte dal tuo mazzo	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Usa {0} per creare o disincantare le carte nel tuo mazzo	0=Shift+Enter
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digita un nuovo nome per il tuo mazzo	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Digita un termine di ricerca	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} filtro mana attivo	{0} mana crystal filter e.g. {7+} mana filter on
