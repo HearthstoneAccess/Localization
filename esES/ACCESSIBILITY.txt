@@ -18,17 +18,25 @@ ACCESSIBILITY_LIST_NO_ITEMS	No hay elementos
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Menú de opciones	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Calidad de los gráficos	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Resolución	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Activar registros de depuración para esta sesión	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Narración en segundo plano	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Autoguardar registros de partidas en el directorio Battle Logs
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Utiliza las flechas izquierda y derecha para ajustar el volumen	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} casilla de verificación	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Verificada	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	No verificada	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	Velocidad de autoataque: {0}	Menú de opciones
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Lento	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Medio	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	Rápido	
+
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú del juego. ¡Inténtalo ahora!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Pulsa {0} en cualquier momento para abrir el panel social. ¡Inténtalo ahora!	0=F4 key
-ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key 
+ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 kei
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando juego	
-ACCESSIBILITY_GLOBAL_CLOSING_GAME	Cerrando el juego	
+ACCESSIBILITY_GLOBAL_CLOSING_GAME	Cerrando juego	
 ACCESSIBILITY_GLOBAL_GAME_LOADED	Juego cargado	
 ACCESSIBILITY_GLOBAL_LOADING	Cargando	
 ACCESSIBILITY_GLOBAL_PLEASE_WAIT	Espera por favor	
@@ -41,10 +49,11 @@ ACCESSIBILITY_GLOBAL_GAME_SPEED	Velocidad del juego {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	No es possible ajustar la velocidad del juego mientras juegas contra oponentes humanos	
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Hay una nueva versión disponible de Hearthstone Access. Ejecuta el parche de nuevo siempre que sea posible, ya que puede contener correcciones de errores y otras novedades.	
 ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	No puedes hacer eso	
-ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Cambiar formato de juego	Used as a menu option for switching between standard, wild and classic
-ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Elige un formato de juego	Used as a menu title for choosing standard, wild or classic
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Cambia el formato	Used as a menu option for switching between standard, wild and classic
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Elige un formato	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Maldito	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	Mortificado	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accesibilidad activada	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accesibilidad desactivada	Read when F8 is pressed and accessibility is turned off
@@ -83,9 +92,11 @@ ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} de armadura	0=armor
 ACCESSIBILITY_READ_CARD_N_COPIES	{0} copias	0=number of copies
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - edición dorada	0=card name e.g. {fireball} - golden edition
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - edición diamante	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} -edicióm distintiva	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Turno del oponente	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turno terminado	
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Elecciones ocultas	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	El efecto de {0} se ha activado	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	El efecto de tu {0} se ha activado	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	El efecto de {0} del oponente se ha activado	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -139,13 +150,16 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	¿Invocar a la izquierda?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	¿Invocar entre {0} y {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	¿Jugar carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Comerciar carta?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	¿Forjar carta?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Aún tienes jugadas válidas. ¿Estás seguro?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Aún puedes atacar. ¿Estás seguro?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Aun puedes usar tu ubicación. ¿Estás seguro?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Aún puedes usar tu poder de héroe. ¿Estás seguro?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	No tienes esbirros invocados	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	El héroe de tu oponente no puede ser atacado	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	El héroe de tu oponente no puede ser el objetivo	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Ninguno de tus esbirros puede atacar al héroe de tu oponente	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	Ese no es un esbirro amistoso	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Elige un objetivo	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} segundos restantes	0=number of seconds - always plural e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Estás jugando contra {0} ({1})	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
@@ -222,6 +236,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	se volvió invulnerable
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	se volvieron invulnerables	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	Se maldijo	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	Se maldijeron	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_HAUNTED	se mortificó	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_HAUNTED	se mortificaron	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	se silenció	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	se silenciaron	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	entró en letargo	
@@ -367,6 +383,9 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Se detuvo la lectura del historial
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Tu campo comienza con {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	El campo de tu oponente comienza con {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} se unió al grupo.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} rechazó la invitación.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} abandonó el grupo.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Nivel de taberna {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} de oro	0=card cost
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Nivel de taberna {0} y {1} de oro	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
@@ -380,11 +399,13 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Esbirros a la venta	R
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	No hay esbirros a la venta	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	¿Comprar {0}?	0=minion name e.g. Buy Tarecgosa?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	¿Vender {0}?	0=minion name e.g. Sell Tarecgosa?
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	¿Congelar taberna?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN	¿Congelar taberna?	Freeze tavern?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	¿Congelar taberna por {0} de oro?	0=amount e.g. Freeze tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	¿Descongelar taberna?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	¿Refrescar taberna por {0} de oro?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	¿Actualizar taberna por {0} de oro?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalía: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	¿Colocar en la última posición?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	¿Colocar en la primera posición?	
@@ -417,7 +438,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Pulsa {0} para ver el 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Pulsa {0} para ver las estadísticas de tu próximo oponente	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pulsa {0} para ver la clasificación general	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Pulsa {0} para ver tus estadísticas	0=m key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pulsa {0} para ver los tipos de esbirros disponibles en esta partida	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pulsa {0} para ver los tipos de esbirros y la anomalía de esta partida 	0=o key
 
 ACCESSIBILITY_UI_POPUP	Ventana emergente	
 ACCESSIBILITY_UI_REWARDS_TITLE	Recompensas	
@@ -436,7 +457,6 @@ ACCESSIBILITY_UI_REWARD_TITLE	¡Tienes una recompensa!
 ACCESSIBILITY_UI_REWARD_HELP	Utiliza las flechas para leer la recompensa	
 
 ACCESSIBILITY_UI_RANKED_INTRO_POPUP	¡El nuevo sistema de ranking ya está aquí! Puedes encontrar más información sobre esto en línea.	
-
 ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	¡Tu actuación en las partidas de Ranking de la temporada pasada te otorgó una bonificación de {0} estrellas!	0=star bonus amount
 
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Diálogo de reconexión	
@@ -504,7 +524,7 @@ ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} héroes desbloqueados	0
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) carta	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Skin de héroe,Skins de héroe)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Billete para la arena,Billetes para la arena)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Entrada para la arena,Entradas para la arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras Rúnicas)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventura,Aventuras)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Passe para duelo de taberna,Passes para duelo de taberna)	0=amount
@@ -552,6 +572,12 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Pantalla de error grabe
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Tu héroe alcanzó el nivel {0}	0=level
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Pantalla de elección de héroe	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	Escoge una misión para jugar	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	Misión {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	Actualmente esta misión está bloqueada.
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	Bloqueada
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	Disponible
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	Completada
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Pulsa {0} para iniciar o {1} para volver al menú principal	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Pantalla de aventuras	
@@ -585,8 +611,13 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pulsa {0} para crear 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Pulsa {0} para crear un mazo personalizado o {1} para elegir uno prediseñado	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Agregar cartas	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver mazo	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	Ver la banda	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Volver al mazo	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	El mazo está vacío	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	El mazo contiene {0} de {1} cartas	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Inválida	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Banda	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Formato cambiado	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utiliza las flechas para leer tus cartas y {0} para saltar entre clases.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utiliza las teclas de número para filtrar tus cartas por coste de maná. Pulsa {0} para buscar por tu colección	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utiliza las  flechas y {0} para ver las monedas disponibles	0=Enter key
@@ -607,7 +638,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Crear cartas
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Ver polvo arcano actual	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Desencantar {0} extra |4(carta,cartas) para obtener {1} de polvo arcano	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Leer carta	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Leer carta relacionada	
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Leer cartas relacionadas	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Ver descripción	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Crear por {0} de polvo arcano	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Desencantar para obtener {0} de polvo arcano	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -619,12 +651,20 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Carta desencant
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes ningún sobre de cartas	
 
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	En préstamo hasta {0}	
+
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
-
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Ver grupo	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Estadísticas	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Narrar ataques de esbirros durante la fase de combate	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	Invitado	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	Listo	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	líder	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	No está listo	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	Jugando	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso de la misión	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	El progreso actual es {0} de {1}	0=current progress 1=total
@@ -768,9 +808,42 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Pulsa {0} y {1} 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender un esbirro a tu posadero. ¡Te añade un espacio livre y te da una moneda de oro por él!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para reubicar a tus esbirros	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para actualizar tu taberna	0=u key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para congelar a los esbirros de la taberna y poder comprarlos en el próximo turno	0=f key 1=Enter key
+
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pulsa {0} i {1} para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para congelar los esbirros de la taberna y poder comprarlos en el próximo turno.	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Pulsa {0} Para ver cuanto tiempo te queda para hacer tus jugadas!	e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Pulsa {0} y {1} para invocar esbirros	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
+ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Pulsa {0} para cambiar entre ver tu actual mazo y elegir una nueva carta para añadir 
+ACCESSIBILITY_ARENA_WINS_LOSSES	Victorias: {0}, Derrotas: {1}	0 son victorias, 1 son derrotas
+ACCESSIBILITY_MODES_ARENA	Arena	Para usar en el menú modos
+ACCESSIBILITY_ARENA_TICKETS_COUNT	Tienes {0} entradas.	0 is number of tickets.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Selecciona la Categoría:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completados recientemente:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} de {2} puntos de logro totales ({3}), {4} de {5} logros completados	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Se puede reclamar:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Nivel: {0} de {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	Progreso: {0} de {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Reclama el logro
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Gana {0} puntos de logro 	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	No se pudo reclamar el logro.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Utiliza las flechas izquierda y derecha para navegar por la lista de logros y las flechas arriba y abajo para leer la información del actual logro seleccionado. Pulsa {0} para intentar reclamar un logro. Pulsa {1} para volver al menú anterior. Pulsa {2} para cambiar entre la vista de todos los logros y  los incompletos.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} de {1} Logros Incompletos
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Pulsa C para acceder a tu colección	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Nivel {0}: {1} puntos de experiencia necesarios	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Recompensas: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_DUELS_READ_STATS	estadísticas	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	Elige el tipo de duelo	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	Derrotas	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Utiliza las flechas para leer los poderes de héroe, {0} para seleccionarlo.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Utiliza las flechas para ver los tesoros distintivos, {0} para seleccionarlo.	{0} tecla enter
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Utiliza las flechas para leer los tesoros, {0} para elegir un tesoro i {1} para ver tu mazo.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Utiliza {0} y {1} para moverte entre los botines, las flechas para leer las cartas de un botín, {2} para seleccionar un botín y {3} para ver tu mazo.	{0} Tabulador {1} Shift+Tabulador {2} Enter {3} tecla D
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Tu duelo ha acabado. Pulsa {0} para ver tus recompensas.	{0}=Enter
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Prueba de nuevo	
