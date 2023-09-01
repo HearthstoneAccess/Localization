@@ -8,7 +8,7 @@ ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	按{0}返回	0=key e.g. Press 退格 to go ba
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	按{0}退出	0=key e.g. Press enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	按{0}一次	0=key e.g. Press enter once you're done
 
-ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	使用上下光标浏览菜单。 按 {0} 选择一个选项	0=enter key
+ACCESSIBILITY_MENU_HELP_NO_BACK_BUTTON	使用上下光标浏览菜单，按{0}选择一个选项	0=enter key
 ACCESSIBILITY_MENU_HELP_WITH_BACK_BUTTON	使用上下光标浏览菜单，按{0}选择一个选项，按{1}返回	0=enter key 1=退格 key
 ACCESSIBILITY_MENU_HORIZONTAL_HELP_NO_BACK_BUTTON	使用左右光标浏览菜单。使用上下光标阅读选项。 按 {0} 选择一个选项	0=enter key
 ACCESSIBILITY_MENU_HORIZONTAL_HELP_WITH_BACK_BUTTON	使用左右光标浏览菜单。 使用 上下光标浏览菜单选项。 按 {0} 选择一个选项。 按 {1} 返回	0=enter key 1=退格 key
@@ -20,6 +20,7 @@ ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	画面质量
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	画面分辨率	
 ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	为本次运行启用调试日志	
 ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	语音后台输出	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	自动保存对战日志到 Battle Logs 目录
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	使用左右光标调整音量	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} 复选框	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	已选中	
@@ -95,17 +96,18 @@ ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - 异画版	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	对手的回合	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	回合结束	
-ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} 被触发	0=full card name in zone e.g. {Your second Murloc Raider} triggered
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	隐藏选择
+ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0}被触发	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	你的{0}被触发	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	你对手的{0}被触发	0=card name e.g. Your opponent's {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED_BIG_CARD	你对手的{0}被触发; {1}	0=card name 1=cardText e.g. Your opponent's {Psyfiend} triggered; {After you cast a Shadow spell, deal 2 damage to each Hero.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	你发动了 {0}	0=card name e.g. You played {Fireball}
-ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	你发动了 {0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD	你发动了{0}	0=card name e.g. You played {Fireball}
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_CARD_BIG_CARD	你发动了{0}; {1}	0=card name 1=card text e.g. You played {Fireball}; {Deal 6 damage.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD	你的对手发动了{0}	0=card name e.g. Your opponent played {Fireball}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_CARD_BIG_CARD	你的对手发动了 {0}; {1}	0=card name 1=card text e.g. Your opponent played {Fireball}; {Deal 6 damage.}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	你召唤了 {0}	0=minion name e.g. You summoned {Raid Leader}
-ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	你召唤了 {0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
-ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	你的对手召唤了 {0}	0=minion name e.g. Your opponent summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION	你召唤了{0}	0=minion name e.g. You summoned {Raid Leader}
+ACCESSIBILITY_GAMEPLAY_PLAYER_SUMMONED_MINION_BIG_CARD	你召唤了{0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. You summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION	你的对手召唤了{0}	0=minion name e.g. Your opponent summoned {Raid Leader}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_SUMMONED_MINION_BIG_CARD	你的对手召唤了{0}; {1} {2} {3}	0=minion name 1=attack 2=health 3=card text e.g. Your opponent summoned {Raid Leader}; {2} {3} {Your other minions have +1 Attack.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_TRADED_CARD	你交易了{0}	0=card name e.g. You traded {Fire Sale}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TRADED_CARD	你的对手交易了{0}	0=card name e.g. Your opponent traded {Fire Sale}
@@ -148,6 +150,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	在左侧召唤随从
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	在{0}和{1}之间召唤随从	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	发动卡牌	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	交易卡牌	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	锻造卡牌	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	你仍然具有有效的操作，真的要结束吗？	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	你还能攻击，确定要结束吗？	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	你仍然能激活地标，确认要结束吗？	
@@ -361,7 +364,8 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	按 {0} 获取这张卡的效果�
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	按 {0} 发动这张卡牌	0=回车 key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	按 {0} 交易这张卡	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	按 {0} 召唤这个随从	0=回车 key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	使用光标键浏览你的选项。 按 {0} 选择一个选项	0=回车 key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	使用光标键浏览你的选项。 按 {0} 选择一个选项。按 {1} 查看棋盘	0=Enter key 1=tab key
+ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	使用区域键查看棋盘状态。按 {0} 返回到选择	0=tab key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	使用 {0} 或者使用相关区域的快捷键浏览你的目标。 按 {1} 选择一个目标 或按 {2} 取消	0=Tab key 1=回车 key 2=退格 key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	按 {0} 攻击这个随从	0=回车 key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	按 {0} 攻击你的英雄	0=回车 key
@@ -405,6 +409,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	酒馆解冻
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	刷新酒馆消耗{0}枚铸币?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	升级酒馆消耗{0}枚铸币?	0=amount e.g. Upgrade tavern for 3 gold?
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	畸变： {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomaly: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
+
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	移动到最后一个位置	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	移动到第一个位置	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	移动到{0}和{1}之间	Move between {Murloc Raider} and {Bloodfen Raptor}?
@@ -414,7 +420,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TOOK_DAMAGE	受�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_LEADERBOARDS_PLAYER_STATS_TIED	与{0}并列	0=opponent Hero e.g. Tied with {Millhouse Manastorm}
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_TAVERN	1{0}加入到了鲍勃的酒馆	0=card name e.g. 1 {Murloc Raider} appeared in Bob's Tavern
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0} 加入了鲍勃的酒馆	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_TAVERN	{0}加入了鲍勃的酒馆	0=card name e.g. 1 {Murloc Raider} and 2 {Tarecgosa} appeared in Bob's Tavern
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARD_ADDED_TO_HAND	你得到了一个{0}	0=card name e.g. You got 1 {Murloc Raider}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_MOVEMENT_CARDS_ADDED_TO_HAND	你得到了{0}	0=card name e.g. You got 1 {Murloc Raider} and 1 {Tarecgosa}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_BARTENDER_ENTITY_FULL_NAME	你调酒师的{0}	0=entity name e.g. Your bartender's {Raid Leader}
@@ -425,7 +431,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DIFF_GROUP_BARTENDER_SAME_NAME_ENTITIES	你
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_PLAYER_WON	你获胜，还有{0}个幸存的 |4(随从,随从)	e.g. You won with {2} surviving minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_OPPONENT_WON	你的对手获胜，他还有{0}个幸存的 |4(随从,随从)	e.g. Your opponent won with {2} surviving minions
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	有{0}位 |4(玩家,玩家) 出局	e.g. {2} players died
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_DIED	有{0}位 |4(玩家,玩家)出局	e.g. {2} players died
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_ENDED_N_PLAYERS_REMAINING	剩余{0}位 |4(玩家,玩家) 	e.g. {2} players remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	伙伴进度{0}%	0=buddy meter progress e.g. Buddy Meter {45}%
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	英雄伙伴	
@@ -637,7 +643,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	制作卡牌
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	浏览奥数之尘	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	分解 {0}张多余的 |4(卡,卡)获取 {1} 奥术之尘	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	浏览卡牌	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	浏览关联卡牌	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	浏览相关卡牌	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	浏览风格	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	制作花费{0}奥术之尘	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	分解获得{0}奥术之尘	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
