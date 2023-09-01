@@ -19,6 +19,7 @@ ACCESSIBILITY_OPTIONS_MENU_TITLE	Menu Options
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Graphismes : Qualité	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Graphismes : résolution	
 ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Activer le logging pour cette session	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Sauvegarder automatiquement l'historique de combat dans le dossier battle logs.
 ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Vocalisation en arrière-plan	
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Utilisez les flèches gauche et droite pour régler le volume	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} case a cocher	0=checkbox name e.g. {Fullscreen} checkbox
@@ -146,6 +147,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Invoquer à gauche?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Invoquer entre {0} et {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jouer la carte?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	échanger la carte?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Forger la carte?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Vous avez encore des options de jeu valides. Êtes-vous sûr?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Vous pouvez encore attaquer. Êtes vous sur?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Vous pouvez encore utiliser votre pouvoir héroïque. Êtes vous sur?	
@@ -227,8 +229,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_DURABILITY	{0} durabilité	0=gained/lost du
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ATTACK	{0} attaque	0=gained/lost attack amount
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_HEALTH	{0} vie	0=gained/lost health amount
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_N_ARMOR	{0} armure	0=gained/lost armor amount
-ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	récupère {0} health	0=recovered health
-ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	récupèrent {0} health	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_RECOVERED_N_HEALTH	récupère {0} vie	0=recovered health
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_RECOVERED_N_HEALTH	récupèrent {0} vie	0=recovered health
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	devient invulnerable	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	deviennent invulnerables	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	est maudit	
@@ -383,7 +385,7 @@ ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} a refusé l'invitat
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} a quitté la partie.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Niveau {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} or	0=card cost
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Niveau de la tavern {0} and {1} or	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Niveau de tavern {0} and {1} or	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Vous affrontez {1} de niveau  {0} avec {2} vie et {3} |4(serviteur,serviteurs)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Vous affrontez {1} de niveau {0} avec {2} vie, {4} armure et {3} |4(serviteur,serviteurs)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	Vous affrontez {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
@@ -399,6 +401,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Geler la tav
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Dégeler la taverne?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Actualiser la taverne pour {0} or?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Améliorer la taverne pour {0} or?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalie: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Déplacer vers la dernière position?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Déplacer vers la première position?	
@@ -431,7 +434,7 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Appuyez sur {0} pour c
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Appuyez sur {0} pour consulter les statistiques de votre prochain adversaire	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Appuyez sur {0} pour consulter le classement	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Appuyez sur  {0} pour consulter vos statistiques	0=m key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Appuyez sur {0} pour consulter les races présentes dans cette partie	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Appuyez sur {0} pour consulter les races et anomalies présentes dans cette partie	0=o key
 
 ACCESSIBILITY_UI_POPUP	Notification	
 ACCESSIBILITY_UI_REWARDS_TITLE	Récompenses	
@@ -518,7 +521,7 @@ ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} Héros débloqué sur {1}	0=nu
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copies de 1) carte	0=number of copies
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Apparence de héros,Apparences de héros)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dos de cartes,Dos de cartes)	0=amount
-ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Ticket d'arène,Tickets d'arènes)	0=amount
+ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Ticket pour l'arène,Tickets pour l'arènes)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Pierre runique,pierres runiques)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Aventure,Aventures)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Ticket bras de fer,Tickets bras de fer)	0=amount
@@ -634,7 +637,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Fabriquer des carte
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Consulter la réserve de poussière arcanique	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Désenchanter {0} |4(carte excédentaire,cartes excédentaires) pour {1} poussières arcaniques	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Lire la carte	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Lire les cartes connex.	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Lire les cartes connex.	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Lire le texte annecdotique	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Fabriquer pour {0} poussières arcaniques	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Désenchanter pour {0} poussières arcaniques	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -645,6 +648,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Désenchantée
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utilisez les flèches et {0} pour révéler vos cartes	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Vous n'avez aucun paquets de cartes	
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	En prêt jusqu'au {0}	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Lire rang actuel	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} sur {1} |4(étoile,étoiles)	0=current stars 1=star slots e.g. {1} out of {3} stars
@@ -796,6 +801,8 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utilisez les flèches ou {0
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si vous voyez une carte que vous n'aimez pas, appuyez sur {0} pour la marquer pour remplacement	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Une fois que vous avez marqué toutes les cartes que vous souhaitez remplacer, appuyez sur {0} pour en tirer de nouvelles et commencer le jeu	0=Enter key
 
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Pour éditer l'extradeck, basculer vers l'édition du deck, placez-vous sur cette carte et appuyez sur espace.	
+
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Utilisez {0} et {1} pour acheter des serviteurs.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Utilisez {0} et {1} pour acheter des serviteurs pour 3 or. Rassemblez une armée pour vaincre vos ennemis!!	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Utilisez {0} et {1} pour vendre des serviteurs.	0=b key 1=Enter key
@@ -830,3 +837,11 @@ ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Récompenses: {0}	0 is text desc
 
 ACCESSIBILITY_DUELS_READ_STATS	Lire les statistiques	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choisissez un type de duels'	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	Défaites	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Utilisez les flèches pour parcourir les pouvoirs héroïques, {0} pour en sélectionner un.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Utilisez les flèches pour lire les trésors de départ, {0} pour sélectionner.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Utilisez les flèches pour consulter les trésors, {0} pour choisir un trésor et {1} pour voir votre deck.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Utulisez {0} et {1} pour vous déplacer entre les coffres, les flèches pour lire les cartes dans un coffre, {2} pour choisir un coffre et {3} pour voir votre deck.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Votre session de duels est terminée. Appuyez sur {0} pour voir vos récompenses.	{0}=Enter key
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Réessayez	
