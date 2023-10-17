@@ -185,6 +185,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mano dell'avversario. {0} |4(carta,car
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Mazzo. {0} |4(carta,carte)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Mazzo dell'avversario. {0} |4(carta,carte)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Non hai giocate valide	
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	Non ci sono anomalie	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Hai vinto	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Hai perso	
@@ -537,7 +538,7 @@ ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(moneta personalizzata,monete perso
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% potenziamento XP	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-set)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin dell'eroe della battaglia,skin degli eroi della battaglia)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin eroe guida della battaglia,skin degli eroi guida della battaglia)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin barista della battaglia,skin dei baristi della battaglia)	0=amount
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Menu Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiato negli appunti	
@@ -628,6 +629,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Usa i tasti
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Usa i tasti freccia e {0} per leggere tutte le monete disponibili.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Usa i tasti Freccia e {0} per leggere tutti i dorsi delle carte disponibili.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Usa i tasti Freccia e {0} per leggere tutte le skin eroe disponibili.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Usa i tasti freccia e {0} per leggere le skin Eroe disponibili. Premi {1} per alternare tra la visualizzazione di proprietà e tutte le skin.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Usa {0} per aggiungere carte al tuo mazzo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Usa {0} per rimuovere le carte dal tuo mazzo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Usa {0} per creare o disincantare le carte nel tuo mazzo	0=Shift+Enter
@@ -637,6 +639,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} filtro mana attivo	{0
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Filtro mana disattivo	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Cambia set	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Skin eroe preferita impostata	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	barista preferito impostato	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Colpo preferito impostato	Spoken after setting a new favorite strike in Battlegrounds
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Dorso carta preferito impostato	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Moneta preferita impostata	Spoken after setting a new favorite Coin
 
@@ -652,6 +656,12 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUS
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	Non puoi fare altre copie di questa carta	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Carta creata	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Disincantata	
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Sfoglia le skin degli eroi	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Sfoglia i baristi	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Sfoglia i colpi	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Skin degli eroi possedute:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Tutte le skin degli eroi:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Usa le frecce e {0} per rivelare le tue carte	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Non disponi di alcuna busta di carte	
