@@ -842,5 +842,13 @@ ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Użyj klawiszy stref, aby sprawdzić s
 ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Wykuć karte?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalia: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Użyj {0}, aby wytworzyć lub odczarować karty w swojej talii	0=Shift+Enter
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	Nie ma żadnych anomalii	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	ustawiono ulubionego barmana	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Ulubione uderzenie ustawione	Spoken after setting a new favorite strike in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Przeglądaj skórki bohaterów	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Przeglądaj barmanów	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Przeglądaj zwieńczenia	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Posiadane skórki bohaterów:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Wszystkie skórki bohaterów:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
