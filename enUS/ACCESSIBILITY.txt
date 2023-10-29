@@ -872,7 +872,7 @@ ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Your mana wyrm is now ready to attack. Sel
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Can you attack your opponent's hero?	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Press {0} and {1} to attack your opponent's hero	0=F 1=Enter
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Remember how to end your turn?	
-ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	You can either summon the minion you just got, or use the one you already have on the batlefield to launch an attack	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	You can either summon the minion you just got, or use the one you already have on the battlefield to launch an attack	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	You're now looking at your second option, which would be to attack with the minion you have on the battlefield	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Minions with the charge keyword can attack on the turn they are played!	
 
