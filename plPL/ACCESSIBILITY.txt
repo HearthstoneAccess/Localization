@@ -850,5 +850,35 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Przegl�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Przeglądaj zwieńczenia	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Posiadane skórki bohaterów:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Wszystkie skórki bohaterów:	Spoken when the battlegrounds collection is filtered to show all hero skins
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Nauczę Cię, jak grać, poprzez zestaw trzech gier instruktażowych 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Twoim pierwszym przeciwnikiem jest łowca o imieniu Rexxar. Będziesz grać jako potężna czarodziejka Jaina Proudmoore 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Dobrze,a więc... Ta karta to stronnik o nazwie Żmij many 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	Ten ma 1 atak i 2 punkty zdrowia 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Twój przeciwnik przywołał własnego stronnika! 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Naciśnij {0}, aby przyjrzeć się stronnikom przeciwnika	0=g 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Przyjrzyjmy się teraz twoim stronnikom. Aby to zrobić, naciśnij przycisk {0}	0=b 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Jeśli jest więcej niż jeden stronnik, możesz poruszać się między nimi za pomocą klawiszy strzałek w lewo i w prawo 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Masz kolejną kartę! Czy możesz dowiedzieć się, co to robi? 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	To zaklęcie jest idealne do rozprawienia się z prychaczem! Naciśnij {0}, aby ją zagrać	0=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Wybierz wrogiego stronnika i naciśnij {0}, aby go namierzyć	0=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Naciśnij {0}, aby wybrać wrogiego stronnika i {1}, aby go namierzyć	0=G 1=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Teraz nauczmy się, jak sprawdzić swoje zdrowie 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Jeśli Twojemu Bohaterowi zabraknie zdrowia, przegrywasz 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Twoja żmija many jest teraz gotowa do ataku. Wybierz i naciśnij {0}.	0=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Czy możesz zaatakować bohatera przeciwnika? 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Naciśnij {0} i {1}, aby zaatakować wrogiego bohatera	0=F 1=Enter 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Pamiętasz, jak zakończyć swoją turę? 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3Możesz przywołać stronnika, którego właśnie otrzymałeś, lub użyć tego, którego już masz na polu bitwy,  
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Rozważ teraz drugą opcję, którą jest zaatakowanie stronnikiem, którego masz na polu bitwy 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Stronnicy ze słowem kluczowym szarża mogą atakować w turze, w której zostali zagrani! 
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	To krwawe kopyto, którego właśnie przyzwał twój przeciwnik, ma zdolność zwaną Prowokacja  
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Twój przeciwnik wyposażył się w Ostrze Mrozu, broń o ataku 3 i wytrzymałości 5 
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Oznacza to, że Bohater twojego przeciwnika będzie miał 3 ataku podczas swojej tury i będzie mógł zaatakować dowolną twoją postać 
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Pokonałeś Rexxara 
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_Garrosh	Pokonałeś Garrosha Piekłorycz 
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Pokonałeś Króla Lisza!
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Twoim następnym przeciwnikiem jest Rexxar
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Twoim następnym przeciwnikiem jest Garrosh Piekłorycz 
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Twoim następnym i ostatnim przeciwnikiem jest Król Lisz
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
