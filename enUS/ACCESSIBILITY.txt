@@ -689,18 +689,6 @@ ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	You finished a quest
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Loading tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Welcome back to the tutorial	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	You've defeated Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	You've defeated Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	You've defeated Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	You've defeated King Mukla	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	You've defeated Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	You've defeated Illidan Stormrage	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Your next opponent is Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Your next opponent is Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Your next opponent is Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Your next opponent is King Mukla	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Your next opponent is Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Your next and final opponent is Illidan Stormrage	
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	If you ever feel lost, press {0}. Even after the tutorial or when navigating menus, you can always use {0} whenever you need help	0=F1 key
@@ -864,3 +852,38 @@ ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Use {0} and {1} to move between loot crates
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Your duels run has ended. Press {0} to see your rewards.	{0}=Enter key
 
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Try Again	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of three tutorial games	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Your first opponent is a hunter named Rexxar. You will be playing as the powerful mage Jaina Proudmoore	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Ok, so... This card is a minion named Mana Wyrm	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	This one has 1 attack and 2 health	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Your opponent has summoned a minion of his own!	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Press {0} to look at your opponent's minions	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Now let's look at your minions. Press {0} to do so	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	When there is more than one minion, you can use the left and right arrow keys to move between them	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	You've got another card! Can you find out what it does?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	This spell is perfect for dealing with Huffer! Press {0} to play it	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Select the enemy minion and press {0} to target it	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Press {0} to select the enemy minion and {1} to target it	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Now, let's learn how to check your health	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	If your Hero runs out of health, you lose	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Your mana wyrm is now ready to attack. Select it and press {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Can you attack your opponent's hero?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Press {0} and {1} to attack your opponent's hero	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Remember how to end your turn?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	You can either summon the minion you just got, or use the one you already have on the batlefield to launch an attack	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	You're now looking at your second option, which would be to attack with the minion you have on the battlefield	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Minions with the charge keyword can attack on the turn they are played!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	This bloodhoof brave your opponent just summoned has an ability named Taunt	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Your opponent equipped Frostmourne, a weapon with 3 attack and 5 durability	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	This means your opponent's Hero will have 3 attack during his turn, and will be able to attack any of your characters	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	You've defeated Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_Garrosh	You've defeated Garrosh Hellscream	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	You've defeated the Lich King!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Your next opponent is Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Your next opponent is Garrosh Hellscream	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Your next and final opponent is the Lich King	
