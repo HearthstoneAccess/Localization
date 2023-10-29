@@ -20,6 +20,7 @@ ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Качество график
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Разрешение экрана	
 ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Включить запись журнала отладки для этого запуска	
 ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Озвучка в фоне	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Автоматическое сохранение журналов истории сражений в папку Battle Logs
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Для регулировки громкости Используйте стрелки влево и вправо	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} флажок	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Отмечено	
@@ -147,6 +148,7 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Призвать слев
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Призвать между {0} и {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Сыграть картой?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Обменять карту?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Выковать карту?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	У Вас есть доступные действия. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Вы можете атаковать. Вы уверены?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Вы можете использовать область. Вы уверены?	
@@ -401,6 +403,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Разморозит�
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Обновить таверну за {0} золота?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Улучшить таверну за {0} золота?	0=amount e.g. Upgrade tavern for 3 gold?
 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Аномалия: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
+
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Переместить на последнюю позицию?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Переместить на первую позицию?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_BETWEEN	Переместить между {0} и {1}?	Move between {Murloc Raider} and {Bloodfen Raptor}?
@@ -611,11 +615,13 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Ве�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Ваша колода пуста	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Карт в колоде: {0} из {1}	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	сайдборд	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Формат изменен	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Используйте клавиши со стрелками, чтобы читать карты. Используйте {0} для перехода между классами	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Используйте клавиши цифр, чтобы отфильтровать ваши карты по стоимости. Используйте {0} для поиска в своей коллекции	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные монетки	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные рубашки карт	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные облики Героев	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы ознакомиться с доступными обликами героев. Нажмите {1} для переключения между отображение полученных и всех обликов.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Используйте {0}, для добавления  карты в колоду	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Используйте {0}, для удаления карты из колоды	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Введите новое имя для колоды	
@@ -624,6 +630,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Фильтрация по
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Фильтрация по стоимости отключена	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Изменить набор	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Любимый набор обликов героя	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	Любимый бармен	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Любимый удар	Spoken after setting a new favorite strike in Battlegrounds
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Любимый набор рубашек карт	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Любимый набор монеток	Spoken after setting a new favorite Coin
 
@@ -640,8 +648,16 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REA
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Карта создана	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Распылено	
 
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Просмотр обликов героев	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Просмотр барменов	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Просмотр добиваний	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Собственные облики героев:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Все облики героев:	Spoken when the battlegrounds collection is filtered to show all hero skins
+
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Используйте клавиши со стрелками и {0}, чтобы открыть свои карты	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	У вас нет комплектов карт	
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Доступна до {0}	
 
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Прочитать текущий ранг	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} из {1} |4(звезды,звезды,звезд)	0=current stars 1=star slots e.g. {1} out of {3} stars
