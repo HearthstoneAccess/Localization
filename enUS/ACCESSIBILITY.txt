@@ -882,7 +882,7 @@ ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Your opponent equipp
 ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	This means your opponent's Hero will have 3 attack during his turn, and will be able to attack any of your characters	
 
 ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	You've defeated Rexxar	
-ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_Garrosh	You've defeated Garrosh Hellscream	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	You've defeated Garrosh Hellscream	
 ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	You've defeated the Lich King!	
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Your next opponent is Rexxar	
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Your next opponent is Garrosh Hellscream	
