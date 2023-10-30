@@ -857,3 +857,37 @@ ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Utiliza {0} y {1} para moverte entre los bo
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Tu duelo ha acabado. Pulsa {0} para ver tus recompensas.	{0}=Enter
 
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Prueba de nuevo	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar  a través de una serie de tres tutoriales	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Tu primer oponente es un cazador llamado Rexxar. Jugarás como la poderosa maga Jaina Valiente	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Bien, Entonces... Esta carta es un esbirro llamado Vermis de maná	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	Tiene un punto de ataque y 2 de salud	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Tu oponente ha invocado a su propio esbirro	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Pulsa {0} para ver los esbirros de tu oponente	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Ahora echemos un vistazo a tus esbirros. Pulsa {0} para hacerlo	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Cuando hay más de un esbirro, puedes usar las flechas izquierda y derecha para moverte entre ellos	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Has conseguido otra carta. ¿Puedes averiguar qué hace?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	Este hechizo es perfecto para lidiar con Bufar! Pulsa {0} para jugarlo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Selecciona al esbirro enemigo y pulsa {0} para elegirlo como objetivo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Ahora, veamos como puedes averiguar tu salud	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Si tu Héroe se queda sin salud, pierdes	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Tu vermis de maná está listo para atacar. Selecciónalo y pulsa {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	¿Puedes atacar al Héroe de tu oponente?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Pulsa {0} y {1} para atacaral Héroe de tu oponente	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	¿Recuerdas como se termina el turno?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Puedes invocar al esbirro que acabas de conseguir, o usar el que ya tienes en el campo de batalla para lanzar un ataque	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Ahora estás viendo tu segunda opción, que sería la de atacar con el esbirro que tienes en el campo de batalla	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	¡Los esbirros con la palabra clave cargar pueden atacar en el mismo turno en el que se juegan!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Este valiente pezuña de sangre que tu oponente acaba de invocar tiene una habilidad llamada Provocar	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Tu oponente se equipó Agonía de escarcha, un arma con 3 puntos de ataque y 5 de durabilidad	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Esto significa que el Héroe de tu oponente tendrá 3puntos de ataque durante su turno, y podrá atacar a cualquiera de tus personajes	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Has derrotado a Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Has derrotadoa  Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	¡Has derrotado al Rey Exánime!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Tu primer oponente es Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Tu próximo oponente es Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Tu próximo y último oponente es el Rey Exánime	
