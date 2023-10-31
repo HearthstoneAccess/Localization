@@ -868,14 +868,14 @@ ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Twoja żmija many jest teraz gotowa do ata
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Czy możesz zaatakować bohatera przeciwnika? 
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Naciśnij {0} i {1}, aby zaatakować wrogiego bohatera	0=F 1=Enter 
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Pamiętasz, jak zakończyć swoją turę? 
-ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3Możesz przywołać stronnika, którego właśnie otrzymałeś, lub użyć tego, którego już masz na polu bitwy,  
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Możesz przywołać stronnika, którego właśnie otrzymałeś, lub użyć tego, którego już masz na polu bitwy,  
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Rozważ teraz drugą opcję, którą jest zaatakowanie stronnikiem, którego masz na polu bitwy 
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Stronnicy ze słowem kluczowym szarża mogą atakować w turze, w której zostali zagrani! 
-ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	To krwawe kopyto, którego właśnie przyzwał twój przeciwnik, ma zdolność zwaną Prowokacja  
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Ten śmiałek krwawe kopyto, którego właśnie przyzwał twój przeciwnik, ma zdolność zwaną Prowokacja  
 ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Twój przeciwnik wyposażył się w Ostrze Mrozu, broń o ataku 3 i wytrzymałości 5 
 ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Oznacza to, że Bohater twojego przeciwnika będzie miał 3 ataku podczas swojej tury i będzie mógł zaatakować dowolną twoją postać 
 ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Pokonałeś Rexxara 
-ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_Garrosh	Pokonałeś Garrosha Piekłorycz 
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Pokonałeś Garrosha Piekłorycza	
 ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Pokonałeś Króla Lisza!
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Twoim następnym przeciwnikiem jest Rexxar
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Twoim następnym przeciwnikiem jest Garrosh Piekłorycz 
