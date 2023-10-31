@@ -854,3 +854,38 @@ ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Используйте {0} и {1} для п
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Ваш забег в дуэлях завершился. Нажмите {0} для просмотра ваших наград.	{0}=Enter key
 
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Попробуйте Еще Раз	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Я научу вас играть при помощи трех обучающих игр	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Ваш первый противник - охотник по имени Рексар. Вы будете играть за могущественного мага Джайну Праудмур.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Итак... Эта карта - существо по имени Мана Змей	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	У него есть 1 атака и 2 здоровья	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Ваш противник призвал свое существо!	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Нажмите {0}, чтобы посмотреть на существ вашего противника	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Теперь давайте посмотрим на ваших существ. Нажмите {0}, чтобы сделать это	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Если существ несколько, то для перемещения между ними можно использовать клавиши со стрелками влево и вправо.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Вы получили еще одну карту! Можете ли вы узнать, что она делает?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	Это заклинание идеально подходит для борьбы с Хаффером! Нажмите {0}, чтобы розыграть его	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Выберите вражеское существо и нажмите {0}, чтобы выбрать его целью	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Нажмите {0}, чтобы выбрать вражеское существо, и {1}, чтобы нацелиться на него.	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Теперь давайте узнаем, как проверить свое здоровье	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Если у вашего героя закончится здоровье, вы проиграете	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Теперь ваш Мана-змей готов к атаке. Выберите его и нажмите {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Можете ли вы атаковать героя своего противника?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Нажмите {0} и {1}, чтобы атаковать героя противника	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Помните, как закончить свой ход?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Вы можете либо призвать только что полученное существо, либо атаковать тем, кто уже находится на поле боя.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Теперь рассмотрим второй вариант, который заключается в том, чтобы атаковать существом, находящимся на поле боя.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Миньоны с ключевым словом "рывок" могут атаковать в тот же ход, когда они были призваны!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Этот Храбрец Кровавого Копыта, только что вызванный вашим противником, обладает способностью "Провокация".	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Ваш противник вооружен Ледяной скорбью, оружием с 3 атаки и 5 прочности.	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Это означает, что герой вашего противника будет иметь 3 атаки во время своего хода и сможет атаковать любого из ваших персонажей.	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Вы победили Рексара	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Вы победили Гарроша Адского Крика	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Вы победили короля-лича!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Ваш следующий противник - Рексар	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Ваш следующий противник - Гаррош Адский крик	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Ваш следующий и последний противник - король-лич	
