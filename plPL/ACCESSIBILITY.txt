@@ -880,5 +880,6 @@ ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Pokonałeś Króla Lisza!
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Twoim następnym przeciwnikiem jest Rexxar
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Twoim następnym przeciwnikiem jest Garrosh Piekłorycz 
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Twoim następnym i ostatnim przeciwnikiem jest Król Lisz
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	Przeciwnik Ma {0} z {1} many	0=current mana 1=total mana
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
