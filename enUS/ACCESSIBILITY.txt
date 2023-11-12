@@ -665,7 +665,18 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNE
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	All hero skins:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use the arrow keys and {0} to reveal your cards	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Use the arrow keys and {0} to reveal your cards one by one, or press {1} to reveal all cards on the current page	0=enter key 1=space key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	You don't have any card packs	
+
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	How many packs would you like to open? Enter a value between {0} and {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Invalid quantity provided: you can open between {0} and {1} packs	0=minimum quantity 1=maximum quantity
+
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(legendary card,legendary cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(epic card,epic cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(rare card,rare cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(common card,common cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Use the arrow keys to browse the summary of the cards you have received. Press {0} once you are done	0=enter key
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	On loan until {0}	
 
