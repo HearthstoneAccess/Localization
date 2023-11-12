@@ -176,6 +176,7 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	У вас нет оружи�
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	У противника нет оружия	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} из {1} маны	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} маны	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	У противника {0} из {1} маны	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	У противника {0} маны	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(труп,трупа,трупов)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	нет трупов	
@@ -876,7 +877,7 @@ ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Нажмите {0} и {1}, чтоб�
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Помните, как закончить свой ход?	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Вы можете либо призвать только что полученное существо, либо атаковать тем, кто уже находится на поле боя.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Теперь рассмотрим второй вариант, который заключается в том, чтобы атаковать существом, находящимся на поле боя.	
-ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Миньоны с ключевым словом "рывок" могут атаковать в тот же ход, когда они были призваны!	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Существа с ключевым словом "рывок" могут атаковать в тот же ход, когда они были призваны!	
 
 ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Этот Храбрец Кровавого Копыта, только что вызванный вашим противником, обладает способностью "Провокация".	
 
