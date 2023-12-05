@@ -665,7 +665,18 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNE
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Tutte le skin degli eroi:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Usa le frecce e {0} per rivelare le tue carte	0=Enter key
-ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Non disponi di alcuna busta di carte	
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Usa i tasti freccia e {0} per rivelare le tue carte una per una, oppure premi {1} per rivelare tutte le carte nella pagina corrente	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Non hai buste di carte al momento	
+
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Quante buste vorresti aprire? Inserisci un valore compreso tra {0} e {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Quantità inserita non valida: puoi aprire tra {0} e {1} buste	0=minimum quantity 1=maximum quantity
+
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(carta leggendaria,carte leggendarie)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(carta epica,carte epiche)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(carta rara,carte rare)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(carta comune,carte comuni)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Utilizza i tasti freccia per sfogliare il riepilogo delle carte che hai ricevuto. Premi {0} una volta terminato	0=enter key
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	In prestito fino al {0}	
 
