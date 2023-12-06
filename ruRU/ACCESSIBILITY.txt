@@ -176,6 +176,7 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	У вас нет оружи�
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	У противника нет оружия	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} из {1} маны	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} маны	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	У противника {0} из {1} маны	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	У противника {0} маны	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(труп,трупа,трупов)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	нет трупов	
@@ -183,10 +184,11 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	В руке противника. {0} 
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	В колоде: {0} |4(карта,карты,карт)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	В колоде противника: {0} |4(карта,карты,карт)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Нет доступных действий	
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	Аномалии отсутствуют	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Вы победили	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Вы проиграли	
-ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	Вы сдались	
+ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	Вы сыграли вничью	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_GENERIC	Игра завершена	
 
 ACCESSIBILITY_GAMEPLAY_ZONE_PLAYER_HERO	Ваш герой	Read when you press v
@@ -524,7 +526,7 @@ ACCESSIBILITY_UI_REWARD_CARD	{0} |4(копия,копии,копий) карты
 ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(облик,облика,обликов) героя	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Рубашка,рубашки,Рубашек)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Билет,Билета,Билетов) на арену	0=amount
-ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Рунный камень,рунного камня,рунных камней)	0=amount
+ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Рунический камень,рунического камня,рунических камней)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ADVENTURES	{0} |4(Приключение,Приключения,Приключений)	0=amount
 ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Билет,Билета,Билетов) на потасовку	0=amount
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(изготовленная монетка,изготовленные монетки,изготовленных монетки)	0=amount
@@ -548,7 +550,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Забрать {0} |4(наград�
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Вы уже забрали все награды за этот уровень	
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Узнать количество золота	
-ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Узнать количество Рунных камней	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Узнать количество Рунических камней	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Купить комплекты карт	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Купить мини-наборы	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Купить облики героев	
@@ -556,13 +558,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Купить наборы
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Купить прочие	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Прочитать описание	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Купить за {0} золота	0=amount e.g. Buy for {100} gold
-ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Купить за {0} Рунных камней	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Купить за {0} Рунических камней	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Получить бесплатно	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Прочитать карты	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Используйте клавиши со стрелками, чтобы читать карты	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	Осталось {0} золота	0=amount e.g. {150} gold remaining
-ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	Осталось {0} Рунных камней	0=amount e.g. {150} runestones remaining
-ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Недостаточно Рунных камней	
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	Осталось {0} Рунических камней	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Недостаточно Рунических камней	
 
 ACCESSIBILITY_SCREEN_GO_BACK	Назад	
 
@@ -639,7 +641,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Создать ка
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Узнать количество чародейной пыли	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Распылить {0} |4(лишнюю карту,лишние карты,лишних карт) за {1} чародейной пыли	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Читать карту	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Читать связанную карту	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Читать связанные карты	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Читать описание	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Создать за {0} чародейной пыли	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Распылить за {0} чародейной пыли	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -655,7 +657,18 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNE
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Все облики героев:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Используйте клавиши со стрелками и {0}, чтобы открыть свои карты	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Используйте клавиши со стрелками и {0}, чтобы открывать свои карты одну за другой, или нажмите {1}, чтобы открыть все карты на текущей странице	0=enter key 1=space key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	У вас нет комплектов карт	
+
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Сколько комплектов вы хотели бы открыть? Введите значение от {0} до {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Указано недопустимое количество: вы можете открыть от {0} до {1} комплектов	0=minimum quantity 1=maximum quantity
+
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(легендарная карта,легендарные карты,легендарных карт)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(эпическая карта,эпические карты,эпических карт)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(редкая карта,редкие карты,редких карт)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(обычная карта,обычные карты,обычных карт)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Используйте клавиши со стрелками, чтобы просмотреть статистику полученных вами карт. Нажмите {0}, как только закончите	0=enter key
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Доступна до {0}	
 
@@ -876,7 +889,7 @@ ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Нажмите {0} и {1}, чтоб�
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Помните, как закончить свой ход?	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Вы можете либо призвать только что полученное существо, либо атаковать тем, кто уже находится на поле боя.	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Теперь рассмотрим второй вариант, который заключается в том, чтобы атаковать существом, находящимся на поле боя.	
-ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Миньоны с ключевым словом "рывок" могут атаковать в тот же ход, когда они были призваны!	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Существа с ключевым словом "рывок" могут атаковать в тот же ход, когда они были призваны!	
 
 ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Этот Храбрец Кровавого Копыта, только что вызванный вашим противником, обладает способностью "Провокация".	
 

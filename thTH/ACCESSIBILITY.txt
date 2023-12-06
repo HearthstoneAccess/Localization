@@ -178,6 +178,7 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	คุณไม่มีอ�
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	ฝ่ายตรงข้ามไม่มีอาวุธสวมใส่	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	คุณมี {0} จากทั้งหมด {1} มานา	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	คุณมี {0} มานา	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	ฝ่ายตรงข้ามเหลือ {0} จากทั้งหมด {1} มานา	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	ฝ่ายตรงข้ามมี {0} มานา	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(ศพ,ศพ)	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	ไม่มีศพ
@@ -664,7 +665,18 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNE
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	สกินฮีโร่ทั้งหมด:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	ใช้ลูกศรและกด {0} เพื่อบอกชื่อการ์ด	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	ใช้ลูกศรและกด {0} เพื่อบอกการ์ดทีละใบหรือกด {1} เพื่อบอกการ์ดทั้งหมดในหน้าปัจจุบัน	0=enter key 1=space key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	คุณไม่มีซองการ์ด	
+
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	คุณต้องการเปิดกี่ซอง? กรอกจำนวนระหว่าง {0} ถึง {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	จำนวนที่ใส่ไม่ถูกต้อง: คุณสามารถเปิดได้ระหว่าง {0} จาก {1} ซอง	0=minimum quantity 1=maximum quantity
+
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(การ์ดตำนาน,การ์ดตำนาน)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(การ์ดสุดยอด,การ์ดสุดยอด)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(การ์ดหายาก,การ์ดหายาก)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(การ์ดทั่วไป,การ์ดทั่วไป)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	ใช้ปุ่มลูกศรเพื่อเลื่อนดูข้อมูลสรุปเกี่ยวกับการ์ดที่คุณได้รับกด {0} เมื่อคุณดูเสร็จแล้ว	0=enter key
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	เปิดให้ยืมจนถึง {0}	
 
