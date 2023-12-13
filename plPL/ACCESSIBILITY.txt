@@ -890,5 +890,6 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(rzadką karte,rzadkich
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(zwykłą karte,zwykłych kart)	0=number of cards
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Użyj klawiszy strzałek, aby przeglądać podsumowanie otrzymanych kart. Kiedy już skończysz, naciśnij {0}	0=enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Użyj klawisze strzałek, aby przeglądać nowe karty. Naciśnij {0}, aby kontynuować	0=enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
