@@ -666,6 +666,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use the arrow keys and {0} to reveal your cards	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Use the arrow keys and {0} to reveal your cards one by one, or press {1} to reveal all cards on the current page	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Use the arrow keys to browse your new cards. Press {0} to continue	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	You don't have any card packs	
 
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	How many packs would you like to open? Enter a value between {0} and {1}	0=minimum value 1=maximum value
