@@ -855,6 +855,11 @@ ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Press c to access your collection
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Level {0}: {1} xp needed	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Rewards: {0}	0 is text description of rewards. This is appended to the previous item.
 
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completed	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Requires {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Recommended classes: {0}	0=classes
+
 ACCESSIBILITY_DUELS_READ_STATS	Read stats	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choose duels' type	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Losses	Losses count in current duels run
