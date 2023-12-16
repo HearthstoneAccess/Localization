@@ -891,5 +891,9 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(zwykłą karte,zwyk�
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Użyj klawiszy strzałek, aby przeglądać podsumowanie otrzymanych kart. Kiedy już skończysz, naciśnij {0}	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Użyj klawisze strzałek, aby przeglądać nowe karty. Naciśnij {0}, aby kontynuować	0=enter key
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Zakończony	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Wymaga {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Polecane klasy: {0}	0=classes
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
