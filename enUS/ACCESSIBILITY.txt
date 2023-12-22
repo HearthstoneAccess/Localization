@@ -871,6 +871,8 @@ ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Recommended classes: {0}	0=
 ACCESSIBILITY_TAVERN_GUIDE_NEW	New!	Spoken when the tavern guide has a new quest or reward
 ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Claim reward!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
 
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	You have earned a reward! Claim it in the journal	
+
 ACCESSIBILITY_DUELS_READ_STATS	Read stats	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choose duels' type	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Losses	Losses count in current duels run
