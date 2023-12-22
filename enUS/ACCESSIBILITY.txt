@@ -541,6 +541,11 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Hearthstone deck	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Loaner decks granted!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	New mode unlocked!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Strengths: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Weaknesses: {0}	0=list of weaknesses of the class
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Social Menu	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copied to clipboard	
@@ -555,6 +560,8 @@ ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Read current level
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} of {1} Xp to next level	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Claim {0} |4(reward,rewards)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed all rewards for this level	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Are you sure you would like to choose this deck? Press {0} to confirm or {1} to cancel	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Use the arrow keys to browse the cards in this deck. Press {0} to choose it or {1} to return to the list of decks	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Read runestones	
@@ -860,6 +867,8 @@ ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completed
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Requires {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Recommended classes: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	New!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Claim reward!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
 
 ACCESSIBILITY_DUELS_READ_STATS	Read stats	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choose duels' type	Choosing the type of duels (casual/heroic)
