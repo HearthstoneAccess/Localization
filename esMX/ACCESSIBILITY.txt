@@ -34,6 +34,7 @@ ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Presiona {0} en cualquier momento para abrir el menú de opciones ¡Inténtalo!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Presiona {0} en cualquier momento para abrir el panel social. ¡Inténtalo!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Presiona {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad presionando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda presionar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess aún no es compatible con el tipo de pelea de taberna actual, por favor inténtalo de nuevo en otra actualización	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando el juego	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Cerrando el juego	
@@ -540,6 +541,11 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Miniset,Minisets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Skin de héroe para los campos de batalla,Skins de héroe para los campos de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Skin de tabernero para los campos de batalla,Skins de tabernero para los campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Mazo de Hearthstone	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	¡Mazos en préstamo concedidos!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	¡Nuevo modo de juego desbloqueado!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Fortalezas: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Debilidades: {0}	0=list of weaknesses of the class
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
@@ -554,6 +560,8 @@ ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Ver tu nivel actual
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} de {1} Experiencia para el siguiente nivel	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Recoger {0} |4(recompensa,recompensas)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Ya recogiste todas las recompensas de este nivel	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	¿Estás seguro de querer elegir este mazo? Presiona {0} para confirmar o {1} para cancelar	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Usa las flechas para explorar las cartas de este mazo. Presiona {0} para seleccionar este mazo o {1} para regresar a la lista de mazos	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver tu oro actual	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Ver tus piedras rúnicas	
@@ -666,6 +674,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Usa las flechas y {0} para revelar sus tarjetas una por una, o presiona {1} para revelar todas las tarjetas en la página actual	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Usa las flechas para explorar tus nuevas cartas. Presiona {0} para continuar	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes paquetes de cartas	
 
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Cuantos paquetes de cartas quieres abrir?, Ingresa un valor entre {0} y {1}	0=minimum value 1=maximum value
@@ -680,6 +689,7 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Usa las flechas para ver el resumen
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Prestado hasta {0}	
 
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Jugar Hearthstone	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
@@ -853,6 +863,15 @@ ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} de {1} logros incompleto	s
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Presiona C para acceder a tu colección, disponible en algunos menús de mazo	
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Nivel {0}: {1} xp requerida	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Recompensas: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completada	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Requieres {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Clases recomendadas: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	¡Nueva!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	¡Reclamar recompensa!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	¡Te has ganado una recompensa! Reclámala en el diario	
 
 ACCESSIBILITY_DUELS_READ_STATS	Estadísticas de tus duelos	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Elige el tipo de duelo	Choosing the type of duels (casual/heroic)
