@@ -895,5 +895,10 @@ ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Zakończony
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Wymaga {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
 ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Polecane klasy: {0}	0=classes
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess nie obsługuje jeszcze aktualnej bujki w karczmie. Spróbuj ponownie później	
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Nowy!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Odbierz nagrodę!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Zagraj w Hearthstona	
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Zdobyłeś nagrodę! Odbierz Ją z dziennika	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
