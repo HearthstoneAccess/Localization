@@ -890,5 +890,15 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(rzadką karte,rzadkich
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(zwykłą karte,zwykłych kart)	0=number of cards
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Użyj klawiszy strzałek, aby przeglądać podsumowanie otrzymanych kart. Kiedy już skończysz, naciśnij {0}	0=enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Użyj klawisze strzałek, aby przeglądać nowe karty. Naciśnij {0}, aby kontynuować	0=enter key
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Zakończony	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Wymaga {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Polecane klasy: {0}	0=classes
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess nie obsługuje jeszcze aktualnej bujki w karczmie. Spróbuj ponownie później	
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Nowy!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Odbierz nagrodę!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Zagraj w Hearthstona	
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Zdobyłeś nagrodę! Odbierz Ją z dziennika	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
