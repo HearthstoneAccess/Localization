@@ -903,5 +903,7 @@ ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Zdobyłeś nagrodę! Odbierz Ją z dzie
 ACCESSIBILITY_UI_REWARD_GAME_MODE	Nowy tryb odblokowany!	
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Mocne strony: {0}	0=list of strengths of the class
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Słabe strony: {0}	0=list of weaknesses of the class
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Czy na pewno chcesz wybrać tę talię? Naciśnij {0}, aby potwierdzić lub {1}, aby anulować	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Użyj klawiszy strzałek, aby przeglądać karty w tej talii. Naciśnij {0}, aby wybrać lub {1}, aby wrócić do listy talii	0=enter key 1=backspace key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
