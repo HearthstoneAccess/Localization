@@ -885,9 +885,9 @@ ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Użyj klawiszy strzałe
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Ile paczek chciałbyś otworzyć? Wprowadź wartość z zakresu od {0} do {1}	0=minimum value 1=maximum value
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Podano nieprawidłową ilość: możesz otworzyć od {0} do {1} paczek	0=minimum quantity 1=maximum quantity
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(legendarną karte,legendarnych kart)	0=number of cards
-ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(epicką karte,epickich kart)	0=number of cards
-ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(rzadką karte,rzadkich kart)	0=number of cards
-ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(zwykłą karte,zwykłych kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} epickich kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} (rzadkich kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} (zwykłych kart)	0=number of cards
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Użyj klawiszy strzałek, aby przeglądać podsumowanie otrzymanych kart. Kiedy już skończysz, naciśnij {0}	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Użyj klawisze strzałek, aby przeglądać nowe karty. Naciśnij {0}, aby kontynuować	0=enter key
@@ -900,5 +900,12 @@ ACCESSIBILITY_TAVERN_GUIDE_NEW	Nowy!	Spoken when the tavern guide has a new ques
 ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Odbierz nagrodę!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
 ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Zagraj w Hearthstona	
 ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Zdobyłeś nagrodę! Odbierz Ją z dziennika	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	Nowy tryb odblokowany!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Mocne strony: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Słabe strony: {0}	0=list of weaknesses of the class
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Czy na pewno chcesz wybrać tę talię? Naciśnij {0}, aby potwierdzić lub {1}, aby anulować	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Użyj klawiszy strzałek, aby przeglądać karty w tej talii. Naciśnij {0}, aby wybrać lub {1}, aby wrócić do listy talii	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARD_DECK	Talia Hearthstone	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Wypożyczone talie przyznane!	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
