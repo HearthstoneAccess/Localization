@@ -34,6 +34,7 @@ ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Главное Меню
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Нажмите {0} в любое время, чтобы открыть меню игры. Попробуйте прямо сейчас!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Нажмите {0} в любое время, чтобы открыть социальное меню. Попробуйте прямо сейчас!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Если вы заблудились, нажмите {0} в любое время. Если вам нужна помощь зрячего человека, вы всегда можете нажать {1}, чтобы отключить специальные возможности и разрешить ему управлять игрой с помощью мыши. Когда помощь зрячего человека будет не нужна, не забудьте нажать {1}, чтобы снова включить специальные возможности	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess пока не поддерживает данную потасовку в таверне. Пожалуйста, повторите попытку позже	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Загрузка игры	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Закрытие игры	
@@ -357,7 +358,7 @@ ACCESSIBILITY_GAMEPLAY_COUNT_PLAYER_DECK_HELP	Нажмите {0}, чтобы у�
 ACCESSIBILITY_GAMEPLAY_COUNT_OPPONENT_DECK_HELP	Нажмите {0}, чтобы узнать количество оставшихся карт в колоде противника	0=Shift+d keys
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_HELP	Нажмите {0}, чтобы узнать количество маны	0=a key
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_HELP	Нажмите {0}, чтобы узнать количество маны противника	0=Shift+a key
-ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Используйте клавиши со стрелками вверх и вниз, чтобы прочитать эту карту	
+ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Используйте клавиши со стрелками вверх и вниз, чтобы ознакомиться с этой картой	
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Нажмите {0}, чтобы получить описание способностей этой карты	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Нажмите {0}, чтобы сыграть этой картой	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Нажмите {0}, чтобы обменять эту карту	0=t key
@@ -433,12 +434,12 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_BUDDY_METER	Шкала комп
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Компаньон	
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Нажмите {0}, чтобы узнать количество золота	0=a key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Нажмите {0}, чтобы прочитать информацию о вашей таверне	0=t key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Нажмите {0}, чтобы прочитать вашего компаньона	0=d key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Нажмите {0}, чтобы прочитать статистику вашего следующего соперника	0=n key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Нажмите {0}, чтобы прочитать таблицу лидеров	0=l key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Нажмите {0}, чтобы прочитать свою статистику	0=m key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Нажмите {0}, чтобы прочитать типы существ в этой игре	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Нажмите {0}, чтобы узнать информацию о вашем уровне таверны	0=t key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Нажмите {0}, чтобы ознакомиться с вашим компаньоном	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Нажмите {0}, чтобы ознакомиться со статистикой вашего следующего соперника	0=n key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Нажмите {0}, чтобы просмотреть таблицу лидеров	0=l key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Нажмите {0}, чтобы узнать свою статистику	0=m key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Нажмите {0}, чтобы узнать типы существ в этой игре	0=o key
 
 ACCESSIBILITY_UI_POPUP	Всплывающее окно	
 ACCESSIBILITY_UI_REWARDS_TITLE	Награды	
@@ -454,7 +455,7 @@ ACCESSIBILITY_UI_QUEST_NOTIFICATION_POPUP_HELP	Используйте клави
 ACCESSIBILITY_UI_WELCOME_QUESTS_HELP	Используйте клавиши со стрелками, чтобы прочитать |4(задание,задания,заданий)	
 
 ACCESSIBILITY_UI_REWARD_TITLE	Вы получили награду!	
-ACCESSIBILITY_UI_REWARD_HELP	Используйте клавиши со стрелками, чтобы прочитать награду	
+ACCESSIBILITY_UI_REWARD_HELP	Используйте клавиши со стрелками, чтобы ознакомиться с наградой	
 
 ACCESSIBILITY_UI_RANKED_INTRO_POPUP	Новая рейтинговая система уже здесь! Вы можете найти больше об этом в Интернете	
 
@@ -533,7 +534,12 @@ ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(изготовленная мон�
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% Повышение опыта	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Мини-набор,Мини-набора,Мини-наборов)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(облик,облика,обликов) героя Полей сражений	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(облик,облика,обликов) хранителя таверны Полей сражений	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(облик,облика,обликов) бармена таверны Полей сражений	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Колода Hearthstone	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Временные Колоды предоставлены!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	Разблокирован новый режим!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Сильные стороны: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Слабые стороны: {0}	0=list of weaknesses of the class
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Социальное меню	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag скопирован в буфер обмена	
@@ -544,10 +550,12 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Отправить сообщение
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Пригласить на поля сражений	
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Вы не можете пригласить {0} сейчас	
 
-ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Прочитать текущий уровень	
+ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Текущий уровень	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} из {1} Опыта до следующего уровня	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Забрать {0} |4(награду,награды,наград)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Вы уже забрали все награды за этот уровень	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Вы уверены, что хотите выбрать эту колоду? Нажмите {0} для подтверждения или {1} для отмены.	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Используйте клавиши со стрелками для просмотра карт в этой колоде. Нажмите {0}, чтобы выбрать колоду, или {1}, чтобы вернуться к списку колод.	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Узнать количество золота	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Узнать количество Рунических камней	
@@ -556,7 +564,7 @@ ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Купить мини-наборы
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Купить облики героев	
 ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Купить наборы	
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Купить прочие	
-ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Прочитать описание	
+ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Описание	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Купить за {0} золота	0=amount e.g. Buy for {100} gold
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Купить за {0} Рунических камней	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Получить бесплатно	Some items in the shop are free
@@ -584,11 +592,11 @@ ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Нажмите {0
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Экран приключений	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_TITLE	Меню приключений	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_PLAY_OPTION	Играть	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Прочитать колоду	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_READ_DECK_OPTION	Просмотреть колоду	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_MENU_RETIRE_OPTION	Сдаться	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_WAITING_FOR_VO_HELP	В ожидании окончания закадрового голоса	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Используйте клавиши со стрелками, чтобы прочитать свои карты	
-ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	Вы не можете прочитать свою колоду в этом приключении	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_READING_DECK_HELP	Используйте клавиши со стрелками, чтобы ознакомиться со своими картами	
+ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_CANT_READ_DECK	Вы не можете просмотреть свою колоду в этом приключении	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Приключение завершено	
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Противник номер {0} из {1}	0=current opponent number 1=number of opponents
 
@@ -620,10 +628,10 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	сайдборд	Use
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Формат изменен	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Используйте клавиши со стрелками, чтобы читать карты. Используйте {0} для перехода между классами	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Используйте клавиши цифр, чтобы отфильтровать ваши карты по стоимости. Используйте {0} для поиска в своей коллекции	0=ctrl+f
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные монетки	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные рубашки карт	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы прочитать все доступные облики Героев	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы ознакомиться с доступными обликами героев. Нажмите {1} для переключения между отображение полученных и всех обликов.	0=Enter key 1=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Используйте клавиши со стрелками и {0}, чтобы просмотреть все доступные монетки	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Используйте клавиши со стрелками и {0}, чтобы просмотреть все доступные рубашки карт	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы просмотреть все доступные облики Героев	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Используйте клавиши со стрелками и {0}, чтобы ознакомиться с доступными обликами героев. Нажмите {1} для переключения между отображением полученных и всех обликов.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Используйте {0}, для добавления  карты в колоду	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Используйте {0}, для удаления карты из колоды	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Введите новое имя для колоды	
@@ -631,17 +639,17 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Введите поиск�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Фильтрация по стоимости {0} маны	{0} mana crystal filter e.g. {7+} mana filter on
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Фильтрация по стоимости отключена	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Изменить набор	Used for changing between standard cards, wild cards, united in stormwind, etc.
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Любимый набор обликов героя	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Любимый облик героя	Spoken after setting a new favorite Hero Skin
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	Любимый бармен	Spoken after setting a new favorite bartender in Battlegrounds
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Любимый удар	Spoken after setting a new favorite strike in Battlegrounds
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Любимый набор рубашек карт	Spoken after setting a new favorite Card Back
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Любимый набор монеток	Spoken after setting a new favorite Coin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Любимая рубашка	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Любимая монетка	Spoken after setting a new favorite Coin
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Создать карты	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Узнать количество чародейной пыли	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Распылить {0} |4(лишнюю карту,лишние карты,лишних карт) за {1} чародейной пыли	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Читать карту	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Читать связанные карты	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Просмотреть карту	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Просмотреть связанные карты	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Читать описание	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Создать за {0} чародейной пыли	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Распылить за {0} чародейной пыли	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -658,6 +666,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Используйте клавиши со стрелками и {0}, чтобы открыть свои карты	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Используйте клавиши со стрелками и {0}, чтобы открывать свои карты одну за другой, или нажмите {1}, чтобы открыть все карты на текущей странице	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Используйте клавиши со стрелками для просмотра ваших новых карт. Нажмите {0}, чтобы продолжить	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	У вас нет комплектов карт	
 
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Сколько комплектов вы хотели бы открыть? Введите значение от {0} до {1}	0=minimum value 1=maximum value
@@ -672,12 +681,13 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Используйте клавиш
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Доступна до {0}	
 
-ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Прочитать текущий ранг	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Играть в Hearthstone	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Текущий ранг	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} из {1} |4(звезды,звезды,звезд)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	Звездный бонус: {0}	0=current star bonus e.g. {2} star bonus
 
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Просмотреть группу	
-ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Прочитать статистику	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Статистика	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Рассказывать об атаках во время боя	
 
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	приглашен	
@@ -709,7 +719,7 @@ ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Ваш следующий и последн�
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Я научу вас играть с помощью набора из шести обучающих игр	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Если вы не знаете что делать, нажмите {0}. Даже после обучения и при навигации по меню вы всегда можете использовать {0}, когда вам понадобится помощь	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	Итак, давайте продолжим	
-ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Вот базовый набор карт Мага, с которой вы начнете. Нажмите {0}, чтобы открыть ее	0=Enter key
+ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	Вот базовый набор карт Мага, с которого вы начнете. Нажмите {0}, чтобы открыть ее	0=Enter key
 ACCESSIBILITY_TUTORIAL_NICE_WORK	неплохо сыграно	
 ACCESSIBILITY_TUTORIAL_NICE_JOB	Хорошая работа	
 ACCESSIBILITY_TUTORIAL_NICE_ONE	Хорошо	
@@ -857,10 +867,19 @@ ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Нажмите c для дост�
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Уровень {0}: {1} опыта до следующего уровня	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Достижения: {0}	0 is text description of rewards. This is appended to the previous item.
 
-ACCESSIBILITY_DUELS_READ_STATS	Прочитать статистику	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Завершен	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Требуется {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Рекомендуемые классы: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Новое!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Получите награды!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Вы заслужили награду! Получите ее в дневнике.	
+
+ACCESSIBILITY_DUELS_READ_STATS	Статистика	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Выберите тип дуэлей	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Поражений	Losses count in current duels run
-ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Используйте клавиши со стрелками для чтения сил героя, {0} для выбора.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Используйте клавиши со стрелками для ознакомления с силой героя, {0} для выбора.	{0} enter key
 ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Используйте клавиши со стрелками для чтения стартовых сокровищ, {0} для выбора.	{0} enter key
 ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Используйте клавиши со стрелками для чтения сокровищ, {0} для выбора сокровища и {1} для просмотра вашей колоды.	{0} is enter, {1} is D key
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Используйте {0} и {1} для перемещения между добычами, клавиши со стрелками для чтения карт в добыче, {2} для выбора добычи и {3} для просмотра вашей колоды.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
