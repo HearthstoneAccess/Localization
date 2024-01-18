@@ -34,6 +34,7 @@ ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Menú principal
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Pulsa {0} en cualquier momento para abrir el menú del juego. ¡Inténtalo ahora!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Pulsa {0} en cualquier momento para abrir el panel social. ¡Inténtalo ahora!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Pulsa {0} en cualquier momento si no sabes como proceder, te llevará al menú del juego. Si necesitas ayuda de una persona sin problemas de visión puedes desactivar la accesibilidad pulsando {1}. Esto le permitirá controlar el juego normalmente utilizando el mouse. Recuerda pulsar {1} cuando quieras reactivar la accesibilidad	0=Esc key 1=F8 kei
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess no es compatible todavía con esta pelea de taberna. Por favor inténtalo mas adelante	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Cargando juego	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Cerrando juego	
@@ -524,7 +525,7 @@ ACCESSIBILITY_UI_REWARD_GOLDEN_HERO	{0} edición oro	0=Hero name e.g. Golden Jai
 ACCESSIBILITY_UI_REWARD_CLASS_HERO	Héroe {0}	0=class e.g. Mage Hero
 ACCESSIBILITY_UI_REWARD_CLASS_UNLOCK_PROGRESS	{0} de {1} héroes desbloqueados	0=number of unlocked Heroes 1=total number of Heroes
 ACCESSIBILITY_UI_REWARD_CARD	{0} |4(,copias de 1) carta	0=number of copies
-ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Skin de héroe,Skins de héroe)	0=amount
+ACCESSIBILITY_UI_REWARD_N_HERO_SKINS	{0} |4(Aspecto de héroe,Aspectos de héroe)	0=amount
 ACCESSIBILITY_UI_REWARD_N_CARD_BACKS	{0} |4(Dorso de carta,Dorsos de carta)	0=amount
 ACCESSIBILITY_UI_REWARD_N_ARENA_TICKETS	{0} |4(Entrada para la arena,Entradas para la arena)	0=amount
 ACCESSIBILITY_UI_REWARD_N_RUNESTONES	{0} |4(Piedra rúnica,Piedras Rúnicas)	0=amount
@@ -533,8 +534,12 @@ ACCESSIBILITY_UI_REWARD_N_TAVERN_BRAWL_TICKETS	{0} |4(Passe para duelo de tabern
 ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(Moneda personalizada,monedas personalizadas)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para el héroe del campo de batalla,skins para el héroe del campo de batalla)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para el tabernero del campo de batalla,skins para el tabernero del campo de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Aspecto de héroe de campos de batalla,Aspectos de héroe de campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Aspecto de posadero de campos de batalla,Aspectos de posadero de campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	¡Mazos de préstamo concedidos!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	¡Nuevo modo desbloqueado!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Fortalezas: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Debilidades: {0}	0=list of weaknesses of the class
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Panel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado al portapapeles	
@@ -549,12 +554,14 @@ ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Ver tu nivel actual
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} de {1} Experiencia para el siguiente nivel	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Recoger {0} |4(recompensa,recompensas)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Ya has recogido todas las recompensas de este nivel	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	¿Estás seguro de que quieres elegir este mazo? Pulsa {0} para confirmar o {1} para cancelar	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Utiliza las flechas para moverte por las cartas de este mazo. Pulsa {0} para seleccionarlo o {1} para volver a la lista de mazos	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver tu oro actual	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Ver tus piedras rúnicas	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Comprar sobres	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Mini-sets	
-ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Comprar skins de héroe	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Comprar aspectos de héroe	
 ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Comprar conjuntos	
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Comprar otros	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Leer descripción	
@@ -624,7 +631,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utiliza las flechas
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utiliza las teclas de número para filtrar tus cartas por coste de maná. Pulsa {0} para buscar por tu colección	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utiliza las  flechas y {0} para ver las monedas disponibles	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Utiliza las flechas y {0} para ver los dorsos de cartas disponibles	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Utiliza las flechas y {0} para ver las skins de héroes disponibles	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Utiliza las flechas y {0} para ver los aspectos de héroe disponibles	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pulsa {0} para agregar cartas al mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pulsa {0} para eliminar cartas del mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Pulsa {0} para crear o desencantar las cartas del mazo	0=Shift+Enter
@@ -640,10 +647,9 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Se ha asignado el
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Se ha asignado la skin de moneda como favorita	Spoken after setting a new favorite Coin
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Crear cartas	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Ver polvo arcano actual	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Ver polvo arcano	 actual	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Desencantar {0} extra |4(carta,cartas) para obtener {1} de polvo arcano	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Leer carta	
-
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Leer cartas relacionadas	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Ver descripción	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Crear por {0} de polvo arcano	0=amount of dust e.g. Craft for {100} Arcane Dust
@@ -653,11 +659,11 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REA
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Carta creada	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Carta desencantada	
 
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Skins de héroe	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Aspectos de héroe	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Posaderos	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Asaltos	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Skins de héroe adquiridas:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Todas las skins de héroe:	Spoken when the battlegrounds collection is filtered to show all hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Aspectos de héroe adquiridos:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Todos los aspectos de héroe:	Spoken when the battlegrounds collection is filtered to show all hero skins
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Usa las flechas y {0} para revelar tus cartas una a una, o pulsa {1} para revelar todas las cartas en la página actual	0=enter key 1=space key
@@ -823,6 +829,8 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_B	En esta fase, ambos jugador
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Utiliza las flechas direccionales o {0} para ver tu mano inicial	0=Tab key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	Si ves una carta que no te gusta o interesa, pulsa {0} para marcarla y que sea  reemplazada	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Una vez que hayas marcado todas las cartas que deseas reemplazar, pulsa {0} para robar nuevas cartas e iniciar el juego	0=Enter key
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Para editar la banda de ETC, cambia al modo editar mazo, colócate sobre esta carta y pulsa la barra espaciadora.	
 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para comprar esbirros por 3 de oro. ¡Recluta un egército para destruir a tus enemigos!	0=g key 1=Enter key
