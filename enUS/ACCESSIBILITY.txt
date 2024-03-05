@@ -5,6 +5,7 @@ ACCESSIBILITY_PRESS_KEY_TO_START	Press {0} to start	0=key e.g. Press Enter to st
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Press {0} to continue	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Press {0} to finish	0=key e.g. Press Enter to finish
 ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Press {0} to go back	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Press {0} to read more details	0=key e.g. Press space to read more details
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Press {0} to exit	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Press {0} once you're done	0=key e.g. Press Enter once you're done
 
