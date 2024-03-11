@@ -30,6 +30,7 @@ ACCESSIBILITY_HUB_MAIN_MENU_TITLE	메인 메뉴
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	게임 메뉴를 열려면 언제든지 {0}키를 누르세요. 지금 시도해보세요.	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	소셜 메뉴를 열려면 언제든지 {0}키를 누르세요. 지금 시도해보세요.	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	도움이 필요하다면 언제든지 {0}키를 누르세요. 비시각장애인의 도움이 필요하다면 언제든지 {1}키를 눌러 접근성 모드를 끄고 마우스를 이용하여 게임을 제어할 수 있습니다. 접근성 모드를 다시 켜고자 한다면 언제든지 다시 {1}키를 누르세요.	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	현재 진행되고 있는 선술집 난투는 HearthstoneAccess에서 지원하지 않습니다. 나중에 다시 시도하십시오.	
 ACCESSIBILITY_GLOBAL_LOADING_GAME	게임 불러오는 중	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	게임 닫는 중	
 ACCESSIBILITY_GLOBAL_GAME_LOADED	불러오기 완료	
@@ -164,6 +165,7 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	장착한 무기 없음
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	상대, 장착한 무기 없음	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} 마나 보유 중; 최대 {1}	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} 마나 보유 중	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	상대, {0} 마나 보유 중; 최대 {1}	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	상대, {0} 마나 보유 중	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES	시체 {0}구	0=current amount of corpses
 ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	시체 없음
@@ -171,6 +173,7 @@ ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	상대, {0}장 손에 들고 있음	0=
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	남은 덱 {0}장	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	상대, 남은 덱 {0}장	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	낼 수 있는 카드가 없습니다.	
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	변형물 없음	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	이겼습니다!	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	졌습니다…	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_TIED	무승부입니다.	
@@ -483,6 +486,11 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	경험치 부스트 {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	미니세트 {0}개	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	전장 영웅 스킨 {0}개	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	전장 스킨 {0}개	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	하스스톤 덱	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	덱을 빌렸습니다!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	새 모드가 잠금 해제되었습니다!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	강점: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	약점: {0}	0=list of weaknesses of the class
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	소셜 메뉴	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	배틀태그를 클립보드로 복사합니다.	
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0}님의 메시지: {1}	0=sender name 1=message e.g. Message from {Player}: {Hello}
@@ -495,6 +503,8 @@ ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	현재 레벨 보기
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	레벨 업 경험치 {0} / {1}	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	보상 {0}개 받기	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	이미 모든 레벨 보상을 받았습니다.	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	정말로 이 덱을 선택할까요? 선택하려면 {0}키, 취소하려면 {1}키를 누르세요.	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	방향키를 이용하여 덱에 있는 카드를 탐색할 수 있습니다. 선택하려면 {0}키, 덱 목록으로 돌아가려면 {1}키를 누르세요.	0=enter key 1=backspace key
 ACCESSIBILITY_UI_SHOP_READ_GOLD	골드 보기	
 ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	룬스톤 보기	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	카드 팩 구입	
@@ -562,6 +572,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	마나별�
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	방향키와 {0}키를 이용하여 사용 가능한 모든 동전을 확인할 수 있습니다.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	방향키와 {0}키를 이용하여 사용 가능한 모든 카드 뒷면을 확인할 수 있습니다.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	방향키와 {0}키를 이용하여 사용 가능한 모든 영웅 스킨을 확인할 수 있습니다.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	방향키와 {0}키를 이용하여 영웅 스킨을 탐색할 수 있습니다. 가지고 있는 스킨과 전체 스킨 목록 사이를 전환하려면 {1}키를 누르세요.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	카드를 덱에 추가하려면 {0}키를 누르세요.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	카드를 덱에서 제거하려면 {0}키를 누르세요.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	카드를 조합하거나, 분해하려면 {0}키를 누르세요.	0=Shift+Enter
@@ -571,6 +582,8 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} 마나 필터 켬	{0}
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	마나 필터 끔	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	세트 변경	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	영웅 스킨 선호를 변경했습니다.	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	바텐더 선호를 변경했습니다.	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	타격 효과 선호를 변경했습니다.	Spoken after setting a new favorite strike in Battlegrounds
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	카드 뒷면 선호를 변경했습니다.	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	동전 외형 선호를 변경했습니다.	Spoken after setting a new favorite Coin
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	카드 제작	
@@ -585,9 +598,25 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUS
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	그 카드의 사본은 이미 충분히 가지고 있습니다.	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	카드 제작 완료	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	추출 완료	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	영웅 스킨 둘러보기	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	바텐더 둘러보기	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	타격 효과 둘러보기	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	가진 영웅 스킨:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	모든 영웅 스킨:	Spoken when the battlegrounds collection is filtered to show all hero skins
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	방향키와 {0}키를 이용하여 카드를 개봉할 수 있습니다.	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	방향키와 {0}키를 이용하여 카드를 하나씩 개봉할 수 있습니다. 모든 카드를 개봉하려면 {1}키를 누르세요.	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	방향키를 이용하여 새 카드를 탐색할 수 있습니다. 계속하려면 {0}키를 누르세요.	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	가진 카드 팩이 없습니다.	
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	팩 몇 개를 개봉할까요? {0}에서 {1} 사이의 값을 입력하세요.	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	{0}에서 {1} 사이의 값을 입력해야 합니다.	0=minimum quantity 1=maximum quantity
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	전설 카드 {0}장	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	특급 카드 {0}장	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	희귀 카드 {0}장	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	일반 카드 {0}장	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{1} 카드 {0}장	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	방향키를 이용하여 받은 카드 요약 정보를 확인할 수 있습니다. 다 확인했다면 {0}키를 누르세요.	0=enter key
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	{0}까지 덱 빌림	
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	하스스톤 플레이	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	현재 등급 보기	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	별 {1}개 중 {0}개	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	추가 별 {0}점	0=current star bonus e.g. {2} star bonus
@@ -604,19 +633,7 @@ ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	{1} 중 {0} 진행 완료	0=cu
 ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	퀘스트를 완수했습니다!	
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	여정의 시작 불러오는 중	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	여정의 시작에 다시 온 것을 환영합니다.	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	들창코를 물리쳤습니다.	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	밀하우스 마나스톰을 물리쳤습니다.	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	전승지기 초를 물리쳤습니다.	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	밀림의 왕 무클라를 물리쳤습니다.	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	헤멧 네싱워리를 물리쳤습니다.	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	일리단 스톰레이지를 물리쳤습니다.	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	다음 상대는 들창코입니다.	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	다음 상대는 밀하우스 마나스톰입니다.	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	다음 상대는 전승지기 초입니다.	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	다음 상대는 밀림의 왕 무클라입니다.	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	다음 상대는 헤멧 네싱워리입니다.	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	다음 상대는 일리단 스톰레이지입니다.	
-ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	앞으로 6개의 서로 다른 경기를 통해 게임 조작법을 배울 것입니다.	
+ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	앞으로 6경기를 플레이하며 게임 조작법을 배워볼 것입니다.	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	도움이 필요하다면 언제든지 {0}키를 누르세요. 여정의 시작이 끝난 이후에도 언제든지 {0}키를 눌러 도움을 받을 수 있습니다.	0=F1 key
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO_END	준비가 되었나요?	
 ACCESSIBILITY_TUTORIAL_FREE_STARTING_PACK	앞에는 입문자를 위한 기본 마법사 팩이 있습니다. {0}키를 눌러 개봉해보세요.	0=Enter key
@@ -635,12 +652,12 @@ ACCESSIBILITY_TUTORIAL_THINK_YOU_CAN_DO_IT	할 수 있습니까?
 ACCESSIBILITY_TUTORIAL_GOT_IT	알겠습니다.	
 ACCESSIBILITY_TUTORIAL_NO_ENDTURN_HP	영웅 능력을 사용하지 않았습니다. {0}키를 눌러 선택하세요.	0=r key
 ACCESSIBILITY_TUTORIAL_HOGGER_START	첫번째 상대는 놀인 들창코입니다. 이제 강력한 마법사인 제이나 프라우드무어 입장에서 플레이하게 될 것입니다.	
-ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	방향키를 이용하여 카드를 먼저 읽어보세요.	
+ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_CARD_READ	방향키를 이용하여 카드를 먼저 읽어보세요.	ㄹ
 ACCESSIBILITY_TUTORIAL_HOGGER_SUMMON_MINION_FIRST	방금 뽑은 하수인을 먼저 소환하세요.	
 ACCESSIBILITY_TUTORIAL_HOGGER_FORCE_LOOK_AT_OPPONENT_MINIONS_FIRST	{0}키와 방향키를 이용하여 상대가 처음으로 소환한 하수인을 확인할 수 있습니다.	0=g key
 ACCESSIBILITY_TUTORIAL_HOGGER_2_0	턴이 시작될 때마다 덱에서 카드 한 장을 뽑습니다. 어떤 카드를 뽑았는지 확인해볼까요?	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_1	{0}키를 눌러 손에 있는 카드를 볼 수 있습니다.	0=c key
-ACCESSIBILITY_TUTORIAL_HOGGER_2_2	이 카드는 하수인 카드인 멀록 약탈꾼입니다.	
+ACCESSIBILITY_TUTORIAL_HOGGER_2_2	이 카드는 하수인 카드인 '멀록 약탈꾼'입니다.	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2B	이 카드를 내면 아군 영웅을 위해 싸우는 생명체를 소환합니다.	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_2D	이 생명체를 소환하려면 마나 1이 필요하고, 1의 생명력과 2의 공격력을 가지고 있습니다.	
 ACCESSIBILITY_TUTORIAL_HOGGER_2_3	한번 소환해볼까요?	
@@ -659,7 +676,7 @@ ACCESSIBILITY_TUTORIAL_HOGGER_3_6	적 영웅의 생명력이 0이 되면 이깁�
 ACCESSIBILITY_TUTORIAL_HOGGER_3_7	그럼 계속해 볼까요?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1	새로운 하수인 카드를 뽑았습니다. 이 하수인도 소환할 수 있을까요?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_1_HELP	{0}키와 {1}키를 이용하여 하수인을 소환할 수 있습니다.	0=c key 1=Enter key
-ACCESSIBILITY_TUTORIAL_HOGGER_4_2	필드에 먼저 소환된 하수인이 있는 경우, 왼쪽/오른쪽 방향키를 이용하여 새 하수인을 불러낼 위치를 선택할 수 있습니다.	
+ACCESSIBILITY_TUTORIAL_HOGGER_4_2	필드에 먼저 소환된 하수인이 있다면, 왼쪽/오른쪽 방향키를 이용하여 새 하수인을 불러낼 위치를 선택할 수 있습니다.	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_4	필드에는 두 하수인이 소환되어 있습니다. 물론 방금 소환한 하수인은 공격 차례가 올 때까지 기다려야겠죠?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_5	이제 필드를 탐색하는 법을 배워볼까요?	
 ACCESSIBILITY_TUTORIAL_HOGGER_4_6	왼쪽/오른쪽 방향키를 이용하여 아군 하수인들을 둘러볼 수 있습니다.	
@@ -699,9 +716,9 @@ ACCESSIBILITY_TUTORIAL_MILLHOUSE_SEE_MANA_HELP	남은 마나를 조회하려면 
 ACCESSIBILITY_TUTORIAL_CHO_1	부두교 의술사가 적 영웅을 치료합니다.	
 ACCESSIBILITY_TUTORIAL06_HELP_02	하수인끼리 싸울 때는 서로 피해를 받게 됩니다.	
 ACCESSIBILITY_TUTORIAL_MUKLA_START	이 게임에서는 이전에 보지 못한 능력을 가진 카드를 볼 수 있습니다.	
-ACCESSIBILITY_TUTORIAL_MUKLA_START_B	돌진 또는 도발과 같이 카드를 읽을 때 이해할 수 없는 내용이 있다면 {0}키를 눌러 자세한 설명을 볼 수 있습니다.	0=i key
+ACCESSIBILITY_TUTORIAL_MUKLA_START_B	돌진 또는 도발과 같이 카드를 읽을 때 이해할 수 없는 키워드가 있다면 {0}키를 눌러 자세한 설명을 볼 수 있습니다.	0=i key
 ACCESSIBILITY_TUTORIAL_MUKLA_START_C	시작할 준비가 되었나요? {0}키를 누르세요.	0=Enter key
-ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	은빛털고릴라 우두머리는 도발이라는 능력을 가지고 있습니다.	
+ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP	은빛털고릴라 우두머리는 도발 능력을 가지고 있습니다.	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_B	다른 하수인을 공격하기 위해서는 먼저 도발 능력을 가진 하수인을 처치해야 합니다.	
 ACCESSIBILITY_TUTORIAL_MUKLA_TAUNT_HELP_C	도발은 영웅을 보호하는 데에 사용할 수 있는 매우 유용한 능력입니다.	
 ACCESSIBILITY_TUTORIAL_HEMET_HERO_POWER_HELP	이제부터 아군 영웅과 적 영웅은 영웅 능력을 가지게 됩니다.	
@@ -749,11 +766,18 @@ ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	{0} / {1} 진행됨	0 is current, 1 is h
 ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	등반 업적
 ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	{0}점 획득	0 is number of points
 ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	등반 불가능
-ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	업적 목록을 탐색하려면 왼쪽 및 오른쪽 방향키, 현재 선택한 업적 정보를 탐색하려면 위쪽 및 아래쪽 방향키를 누르세요. 등반 가능한 업적에서 등반을 시도하려면 {0}키를 누르세요. 이전 메뉴로 돌아가려면 {1}키를 누르세요. 모든 업적 화면과 완료되지 않은 업적 화면 사이를 전환하려면 {2}키를 누르세요.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	업적 목록을 탐색하려면 왼쪽/오른쪽 방향키, 현재 선택한 업적 정보를 탐색하려면 위쪽 및 아래쪽 방향키를 누르세요. 등반 가능한 업적에서 등반을 시도하려면 {0}키를 누르세요. 이전 메뉴로 돌아가려면 {1}키를 누르세요. 모든 업적 화면과 완료되지 않은 업적 화면 사이를 전환하려면 {2}키를 누르세요.
 ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	완료되지 않은 업적 {0} / {1}
 ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	컬렉션에 접근하려면 C키를 누르세요.	Available in some choose deck menus
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	레벨 {0}: 경험치 {1}점 필요	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, 보상: {0}	0 is text description of rewards. This is appended to the previous item.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	완료!	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	{0} 필요	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	추천 직업: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	새 이벤트!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	보상 받기!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	일지에서 획득한 보상을 확인하세요.	
 ACCESSIBILITY_DUELS_READ_STATS	통계 보기	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	결투 모드 선택	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	패	Losses count in current duels run
@@ -763,3 +787,33 @@ ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	방향키를 눌러 보물을 �
 ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	전리품 꾸러미 사이를 이동하려면 {0}키 또는 {1}키를 누르세요. 꾸러미 안에 어떤 카드가 있는지 확인하려면 방향키를 누르세요. 선택하려면 {2}키를 누르고, 덱을 조회하려면 {3}키를 누르세요.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
 ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	결투가 끝났습니다. 보상을 확인하려면 {0}키를 누르세요.	{0}=Enter key
 ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	다시 시도	
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	앞으로 3경기를 플레이하며 게임 조작법을 배워볼 것입니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	첫번째 상대는 사냥꾼 렉사르입니다. 이제 강력한 마법사인 제이나 프라우드무어 입장에서 플레이하게 될 것입니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	이 카드는 하수인 카드인 '마나 지룡'입니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	이 하수인은 1의 생명력과 2의 공격력을 가지고 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	적이 하수인을 소환했습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	{0}키를 누르면 적 하수인을 확인할 수 있습니다.	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	이번에는 {0}키를 눌러 내 하수인을 확인해볼까요?	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	하수인이 둘 이상이라면, 왼쪽/오른쪽 방향키를 이용하여 하수인 사이를 이동할 수 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	카드 한 장을 가져왔습니다. 어떤 카드인지 확인해볼까요?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	이 주문으로 킁킁이에게 피해를 줄 수 있을 것 같군요. {0}키를 눌러 카드를 내보세요.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	적 하수인을 선택하고 {0}키를 눌러 대상으로 지정할 수 있습니다.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	{0}키를 눌러 적 하수인을 선택하고 {1}키를 눌러 대상으로 지정할 수 있습니다.	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	이제 생명력을 확인하는 방법을 알아보겠습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	내 영웅의 체력이 모두 소진되면 패배하게 됩니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	내 마나 지룡이 공격할 준비가 된 것 같습니다.  선택하고 {0}키를 눌러볼까요?	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	적 영웅을 공격할 수 있나요?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	{0}키와 {1}키를 이용하여 적 영웅을 공격할 수 있습니다.	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	차례를 어떻게 마치는지 기억하나요?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	방금 뽑은 하수인을 소환하거나 필드에 있는 하수인으로 공격을 시작할 수 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	두번째 옵션을 보고 있군요. 내 필드에 있는 하수인으로 적을 공격할 수 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	돌진 키워드를 가진 하수인은 소환된 차례에 바로 공격할 수 있습니다!	
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	적 하수인인 '블러드후프 용사'에게는 도발 능력이 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	적 영웅은 공격력 5, 내구도 3의 서리한을 장착했습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	이제 적 영웅은 자신의 차례일 때 공격력 5를 얻어, 어떤 대상이든 공격할 수 있습니다.	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	렉사르를 물리쳤습니다!	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	가로쉬 헬스크림을 물리쳤습니다!	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	리치 왕을 물리쳤습니다!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	다음 상대는 렉사르입니다.	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	다음 상대는 가로쉬 헬스크림입니다.	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	다음 상대는 리치 왕입니다.	
