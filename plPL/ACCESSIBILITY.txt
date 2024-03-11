@@ -907,5 +907,7 @@ ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Czy na pewno chce
 ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Użyj klawiszy strzałek, aby przeglądać karty w tej talii. Naciśnij {0}, aby wybrać lub {1}, aby wrócić do listy talii	0=enter key 1=backspace key
 ACCESSIBILITY_UI_REWARD_DECK	Talia Hearthstone	
 ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Wypożyczone talie przyznane!	
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Naciśnij {0}, aby przeczytać więcej szczegółów	0=key e.g. Press space to read more details
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Proszę wybrać przynajmniej jedną z opcji	
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
