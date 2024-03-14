@@ -909,5 +909,8 @@ ACCESSIBILITY_UI_REWARD_DECK	Talia Hearthstone
 ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Wypożyczone talie przyznane!	
 ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Naciśnij {0}, aby przeczytać więcej szczegółów	0=key e.g. Press space to read more details
 ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Proszę wybrać przynajmniej jedną z opcji	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	Załaduj zapisaną wersję	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	ta szafka jest pusta	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} z {1} kart w szafce	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
