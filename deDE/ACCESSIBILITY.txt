@@ -35,6 +35,7 @@ ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Hauptmenü
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Drücke jederzeit {0}, um das Spielmenü zu öffnen. Versuch es doch einmal!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Drücke jederzeit {0}, um das Social-Menü zu öffnen. Versuch es doch einmal!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Du kannst jederzeit {0} drücken, wenn du nicht mehr weiter weißt. Wenn du die Hilfe einer sehenden Person brauchst, kannst du jederzeit {1} drücken, um den Barrierefreiheitsmodus zu deaktivieren und ihr zu erlauben, das Spiel wie gewohnt mit der Maus zu steuern. Vergiss nicht, {1} zu drücken, wenn du keine hilfe mehr brauchst, um den Barrierefreiheitsmodus wieder zu aktivieren.	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess Unterstützt dieses Kartenchaos noch nicht. Versuch es bitte später noch einmal	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Spiel wird geladen	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Spiel wird geschlossen	

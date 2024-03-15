@@ -36,7 +36,6 @@ ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Press {0} at any time to open the g
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Press {0} at any time to open the social menu. Try it now!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Press {0} at any time if you're feeling lost. If you need help from a sighted person, you can always press {1} to disable accessibility and allow them to control the game using the mouse as normal. Just remember to press {1} once they're done to reactivate accessibility	0=Esc key 1=F8 key
 ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess does not yet support the current tavern brawl. Please try again later	
-ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess Unterstützt dieses Kartenchaos noch nicht. Versuch es bitte später noch einmal	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Loading game	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Closing game	
