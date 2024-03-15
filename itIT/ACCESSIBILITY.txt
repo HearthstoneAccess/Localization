@@ -5,6 +5,7 @@ ACCESSIBILITY_PRESS_KEY_TO_START	Premi {0} per iniziare	0=key e.g. Press Enter t
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Premi {0} per continuare	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Premi {0} per terminare	0=key e.g. Press Enter to finish
 ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Premi {0} per tornare indietro	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Premi {0} per leggere ulteriori dettagli	0=key e.g. Press space to read more details
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Premi {0} per uscire	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Premi {0} quando hai finito	0=key e.g. Press Enter once you're done
 
@@ -555,6 +556,8 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Scrivi un messaggio
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Invia messaggio	
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Invita a una partita nella battaglia	
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Non puoi sfidare {0} adesso	
+
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Seleziona almeno una delle opzioni	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Leggi il livello attuale	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} su {1} Xp per il prossimo livello	
