@@ -228,6 +228,8 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	The game is about
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	died	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	died	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	broke	
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	faded	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	faded	Paladin auras, objectives, etc
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	took {0} damage	0=damage taken
