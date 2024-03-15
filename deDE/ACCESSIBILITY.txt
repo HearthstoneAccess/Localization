@@ -934,3 +934,6 @@ ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Du hast den Lichkönig besiegt!
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Dein nächster Gegner ist Rexxar	
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Dein nächster Gegner ist Garrosh Höllschrei	
 ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Dein nächster und letzter Gegner ist der Lichkönig	
+
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	ausgeblichen	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	ausgeblichen	Paladin auras, objectives, etc
