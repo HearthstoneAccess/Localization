@@ -5,6 +5,7 @@ ACCESSIBILITY_PRESS_KEY_TO_START	Pulsa {0} para iniciar	0=key e.g. Press Enter t
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Pulsa {0} para continuar	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Pulsa {0} para finalizar	0=key e.g. Press Enter to finish
 ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Pulsa {0} para volver atrás	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Pulsa {0} para ver mas detalles	0=key e.g. Press space to read more details
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Pulsa {0} para cerrar	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	pulsa {0} una vez que hayas terminado	0=key e.g. Press Enter once you're done
 
@@ -161,6 +162,8 @@ ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	El héroe de tu oponen
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	El héroe de tu oponente no puede ser el objetivo	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Ninguno de tus esbirros puede atacar al héroe de tu oponente	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	Ese no es un esbirro amistoso	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	Eso no es un esbirro	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Ese esbirro no puede atacar al héroe de tu enemigo	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Elige un objetivo	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} segundos restantes	0=number of seconds - always plural e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Estás jugando contra {0} ({1})	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
@@ -366,6 +369,7 @@ ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	pulsa {0} para jugar esta carta	0=Enter ke
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Pulsa {0} para comerciar esta carta	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	pulsa {0} para invocar este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Utiliza las flechas para revisar tus opciones. Pulsa {0} para escoger una	0=Enter key
+ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Utiliza las teclas correspondientes a cada zona para inspeccionar el estado del tablero de juego. Pulsa {0} para volver a las opciones	0=tab key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Utiliza {0} o las teclas correspondientes a cada zona para desplazarte por tus posibles objetivos y presiona {1} para seleccionar uno o {2} para cancelar	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Pulsa {0} para atacar con este esbirro	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Pulsa {0} para atacar con tu héroe	0=Enter key
@@ -391,6 +395,7 @@ ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} rechazó la invitac
 ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} abandonó el grupo.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Nivel de taberna {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} de oro	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	Ticket	In the tavern view
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Nivel de taberna {0} y {1} de oro	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Te enfrentas a {1}, nivel de taberna {0} con {2} de salud y {3} |4(esbirro,esbirros)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Te enfrentas a {1}, nivel de taberna {0} con {2} de salud, {4} de armadura y {3} |4(esbirro,esbirros)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
@@ -460,6 +465,7 @@ ACCESSIBILITY_UI_REWARD_TITLE	¡Tienes una recompensa!
 ACCESSIBILITY_UI_REWARD_HELP	Utiliza las flechas para leer la recompensa	
 
 ACCESSIBILITY_UI_RANKED_INTRO_POPUP	¡El nuevo sistema de ranking ya está aquí! Puedes encontrar más información sobre esto en línea.	
+
 ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	¡Tu actuación en las partidas de Ranking de la temporada pasada te otorgó una bonificación de {0} estrellas!	0=star bonus amount
 
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Diálogo de reconexión	
@@ -536,6 +542,7 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	Multiplicador de experiencia del {0}%	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini set,Mini sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Aspecto de héroe de campos de batalla,Aspectos de héroe de campos de batalla)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Aspecto de posadero de campos de batalla,Aspectos de posadero de campos de batalla)	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Mazo de Hearthstone	
 ACCESSIBILITY_UI_REWARD_LOANER_DECKS	¡Mazos de préstamo concedidos!	
 ACCESSIBILITY_UI_REWARD_GAME_MODE	¡Nuevo modo desbloqueado!	
 ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Fortalezas: {0}	0=list of strengths of the class
@@ -549,6 +556,8 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escribe un mensaje
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensaje	
 ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Invitar para un grupo de campos de Batalla	
 ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Ahora mismo no puedes desafiar a {0}. Espera a que vuelva al menú principal	
+
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Por favor selecciona al menos una de las opciones	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Ver tu nivel actual	
 ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} de {1} Experiencia para el siguiente nivel	
@@ -632,6 +641,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utiliza las
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utiliza las  flechas y {0} para ver las monedas disponibles	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Utiliza las flechas y {0} para ver los dorsos de cartas disponibles	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Utiliza las flechas y {0} para ver los aspectos de héroe disponibles	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Utiliza las flechas y {0} para ver los aspectos de héroe disponibles. Pulsa {1} para cambiar entre todos los aspectos y los que posees.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pulsa {0} para agregar cartas al mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pulsa {0} para eliminar cartas del mazo	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Pulsa {0} para crear o desencantar las cartas del mazo	0=Shift+Enter
@@ -667,6 +677,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utiliza las flechas y {0} para revelar tus cartas	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Usa las flechas y {0} para revelar tus cartas una a una, o pulsa {1} para revelar todas las cartas en la página actual	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Utiliza las flechas para ver tus nuevas cartas. Pulsa {0} para continuar	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	No tienes ningún sobre de cartas	
 
 ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	¿Cuantos sobres quieres abrir? Introduce una cantidad entre {0} y {1}	0=minimum value 1=maximum value
@@ -677,13 +688,15 @@ ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(carta épica,cartas é
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(carta poco común,cartas poco comunes)	0=number of cards
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(carta común,cartas comunes)	0=number of cards
 ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
-ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Usa las flechas para navegar por el resumen de las cartas que has obtenido. Pulsa {0} una vez que hayas terminado	0=enter key
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Utiliza las flechas para navegar por el resumen de las cartas que has obtenido. Pulsa {0} una vez que hayas terminado	0=enter key
 
 ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	En préstamo hasta {0}	
 
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Juega a Hearthstone	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Leer el rango actual	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrella,estrellas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificación de estrellas	0=current star bonus e.g. {2} star bonus
+
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Ver grupo	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Estadísticas	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Narrar ataques de esbirros durante la fase de combate	
@@ -701,18 +714,6 @@ ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Has completado una misión
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Cargando tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Te doy la bienvenida al tutorial!	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	Has derrotado a Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	Has derrotado a Molino Tormenta de Maná	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	Has derrotado al Eremita Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	Has derrotado al Rei Mukla	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	Has derrotado a Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	Has derrotado a Illidan Tempestira	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Tu próximo oponente es Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Tu próximo oponente es Molino Tormenta de Maná	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Tu próximo oponente es Eremita Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Tu próximo oponente es el Rei Mukla	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Tu próximo oponente es Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Tu próximo y último oponente es Illidan Tempestira	
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	Te enseñaré a jugar a través de un conjunto de seis tutoriales.	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	Si alguna vez te sientes perdido, pulsa {0}. Incluso después del tutorial o cuando navegues por los menús, siempre puedes pulsar {0} cuando necesites ayuda.	0=F1 key
@@ -838,7 +839,6 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Pulsa {0} y {1} 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para vender un esbirro a tu posadero. ¡Te añade un espacio livre y te da una moneda de oro por él!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para reubicar a tus esbirros	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para actualizar tu taberna	0=u key 1=Enter key
-
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pulsa {0} i {1} para refrescar tu taberna y encontrar nuevos reclutas	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pulsa {0} y {1} para congelar los esbirros de la taberna y poder comprarlos en el próximo turno.	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Pulsa {0} Para ver cuanto tiempo te queda para hacer tus jugadas!	e key
@@ -867,6 +867,15 @@ ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Pulsa C para acceder a tu colecci
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Nivel {0}: {1} puntos de experiencia necesarios	0 is the level number
 ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Recompensas: {0}	0 is text description of rewards. This is appended to the previous item.
 
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completado	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Requiere {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Clases recomendadas: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Nuevo!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Reclama la recompensa!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Has ganado una recompensa! Reclámala en el diario	
+
 ACCESSIBILITY_DUELS_READ_STATS	estadísticas	Read your casual, heroic duels ratings, maximum wins and season ending time info
 ACCESSIBILITY_DUELS_CHOOSE_TYPE	Elige el tipo de duelo	Choosing the type of duels (casual/heroic)
 ACCESSIBILITY_DUELS_LOSSES_COUNT	Derrotas	Losses count in current duels run
@@ -890,6 +899,7 @@ ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Cuando hay más de un esbirro, puedes usar
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Has conseguido otra carta. ¿Puedes averiguar qué hace?	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	Este hechizo es perfecto para lidiar con Bufar! Pulsa {0} para jugarlo	0=Enter key
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Selecciona al esbirro enemigo y pulsa {0} para elegirlo como objetivo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Pulsa {0} para ver al esbirro enemigo y {1} para seleccionarlo como objetivo	0=G 1=Enter key
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Ahora, veamos como puedes averiguar tu salud	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Si tu Héroe se queda sin salud, pierdes	
 ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Tu vermis de maná está listo para atacar. Selecciónalo y pulsa {0}.	0=Enter key
