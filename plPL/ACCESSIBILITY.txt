@@ -159,6 +159,10 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Przeciwnik nie ma dobytej 
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	{0} z {1} many	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	{0} many	0=current and total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Przeciwnik ma {0} many	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |(trupów)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	nie ma trupów
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES	twój przeciwnik ma {0} |(trupów)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_CORPSES_EMPTY	twuj przeciwnik nie ma trupów	
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	{0} |4(karta,karty,kart) w ręce przeciwnika	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	{0} |4(karta,karty,kart) w talii	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	{0} |4(karta,karty,kart) w talii przeciwnika	0=number of cards
@@ -591,7 +595,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Wytwórz karty
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Przeczytaj ilość tajemnego pyłu	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Odczaruj {0} |4(nadliczbową kartę,nadliczbowe karty,nadliczbowych kart) i otrzymaj za to {1} tajemnego pyłu.	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	przeczytaj kartę	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	przeczytaj pokrewną kartę	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Przeczytaj Powiązaną Kartę	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Przeczytaj opis	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Wytwórz za {0} tajemnego pyłu	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Odczaruj i zyskaj  {0} tajemnego pyłu	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -749,12 +753,233 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Gdy już oznaczysz wszystki
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by kupować stronników za 3 złota. Zbuduj armię by pokonać Wroguw!	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników.	0=b key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników twojemu Karczmarzowi. To Zwalnia Miejsce i otrzymujesz 1 złota za to!	0=b key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Użyj {0} i {1} by sprzedawać stronników twojemu Karczmarzowi. To Zwalnia Miejsce i otrzymujesz 1 złota!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Użyj {0} i {1} by przestawiać kolejność twoich stronników	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Użyj {0} i {1} by ulepszyć twoją karczmę	0=u key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Użyj {0} i {1} by odświerzyć twoją karczmę i zobaczyć nowych rekrutów	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Użyj {0} i {1} by zamrozić stronników i zobaczyć ich ponownie w następnej turze.	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Wciśnij {0} by zobaczyć ile czasu masz jeszcze by grać w tej turze!	e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Użyj {0} i {1} by przywoływać stronników.	0=c key 1=Enter key
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} wytrzymałości	0=durability	e.g.	1	durability,	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Księga najemników
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	runa krwi
+ACCESSIBILITY_READ_CARD_RUNE_FROST	runa lodu
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	runa przekleństwa
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} z {1} Xp do następnego levelu	
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	zablokowana
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	wybiesz misje do grania	
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	ta misja jest aktualnie zablokowana.
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	dostępna
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	zakończona
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	misja {0}, {1}	0 = misja numer, 1 = skończona status
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	Prolog popioły rubierzy	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	Prolog rycerz śmierci	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Zaproś do ustawki	
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - specjalna edycja	0=card name
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	przeczytaj ilość kamienirunicznych	
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	wykup za {0} kamienirunicznych	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	pozostało {0} kamienirunicznych	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	za mało kamieni runicznych	
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} dołączył do drużyny.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} odrzucił zaproszenie.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} opuścił drużynę.	0 is player name
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	w ciśnij {0} aby przełączać się między przeglądaniem aktualnej talii a wybieraniem nowej karty do dodania
+ACCESSIBILITY_ARENA_WINS_LOSSES	zwycięstw: {0}, przegranych: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
+ACCESSIBILITY_ARENA_TICKETS_COUNT	masz {0} biletów.	0 is number of tickets.
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Wciąż możesz aktywować lokację. czy jesteś pewien?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	bilet W widoku tawerny
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	to nie jest przyjazny stronnik
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	ten stronnik nie może atakować bohatera przeciwnika	
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	wybierz kategorię:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Niedawno zakończone:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} z {2} całkowitych punktów osiągnięć ({3}), {4} z {5} osiągnięć zakończonych	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	odbierz teraz!	
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	poziom: {0} z {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	postęp: {0} z {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	otrzymasz {0} punktów osiągnięć	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	nie możesz odebrać osiągnięcia.
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	odbierz osiągnięcie	Used in the viewing menu
+ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Nie możesz rzucić teraz wyzwania {0}.	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Włącz rejestrowanie debugowania dla tego uruchomienia	
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Wypożyczony do godz {0}	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	nawiedzona	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Mowa w tle	
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	wciśnij c, aby uzyskać dostęp do swojej kolekcji	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	poziom {0}: {1} xp potrzeba	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, nagrody: {0}	0 is text description of rewards. This is appended to the previous item.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	przeglądaj szafkę	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	wróć do talii	Used when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	szafka	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	Aby edytować szafkę, przejdź do trybu edycji talii, Znajdź kartę etc i naciśnij spację.
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	szybkość automatycznego ataku: {0}	Options menu
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	wolny	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	normalny	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	szybki	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_HAUNTED	została nawiedzona
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_HAUNTED	były nawiedzone
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Format zmieniony	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	nieprawidłowa	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	zaproszony	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	gotowy	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	lider	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	nie gotowy	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	gra	
+ACCESSIBILITY_DUELS_READ_STATS	Przeczytaj statystyki	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	Wybierz rodzaj pojedynków	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	przegranych	Losses count in current duels run
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	zobacz drużynę	
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Użyj klawiszy strzałek, aby odczytać moce specjalne, {0} aby wybrać.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Użyj klawiszy strzałek, aby przeczytać skarby, {0}, aby wybrać.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Użyj klawiszy strzałek, aby odczytać skarby, {0}, aby wybrać skarb i {1}, aby wyświetlić swoją talię.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Użyj {0} i {1}, aby poruszać się między skrzynkami z łupami, klawiszy strzałek, aby czytać karty w skrzyni, {2}, aby wybrać skrzynię i {3}, aby wyświetlić swoją talię.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Spróbuj ponownie	
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Twoja seria pojedynków dobiegła końca. Naciśnij {0}, aby zobaczyć swoje nagrody.	{0}=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Przeczytaj powiązane karty	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Automatycznie zapisuj dzienniki historii bitew w folderze
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Wybór ukryty	
+ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Użyj klawiszy stref, aby sprawdzić stan planszy. Naciśnij {0}, aby powrócić do wyboru	0=tab key
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Wykuć karte?	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalia: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Użyj {0}, aby wytworzyć lub odczarować karty w swojej talii	0=Shift+Enter
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	Nie ma żadnych anomalii	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	ustawiono ulubionego barmana	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Ulubione uderzenie ustawione	Spoken after setting a new favorite strike in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Przeglądaj skórki bohaterów	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Przeglądaj barmanów	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Przeglądaj zwieńczenia	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Posiadane skórki bohaterów:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Wszystkie skórki bohaterów:	Spoken when the battlegrounds collection is filtered to show all hero skins
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Nauczę Cię, jak grać, poprzez zestaw trzech gier instruktażowych 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Twoim pierwszym przeciwnikiem jest łowca o imieniu Rexxar. Będziesz grać jako potężna czarodziejka Jaina Proudmoore 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Dobrze,a więc... Ta karta to stronnik o nazwie Żmij many 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	Ten ma 1 atak i 2 punkty zdrowia 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Twój przeciwnik przywołał własnego stronnika! 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Naciśnij {0}, aby przyjrzeć się stronnikom przeciwnika	0=g 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Przyjrzyjmy się teraz twoim stronnikom. Aby to zrobić, naciśnij przycisk {0}	0=b 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Jeśli jest więcej niż jeden stronnik, możesz poruszać się między nimi za pomocą klawiszy strzałek w lewo i w prawo 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Masz kolejną kartę! Czy możesz dowiedzieć się, co to robi? 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	To zaklęcie jest idealne do rozprawienia się z prychaczem! Naciśnij {0}, aby ją zagrać	0=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Wybierz wrogiego stronnika i naciśnij {0}, aby go namierzyć	0=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Naciśnij {0}, aby wybrać wrogiego stronnika i {1}, aby go namierzyć	0=G 1=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Teraz nauczmy się, jak sprawdzić swoje zdrowie 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Jeśli Twojemu Bohaterowi zabraknie zdrowia, przegrywasz 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Twoja żmija many jest teraz gotowa do ataku. Wybierz i naciśnij {0}.	0=Enter key 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Czy możesz zaatakować bohatera przeciwnika? 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Naciśnij {0} i {1}, aby zaatakować wrogiego bohatera	0=F 1=Enter 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Pamiętasz, jak zakończyć swoją turę? 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Możesz przywołać stronnika, którego właśnie otrzymałeś, lub użyć tego, którego już masz na polu bitwy,  
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Rozważ teraz drugą opcję, którą jest zaatakowanie stronnikiem, którego masz na polu bitwy 
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Stronnicy ze słowem kluczowym szarża mogą atakować w turze, w której zostali zagrani! 
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Ten śmiałek krwawe kopyto, którego właśnie przyzwał twój przeciwnik, ma zdolność zwaną Prowokacja  
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Twój przeciwnik wyposażył się w Ostrze Mrozu, broń o ataku 3 i wytrzymałości 5 
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Oznacza to, że Bohater twojego przeciwnika będzie miał 3 ataku podczas swojej tury i będzie mógł zaatakować dowolną twoją postać 
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Pokonałeś Rexxara 
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Pokonałeś Garrosha Piekłorycza	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	Pokonałeś Króla Lisza!
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Twoim następnym przeciwnikiem jest Rexxar
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Twoim następnym przeciwnikiem jest Garrosh Piekłorycz 
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Twoim następnym i ostatnim przeciwnikiem jest Król Lisz
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	Przeciwnik Ma {0} z {1} many	0=current mana 1=total mana
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Użyj klawiszy strzałek i {0}, aby odsłonić karty jedna po drugiej, lub naciśnij {1}, aby odsłonić wszystkie karty na bieżącej stronie	0=enter key 1=space key
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	Ile paczek chciałbyś otworzyć? Wprowadź wartość z zakresu od {0} do {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Podano nieprawidłową ilość: możesz otworzyć od {0} do {1} paczek	0=minimum quantity 1=maximum quantity
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(legendarną karte,legendarnych kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} epickich kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} (rzadkich kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} (zwykłych kart)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Użyj klawiszy strzałek, aby przeglądać podsumowanie otrzymanych kart. Kiedy już skończysz, naciśnij {0}	0=enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Użyj klawisze strzałek, aby przeglądać nowe karty. Naciśnij {0}, aby kontynuować	0=enter key
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Zakończony	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Wymaga {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Polecane klasy: {0}	0=classes
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess nie obsługuje jeszcze aktualnej bujki w karczmie. Spróbuj ponownie później	
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Nowy!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Odbierz nagrodę!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Zagraj w Hearthstona	
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Zdobyłeś nagrodę! Odbierz Ją z dziennika	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	Nowy tryb odblokowany!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Mocne strony: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Słabe strony: {0}	0=list of weaknesses of the class
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Czy na pewno chcesz wybrać tę talię? Naciśnij {0}, aby potwierdzić lub {1}, aby anulować	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Użyj klawiszy strzałek, aby przeglądać karty w tej talii. Naciśnij {0}, aby wybrać lub {1}, aby wrócić do listy talii	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARD_DECK	Talia Hearthstone	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Wypożyczone talie przyznane!	
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Naciśnij {0}, aby przeczytać więcej szczegółów	0=key e.g. Press space to read more details
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Proszę wybrać przynajmniej jedną z opcji	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	Załaduj zapisaną wersję	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	ta szafka jest pusta	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} z {1} kart w szafce	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	znikła	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	znikły	Paladin auras, objectives, etc
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Przekazać {0}?	0=card name e.g. Pass {Tarecgosa}?
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	pole bitwy kolegi z drużyny	Spoken when you switch to viewing your teammate's board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_PLAYERS_BOARD	Twoje pole bitwy	Spoken when you switch to viewing your board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATE_CHOSE_HERO	twój kolega z drużyny wybrał {0}	0=hero name e.g. Your teammate chose {Al'Akir}
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_NO_PING	Nie ma kart z pingiem	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_ENTITY_PINGED	{0} jest pingowany przez {1}	0=pinged card 1=ping type e.g. {Your teammate's Tarecgosa} is pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_CARD_PINGED_LINE	Pingowano za pomocą {0}	0=ping type e.g. Pinged with 
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATES_ENTITY_FULL_NAME	Twój kolega z drużyny {0}	0= card name e.g. Your teammate's Tarecgosa
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_EXCLAMATION	Wykrzyknik	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CHECK	Zaznaczenie	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CROSS	Czerwony X	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_WARP	Portal	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_QUESTION	Znak zapytania	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_DUOS	Przełącz na duety	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_SOLO	Przełącz na Solo	
+ACCESSIBILITY_UI_SOCIAL_INVITE_TO_BRAWL	Zaproś do Karczemnej Bójki
+ACCESSIBILITY_SCREEN_TWIST_CARDS_IN_DECK	{0} Kart w talii	0=number of cards
+ACCESSIBILITY_SCREEN_TWIST_HEROIC_DECK_LOCKED	Zablokowany, wymaga {0}	0=name of card e.g. Locked, 
+ACCESSIBILITY_SCREEN_TWIST_CRAFT_CARD	stwórz {0}	0=Name of card e.g. Craft {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_PASSIVE_ABILITY	Umiejętność pasywna	
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_LOCATION_BIG_CARD	zagrałeś {0}; {1} wytrzymałości {2}	0=location name 1=location durability 2=card text e.g. You played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_LOCATION_BIG_CARD	Twój przeciwnik zagrał {0}; {1} wytrzymałości {2}	0=location name 1=location durability 2=card text e.g. Your opponent played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_WAS_DESTROYED	została zniszczona	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_WERE_DESTROYED	zostały zniszczone	
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_REOPENED	ponownie otwarta	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_REOPENED	ponownie otwarte	
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	ozdoby	Read when you press q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_OPPONENT_TRINKETS	ozdoby przeciwnika	Read when you press shift+q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	Naciśnij {0}, aby przeczytać swoje ozdoby	0=q key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Kup ozdobę!	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Kawałki statku kosmicznego	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Użyj klawiszy strzałek, aby odczytać części statku kosmicznego, naciśnij {0}, aby wystartować, lub {1}, aby przerwać	0=Enter key 1=Backspace key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	zamień za {0} |4(żeton,żetony)?	0=amount e.g. Reroll for {1} token? 
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	masz {0} |4(żeton,żetonów)	0=amount e.g. You have 5 tokens
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Naciśnij {0} aby zmienić  aktualnego bohatera	0=R key
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(żeton ustawki,żetonów ustawki)	
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} many do wystrzelenia statku kosmicznego	0=launch cost e.g. {5} mana to launch starship
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	Najszybszy	
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} many do wystrzelenia statku kosmicznego	0=launch cost e.g. {5} mana to launch starship
+ACCESSIBILITY_ARENA_RATING	Ocena, {0}	0 is arena rating pulled from datamodel
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Rozpocznij nową, normalną rundę na arenie.	Button to start a new standard arena run.
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Rozpocznij nową podziemną wyprawę na arenię.	Button to start a new underground arena run.
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	Poddaj się.	Retire button.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Po wybraniu bohatera naciśnij {0}, aby potwierdzić wybór.	Confirm hero draft in arena help.
+ACCESSIBILITY_ARENA_NO_HERO_TO_DRAFT_ERROR	Nie wybrałeś jeszcze bohatera. Przejdź do wybranego bohatera i naciśnij Enter, a następnie potwierdź wybór, naciskając {0}.	Help for drafting hero in arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Witamy na arenie!	No run title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Witamy ponownie na arenie!	Run in progress title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Arena zakończona!	Run is over menu.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Odbierz nagrody.	Claim arena run rewards menu option.
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Przełącz na normalny tryb areny.	Switch to normal mode button.
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Przełącz na tryb areny podziemnej.	Switch to underground mode button.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Naciśnij {0}, aby wybrać ten zestaw, albo {1}, aby wrócić i wybrać inny.	Package selection help in arena.
+ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	Cofnięcie?	
+ACCESSIBILITY_ARENA_EMPTY_DECK	Nie wybrałeś jeszcze żadnych kart.	No deck to view.
+ACCESSIBILITY_ARENA_VIEW_DECK_BUTTON	Pokaż talię	View deck button in arena menu.
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_SLOT	Przenosisz właśnie kartę z miejsca do swojej talii. Naciśnij {0} na karcie, aby potwierdzić zamianę, lub naciśnij {1}, aby przerwać.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_DECK	Przenosisz właśnie kartę ze swojej talii do miejsca. Naciśnij {0} na karcie, aby potwierdzić zamianę, lub naciśnij {1}, aby przerwać.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_EMPTY_SLOT	Miejsce {0} jest puste.	0 is slot number
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_EMPTY_ERROR	To miejsce jest puste. Select a filled one to swap its contents with the card selected in your deck.	Trying to drag card to empty slot error
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_SLOT	Naciśnij {0} na karcie w talii, z którą chcesz zamienić wybraną kartę.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_DECK	„Naciśnij {0} na karcie, aby zamienić ją z tą z ponownego wyboru.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_DRAG_CANCELLED	Anuluj zamianę karty.
+ACCESSIBILITY_ARENA_EXIT_EDIT_DECK_CONFIRM	Masz zamiar zakończyć ponowny wybór kart. Naciśnij {0} lub {1}, aby potwierdzić, albo dowolny inny klawisz, by anulować.	0 is confirm 1 is e.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_HELP	„Naciśnij {0} na karcie, aby przenieść ją do wolnego miejsca ponownego wyboru (jeśli takie masz). Naciśnij {1} na karcie, aby ją wybrać — wtedy zostaniesz przeniesiony do miejsc ponownego wyboru. Naciśnij {2} na zajętym miejscu, aby zamienić pozycje tych dwóch kart. Naciśnij {3}, aby anulować trwającą zamianę.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_HELP	„Naciśnij {0} na zajętym miejscu, aby przenieść kartę do tworzonej talii. Naciśnij {1} na zajętym miejscu, aby je wybrać — wtedy zostaniesz przeniesiony do swojej tworzonej talii. Naciśnij {2} na karcie w talii, aby zamienić pozycje tych dwóch kart. Naciśnij {3}, aby anulować trwającą zamianę.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_GENERAL_HELP	Naciśnij {0}, aby zobaczyć, ile kart masz w tworzonej talii. Naciśnij {1}, aby zakończyć wybieranie kart.	General help for all redraft views.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_COUNT	Twoja tworzona talia zawiera {0} kart.	0 is number of cards in deck
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS

@@ -5,6 +5,7 @@ ACCESSIBILITY_PRESS_KEY_TO_START	Press {0} to start	0=key e.g. Press Enter to st
 ACCESSIBILITY_PRESS_KEY_TO_CONTINUE	Press {0} to continue	0=key e.g. Press Enter to continue
 ACCESSIBILITY_PRESS_KEY_TO_FINISH	Press {0} to finish	0=key e.g. Press Enter to finish
 ACCESSIBILITY_PRESS_KEY_TO_GO_BACK	Press {0} to go back	0=key e.g. Press backspace to go back
+ACCESSIBILITY_PRESS_KEY_TO_READ_DETAILS	Press {0} to read more details	0=key e.g. Press space to read more details
 ACCESSIBILITY_PRESS_KEY_TO_EXIT	Press {0} to exit	0=key e.g. Press Enter to exit
 ACCESSIBILITY_PRESS_KEY_ONCE_DONE	Press {0} once you're done	0=key e.g. Press Enter once you're done
 
@@ -18,14 +19,24 @@ ACCESSIBILITY_LIST_NO_ITEMS	No items
 ACCESSIBILITY_OPTIONS_MENU_TITLE	Options Menu	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_QUALITY_OPTION	Graphics quality	
 ACCESSIBILITY_OPTIONS_MENU_GRAPHICS_RESOLUTION_OPTION	Graphics resolution	
+ACCESSIBILITY_OPTIONS_MENU_DEBUG_LOGGING_OPTION	Enable debug logging for this run	
+ACCESSIBILITY_OPTIONS_MENU_SPEECH_IN_BACKGROUND_OPTION	Speech in background	
+ACCESSIBILITY_OPTIONS_MENU_SAVE_BATTLE_LOGS	Automatically Save Battle history Logs to Battle Logs folder
 ACCESSIBILITY_OPTIONS_MENU_ADJUST_VOLUME	Use the left and right arrow keys to adjust the volume	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_LABEL	{0} checkbox	0=checkbox name e.g. {Fullscreen} checkbox
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_CHECKED	Checked	
 ACCESSIBILITY_OPTIONS_MENU_CHECKBOX_NOT_CHECKED	Not checked	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED	Auto Attack Speed: {0}	Options menu
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_SLOW	Slow	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_MEDIUM	Medium	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FAST	Fast	
+ACCESSIBILITY_OPTIONS_MENU_AUTO_ATTACK_SPEED_FASTEST	Fastest	
+
 ACCESSIBILITY_HUB_MAIN_MENU_TITLE	Main Menu	
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_GAME_MENU	Press {0} at any time to open the game menu. Try it now!	0=Esc key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_SOCIAL_MENU	Press {0} at any time to open the social menu. Try it now!	0=F4 key
 ACCESSIBILITY_HUB_MAIN_MENU_OPTION_HELP	Press {0} at any time if you're feeling lost. If you need help from a sighted person, you can always press {1} to disable accessibility and allow them to control the game using the mouse as normal. Just remember to press {1} once they're done to reactivate accessibility	0=Esc key 1=F8 key
+ACCESSIBILITY_HUB_TAVERN_BRAWL_INACCESSIBLE	HearthstoneAccess does not yet support the current tavern brawl. Please try again later	
 
 ACCESSIBILITY_GLOBAL_LOADING_GAME	Loading game	
 ACCESSIBILITY_GLOBAL_CLOSING_GAME	Closing game	
@@ -45,6 +56,7 @@ ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Switch format	Used as a menu option for switc
 ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Choose a format	Used as a menu title for choosing standard, wild or classic
 
 ACCESSIBILITY_GLOBAL_KEYWORD_CURSED	Cursed	
+ACCESSIBILITY_GLOBAL_KEYWORD_HAUNTED	haunted	
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibility on	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibility off	Read when F8 is pressed and accessibility is turned off
@@ -71,17 +83,25 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} durability	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Blood	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	Frost	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Unholy	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} attack	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} health	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} armor	0=armor
-ACCESSIBILITY_READ_CARD_N_COPIES	{0} copies	0=number of copies
+ACCESSIBILITY_READ_CARD_N_COPIES	{0} |4(copy,copies)	0=number of copies
+ACCESSIBILITY_READ_CARD_N_TRIAL_COPIES	{0} |4(trial copy,trial copies)	0=number of copies
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_GOLDEN	{0} - golden edition	0=card name e.g. {fireball} - golden edition
 ACCESSIBILITY_READ_COLLECTION_CARD_NAME_DIAMOND	{0} - diamond edition	0=card name
+ACCESSIBILITY_READ_COLLECTION_CARD_NAME_SIGNATURE	{0} - signature edition	0=card name
 
 ACCESSIBILITY_GAMEPLAY_OPPONENT_TURN	Opponent's turn	
 ACCESSIBILITY_GAMEPLAY_TURN_ENDED	Turn ended	
+ACCESSIBILITY_GAMEPLAY_CHOICES_HIDDEN	Choices hidden	
+ACCESSIBILITY_GAMEPLAY_QUERY_REWIND	Rewind?	
 ACCESSIBILITY_GAMEPLAY_CARD_IN_ZONE_TRIGGERED	{0} triggered	0=full card name in zone e.g. {Your second Murloc Raider} triggered
 ACCESSIBILITY_GAMEPLAY_PLAYER_CARD_TRIGGERED	Your {0} triggered	0=card name e.g. Your {Psyfiend} triggered
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CARD_TRIGGERED	Your opponent's {0} triggered	0=card name e.g. Your opponent's {Psyfiend} triggered
@@ -108,6 +128,8 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	You cast {0}	0=secret name e.g. You ca
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	You cast {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Your opponent cast 1 {0} secret	0=secret class e.g. Your opponent cast 1 {mage} secret
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Your opponent cast {0} secrets	0=number of secrets e.g. Your opponent cast {2} secrets
+ACCESSIBILITY_GAMEPLAY_PLAYER_PLAYED_LOCATION_BIG_CARD	You played {0}; {1} durability {2}	0=location name 1=location durability 2=card text e.g. You played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
+ACCESSIBILITY_GAMEPLAY_OPPONENT_PLAYED_LOCATION_BIG_CARD	Your opponent played {0}; {1} durability {2}	0=location name 1=location durability 2=card text e.g. Your opponent played {Muck Pools}; {3} durability {Transform a friendly minion into one that costs (1) more.}
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	You tried to draw a card from an empty deck	
 ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Your opponent tried to draw a card from an empty deck	
 ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	You drew 1 {0} but it burned	0=card e.g. You drew 1 {Fireball} but it burned
@@ -130,18 +152,28 @@ ACCESSIBILITY_GAMEPLAY_OPPONENT_DISCARDED_CARDS	Your opponent discarded {0}	0=ca
 ACCESSIBILITY_GAMEPLAY_YOU_GET_THE_COIN	You get the coin	
 ACCESSIBILITY_GAMEPLAY_WAITING_FOR_OPPONENT	Waiting for opponent	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION	Summon?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_OPPOSING_SIDE	Summon for opponent?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT	Summon at the right?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_RIGHT_OPPOSING_SIDE	Summon at the right for opponent?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Summon at the left?	
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT_OPPOSING_SIDE	Summon at the left for opponent?	
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Summon between {0} and {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
+ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN_OPPOSING_SIDE	Summon between {0} and {1} for opponent?	Summon between {Murloc Raider} and {Bloodfen Raptor} for opponent?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Play card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trade card?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	Forge card?	
+ACCESSIBILITY_GAMEPLAY_QUERY_PREPARE_CARD	Prepare card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	You still have valid plays. Are you sure?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	You can still attack. Are you sure?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	You can still activate locations. Are you sure?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	You can still use your Hero Power. Are you sure?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	You don't have any summoned minions	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	Your opponent's Hero can't be attacked	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	Your opponent's Hero can't be targeted	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	None of your minions can attack your opponent's Hero	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	That is not a friendly minion	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	That is not a minion	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	That minion can't attack your opponent's hero	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Choose a target	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} |4(second,seconds) remaining	0=number of seconds e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	You're playing against {0}, the {1}	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
@@ -158,11 +190,16 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	You have no equipped weapon
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Your opponent has no equipped weapon	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	You have {0} out of {1} mana	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	You have {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	Your opponent has {0} out of {1} mana	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Your opponent has {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(corpse,corpses)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	no corpses
+ACCESSIBILITY_GAMEPLAY_READ_STARSHIP_LAUNCH_COST	{0} mana to launch starship	0=launch cost e.g. {5} mana to launch starship
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Opponent's hand. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Opponent's Deck. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	You have no valid plays	
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	There are no anomalies	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	You win	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	You lose	
@@ -199,9 +236,18 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_WILL_NOT_BE_REPLACED	Will not be replaced
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP	Use the arrow keys to go through your starting cards. Use {0} to mark the cards you'd like to replace. Press {1} once you're done	0=spacebar key 1=Enter key
 ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	The game is about to start. Please wait	
 
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_INTRO	Starship pieces	
+ACCESSIBILITY_GAMEPLAY_STARSHIP_HUD_HELP	Use the arrow keys to read the pieces of the starship, press {0} to launch or {1} to abort	0=Enter key 1=Backspace key
+
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	died	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	died	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	broke	
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	faded	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	faded	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_WAS_DESTROYED	was destroyed	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_WERE_DESTROYED	were destroyed	
+ACCESSIBILITY_GAMEPLAY_DIFF_LOCATION_REOPENED	reopened	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_LOCATIONS_REOPENED	reopened	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	transformed into 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	took {0} damage	0=damage taken
@@ -216,6 +262,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	became invulnerable
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	became invulnerable	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	was cursed	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	were cursed	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_HAUNTED	was haunted
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_HAUNTED	were haunted
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	was silenced	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	were silenced	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	became dormant	
@@ -339,8 +387,14 @@ ACCESSIBILITY_GAMEPLAY_READ_CARD_HELP	Use the up and down arrow keys to read thi
 ACCESSIBILITY_GAMEPLAY_READ_CARD_TOOLTIP_HELP	Press {0} to get a description of this card's abilities	0=i key
 ACCESSIBILITY_GAMEPLAY_PLAY_CARD_HELP	Press {0} to play this card	0=Enter key
 ACCESSIBILITY_GAMEPLAY_TRADE_CARD_HELP	Press {0} to trade this card	0=t key
+ACCESSIBILITY_GAMEPLAY_FORGE_CARD_HELP	Press {0} to forge this card	0=t key
+ACCESSIBILITY_GAMEPLAY_PREPARE_CARD_HELP	Press {0} to prepare this card	0=t key
 ACCESSIBILITY_GAMEPLAY_SUMMON_MINION_HELP	Press {0} to summon this minion	0=Enter key
-ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one	0=Enter key
+ACCESSIBILITY_GAMEPLAY_POSITION_LOCATION_HELP	Press {0} to place this location	0=Enter key
+ACCESSIBILITY_GAMEPLAY_CHOICE_MODE_HELP	Use the arrow keys to go through your options. Press {0} to choose one. Press {1} to inspect the board	0=Enter key 1=tab key
+ACCESSIBILITY_GAMEPLAY_HIDDEN_CHOICE_HELP	Use the zone keys to inspect the state of the game board. Press {0} to return to the choices	0=tab key
+ACCESSIBILITY_GAMEPLAY_REWIND_MODE_HELP	Use the zone keys to inspect the state of the game board. Press {0} to rewind, or {1} to keep the current state.	0=U key 1=J key
+ACCESSIBILITY_GAMEPLAY_REROLL_CHOICE_HELP	Press {0} to reroll	0=R key
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET_HELP	Use {0} or the Zone keys to go through your targets. Press {1} to choose a target or {2} to cancel	0=Tab key 1=Enter key 2=Backspace key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_MINION_HELP	Press {0} to attack with this minion	0=Enter key
 ACCESSIBILITY_GAMEPLAY_ATTACK_WITH_HERO_HELP	Press {0} to attack with your hero	0=Enter key
@@ -361,16 +415,24 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	Stopped reading history
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Your battlefield starts with {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	Your opponent's battlefield starts with {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} joined the party.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} declined the invite.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} left the party.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Tier {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} gold	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_CHRONUM_COST	{0} chronum	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	Ticket	In the tavern view
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Tavern tier {0} and {1} gold	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	You face a tier {0} {1} with {2} health and {3} |4(minion,minions)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	You face a tier {0} {1} with {2} health, {4} armor and {3} |4(minion,minions)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_AGAINST_DEAD_PLAYER	You face {0}	0=Kel'Thuzad i.e. dead player with 0 health e.g. You face {Kel'Thuzad}
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_CURRENT_AND_TOTAL	You have {0} out of {1} gold	0=current gold 1=total gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD	You have {0} gold	0=current and total gold
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_CHRONUM	You have {0} CHRONUM	0=current and total chronum
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_REMAINING_GOLD	{0} gold remaining	0=amount e.g. {3} gold remaining
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_MINIONS_FOR_SALE	Minions for sale	Read when you press g in the recruit phase
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_PLAYER_TRINKETS	Trinkets	Read when you press q
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_OPPONENT_TRINKETS	Opponent's trinkets	Read when you press shift+q
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_SEE_ZONE_MINIONS_FOR_SALE_EMPTY	No minions for sale	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_MINION	Buy {0}?	0=minion name e.g. Buy Tarecgosa?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_SELL_MINION	Sell {0}?	0=minion name e.g. Sell Tarecgosa?
@@ -379,6 +441,12 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Freeze taver
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Unfreeze tavern?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Refresh tavern for {0} gold?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Upgrade tavern for {0} gold?	0=amount e.g. Upgrade tavern for 3 gold?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_BUY_DARK_GIFT	Buy minion with dark gift for {0} gold?	0=cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REROLL_HERO	Reroll for {0} |4(token,tokens)?	0=amount e.g. Reroll for {1} token?
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TOKENS	You have {0} |4(token,tokens)	0=amount e.g. You have 5 tokens
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_BUY_TRINKET	Buy a trinket!	
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomaly: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Move to last position?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Move to first position?	
@@ -408,10 +476,29 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_ZONE_HERO_BUDDY	Hero Buddy
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_GOLD_HELP	Press {0} to read your gold	0=a key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_TAVERN_INFORMATION_HELP	Press {0} to read your tavern information	0=t key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Press {0} to read your Hero Buddy	0=d key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_PLAYER_TRINKETS_HELP	Press {0} to read your trinkets	0=q key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Press {0} to read your next opponent's stats	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Press {0} to read the leaderboard	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Press {0} to read your stats	0=m key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Press {0} to read the races in this game	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Press {0} to read the races and anomaly in this game	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_HERO_REROLL_HELP	Press {0} to reroll the current hero	0=R key
+
+ACCESSIBILITY_BATTLEGROUNDS_TIMEWARPED_TAVERN_HELP	Use {0} and the arrow keys to browse minions for sale. Press {1} to buy a minion. Minions in this tavern cost chronum rather than gold. Press {2} to see your remaining chronum. You must spend all of your chronum to continue.	0=G key 1=Enter key 2=A key
+
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Pass {0}?	0=card name e.g. Pass {Tarecgosa}?
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	Teammate's board	Spoken when you switch to viewing your teammate's board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_PLAYERS_BOARD	Your board	Spoken when you switch to viewing your board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATE_CHOSE_HERO	Your Teammate chose {0}	0=hero name e.g. Your teammate chose {Al'Akir}
+
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_NO_PING	There are no cards with a ping	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_ENTITY_PINGED	{0} is pinged with {1}	0=pinged card 1=ping type e.g. {Your teammate's Tarecgosa} is pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_CARD_PINGED_LINE	Pinged with {0}	0=ping type e.g. Pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATES_ENTITY_FULL_NAME	Your teammate's {0}	0= card name e.g. Your teammate's Tarecgosa
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_EXCLAMATION	Exclamation mark	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CHECK	Checkmark	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CROSS	Red X	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_WARP	Portal	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_QUESTION	Question mark	
 
 ACCESSIBILITY_UI_POPUP	Popup	
 ACCESSIBILITY_UI_REWARDS_TITLE	Rewards	
@@ -506,7 +593,15 @@ ACCESSIBILITY_UI_REWARD_N_CUSTOM_COINS	{0} |4(custom coin,custom coins)	0=amount
 ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% XP boost	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(Mini-set,Mini-sets)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(Battlegrounds Hero skin,Battlegrounds Hero skins)	0=amount
-ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds guide skin,Battlegrounds guide skins)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(Battlegrounds bartender,Battlegrounds bartenders)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_EMOTES	{0} |4(Battlegrounds emote,Battlegrounds emotes)	0=amount
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_STRIKES	{0} |4(Battlegrounds strike,Battlegrounds strikes)	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Hearthstone deck	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	Loaner decks granted!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	New mode unlocked!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Strengths: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Weaknesses: {0}	0=list of weaknesses of the class
+ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_TOKENS	{0} |4(Battlegrounds token,Battlegrounds tokens)	0=amount of tokens e.g. {4} Battlegrounds tokens
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Social Menu	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copied to clipboard	
@@ -514,12 +609,22 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	Message from {0}: {1}	0=sender nam
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Message to {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Type a message	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Send message	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Invite to battlegrounds Party	
+ACCESSIBILITY_UI_SOCIAL_INVITE_TO_BRAWL	Invite to Tavern Brawl
+ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	You cannot challenge {0} right now.	
+
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Please select at least one of the options	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Read current level	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} of {1} Xp to next level	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Claim {0} |4(reward,rewards)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	You've already claimed all rewards for this level	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	Are you sure you would like to choose this deck? Press {0} to confirm or {1} to cancel	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Use the arrow keys to browse the cards in this deck. Press {0} to choose it or {1} to return to the list of decks	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Read gold	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Read runestones	
+ACCESSIBILITY_UI_SHOP_READ_ARCANE_ORBS	Read arcane orbs	China only
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Buy packs	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Buy Mini-sets	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Buy Hero skins	
@@ -527,10 +632,18 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Buy bundles
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Buy others	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Read description	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Buy for {0} gold	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Buy for {0} runestones	0=amount e.g. Buy for {100} rrunestones
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_ARCANE_ORBS	Buy for {0} arcane orbs	China only, 0=amount e.g. Buy for {100} arcane orbs
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Get for free	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Read cards	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use the arrow keys to read the cards	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} gold remaining	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} runestones remaining	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_ARCANE_ORBS_REMAINING	{0} arcane orbs remaining	0=amount e.g. {150} arcane orbs remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Not enough runestones	
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_ARCANE_ORBS	Not enough arcane orbs	China only
+ACCESSIBILITY_UI_SHOP_CURRENCY_CONVERSION_PAGE_HELP	Use the left and right arrow keys to adjust the amount of runestones you would like to convert	China only
+ACCESSIBILITY_UI_SHOP_CURRENCY_CONVERSION_PAGE_MAX_AMOUNT	You can convert up to {0} runestones into arcane orbs. One runestone costs 10 arcane orbs	China only. 0=Max amount
 
 ACCESSIBILITY_SCREEN_GO_BACK	Go back	
 
@@ -539,6 +652,12 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Fatal error screen
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Your Hero reached level {0}	0=level
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	Choose adventurer screen	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	Choose Mission to Play	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	Mission {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	This mission is currently locked.
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	Locked
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	Available
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	Completed
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Press {0} to start or {1} to go back to the main menu	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Adventure screen	
@@ -554,6 +673,9 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	You're on opponent number
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Choose an adventure	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Book of Heroes	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Book of Mercenaries	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	Ashes of Outland: Prologue	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	Death Knight: Prologue	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Choose your opponent's difficulty	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Normal	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Expert	
@@ -569,21 +691,34 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Press {0} to create a
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Press {0} to create a custom deck or {1} to choose a recipe	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Add cards	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	See deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	See sideboard	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	Load saved version	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Back to deck	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Your deck is empty	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	This sideboard is empty	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	{0} of {1} cards in deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_COST_OF_MINIONS_IN_DECK	Cost of minions: {0} of {1} mana	Spoken when Vyranoth is in the current deck. 0=current cost of minions 1=target cost for Vyranoth's effect to trigger e.g. Cost of minions: {10} of {100} mana
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} of {1} cards in sideboard	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Invalid	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Sideboard	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Format changed	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use the arrow keys to read your cards. Use {0} to jump between classes.	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Use the number keys to filter your cards by mana. Use {0} to search your collection.	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Use the arrow keys and {0} to read all available coins.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Use the arrow keys and {0} to read all available card backs.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Use the arrow keys and {0} to read all available Hero skins.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Use the arrow keys and {0} to read the available Hero skins. Press {1} to toggle between showing owned and all skins.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Use {0} to add cards to your deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Use {0} to remove cards from your deck	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Use {0} to craft or disenchant the cards in your deck	0=Shift+Enter
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Type in a new name for your deck	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Type in a search term	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} mana filter on	{0} mana crystal filter e.g. {7+} mana filter on
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Mana filter off	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Change set	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Favorite Hero Skin set	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	Favorite Bartender set	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	Favorite Strike set	Spoken after setting a new favorite strike in Battlegrounds
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Favorite Card Back set	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	Favorite Coin set	Spoken after setting a new favorite Coin
 
@@ -591,7 +726,7 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Craft cards
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Read Arcane Dust	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Disenchant {0} extra |4(card,cards) for {1} Arcane Dust	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Read card	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Read related card	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Read related cards	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Read flavor	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Craft for {0} Arcane Dust	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Disenchant for {0} Arcane Dust	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -600,15 +735,50 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REA
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Card crafted	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Disenchanted	
 
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Browse hero skins	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Browse bartenders	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Browse strikes	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Owned hero skins:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	All hero skins:	Spoken when the battlegrounds collection is filtered to show all hero skins
+
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use the arrow keys and {0} to reveal your cards	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Use the arrow keys and {0} to reveal your cards one by one, or press {1} to reveal all cards on the current page	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Use the arrow keys to browse your new cards. Press {0} to continue	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	You don't have any card packs	
 
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	How many packs would you like to open? Enter a value between {0} and {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Invalid quantity provided: you can open between {0} and {1} packs	0=minimum quantity 1=maximum quantity
+
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(legendary card,legendary cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(epic card,epic cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(rare card,rare cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(common card,common cards)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Use the arrow keys to browse the summary of the cards you have received. Press {0} once you are done	0=enter key
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	On loan until {0}	
+
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Play Hearthstone	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Read current rank	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} out of {1} |4(star,stars)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} star bonus	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_TWIST_CARDS_IN_DECK	{0} cards in deck	0=number of cards
+ACCESSIBILITY_SCREEN_TWIST_HEROIC_DECK_LOCKED	Locked, requires {0}	0=name of card e.g. Locked, requires {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_CRAFT_CARD	Craft {0}	0=Name of card e.g. Craft {King Krush}
+ACCESSIBILITY_SCREEN_TWIST_PASSIVE_ABILITY	Passive ability	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	See party	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Read stats	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Narrate attacks during combat phase	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_DUOS	Switch to Duos	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_SOLO	Switch to Solo	
+
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	invited	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	ready	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	leader	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	not ready	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	playing	
 
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Quest progress toast	
 ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	Current progress is {0} out of {1}	0=current progress 1=total
@@ -617,18 +787,6 @@ ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	You finished a quest
 
 ACCESSIBILITY_TUTORIAL_LOADING_TUTORIAL	Loading tutorial	
 ACCESSIBILITY_TUTORIAL_WELCOME_BACK	Welcome back to the tutorial	
-ACCESSIBILITY_TUTORIAL_DEFEATED_HOGGER	You've defeated Hogger	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MILLHOUSE	You've defeated Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_DEFEATED_CHO	You've defeated Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_DEFEATED_MUKLA	You've defeated King Mukla	
-ACCESSIBILITY_TUTORIAL_DEFEATED_NESINGWARY	You've defeated Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_DEFEATED_ILLIDAN	You've defeated Illidan Stormrage	
-ACCESSIBILITY_TUTORIAL_NEXT_HOGGER	Your next opponent is Hogger	
-ACCESSIBILITY_TUTORIAL_NEXT_MILLHOUSE	Your next opponent is Millhouse Manastorm	
-ACCESSIBILITY_TUTORIAL_NEXT_CHO	Your next opponent is Lorewalker Cho	
-ACCESSIBILITY_TUTORIAL_NEXT_MUKLA	Your next opponent is King Mukla	
-ACCESSIBILITY_TUTORIAL_NEXT_NESINGWARY	Your next opponent is Hemet Nesingwary	
-ACCESSIBILITY_TUTORIAL_NEXT_ILLIDAN	Your next and final opponent is Illidan Stormrage	
 
 ACCESSIBILITY_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of six tutorial games	
 ACCESSIBILITY_TUTORIAL_NARRATOR_HELP_KEYS	If you ever feel lost, press {0}. Even after the tutorial or when navigating menus, you can always use {0} whenever you need help	0=F1 key
@@ -746,6 +904,8 @@ ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_C	Use the arrow keys or {0} t
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_D	If you see a card you don't like, press {0} to mark it for replacement	0=Spacebar key
 ACCESSIBILITY_IN_GAME_TUTORIAL_MULLIGAN_FIRST_TIME_E	Once you've marked all cards you'd like to replace, press {0} to draw new ones and start the game	0=Enter key
 
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_ETC_TUTORIAL	To edit the sideboard, switch to the deck editing mode, focus on this card and press the spacebar.	
+
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_TUTORIAL_OVERRIDE	Use {0} and {1} to buy minions.	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGBUY_BODY_TUTORIAL_OVERRIDE	Use {0} and {1} to buy minions for 3 Gold. Build up an army to take down your enemies!	0=g key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Use {0} and {1} to sell minions.	0=b key 1=Enter key
@@ -760,3 +920,108 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Use {0} and {1} to summo
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_A	eh	Optional. Overrides the A key to be read as eh by TTS
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_I	eye	Optional. Overrides the I key to be read as eye by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Press {0} to switch between viewing your current deck and choosing a new card to add. 
+ACCESSIBILITY_ARENA_WINS_LOSSES	Wins: {0}, Losses: {1}	0 is wins, 1 is losses
+ACCESSIBILITY_MODES_ARENA	Arena	For use in the modes menu
+ACCESSIBILITY_ARENA_RATING	Rating: {0}	0 is arena rating pulled from datamodel
+ACCESSIBILITY_ARENA_TICKETS_COUNT	You have {0} tickets.	0 is number of tickets.
+ACCESSIBILITY_ARENA_BEGIN_NEW_NORMAL_RUN	Begin a new normal run of the arena.	Button to start a new standard arena run.
+ACCESSIBILITY_ARENA_BEGIN_NEW_UNDERGROUND_RUN	Begin a new underground run of the arena.	Button to start a new underground arena run.
+ACCESSIBILITY_ARENA_RETIRE_BUTTON	Retire.	Retire button.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO	Once you have selected a hero press {0} on the same hero to confirm the choice. If you wish to change your mind before confirming select any other hero to cancel the action, or press {1}.	Help for hero drafting.
+ACCESSIBILITY_ARENA_HERO_SELECTED_PROMPT	If you wish to continue with this hero, press {0}. If you wish to choose another, press {1}.	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_HELP_DRAFTING_HERO_POWER	Once you have selected a hero power press {0} on the same hero to confirm the choice. If you wish to change your mind before confirming select any other hero power to cancel the action, or press {1}. Note that this is the hero power you will have in actual games, the actual hero selection only influences the available card pool.	Help for hero power drafting.
+ACCESSIBILITY_ARENA_HERO_POWER_SELECTED_PROMPT	If you wish to continue with this hero power, press {0}. If you wish to choose another, press {1}.	0 is confirm 1 is back.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME	Welcome to the arena!	No run title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_WELCOME_BACK	Welcome back to the arena!	Run in progress title for arena.
+ACCESSIBILITY_ARENA_MENU_TITLE_RUN_COMPLETE	Run complete!	Run is over menu.
+ACCESSIBILITY_ARENA_CLAIM_REWARDS	Claim {0} rewards!	Claim arena run rewards, 0 is number of packages.
+ACCESSIBILITY_ARENA_CHANGE_TO_NORMAL_MODE	Switch to normal arena mode.	Switch to normal mode button.
+ACCESSIBILITY_ARENA_CHANGE_TO_UNDERGROUND_MODE	Switch to the underground arena mode.	Switch to underground mode button.
+ACCESSIBILITY_ARENA_DRAFT_PACKAGE_HELP	Use the left and right arrow keys to navigate the menu. Use the up and down arrow keys to read the options. This is a package of cards that you will automatically draft the entirety of if you select this package. Press {0} to select this package, or press {1} to go back and choose another.	Package selection help in arena, 0 is confirm and 1 is back.
+ACCESSIBILITY_ARENA_EMPTY_DECK	You have not yet drafted any cards.	No deck to view.
+
+ACCESSIBILITY_ARENA_VIEW_DECK_BUTTON	View deck.	View deck button in arena menu.
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_SLOT	You are moving a card from a slot to your deck currently. Press {0} on a card to confirm that swap, or press {1} to abort the move.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_ALREADY_DRAGGING_FROM_DECK	You are moving a card from your deck to a slot currently. Press {0} on a card to confirm that swap, or press {1} to abort the move.	0 is confirm 1 is back
+ACCESSIBILITY_ARENA_REDRAFT_EMPTY_SLOT	Slot {0} is empty.	0 is slot number
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_EMPTY_ERROR	That slot is empty. Select a filled one to swap its contents with the card selected in your deck.	Trying to drag card to empty slot error
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_SLOT	Press {0} on the card you wish to swap the selected one in your deck with.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_PROMPT_SWAP_DECK	Press {0} on the card you wish to swap the selected card from your redrafting slot with.	0 is confirm
+ACCESSIBILITY_ARENA_REDRAFT_DRAG_CANCELLED	You have cancelled the swap.	Cancel redraft card swap
+ACCESSIBILITY_ARENA_EXIT_EDIT_DECK_CONFIRM	You are about to finalise your redrafting. If you wish to proceed, press {0} or {1}, or any other key to cancel.	0 is confirm 1 is e.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_HELP	Press {0} on a card to move it to an open redraft slot if you have one. Press {1} on a card to select it, at which point you will be moved to your redraft slots. Press {2} on a full slot to swap those two card's positions. Press {3} to cancel an in progress swap.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_SLOT_HELP	Press {0} on a filled slot to move it to your in progress deck. Press {1} on a filled slot to select it, at which point you will be moved to your in progress deck. Press {2} on a card currently in your deck to swap those two card's positions. Press {3} to cancel an in progress swap.	0 is confirm, 1 is space, 2 is confirm, 3 is back
+ACCESSIBILITY_ARENA_REDRAFT_GENERAL_HELP	Press {0} to see how many cards are in your in progress deck. Press {1} to be prompted to conclude drafting.	General help for all redraft views.
+ACCESSIBILITY_ARENA_REDRAFT_DECK_COUNT	Your in progress deck contains {0} cards.	0 is number of cards in deck
+
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Select Category:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Recently Completed:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} of {2} total achievement points ({3}), {4} of {5} achievements completed	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	Claimable:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Tier: {0} of {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	PROGRESS: {0} of {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Claim Achievement
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Earn {0} Achievement Points	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Could not claim achievement.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Use the left and right arrows to browse the achievement list and up and down arrows to reach the currently selected achievement's information. Press {0} to attempt to claim a claimable achievement. Press {1} to return to the previous menu. Press {2} to switch between viewing all achievements and viewing incomplete ones.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} of {1} achievements Incomplete
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Press c to access your collection	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Level {0}: {1} xp needed	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Rewards: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completed	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Requires {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Recommended classes: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	New!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Claim reward!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	You have earned a reward! Claim it in the journal	
+
+ACCESSIBILITY_DUELS_READ_STATS	Read stats	Read your casual, heroic duels ratings, maximum wins and season ending time info
+ACCESSIBILITY_DUELS_CHOOSE_TYPE	Choose duels' type	Choosing the type of duels (casual/heroic)
+ACCESSIBILITY_DUELS_LOSSES_COUNT	Losses	Losses count in current duels run
+ACCESSIBILITY_DUELS_CHOOSE_HERO_POWER_HELP	Use arrow keys to read hero powers, {0} to select.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_STARTER_TREASURE_HELP	Use arrow keys to read starter treasures, {0} to select.	{0} enter key
+ACCESSIBILITY_DUELS_CHOOSE_TREASURE_REWARD_HELP	Use arrow keys to read treasures, {0} to choose a treasure and {1} to view your deck.	{0} is enter, {1} is D key
+ACCESSIBILITY_DUELS_CHOOSE_LOOT_HELP	Use {0} and {1} to move between loot crates, arrow keys to read cards in a crate, {2} to choose a crate and {3} to view your deck.	{0} Tab {1} Shift+Tab {2} Enter {3} D key
+ACCESSIBILITY_DUELS_HEROIC_RUN_ENDED	Your duels run has ended. Press {0} to see your rewards.	{0}=Enter key
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Try Again	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	I'll be teaching you how to play through a set of three tutorial games	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Your first opponent is a hunter named Rexxar. You will be playing as the powerful mage Jaina Proudmoore	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Ok, so... This card is a minion named Mana Wyrm	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	This one has 1 attack and 2 health	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Your opponent has summoned a minion of his own!	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Press {0} to look at your opponent's minions	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Now let's look at your minions. Press {0} to do so	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	When there is more than one minion, you can use the left and right arrow keys to move between them	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	You've got another card! Can you find out what it does?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	This spell is perfect for dealing with Huffer! Press {0} to play it	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Select the enemy minion and press {0} to target it	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Press {0} to select the enemy minion and {1} to target it	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Now, let's learn how to check your health	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	If your Hero runs out of health, you lose	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Your mana wyrm is now ready to attack. Select it and press {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	Can you attack your opponent's hero?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Press {0} and {1} to attack your opponent's hero	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	Remember how to end your turn?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	You can either summon the minion you just got, or use the one you already have on the battlefield to launch an attack	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	You're now looking at your second option, which would be to attack with the minion you have on the battlefield	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	Minions with the charge keyword can attack on the turn they are played!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	This bloodhoof brave your opponent just summoned has an ability named Taunt	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Your opponent equipped Frostmourne, a weapon with 3 attack and 5 durability	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	This means your opponent's Hero will have 3 attack during his turn, and will be able to attack any of your characters	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	You've defeated Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	You've defeated Garrosh Hellscream	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	You've defeated the Lich King!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Your next opponent is Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Your next opponent is Garrosh Hellscream	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Your next and final opponent is the Lich King	

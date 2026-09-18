@@ -71,8 +71,12 @@ ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + 
 ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
+ACCESSIBILITY_READ_CARD_DURABILITY	{0} durabilidade	0=durability e.g. 1 durability, for a location
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
 ACCESSIBILITY_READ_CARD_ATK_DURABILITY	{0} {1}	0=attack 1=durability e.g. 1 3
+ACCESSIBILITY_READ_CARD_RUNE_BLOOD	Sangue	The blood death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_FROST	gelo	The frost death knight rune
+ACCESSIBILITY_READ_CARD_RUNE_UNHOLY	Profano	The unholy death knight rune
 ACCESSIBILITY_READ_HERO_CARD_ATK	{0} attaque	0=attack
 ACCESSIBILITY_READ_HERO_CARD_HEALTH	{0} vida	0=health
 ACCESSIBILITY_READ_HERO_CARD_ARMOR	{0} armadura	0=armor
@@ -108,10 +112,10 @@ ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET	Você conjurou {0}	0=secret name e.g. 
 ACCESSIBILITY_GAMEPLAY_PLAYER_CAST_SECRET_BIG_CARD	Você conjurou {0}; {1}	0=secret name 1=card text e.g. You cast {Counterspell}; {Secret: When your opponent casts a spell, Counter it.}
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_SECRET	Seu oponente conjurou 1 segredo de {0}	0=secret class e.g. Your opponent cast 1 {mage} secret
 ACCESSIBILITY_GAMEPLAY_OPPONENT_CAST_N_SECRETS	Seu oponente conjurou {0} secrets	0=number of secrets e.g. Your opponent cast {2} secrets
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Você tentou comprar um card de um deck vazio	
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Seu oponente tentou comprar um card de um deck vazio	
-ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Você comprou 1 {0} porém o card queimou	0=card e.g. You drew 1 {Fireball} but it burned
-ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Seu oponente comprou 1 {0} porém o card queimou	0=card e.g. Your opponent drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_FROM_EMPTY_DECK	Você tentou comprar um card de um deck vazio!	
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_FROM_EMPTY_DECK	Seu oponente tentou comprar um card de um deck vazio!	
+ACCESSIBILITY_GAMEPLAY_PLAYER_DREW_CARD_BUT_BURNED	Você comprou 1 {0} porém o card queimou!	0=card e.g. You drew 1 {Fireball} but it burned
+ACCESSIBILITY_GAMEPLAY_OPPONENT_DREW_CARD_BUT_BURNED	Seu oponente comprou 1 {0} porém o card queimou!	0=card e.g. Your opponent drew 1 {Fireball} but it burned
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED	{0} atacou {1}	0=attacker name 1=defender name e.g. {Your Murloc Raider} attacked {your opponent's Hero}
 ACCESSIBILITY_GAMEPLAY_ENTITY_ATTACKED_OTHER	{0} tentou atacar {1} mas em vez disso atacou {2}	0=attacker name 1=proposed defender name 2=real defender name e.g. {Your Murloc Raider} attempted to attack {your opponent's Hero} but attacked {your opponent's Bloodfen Raptor} instead
 ACCESSIBILITY_GAMEPLAY_JOUST_PLAYER_REVEALED_CARD	Você revelou {1} de custo {0}	0=card cost 1=card name e.g. You revealed a 4 cost Fireball
@@ -135,13 +139,18 @@ ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_AT_THE_LEFT	Invocar à esquerda?
 ACCESSIBILITY_GAMEPLAY_QUERY_SUMMON_MINION_BETWEEN	Innvocar entre {0} e {1}?	Summon between {Murloc Raider} and {Bloodfen Raptor}?
 ACCESSIBILITY_GAMEPLAY_QUERY_PLAY_CARD	Jogar card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_TRADE_CARD	Trocar card?	
+ACCESSIBILITY_GAMEPLAY_QUERY_FORGE_CARD	¿Forjar card?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_VALID_PLAYS	Vocè ainda possui jogadas válidas. tem certeza?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_ATK	Você ainda pode atacar. tem certeza?	
+ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_LOCATION	Vocè ainda pode usar seu lugar. ¿Tem certeza?	
 ACCESSIBILITY_GAMEPLAY_QUERY_END_TURN_WHEN_CAN_USE_HERO_POWER	Você ainda pode usar seu poder heroico. tem certeza?	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NO_MINIONS	Você não tem nem um lacaio invocado	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_ATTACKED	O herói de seu oponente não pode ser atacado	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_CANT_BE_TARGETED	O herói do seu oponente não pode ser alvejado	
 ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_HERO_NO_VALID_ATTACKERS	Nenhum dos seus lacaios pode atacar o Herói do seu oponente	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_FRIENDLY_MINION	Esse não é um dos seus lacaios	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_MINION	Isso não é um lacaio	
+ACCESSIBILITY_GAMEPLAY_SEND_TO_FACE_NOT_VALID_ATTACKER	Esse lacaio não pode atacar o herói do seu oponente	
 ACCESSIBILITY_GAMEPLAY_CHOOSE_TARGET	Escolha um alvo	
 ACCESSIBILITY_GAMEPLAY_N_SECONDS_REMAINING	{0} segundos restantes	0=number of seconds - always plural e.g. {20} seconds remaining
 ACCESSIBILITY_GAMEPLAY_VS_PLAYER_ANNOUNCEMENT	Você está jogando contra {0}, ({1})	0=opponent's name 1=opponent's class e.g. You're playing against {GuideDev}, the {Demon Hunter}
@@ -158,11 +167,15 @@ ACCESSIBILITY_GAMEPLAY_SEE_ZONE_PLAYER_WEAPON_EMPTY	Você não tem nem uma arma 
 ACCESSIBILITY_GAMEPLAY_SEE_ZONE_OPPONENT_WEAPON_EMPTY	Seu oponente não tem nem uma arma equipada	
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA_CURRENT_AND_TOTAL	Você tem {0} de {1} mana	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_PLAYER_MANA	Você tem {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA_CURRENT_AND_TOTAL	Seu oponente tem {0} de {1} mana	0=current mana 1=total mana
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_MANA	Seu oponente tem {0} mana	0=current and total mana
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES	{0} |4(cadáver,cadáveres)	0=current amount of corpses
+ACCESSIBILITY_GAMEPLAY_READ_CORPSES_EMPTY	sem cadáveres
 ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_HAND	Mão de seu oponente. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Baralho. {0} |4(card,cards)	0=number of cards
-ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Baralho de seu oponente. {0} |4(card,cards)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_PLAYER_DECK	Deck. {0} |4(card,cards)	0=number of cards
+ACCESSIBILITY_GAMEPLAY_READ_OPPONENT_DECK	Deck de seu oponente. {0} |4(card,cards)	0=number of cards
 ACCESSIBILITY_GAMEPLAY_NO_VALID_PLAYS	Você não tem jogadas válidas	
+ACCESSIBILITY_GAMEPLAY_NO_ANOMALIES	Não há anomalias	
 
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_WON	Você venceu!	
 ACCESSIBILITY_GAMEPLAY_GAME_OVER_LOST	Você perdeu...	
@@ -202,6 +215,8 @@ ACCESSIBILITY_GAMEPLAY_MULLIGAN_HELP_WAITING_FOR_GAME_TO_START	O jogo está pres
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_DIED	foi destruido	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_DIED	foram destruidos	Singular and plural are often the same in English
 ACCESSIBILITY_GAMEPLAY_DIFF_WEAPON_BROKE	quebrou	
+ACCESSIBILITY_GAMEPLAY_DIFF_AURA_FADED	Desvaneceu-se	Paladin auras, objectives, etc
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_AURAS_FADED	Desvaneceram-se	Paladin auras, objectives, etc
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TRANSFORMED	transformou-se em 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_TRANSFORMED	transformaram-se em 1 {0}	0=name of the card it transformed into e.g. transformed into 1 {Sheep}
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_TOOK_N_DAMAGE	recebeu {0} de dano	0=damage taken
@@ -216,6 +231,8 @@ ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_INVULNERABLE	tornou-se invulnerável
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_INVULNERABLE	tornaram-se invulneráveis	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_CURSED	Maldiçoou	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_CURSED	Maldiçoaram	
+ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_WAS_HAUNTED	Mortificou-se	
+ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_WERE_HAUNTED	Mortificaram-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_SILENCED	silenciou-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_MULTIPLE_ENTITIES_BECAME_SILENCED	silenciaram-se	
 ACCESSIBILITY_GAMEPLAY_DIFF_ENTITY_BECAME_DORMANT	tornou-se dormente	
@@ -361,8 +378,12 @@ ACCESSIBILITY_GAMEPLAY_HISTORY_LOG_CLOSE	leitura de histórico cancelada
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_PLAYER_BATTLEFIELD	Seu campo começa com {0}	0=starting cards e.g. Your battlefield starts with {4 Gates of Theramore}
 ACCESSIBILITY_GAMEPLAY_SPECIAL_STARTING_OPPONENT_BATTLEFIELD	O campo do seu oponente começa com {0}	0=starting cards e.g. Your opponent's battlefield starts with {1 Vicious Bear Trap}
 
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_JOINED	{0} juntou-se ao grupo.	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_DECLINED_INVITE	{0} rejeitou o convite	0 is player name
+ACCESSIBILITY_BATTLEGROUNDS_PARTY_PLAYER_LEFT	{0} abandonou o grupo.	0 is player name
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_TIER	Nível de taverna {0}	0=card tier
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_CARD_COST	{0} de ouro	0=card cost
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_DARKMOON_TICKET	Cupom	In the tavern view
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_RECRUIT_PHASE_START_DESCRIBE	Nível de taverna {0} e {1} de ouro	0=tavern tier 1=amount of gold when recruit phase starts e.g. Tavern tier 2 and 5 gold
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE	Você está enfrentando {1}, nível de taverna {0} com {2} de vida e {3} |4(lacaio,lacaios)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions e.g. You face a tier 3 Chenvaala with 30 Health and 5 minions
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_COMBAT_PHASE_START_DESCRIBE_INCLUDE_ARMOR	Você está enfrentando {1}, nível de taverna {0} com {2} de vida, {4} de armadura e {3} |4(lacaio,lacaios)	0=opponent's tavern tier 1=opponent's Hero 2=opponent's Hero health 3=number of opponent minions 4=opponent's armor e.g. You face a tier 3 Chenvaala with 30 Health, 2 armor and 5 minions
@@ -379,6 +400,8 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_FREEZE_TAVERN_FOR_N_GOLD	Congelar tav
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UNFREEZE_TAVERN	Descongelar taverna?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_REFRESH_TAVERN_FOR_N_GOLD	Refrescar taverna por {0} de ouro?	0=amount e.g. Refresh tavern for 1 gold?
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_UPGRADE_TAVERN_FOR_N_GOLD	Aprimorar taverna por {0} de ouro?	0=amount e.g. Upgrade tavern for 3 gold?
+
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_ANOMALY	Anomalia: {0}; {1}	0=Anomaly name 1=Anomaly text e.g. Anomaly: {Grapnel of the Titans}; {The first minion you buy each turn is free.}
 
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_LAST_POSITION	Colocar na última posição?	
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_QUERY_MOVE_MINION_TO_FIRST_POSITION	Colocar na primeira posição?	
@@ -411,7 +434,22 @@ ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_HERO_BUDDY_HELP	Pressione {0} para ver
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_NEXT_OPPONENT_STATS_HELP	Pressione {0} para ver as stats do seu próximo oponente	0=n key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_LEADERBOARD_HELP	Pressione {0} para ver a clasificação geral	0=l key
 ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_MY_STATS_HELP	Pressione {0} para ver suas stats	0=m key
-ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pressione {0} para ver os tipos de lacaios disponíveis nesta partida	0=o key
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_READ_RACES_IN_GAME_HELP	Pressione {0} para ver os tipos de lacaios disponíveis nesta partida e também as anomalias (quando estiverem disponíveis)	0=o key
+
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_QUERY_PASS_CARD	Passar {0}?	0=card name e.g. Pass {Tarecgosa}?
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_TEAMMATES_BOARD	Mesa da sua dupla	Spoken when you switch to viewing your teammate's board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_SWITCH_TO_PLAYERS_BOARD	Sua mesa	Spoken when you switch to viewing your board in Duos
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATE_CHOSE_HERO	Sua Dupla escolheu {0}	0=hero name e.g. Your teammate chose {Al'Akir}
+
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_NO_PING	Não ha cards em destaque	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_ENTITY_PINGED	{0} está destacado com {1}	0=pinged card 1=ping type e.g. {Your teammate's Tarecgosa} is pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_GAMEPLAY_CARD_PINGED_LINE	Destacado com {0}	0=ping type e.g. Pinged with {Question mark}
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_TEAMMATES_ENTITY_FULL_NAME	{0} de sua dupla	0= card name e.g. Your teammate's Tarecgosa
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_EXCLAMATION	Exclamação	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CHECK	Marca de verificação	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_CROSS	X vermelho	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_WARP	Portal	
+ACCESSIBILITY_BATTLEGROUNDS_DUOS_GAMEPLAY_PING_QUESTION	Interrogação	
 
 ACCESSIBILITY_UI_POPUP	Pop-up	
 ACCESSIBILITY_UI_REWARDS_TITLE	Recompensas	
@@ -435,7 +473,7 @@ ACCESSIBILITY_UI_RANKED_BONUS_STARS_POPUP	Seu desempenho na classificação na �
 
 ACCESSIBILITY_UI_RECONNECT_HELPER_DIALOG_TITLE	Diálogo de reconexão	
 
-ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	{0} terminou. Você alcançou a classificação de {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
+ACCESSIBILITY_UI_SEASON_END_DIALOG_RANK_EARNED	a {0} terminou. Você alcançou a classificação de {1}	0=season name 1=rank name e.g. {July 2021 season} has ended. You achieved the rank of {Diamond 1}
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED	Você ganhou um baú de recompensas	
 ACCESSIBILITY_UI_SEASON_END_DIALOG_CHEST_EARNED_HELP	Pressione {0} para abrir	0=Enter key
 ACCESSIBILITY_UI_SEASON_END_DIALOG_SEASON_WELCOME	Começou a {0}!	0=season name e.g. The {August 2021 season} has begun!
@@ -471,10 +509,10 @@ ACCESSIBILITY_UI_RANK_CHANGE_UI_LOST_STARS	Você perdeu {0} |4(estrela,estrelas)
 ACCESSIBILITY_UI_RANK_CHANGE_UI_STAR_BONUS_MULT	Bonificação de estrelas por {0}!	0=star bonus e.g. Star bonus! Times {4}
 ACCESSIBILITY_UI_RANK_CHANGE_UI_WIN_STREAK_MULT	Bonificação de vitorias por {0}!	0=win streak bonus e.g. Win Streak bonus! Times {2}
 
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Sua Clasificação aumentóu em {0}	0=rating increase e.g. Your rating increased by 50
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Sua clasificação diminuiu em {0}	0=rating decrease e.g. Your rating decreased by 50
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Sua nova clasificação é {0}	0=new rating e.g. Your rating is now 1337
-ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Sua clasificação continua sendo {0}	0=rating e.g. Your rating is still 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_INCREASED	Sua classificação aumentou em {0}	0=rating increase e.g. Your rating increased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_DECREASED	Sua classificação diminuiu em {0}	0=rating decrease e.g. Your rating decreased by 50
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_CHANGE_NEW_RATING	Sua nova classificação é {0}	0=new rating e.g. Your rating is now 1337
+ACCESSIBILITY_UI_BATTLEGROUNDS_RATING_NO_CHANGE	Sua classificação continua sendo {0}	0=rating e.g. Your rating is still 1337
 ACCESSIBILITY_UI_BATTLEGROUNDS_MULLIGAN_PLAYERS_READY	{0} de {1} jogadores prontos	0=number of players ready 1=total number of players e.g. {5} out of {8} players ready
 
 ACCESSIBILITY_UI_REWARD_TYPE_REWARD_PACKAGE	Pacote de recompensa	
@@ -507,6 +545,11 @@ ACCESSIBILITY_UI_REWARD_XP_BOOST	{0}% de aumento de XP	0=amount
 ACCESSIBILITY_UI_REWARD_N_MINI_SETS	{0} |4(mini conjunto,Mini conjuntos)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_HERO_SKINS	{0} |4(skin para herói dos campos de batalha,skins para herois dos campos de batalha)	0=amount
 ACCESSIBILITY_UI_REWARD_N_BATTLEGROUNDS_GUIDE_SKINS	{0} |4(skin para guia dos campos de batalha,skins para guias dos campos de batalha)	0=amount
+ACCESSIBILITY_UI_REWARD_DECK	Deck do Hearthstone	
+ACCESSIBILITY_UI_REWARD_LOANER_DECKS	¡Decks gratuitos adquiridos!	
+ACCESSIBILITY_UI_REWARD_GAME_MODE	¡Novo modo desbloqueado!	
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_STRENGTHS	Fortalezas: {0}	0=list of strengths of the class
+ACCESSIBILITY_UI_REWARD_NEW_CLASS_WEAKNESSES	Fraquezas: {0}	0=list of weaknesses of the class
 
 ACCESSIBILITY_UI_SOCIAL_MENU_NAME	Painel Social	
 ACCESSIBILITY_UI_SOCIAL_BATTLETAG_COPIED_TO_CLIPBOARD	BattleTag copiado para a área de transferência	
@@ -514,12 +557,20 @@ ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_RECEIVED	{0} disse: {1}	0=sender name 1=mes
 ACCESSIBILITY_UI_SOCIAL_CHAT_MESSAGE_SENT	Você diz para {0}: {1}	0=receiver name 1=message e.g. Message to {Player}: {Hello}
 ACCESSIBILITY_UI_SOCIAL_CHAT_TYPE_MESSAGE_PROMPT	Escreva uma mensagem	
 ACCESSIBILITY_UI_SOCIAL_CHAT_SEND_MESSAGE	Enviar mensagem	
+ACCESSIBILITY_UI_SOCIAL_INVITE_FRIEND_TO_BG	Convidar para um grupo de campos de Batalha	
+ACCESSIBILITY_UI_SOCIAL_FRIEND_NO_CHALLENGE	Não é possível desafiar {0} neste momento. Espere até que volte ao menu principal	
+
+ACCESSIBILITY_UI_REPORTING_POPUP_NO_SUBCOMPLAINTS_SELECTED	Por favor seleccione ao menos uma das opções	
 
 ACCESSIBILITY_UI_REWARDS_TRACK_READ_LEVEL	Ver seu nível atual	
+ACCESSIBILITY_UI_REWARDS_TRACK_XP_PROGRESS	{0} de {1} Experiência para o próximo nível	
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS	Recolher {0} |4(recompensa,recompensas)	0=number of rewards e.g. Claim {5} rewards
 ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Você ja recolheu todas as recompensas deste nível	
+ACCESSIBILITY_UI_REWARDS_TRACK_DECK_CHOICE_CONFIRMATION_PROMPT	¿Você tem certeza de que quer escolher este deck? Pulsa {0} para confirmar o {1} para cancelar	0=enter key 1=backspace key
+ACCESSIBILITY_UI_REWARDS_TRACK_BROWSE_DECK_HELP	Use as setas para se mover pelos cards deste deck. Pressione {0} para seleccioná-lo ou {1} para voltar à lista de decks	0=enter key 1=backspace key
 
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Ver seu ouro atual	
+ACCESSIBILITY_UI_SHOP_READ_RUNESTONES	Ver suas pedras rúnicas	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Comprar pacotes	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Comprar Mini-kits	
 ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Comprar skins de herói	
@@ -527,10 +578,13 @@ ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Comprar conjuntos
 ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Comprar outros	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Ler descrição	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Comprar por {0} de ouro	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_RUNESTONES	Comprar por {0} pedras rúnicas	0=amount e.g. Buy for {100} rrunestones
 ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Obter de forma gratuita	Some items in the shop are free
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Ver cards	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Use as setas direcionais para ver os cards	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} de ouro restante	0=amount e.g. {150} gold remaining
+ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_RUNESTONES_REMAINING	{0} pedras rúnicas restantes	0=amount e.g. {150} runestones remaining
+ACCESSIBILITY_UI_SHOP_NOT_ENOUGH_RUNESTONES	Você não tem pedras rúnicas suficientes	
 
 ACCESSIBILITY_SCREEN_GO_BACK	voltar	
 
@@ -538,7 +592,13 @@ ACCESSIBILITY_SCREEN_FATAL_ERROR_SCREEN_TITLE	Tela de erro crítico
 
 ACCESSIBILITY_SCREEN_END_GAME_SCREEN_HERO_LEVEL_UP	Seu herói atingiu o nível {0}	0=level
 
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	tela de escolha do aventureiro	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_TITLE	tela de escolha do herói	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_TITLE	Escolha uma misão para jogar	
+ACCESSIBILITY_SCREEN_CHOOSE_MISSION_OPTION	Misão {0}, {1}	0 = mission number, 1 = completion status
+ACCESSIBILITY_SCREEN_PLAYING_LOCKED_MISSION	esta misão está bloqueada atualmente.
+ACCESSIBILITY_SCREEN_MISSION_LOCKED	Bloqueada	
+ACCESSIBILITY_SCREEN_MISSION_AVAILABLE	Disponível	
+ACCESSIBILITY_SCREEN_MISSION_COMPLETED	Completada	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURER_SCREEN_HERO_CHOSEN_HELP	Pressione {0} para começar ou {1} para voltar para o menu principal	0=Enter key 1=Backspace key
 
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_TITLE	Tela de aventura	
@@ -553,7 +613,10 @@ ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_ADVENTURE_COMPLETE	Aventura completada
 ACCESSIBILITY_SCREEN_ADVENTURE_SCREEN_PROGRESS_MESSAGE	Você está no  oponente número {0} de {1}	0=current opponent number 1=number of opponents
 
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_TITLE	Escolha uma aventura	
-ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Livro dos heróis	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_HEROES_OPTION	Livro dos Heróis	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_BOOK_OF_MERCENARIES_OPTION	Livro dos Mercenarios	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_ASHES_PROLOGUE_OPTION	Cinzas de Terralém: prólogo	
+ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_MENU_DEATH_KNIGHT_PROLOGUE_OPTION	Ascensão do Lich Rei: Prólogo	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_TITLE	Escolha a dificuldade do seu oponente	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_NORMAL_OPTION	Normal	
 ACCESSIBILITY_SCREEN_CHOOSE_ADVENTURE_SCREEN_PRACTICE_CHOOSE_DIFFICULTY_MENU_EXPERT_OPTION	Especialista	
@@ -569,29 +632,41 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_RECIPE_CHOOSE_HELP	Pressione {0} para cr
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CUSTOM_DECK_CHOOSE_HELP	Pressione {0} para criar um deck personalizado ou {1} para escolher um ja existente	0=Enter key 1=Backspace key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_ADD_CARDS_OPTION	Adicionar cards	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Ver seu deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_SIDEBOARD_OPTION	Ver seu subdeck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_LOAD_SAVED_VERSION_OPTION	Carruegue uma versão salva	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_BACK_TO_DECK_OPTION	Voltar ao deck	Used when editing a sideboard
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Seu deck está vazio	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_SIDEBOARD	Seu subdeck está vazio	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Seu deck contém {0} de {1} cards	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_SIDEBOARD	{0} de {1} cards no seu  subdeck	0=number of cards in sideboard 1=max number of cards in sideboard e.g. {10} of {30} cards in sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_INVALID_CARD	Inválido	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_SIDEBOARD	Subdeck	Used in place of the deck name when editing a sideboard
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_FORMAT_CHANGED	Formato trocado	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Use as setas direcionais para ler seus cards. Presione {0} para pular entre os cards de cada classe	0=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Use as teclas de número para filtrar seus cards por custo de mana. Presione {0} para buscar pela sua coleção	0=ctrl+f
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Use as  setas direcionais e {0} para ver as moedas disponíveis	0=Enter key
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Use as setas direcionais e {0} para ver os dorsos de cards disponíveis	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Use as setas direcionais e {0} para ver os versos de cards disponíveis	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Use as setas direcionais e {0} para ver as skins de heróis disponíveis	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_BATTLEGROUNDS_HERO_SKINS_HELP	Use as setas direcionais e {0} para ver suas skins de heróis disponíveis. Pressione {1} para alternar entre todas as skins e as que você ja tem.	0=Enter key 1=Tab key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Pressione {0} para adicionar cards ao seu deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Pressione {0} para remover cards do seu deck	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CRAFT_CARD_HELP	Pressione {0} para criar ou desencantar os cards do deck	0=Shift+Enter
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Digite um novo nome para o seu deck	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Escreva um termo de busca	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	Filtro de custo de {0} mana ativado	{0} mana crystal filter e.g. {7+} mana filter on
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Filtro de custo de mana desativado	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Trocar entre kits	Used for changing between standard cards, wild cards, united in stormwind, etc.
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	A skin de herói foi selecionada como favorita	Spoken after setting a new favorite Hero Skin
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	O dorso de card foi selecionado como favorito	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_GUIDE_SKIN_SET	Bartender foi selecionado como favorito	Spoken after setting a new favorite bartender in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_BATTLEGROUNDS_FINISHER_SET	O ataque foi selecionado como favorito	Spoken after setting a new favorite strike in Battlegrounds
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	O verso de card foi selecionado como favorito	Spoken after setting a new favorite Card Back
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET	A skin de moeda foi selecionada como favorita	Spoken after setting a new favorite Coin
 
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Criar cards	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Ver pó arcano atual	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Desencantar {0} extra |4(card,cards) para obter {1} de pó arcano	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_CARD	Ler card	
-ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARD	Ler card relacionado	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_RELATED_CARDS	Ler cards relacionados	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Ver descrição	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Criar por {0} de pó arcano	0=amount of dust e.g. Craft for {100} Arcane Dust
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Desencantar para obter {0} de pó arcano	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
@@ -600,18 +675,48 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REA
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Card criado	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Card desencantado	
 
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_HERO_SKINS	Skins de heróis	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_GUIDE_SKINS	Bartenders	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_BROWSE_FINISHERS	Ataques	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_OWNED	Skins de heróis adquiridas:	Spoken when the battlegrounds collection is filtered to show only owned hero skins
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_BATTLEGROUNDS_HERO_SKIN_FILTER_MODE_ALL	Todas as skins de heróis:	Spoken when the battlegrounds collection is filtered to show all hero skins
+
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Use as setas direcionais e {0} para revelar seus cards	0=Enter key
+ACCESSIBILITY_SCREEN_PACK_OPENING_MASS_PACK_OPENING_HELP	Use as setas direcionais e {0} para revelar seus cards um por um, ou pressione {1} para revelar todos os cards da página atual	0=enter key 1=space key
+ACCESSIBILITY_SCREEN_PACK_OPENING_CATCHUP_PACK_OPENING_HELP	Use as setas direcionais para ver seus cards novos. Pulsa {0} para continuar	0=enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Você não possui nem um pacote de cards	
 
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT	¿quantos pacotes você quer abrir? Escreva uma quantidade entre {0} e {1}	0=minimum value 1=maximum value
+ACCESSIBILITY_MASS_PACK_OPENING_QUANTITY_PROMPT_ERROR	Quantidade não válida: você pode abrir entre {0} e {1} sobres	0=minimum quantity 1=maximum quantity
+
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_LEGENDARY_COUNT	{0} |4(card lendario,cards lendarios)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_EPIC_COUNT	{0} |4(card épico,cards épicos)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_RARE_COUNT	{0} |4(card raro,cards raros)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_COMMON_COUNT	{0} |4(card comúm,cards comuns)	0=number of cards
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_CLASS_COUNT	{0} {1}	0=number of cards 1=class name
+ACCESSIBILITY_MASS_PACK_OPENING_SUMMARY_HELP	Use as setas direcionais para navegar pelo resumo dos cards que hvocê obteve. Pressione {0} assim que vocè terminar	0=enter key
+
+ACCESSIBILITY_SCREEN_DECK_PICKER_TRAY_DISPLAY_LOANER_DECK	Em aluguel até {0}	
+
+ACCESSIBILITY_SCREEN_HEARTHSTONE_PLAY_HEARTHSTONE	Jogue ao Hearthstone	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK	Ler ranking atual	
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STARS	{0} de {1} |4(estrela,estrelas)	0=current stars 1=star slots e.g. {1} out of {3} stars
 ACCESSIBILITY_SCREEN_HEARTHSTONE_RANKED_READ_RANK_CURRENT_STAR_BONUS	{0} bonificação de estrelas	0=current star bonus e.g. {2} star bonus
 
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SEE_PARTY	Ver seu grupo	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_READ_STATS	Stats	
 ACCESSIBILITY_SCREEN_BATTLEGROUNDS_OPTIONS_NARRATE_ATTACKS	Narrar ataques dos lacaios durante a fase de combate	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_DUOS	Alternar para o modo duplas	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_SWITCH_TO_SOLO	Alternar para o modo Solo	
 
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progresso do quest	
-ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	O progresso atual é {0} de {1}	0=current progress 1=total
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_WAITING	Convidado	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_READY	Pronto	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_LEADER	líder	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_NOT_READY	Não está pronto	
+ACCESSIBILITY_SCREEN_BATTLEGROUNDS_PARTY_MEMBER_SPECTATE	Jogando	
+
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_TITLE	Diálogo de progressão do quest	
+ACCESSIBILITY_TOAST_QUEST_PROGRESS_TOAST_PROGRESS	A progressão atual é {0} de {1}	0=current progress 1=total
 
 ACCESSIBILITY_TOAST_QUEST_TOAST_TITLE	Você terminou um quest	
 
@@ -752,9 +857,74 @@ ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_TUTORIAL_OVERRIDE	Pressione {0} e 
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_DRAGSELL_BODY_TUTORIAL_OVERRIDE	Pressione {0} e {1} para vender um lacaio para o seu bartender. ¡Vocè ganha um espaço livre e pelo lacaio vendido ele te da uma moeda de ouro!	0=b key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_MOVE_TUTORIAL_OVERRIDE	Pressione {0} e {1} para relocar seus lacaios	0=b key 1=Space key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_MINION_UPGRADE_TAVERN_TUTORIAL_OVERRIDE	Pressione {0} e {1} para aprimorar sua taverna	0=u key 1=Enter key
-ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pressione {0} e {1} para refrescar a taverna e encontrar novos reclutas	0=r key 1=Enter key
+ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_REFRESH_TUTORIAL_OVERRIDE	Pressione {0} e {1} para refrescar a taverna e encontrar novos lacaios	0=r key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_FREEZE_TUTORIAL_OVERRIDE	Pressione {0} e {1} para congelar os lacaios da taverna e poder comprá-los no próximo turno	0=f key 1=Enter key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_READ_TIME_REMAINING	Pressione {0} Para ver quanto tempo você ainda tem para realizar suas jogadas!	e key
 ACCESSIBILITY_BATTLEGROUNDS_TUTORIAL_SUMMON_MINION_HELP	Pressione {0} e {1} para invocar lacaios	0=c key 1=Enter key
 
 ACCESSIBILITY_INPUT_KEY_OVERRIDE_Return	Enter	Optional. Overrides the Return key to be read as Enter by TTS
+
+ACCESSIBILITY_ARENA_DRAFT_SWITCH_HELP	Pressione {0} para alternar entre ver seu deck atual ou escolher um novo card para adicionar
+ACCESSIBILITY_ARENA_WINS_LOSSES	Vitorias: {0}, Derrotas: {1}	0 são vitorias, 1 são derrotas
+ACCESSIBILITY_MODES_ARENA	Arena	Para usar no menu modos
+ACCESSIBILITY_ARENA_TICKETS_COUNT	Você tem {0} ingresos.	0 is number of tickets.
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_TITLE	Seleccione a Categoria:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_RECENT	Completados recentemente:
+ACCESSIBILITY_ACHIEVEMENT_CATEGORY_ITEM	{0}: {1} de {2} pontos de conquistas totais ({3}), {4} de {5} conquistas completadas	should be self explanatory, {0} is the category or subcategory name.
+ACCESSIBILITY_ACHIEVEMENT_CLAIMABLE	recolhível:
+ACCESSIBILITY_ACHIEVEMENT_VIEW_TIER	Nível: {0} de {1}	0 is current tier, 1 is highest tier
+ACCESSIBILITY_ACHIEVEMENT_VIEW_PROGRESS	Progresão: {0} de {1}	0 is current, 1 is how much is needed
+ACCESSIBILITY_ACHIEVEMENT_VIEW_CLAIM	Recolha a conquista
+ACCESSIBILITY_ACHIEVEMENT_VIEW_EARN	Ganhe {0} pontos de conquista	0 is number of points
+ACCESSIBILITY_ACHIEVEMENT_COULD_NOT_CLAIM	Não foi possível recolher a conquista.
+ACCESSIBILITY_ACHIEVEMENT_LIST_HELP	Use as setas esquerda e direita para navegar pela lista de conquistas e as setas para cima e para baixo para ler a informação da conquista atualmente selecionada. Pressione {0} para tentar recolher uma conquista. Pressione {1} para voltar ao menu anterior. Pressione {2} para alternar entre a vista de todas as conquistas e  as incompletas.
+ACCESSIBILITY_ACHIEVEMENT_SHOWING_INCOMPLETE	{0} de {1} conquistas incompletas
+ACCESSIBILITY_CHOOSE_DECK_COLLECTION_AVAILABLE	Pressione C para entrar na sua coleção	Available in some choose deck menus
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_PREVIEW	Nível {0}: {1} pontos de xp necesarios	0 is the level number
+ACCESSIBILITY_JOURNAL_EVENT_REWARD_TRACK_DESC	, Recompensas: {0}	0 is text description of rewards. This is appended to the previous item.
+
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_COMPLETED	Completado	
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_UNLOCK_REQUIREMENT	Requer {0}	0=unlock requirement e.g. Requires Apprentice Level 9.
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_SET_LABEL	{0}: {1}	0= quest set name 1=quest set description
+ACCESSIBILITY_TAVERN_GUIDE_QUEST_RECOMMENDED_CLASSES	Clases recomendadas: {0}	0=classes
+ACCESSIBILITY_TAVERN_GUIDE_NEW	Novo!	Spoken when the tavern guide has a new quest or reward
+ACCESSIBILITY_TAVERN_GUIDE_CLAIM_REWARD	Recolha a recompensa!	Spoken when a tavern guide quest set has been completed and a reward can be claimed
+
+ACCESSIBILITY_APPRENTICE_REWARD_REMINDER	Você ganhou uma recompensa! Recolha-a no diario	
+
+ACCESSIBILITY_GAMEPLAY_TRY_AGAIN	Tente outra vez	
+
+ACCESSIBILITY_NEW_TUTORIAL_NARRATOR_INTRO	Vou lhe ensinar a jogar através de uma serie de 3 tutoriais	
+
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_START	Seu primeiro oponente é um caçador chamado Rexxar. Você jogará como a poderosa maga Jaina Proudmore	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2	Bem, então... Este card é um lacaio que se chama Moreia de Mana	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_2_2D	Ele possui um ponto de ataque e 2 de vida	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_0	Seu oponente invocou seu proprio lacaio	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_2	Pressione {0} para ver os lacaios do seu oponente	0=g
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_4	Agora vamos dar uma olhada nos seus lacaios. Pressione {0} para fazer isso	0=b
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_3_5	Quando ha mais de um lacaio, você pode usar as setas esquerda e direita para se mover entre eles	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_0	Você conseguiu um novo card. ¿Consegue descobrir o que ele faz?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_1	Este feitiço é perfeito para lidar com o Bufo! Pressione {0} para jogá-lo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2	Seleccione o lacaio do seu oponente e pressione {0} para escolhê-lo como alvo	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_2_HELP	Pressione {0} para ver o lacaio do seu oponente e {1} para escolhê-lo como alvo	0=G 1=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_3	Agora, vejamos como você pode ver a sua vida	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_5	Se o seu herói ficar sem vida, você perde	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_9	Sua Moreia de Mana está pronta para atacar. Selecione-a e pressione {0}.	0=Enter key
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10	¿Consegue atacar o Herói do seu oponente?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_10_HELP	Pressione {0} e {1} para atacar o Herói do seu oponente	0=F 1=Enter
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_4_11	¿Você lembra como terminar seu turno?	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_3	Você pode invocar o lacaio que acabou de conseguir, ou usar o que ja está no campo de batalha para executar um ataque	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_6_9	Ahora você está vendo a sua segunda opção, que seria a de atacar com o lacaio que está no seu campo de batalha	
+ACCESSIBILITY_NEW_TUTORIAL_REXXAR_7_0	¡Os lacaios com a palabra chave  Investida podem atacar no mesmo turno no qual são invocados!	
+
+ACCESSIBILITY_NEW_TUTORIAL_GARROSH_TAUNT_HELP	Este valente casco sangrento que o seu oponente acabou de invocar possui uma habilidade chamada Provocar	
+
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_E	Seu oponente equipou a arma chamada Gélido Lamento, uma arma com 3 pontos de ataque e 5 de durabilidade	
+ACCESSIBILITY_NEW_TUTORIAL_LICH_KING_WEAPON_EQUIPPED_HELP_F	Isto significa que o herói do seu oponente terá 3 pontos de ataque durante o  turno dele, e poderá atacar  qualquer dos seus personagens	
+
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_REXXAR	Você derrotou Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_GARROSH	Você derrotou Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_DEFEATED_LICH_KING	¡Você derrotou o lich rei!	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_REXXAR	Seu primeiro oponente é Rexxar	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_GARROSH	Seu próximo oponente é Garrosh Grito Infernal	
+ACCESSIBILITY_NEW_TUTORIAL_NEXT_LICH_KING	Seu próximo e último oponente é o Lich rei	
